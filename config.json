@@ -1,0 +1,10 @@
+{
+  "paths": {
+    "excel_task_file": "tasks.xlsx", 
+    "db_output": "jd_prices.db"
+  },
+  "browser_settings": {
+    "edge_executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "edge_user_data_dir": "./edge_user_data"
+  }
+}
