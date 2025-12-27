@@ -17,6 +17,7 @@ const config = JSON.parse(fs.readFileSync(config_path, 'utf-8'));
 // 读取所有路径配置
 const EXCEL_TASK_FILE_PATH = path.join(BASE_DIR, config.paths.excel_task_file);
 const DB_OUTPUT_PATH = path.join(BASE_DIR, config.paths.db_output);
+
 // 读取浏览器配置
 const BROWSER_EXEC_PATH = config.browser_settings.edge_executable_path;
 const USER_DATA_DIR = config.browser_settings.edge_user_data_dir;
@@ -25,9 +26,8 @@ const USER_DATA_DIR = config.browser_settings.edge_user_data_dir;
 const URL_COLUMN_HEADER = "URL";
 const PLATFORM_COLUMN_HEADER = "Platform";
 const PLATFORM_NAME = "京东";
-const PRICE_COLUMN_HEADER = "Price";
-const DATE_COLUMN_HEADER = "Scrape_Date";
-const SKU_COLUMN_HEADER = "SKU_Identifier";
+const SKU_COLUMN_HEADER = "Barcode"; // 逻辑映射：Excel第2列
+const LIMIT_PRICE_HEADER = "Limit_Price"; // 逻辑映射：Excel第7列
 
 function setup_database(db_path) {
     const output_dir = path.dirname(db_path);
@@ -77,52 +77,55 @@ function save_results_to_db(db_path, new_records) {
     }
 }
 
+function parsePriceToFloat(priceStr) {
+    if (!priceStr) return null;
+    const cleanStr = priceStr.toString().replace(/[^\d.]/g, '');
+    const val = parseFloat(cleanStr);
+    return isNaN(val) ? null : val;
+}
+
 // 检查登录状态的函数
 async function checkLoginStatus(page) {
     try {
-        // 尝试访问京东个人中心页面检查登录状态
-        await page.goto('https://home.jd.com/', { waitUntil: "domcontentloaded", timeout: 15000 });
+        await page.goto('https://home.jd.com/', { waitUntil: "domcontentloaded", timeout: 20000 });
         
-        // 京东登录状态检查
-        const loginIndicators = [
-            '.user-info', // 用户信息区域
-            '.nickname',  // 用户名元素
-            '[href*="passport.jd.com/logout"]' // 退出登录链接
-        ];
-        
+        const currentUrl = page.url();
+        if (currentUrl.includes('passport.jd.com') || currentUrl.includes('safe.jd.com')) {
+            console.log("   [检测] 页面被重定向至登录/验证页，Cookie可能已失效。");
+            return false;
+        }
+
+        const loginIndicators = ['.user-info', '.nickname', '#user-info', '[href*="logout"]'];
         for (const indicator of loginIndicators) {
             try {
-                await page.locator(indicator).waitFor({ timeout: 3000 });
-                return true; // 找到登录状态标识，返回已登录
-            } catch (e) {
-                continue; // 未找到当前标识，尝试下一个
-            }
+                if (await page.locator(indicator).first().isVisible({ timeout: 3000 })) return true; 
+            } catch (e) { continue; }
         }
         return false;
     } catch (e) {
-        console.log(`   [警告] 检查登录状态时发生错误: ${e.message}`);
+        console.log(`   [警告] 检查登录状态时发生网络错误: ${e.message}`);
         return null; 
     }
 }
 
-// 显示登录信息问题提示
 function showLoginIssueHelp() {
     console.log("\n=============================================");
-    console.log("          检测到可能的登录信息问题           ");
+    console.log("          登录状态失效或环境已变更           ");
     console.log("=============================================");
-    console.log("1. 请检查浏览器用户数据目录配置是否正确。");
-    console.log("2. 若路径正确但仍有问题，可能是登录状态已过期:");
-    console.log("   - 请删除用户数据目录下的所有文件");
-    console.log("   - 重新运行脚本，会自动打开浏览器手动登录");
+    console.log("检测到您可能切换了网络(代理)或Cookie已过期。");
+    console.log("脚本已自动弹出浏览器窗口。");
+    console.log("请在窗口中：");
+    console.log("1. 手动完成登录或验证码滑动。");
+    console.log("2. 确保看到【个人中心】页面后，回到此处。");
+    console.log("3. 按【回车键】继续...");
     console.log("=============================================\n");
 }
 
 async function main() {
-    /**主执行函数 (v10.5 - 稳定回归版)*/
-    console.log(`--- 京东监控脚本 (v10.5 - 稳定回归版) 启动 ---`);
+    /**主执行函数 (v10.8 - 慢速稳定版)*/
+    console.log(`--- 京东监控脚本 (v10.8 - 慢速稳定版) 启动 ---`);
     
     setup_database(DB_OUTPUT_PATH);
-    console.log(`[PREP] 数据库 '${DB_OUTPUT_PATH}' 已准备就绪。`);
     
     let all_tasks_df;
     try {
@@ -131,17 +134,21 @@ async function main() {
         const worksheet = workbook.worksheets[0]; 
 
         if (!worksheet) {
-            console.log(`错误: 打开了 Excel 文件，但没有找到任何工作表！`);
+            console.log(`错误: Excel 文件为空！`);
             return;
         }
         all_tasks_df = [];
 
         worksheet.eachRow({ includeEmpty: false }, (row, rowNumber) => {
-            if (rowNumber === 1) return; // Skip header
+            if (rowNumber === 1) return; 
 
             const urlCellValue = row.getCell(4).value;
-            let finalUrl = ''; 
+            const barcodeValue = row.getCell(2).text ? row.getCell(2).text.trim() : 'N/A';
+            const limitPriceRaw = row.getCell(7).value;
+            let limitPrice = null;
+            if (limitPriceRaw) limitPrice = parsePriceToFloat(limitPriceRaw);
 
+            let finalUrl = ''; 
             if (typeof urlCellValue === 'object' && urlCellValue !== null && urlCellValue.hyperlink) {
                 finalUrl = urlCellValue.hyperlink;
             } else {
@@ -150,259 +157,216 @@ async function main() {
 
             all_tasks_df.push({
                 [PLATFORM_COLUMN_HEADER]: row.getCell(1).value, 
-                [URL_COLUMN_HEADER]: finalUrl 
+                [URL_COLUMN_HEADER]: finalUrl,
+                [SKU_COLUMN_HEADER]: barcodeValue,
+                [LIMIT_PRICE_HEADER]: limitPrice
             });
         });
-        console.log(`[1/4] 成功从 '${EXCEL_TASK_FILE_PATH}' 读取 ${all_tasks_df.length} 条总任务。`);
+        console.log(`[1/4] 成功读取 ${all_tasks_df.length} 条任务。`);
     } catch (e) {
-        if (e.code === 'ENOENT') {
-            console.log(`致命错误: 任务文件未找到! 请检查路径: '${EXCEL_TASK_FILE_PATH}'`);
-        } else {
-            console.log(`错误: 读取任务文件时出错: ${e}`);
-        }
+        console.log(`错误: 读取任务文件失败: ${e}`);
         return;
     }
 
     const platform_tasks = all_tasks_df.filter(task => task[PLATFORM_COLUMN_HEADER] === PLATFORM_NAME);
-    if (platform_tasks.length === 0) {
-        console.log(`任务文件中没有找到平台为“${PLATFORM_NAME}”的任务，脚本结束。`);
-        return;
-    }
-    console.log(`   筛选出 ${platform_tasks.length} 条 “${PLATFORM_NAME}” 平台的任务。`);
-    
+    if (platform_tasks.length === 0) return;
+
     const today_str = DateTime.now().toFormat('yyyy-MM-dd');
     const new_records_this_session = [];
     let loginStatusConfirmed = false; 
 
     let browser = null;
+    
+    // [设置] 浏览器启动通用参数
+    const launchArgs = [
+        '--disable-blink-features=AutomationControlled',
+        '--no-sandbox',
+        '--disable-dev-shm-usage',
+        '--disable-infobars',
+        '--no-first-run',
+        '--no-default-browser-check'
+    ];
+
     try {
-        console.log("[2/4] 正在根据配置启动专用浏览器...");
+        console.log("[2/4] 启动浏览器...");
         
-        // 第一次启动：有头模式，用于检查/手动登录
+        // 阶段一：有头模式（登录检查/修复）
         browser = await chromium.launchPersistentContext(USER_DATA_DIR, {
             executablePath: BROWSER_EXEC_PATH,
             headless: false, 
-            userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0',
             viewport: { width: 1920, height: 1080 },
-            args: [
-              '--disable-blink-features=AutomationControlled', 
-              '--no-sandbox', 
-              '--disable-dev-shm-usage' 
-            ],
-            slowMo: 100, 
-            javaScriptEnabled: true,
-            stylesheetEnabled: true
+            args: launchArgs,
+            slowMo: 50
         });
         
         const page = await browser.newPage();
-        console.log("SUCCESS: 专用浏览器启动并接管成功。");
-
-        // [检查登录状态]
-        console.log("[CHECK] 正在检查京东登录状态...");
+        
+        console.log("[CHECK] 正在验证登录有效性...");
         const loginStatus = await checkLoginStatus(page);
         
-        if (loginStatus === false) {
-            console.log("   [警告] 未检测到有效的京东登录状态!");
-            showLoginIssueHelp(); 
-            
-            console.log("请在打开的浏览器中手动登录京东账号，登录完成后按回车键继续...");
-            await new Promise(resolve => process.stdin.once('data', resolve));
-            
-            const recheckStatus = await checkLoginStatus(page);
-            if (!recheckStatus) {
-                console.log("   [错误] 仍然未检测到登录状态，可能导致抓取失败!");
-            } else {
-                console.log("   [成功] 已检测到登录状态，继续执行任务...");
-                loginStatusConfirmed = true;
-            }
-        } else if (loginStatus === null) {
-            console.log("   [警告] 登录状态检查过程中出现问题");
+        if (!loginStatus) {
             showLoginIssueHelp();
+            await new Promise(resolve => process.stdin.once('data', resolve));
+            if (await checkLoginStatus(page)) {
+                console.log("   [成功] 登录状态已修复。");
+                loginStatusConfirmed = true;
+            } else {
+                console.log("   [警告] 仍未检测到登录，将尝试强制执行。");
+            }
         } else {
-            console.log("   [成功] 已检测到有效的京东登录状态");
+            console.log("   [成功] 登录状态有效。");
             loginStatusConfirmed = true;
         }
 
-        // [切换模式] 如果已确认登录，切换为无头模式
+        // 阶段二：切换到无头模式
         if (loginStatusConfirmed) {
-            console.log("切换到无头模式以提高效率...");
+            console.log("正在切换至后台运行模式...");
             await page.close();
             await browser.close();
             
             browser = await chromium.launchPersistentContext(USER_DATA_DIR, {
                 executablePath: BROWSER_EXEC_PATH,
-                headless: true, // 开启无头模式
-                userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0',
+                headless: true,
                 viewport: { width: 1920, height: 1080 },
-                args: [
-                  '--disable-blink-features=AutomationControlled',
-                  '--no-sandbox',
-                  '--disable-dev-shm-usage'
-                ],
-                slowMo: 100,
-                javaScriptEnabled: true,
-                stylesheetEnabled: true
+                args: launchArgs,
+                // [修改] 增加全局慢速，让每个动作变慢
+                slowMo: 200 
             });
         }
 
-       // --- 创建截图文件夹 ---
        const screenshotDir = path.join(BASE_DIR, 'error_screenshots');
-       if (!fs.existsSync(screenshotDir)) {
-           fs.mkdirSync(screenshotDir);
-       }
+       if (!fs.existsSync(screenshotDir)) fs.mkdirSync(screenshotDir);
        
-       console.log(`\n[3/4] 开始批量抓取 (共 ${platform_tasks.length} 个任务)...`);
+       console.log(`\n[3/4] 开始抓取 ${platform_tasks.length} 个任务 (启用慢速等待)...`);
 
        const workingPage = await browser.newPage(); 
-       
-       // [回滚操作] 移除了 v10.4 中导致页面被京东拦截的 addInitScript 伪装代码
-       // 保持环境与老版本一致
        
        for (let index = 0; index < platform_tasks.length; index++) {
            const task = platform_tasks[index];
            const url = task[URL_COLUMN_HEADER];
+           const barcode = task[SKU_COLUMN_HEADER];
+           const limitPrice = task[LIMIT_PRICE_HEADER];
 
-           if (!url || typeof url !== 'string' || !url.startsWith('http')) continue;
+           if (!url || !url.startsWith('http')) continue;
 
-           console.log(`--- [${index + 1}/${platform_tasks.length}] 处理: ${url.substring(0, 40)}... ---`);
+           console.log(`--- [${index + 1}/${platform_tasks.length}] 69码:${barcode} ---`);
 
            let new_record = {
-               'Platform': task[PLATFORM_COLUMN_HEADER], 'URL': url, 'SKU_Identifier': 'default',
+               'Platform': task[PLATFORM_COLUMN_HEADER], 'URL': url, 'SKU_Identifier': barcode,
                'Price': 'Error', 'Scrape_Date': today_str, 'Main_Image_URL': null
            };
 
            try {
-               // [回滚操作] 移除了导致循环跳转的“首页热身”步骤
-               
-               // 1. 访问页面
-               await workingPage.goto(url, { waitUntil: "domcontentloaded", timeout: 30000 });
+               // [修改] 导航时放宽超时时间
+               await workingPage.goto(url, { waitUntil: "domcontentloaded", timeout: 60000 });
 
-               // ================== [功能保留] 验证码自动检测与等待 ==================
-               const captchaSelectors = [
-                   '#captcha_modal', 
-                   '.captcha-box', 
-                   'text="验证一下"', 
-                   'text="拖动滑块"', 
-                   'text="访问频繁"',
-                   '#J-dj-captcha'
+               // [核心新增] 强制等待页面渲染 (固定等待 4 秒)
+               // 这是解决“太快”最有效的方法
+               console.log("   ⏳ 等待页面渲染 (4s)...");
+               await workingPage.waitForTimeout(4000);
+
+               // [核心新增] 模拟滚动触发懒加载（已禁用）
+               // await workingPage.evaluate(() => {
+               //     window.scrollTo(0, document.body.scrollHeight / 3);
+               // });
+               // await workingPage.waitForTimeout(1000);
+
+               // --- 验证码/拦截检测 ---
+               const captchaSelectors = ['#captcha_modal', '.captcha-box', 'text="验证一下"', 'text="访问频繁"', '#J-dj-captcha'];
+               let isCaptcha = false;
+               for (const sel of captchaSelectors) {
+                   if (await workingPage.locator(sel).first().isVisible({timeout: 1000})) { isCaptcha = true; break; }
+               }
+               if (isCaptcha) {
+                   console.log("   ⚠️ 触发验证，等待自动恢复/人工介入...");
+                   await workingPage.waitForTimeout(5000); 
+               }
+
+               // --- 价格抓取 (优化) ---
+               let final_price_str = "Not Found";
+               const selectors = [
+                   "#J_FinalPrice .price", ".J-presale-price", ".p-price .price", ".price"
                ];
 
-               let isCaptchaDetected = false;
-               for (const selector of captchaSelectors) {
+               // [修改] 智能等待：尝试等待价格元素出现，而不是立刻失败
+               // Promise.any 只要有一个选择器出现就继续
+               try {
+                   await Promise.any([
+                       workingPage.waitForSelector("#J_FinalPrice .price", {timeout: 5000}),
+                       workingPage.waitForSelector(".p-price .price", {timeout: 5000})
+                   ]);
+               } catch(e) {
+                   // 等不到也没关系，后面会再一次 check
+               }
+
+               for (const sel of selectors) {
                    try {
-                       const el = workingPage.locator(selector).first();
-                       if (await el.isVisible({ timeout: 1000 })) { 
-                           isCaptchaDetected = true;
-                           break; 
+                       const el = workingPage.locator(sel).first();
+                       if (await el.isVisible()) {
+                           const txt = await el.textContent();
+                           if (/\d/.test(txt)) { final_price_str = txt.trim(); break; }
                        }
                    } catch (e) {}
                }
 
-               if (isCaptchaDetected) {
-                   console.log("\n🔴🔴🔴 警告：检测到【验证码】拦截！🔴🔴🔴");
-                   console.log(">>> 请立即在浏览器窗口中，手动完成滑动/点击验证。");
-                   console.log(">>> 脚本正在等待验证框消失...");
+               // --- 比价与截图逻辑 ---
+               if (final_price_str !== "Not Found") {
+                   console.log(`   💰 抓取价格: ${final_price_str}`);
+                   
+                   if (limitPrice !== null) {
+                       const currentPriceVal = parsePriceToFloat(final_price_str);
+                       
+                       if (currentPriceVal !== null && currentPriceVal < limitPrice) {
+                           console.log(`   🚨 [破价] 当前 ${currentPriceVal} < 限价 ${limitPrice}，正在截图...`);
+                           
+                           // 1. 注入水印
+                           const watermarkText = `【破价警报】\n时间: ${DateTime.now().toFormat('yyyy-MM-dd HH:mm:ss')}\n69码: ${barcode}\n限价: ${limitPrice}\n现价: ${currentPriceVal}`;
+                           
+                           await workingPage.evaluate((text) => {
+                               const div = document.createElement('div');
+                               div.id = 'js-watermark';
+                               Object.assign(div.style, {
+                                   position: 'fixed', top: '20%', left: '50%', transform: 'translate(-50%, 0)',
+                                   padding: '30px', backgroundColor: 'rgba(200, 0, 0, 0.9)', color: '#fff',
+                                   fontSize: '15px', fontWeight: 'bold', zIndex: '10000', borderRadius: '10px',
+                                   textAlign: 'center', boxShadow: '0 4px 15px rgba(0,0,0,0.5)'
+                               });
+                               div.innerText = text;
+                               document.body.appendChild(div);
+                           }, watermarkText);
 
-                   // 循环检测，直到验证码消失
-                   for (let i = 0; i < 300; i++) {
-                       let stillExist = false;
-                       for (const selector of captchaSelectors) {
-                           try {
-                               if (await workingPage.locator(selector).first().isVisible({timeout: 200})) {
-                                   stillExist = true;
-                                   break;
-                               }
-                           } catch(e) {}
-                       }
+                           // 2. 保存截图
+                           const safeBarcode = String(barcode).replace(/[^a-zA-Z0-9]/g, '');
+                           const shotName = `${today_str}_${safeBarcode}_${PLATFORM_NAME}.png`;
+                           await workingPage.screenshot({ path: path.join(screenshotDir, shotName) });
+                           console.log(`   📸 截图已保存: ${shotName}`);
 
-                       if (!stillExist) {
-                           console.log("✅ 验证已通过！脚本继续执行...");
-                           await workingPage.waitForTimeout(3000); 
-                           break;
+                           // 3. 清理水印
+                           await workingPage.evaluate(() => { const el = document.getElementById('js-watermark'); if(el) el.remove(); });
                        }
-                       await workingPage.waitForTimeout(1000);
-                       if (i % 5 === 0) process.stdout.write("."); 
                    }
-                   console.log("\n"); 
-               }
-               // =================================================================
-
-               // 2. 模拟操作
-               await workingPage.mouse.wheel(0, Math.random() * 500);
-               await workingPage.waitForTimeout(Math.random() * 1000 + 500);
-
-               // 3. 检测跳转
-               const currentUrl = workingPage.url();
-               if (currentUrl.includes('www.jd.com') && !currentUrl.includes('item.jd.com')) {
-                   console.log(`   [失效] 商品发生跳转 (可能已删除)`);
-                   new_record['Price'] = "Redirected/Invalid";
-                   new_records_this_session.push(new_record);
-                   continue;
-               }
-
-               // 4. 检测下架
-               const pageText = await workingPage.evaluate(() => document.body.innerText);
-               if (pageText.includes('该商品已下架') || pageText.includes('商品已结束')) {
-                   console.log(`   [状态] 商品已下架`);
-                   new_record['Price'] = "Item Removed";
-                   await workingPage.screenshot({ path: path.join(screenshotDir, `removed_row_${index + 1}.png`) });
-                   new_records_this_session.push(new_record);
-                   continue;
-               }
-
-               // 5. [关键修复] 抓取价格 (使用老版本逻辑)
-               let final_price = "Not Found";
-               const selectors_to_try = [
-                   ["#J_FinalPrice .price", "促销价"], 
-                   [".J-presale-price", "预售价"],
-                   [".p-price .price", "日常价"],
-                   [".price", "通用价格"]
-               ];
-
-               for (const [selector, price_type] of selectors_to_try) {
-                   try {
-                       const price_element = await workingPage.locator(selector).first();
-                       if (await price_element.isVisible()) {
-                            const price_text = await price_element.textContent();
-                            if (price_text && /\d/.test(price_text)) { // 确保包含数字
-                                final_price = price_text.trim();
-                                console.log(`   [OK] 抓取成功 (${price_type}): ${final_price}`);
-                                break;
-                            }
-                       }
-                   } catch (e) { continue; }
-               }
-
-               if (final_price !== "Not Found") {
-                   // 成功
                } else {
-                   console.log(`   [警告] 未找到价格，截图留证...`);
-                   const shotPath = path.join(screenshotDir, `error_row_${index + 1}.png`);
-                   await workingPage.screenshot({ path: shotPath, fullPage: false });
+                   console.log(`   ❌ [失败] 页面已加载但未找到价格，保存截图以供调试...`);
+                   await workingPage.screenshot({ path: path.join(screenshotDir, `fail_${index}.png`), fullPage: false });
                }
 
-               new_record['Price'] = final_price;
+               new_record['Price'] = final_price_str;
 
            } catch (e) {
                console.log(`   [出错] ${e.message.split('\n')[0]}`);
-               new_record['Price'] = "Script Error";
            }
            
            new_records_this_session.push(new_record);
+           // [修改] 任务间歇，休息一下
+           await workingPage.waitForTimeout(2000); 
        }
 
     } catch (e) {
-        console.log(`\n--- 浏览器启动或任务循环中发生严重错误 ---: ${e}`);
-        console.log(`提示：请检查 config.json 中的浏览器路径和用户数据目录是否正确。`);
+        console.log(`严重错误: ${e}`);
     } finally {
-        if (browser) {
-            console.log("\n正在关闭浏览器...");
-            await browser.close();
-        }
-        
-        console.log("\n[4/4] 正在执行最终保存操作...");
+        if (browser) await browser.close();
         save_results_to_db(DB_OUTPUT_PATH, new_records_this_session);
-        console.log(`[SUCCESS] 脚本执行完毕。本次抓取的 ${new_records_this_session.length} 条记录已成功同步至数据库。`);
+        console.log(`[完成] 所有任务已结束。`);
     }
 }
 
