@@ -8,3 +8,4 @@ node_modules/
 /playwright/.auth/
 edge_user_data/
 jd_prices.db
+pdd_auth_data/
