@@ -9,3 +9,5 @@ node_modules/
 edge_user_data/
 jd_prices.db
 pdd_auth_data/
+auth-profile/
+auth.json
