@@ -1,56 +1,92 @@
-const { chromium } = require('playwright');
+// =============================================================================
+// setup-auth.js (全平台账号维护器 - v3.0 最终版)
+// 功能：选择性打开 淘宝 / 京东 / 拼多多 的专用浏览器窗口进行人工维护。
+// =============================================================================
+
+const { chromium } = require('playwright-extra');
+const stealth = require('puppeteer-extra-plugin-stealth')();
+chromium.use(stealth);
 const path = require('path');
 const fs = require('fs');
+const readline = require('readline');
 
-const userDataDir = path.join(__dirname, 'auth-profile');
-const authFilePath = path.join(__dirname, 'auth.json');
+// 定义统一存储路径
+const BASE_DIR = __dirname;
+const PROFILES = {
+    '1': {
+        name: '淘宝 (Taobao/Sycm)',
+        path: path.join(BASE_DIR, 'browser_profiles', 'taobao_store'),
+        url: 'https://sycm.taobao.com/'
+    },
+    '2': {
+        name: '京东 (JD.com)',
+        path: path.join(BASE_DIR, 'browser_profiles', 'jd_store'),
+        url: 'https://shop.jd.com/'
+    },
+    '3': {
+        name: '拼多多 (Pinduoduo)',
+        path: path.join(BASE_DIR, 'browser_profiles', 'pdd_store'),
+        url: 'https://mms.pinduoduo.com/' // 商家后台登录页
+    }
+};
+
+const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+});
 
 (async () => {
-    // 1. 清理环境
-    if (fs.existsSync(userDataDir)) {
-        fs.rmSync(userDataDir, { recursive: true, force: true });
-    }
-    if (fs.existsSync(authFilePath)) {
-        fs.rmSync(authFilePath);
-    }
-    console.log('✅ 已清理旧的认证文件，准备开始...');
-
-    // 2. 启动浏览器
-    const browserContext = await chromium.launchPersistentContext(userDataDir, {
-        headless: false,
-        args: ['--start-maximized', '--disable-blink-features=AutomationControlled'],
-    });
+    console.log('\n🔧 --- 全平台账号维护模式 (v3.0) ---');
+    console.log('请选择要维护的账号环境：');
+    console.log(' [1] 淘宝 (Taobao/Tmall)');
+    console.log(' [2] 京东 (JD.com)');
+    console.log(' [3] 拼多多 (Pinduoduo)');
     
-    // 3. 给出明确指令
-    console.log('\n🚀 浏览器已为你打开。');
-    console.log('--- 请按以下步骤手动操作 ---');
-    console.log('   1. 在新打开的浏览器里，访问 https://www.taobao.com 并完成登录。');
-    console.log('   2. 登录成功后，再访问 https://sycm.taobao.com/，确保已进入后台。');
+    rl.question('\n请输入序号 (1-3): ', async (answer) => {
+        const choice = answer.trim();
+        const target = PROFILES[choice];
 
-    /*
-     * 【【【 错误修正处 】】】
-     * 下面的多行 console.log 已经被修复，以避免语法错误。
-     */
-    console.log('\n'); // 打印一个空行
-    console.log('   ✅✅✅【最关键一步】✅✅✅');
-    console.log('   当您确认已在生意参谋后台并登录成功后，');
-    console.log('   请【切换回这个终端窗口】，然后【按一下回车键 (Enter)】...');
-
-    // 4. 等待用户在终端按下回车键
-    process.stdin.once('data', async () => {
-        try {
-            console.log('\n收到命令！正在保存登录状态...');
-            // 5. 保存状态
-            await browserContext.storageState({ path: authFilePath });
-            console.log('🎉 成功！登录状态已保存到 `auth.json` 文件中。');
-        } catch (error) {
-            console.error('保存状态时出错:', error.message);
-        } finally {
-            // 6. 自动关闭浏览器并退出脚本
-            await browserContext.close();
-            console.log('浏览器已自动关闭。');
-            process.exit(0);
+        if (!target) {
+            console.log('❌ 输入无效，脚本退出。');
+            process.exit(1);
         }
-    });
 
+        console.log(`\n🚀 正在启动 [${target.name}] 浏览器环境...`);
+        console.log(`📂 数据路径: ${target.path}`);
+
+        // 确保目录存在
+        if (!fs.existsSync(target.path)) {
+            fs.mkdirSync(target.path, { recursive: true });
+            console.log('🆕 已新建全新的浏览器配置文件夹。');
+        }
+
+        // 启动持久化浏览器
+        const context = await chromium.launchPersistentContext(target.path, {
+            headless: false,
+            viewport: null,
+            args: ['--start-maximized', '--disable-blink-features=AutomationControlled']
+        });
+
+        const page = context.pages().length > 0 ? context.pages()[0] : await context.newPage();
+        
+        // 自动打开对应平台的登录页
+        try {
+            console.log(`   正在打开登录页: ${target.url}`);
+            await page.goto(target.url);
+        } catch (e) {
+            console.log('⚠️ 页面加载超时，请手动输入网址。');
+        }
+
+        console.log('\n✅ 浏览器已打开！');
+        console.log('--------------------------------------------------');
+        console.log(`   正在维护: ${target.name}`);
+        console.log('   请手动完成登录、手机验证码处理等操作。');
+        console.log('   完成后，【直接关闭浏览器窗口】即可自动保存。');
+        console.log('--------------------------------------------------');
+
+        context.on('close', () => {
+            console.log(`\n🎉 [${target.name}] 维护结束，状态已保存。`);
+            process.exit(0);
+        });
+    });
 })();

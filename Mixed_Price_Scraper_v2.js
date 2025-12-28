@@ -26,7 +26,8 @@ const SCREENSHOT_DIR = path.join(BASE_DIR, 'price_screenshots');
 // 如果文件夹不存在，预先创建
 if (!fs.existsSync(SCREENSHOT_DIR)) fs.mkdirSync(SCREENSHOT_DIR);
 // 淘宝登录凭证路径
-const TAOBAO_AUTH_PATH = path.join(BASE_DIR, 'auth.json'); 
+// [修改] 淘宝持久化浏览器路径 (必须与 setup-auth.js 一致)
+const TAOBAO_USER_DATA_DIR = path.join(BASE_DIR, 'browser_profiles', 'taobao_store');
 
 // 加载 config.json
 let config;
@@ -46,9 +47,9 @@ try {
 }
 
 const EXCEL_TASK_FILE_PATH = path.join(BASE_DIR, config.paths.excel_task_file);
-const JD_USER_DATA_DIR = config.browser_settings.edge_user_data_dir;
-const PDD_USER_DATA_DIR = path.join(BASE_DIR, 'pdd_auth_data');
-const BROWSER_EXEC_PATH = config.browser_settings.edge_executable_path;
+const JD_USER_DATA_DIR = path.join(BASE_DIR, 'browser_profiles', 'jd_store');
+const PDD_USER_DATA_DIR = path.join(BASE_DIR, 'browser_profiles', 'pdd_store');
+// const BROWSER_EXEC_PATH = config.browser_settings.edge_executable_path;
 
 // ================= [公共工具函数] =================
 
@@ -161,23 +162,23 @@ async function runJD() {
     const today_str = DateTime.now().toFormat('yyyy-MM-dd');
 
     try {
-        // [修改] 直接启动，不检查状态
-        console.log("[JD] 启动浏览器 (直接模式)...");
+        // [修改] 统一启动参数，指向 jd_store
+        console.log(`[JD] 正在接管浏览器配置: ${JD_USER_DATA_DIR}`);
         browser = await chromium.launchPersistentContext(JD_USER_DATA_DIR, {
-            executablePath: BROWSER_EXEC_PATH, 
-            headless: false, // 保持 false 以便人工介入
-            viewport: { width: 1920, height: 1080 }, 
-            args: launchArgs
+            // executablePath: BROWSER_EXEC_PATH, // 建议注释掉，使用 Playwright 内置浏览器更稳定
+            headless: false, 
+            viewport: null, // 允许最大化
+            args: ['--start-maximized', '--disable-blink-features=AutomationControlled']
         });
 
-        const workingPage = await browser.newPage();
+        const workingPage = browser.pages().length > 0 ? browser.pages()[0] : await browser.newPage();
         const screenshotDir = path.join(BASE_DIR, 'error_screenshots');
         if (!fs.existsSync(screenshotDir)) fs.mkdirSync(screenshotDir);
 
         for (let index = 0; index < jd_tasks.length; index++) {
             const task = jd_tasks[index];
             if (!task.url || !task.url.startsWith('http')) continue;
-
+            
             console.log(`--- [JD] (${index + 1}/${jd_tasks.length}) SKU:${task.trueId} | 码:${task.barcode} ---`);
             let final_price_str = "Not Found";
             let price_status = "未知";
@@ -185,7 +186,7 @@ async function runJD() {
 
             try {
                 await workingPage.goto(task.url, { waitUntil: "domcontentloaded", timeout: 60000 });
-                
+
                 // [新增] 登录页检测逻辑 (类似 PDD)
                 if (workingPage.url().includes('passport.jd.com') || workingPage.url().includes('safe.jd.com')) {
                     console.log("🛑 [JD] 检测到登录页面，请手动完成登录...");
@@ -551,7 +552,7 @@ async function runTaobao() {
         }
     }
 
-    // 1. 读取任务 (代码保持不变)
+    // 1. 读取任务
     let tb_tasks = [];
     try {
         if (!fs.existsSync(EXCEL_TASK_FILE_PATH)) { console.error(`❌ 未找到Excel`); return; }
@@ -561,24 +562,16 @@ async function runTaobao() {
         
         data.forEach(row => {
             const p = row['Platform'] ? row['Platform'].trim() : '';
-            if (p === '淘系' || p === '淘宝' || p === '天猫') {
-                const url = row['URL'];
-                if (url && url.startsWith('http')) {
-                    let limit = row['PriceLimit'] || row['Limit_Price']; 
-                    let limitVal = null;
-                    if (limit) {
-                        if (typeof limit === 'string') limitVal = parseFloat(limit.replace(/[,￥]/g, ''));
-                        else limitVal = limit;
-                    }
-                    let barcodeVal = row['ProductID'] || row['Barcode'] || row['SKU'] || "N/A";
-                    let trueId = "N/A";
-                    const match = url.match(/[?&]id=(\d+)/);
-                    if(match) trueId = match[1];
-
+            if (['淘系', '淘宝', '天猫'].includes(p)) {
+                if (row['URL']) {
+                    // 兼容多种表头写法：PriceLimit, limit_price, 第7列等
+                    let limit = row['PriceLimit'] || row['Limit_Price'] || row['pricelimit'];
+                    let limitVal = limit ? parseFloat(String(limit).replace(/[,￥]/g, '')) : null;
+                    
                     tb_tasks.push({
-                        url: url,
-                        barcode: barcodeVal,
-                        trueId: trueId,
+                        url: row['URL'],
+                        barcode: row['Barcode'] || row['SKU'] || "N/A",
+                        trueId: row['URL'].match(/[?&]id=(\d+)/) ? row['URL'].match(/[?&]id=(\d+)/)[1] : "N/A",
                         limitPrice: limitVal
                     });
                 }
@@ -589,25 +582,23 @@ async function runTaobao() {
 
     if (tb_tasks.length === 0) return;
 
-    if (!fs.existsSync(TAOBAO_AUTH_PATH)) {
-        console.log(`\n⚠️  [Taobao] 未检测到登录凭证 (auth.json)。`);
-        return; 
-    }
-
     let browser = null;
     let new_records = [];
     const today_str = DateTime.now().toFormat('yyyy-MM-dd');
 
     try {
-        console.log("[Taobao] 启动隐身浏览器...");
-        browser = await chromiumExtra.launch({ headless: false }); 
-        const context = await browser.newContext({ 
-            storageState: TAOBAO_AUTH_PATH,
-            userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0'
+        console.log(`[Taobao] 正在接管浏览器配置: ${TAOBAO_USER_DATA_DIR}`);
+        
+        // ★★★ 核心修改：使用 launchPersistentContext 直接接管文件夹 ★★★
+        browser = await chromiumExtra.launchPersistentContext(TAOBAO_USER_DATA_DIR, {
+            headless: false, // 必须为false以保持指纹一致性
+            viewport: null,
+            args: ['--start-maximized', '--disable-blink-features=AutomationControlled']
         });
-        const page = await context.newPage();
-        const screenshotDir = path.join(BASE_DIR, 'debug_screenshots');
-        if (!fs.existsSync(screenshotDir)) fs.mkdirSync(screenshotDir);
+
+        // 获取第一个页面或新建
+        const page = browser.pages().length > 0 ? browser.pages()[0] : await browser.newPage();
+        const screenshotDir = path.join(BASE_DIR, 'price_screenshots'); // 统一截图目录
 
         for (let index = 0; index < tb_tasks.length; index++) {
             const task = tb_tasks[index];
@@ -620,10 +611,11 @@ async function runTaobao() {
             try {
                 await page.goto(task.url, { waitUntil: 'domcontentloaded', timeout: 30000 });
 
-                if (page.url().includes('login')) {
-                    console.log("⚠️  Cookie失效，请重新登录...");
-                    await page.waitForURL(url => !url.toString().includes('login'), { timeout: 0 });
-                    await page.context().storageState({ path: TAOBAO_AUTH_PATH });
+                // 简单的登录检测
+                if (page.url().includes('login.taobao') || page.url().includes('login.tmall')) {
+                    console.log("🛑 检测到登录页！(因使用持久化配置，通常只需滑动验证)");
+                    // 等待用户手动处理，或脚本自动重试
+                    await page.waitForTimeout(5000); 
                 }
 
                 // [操作] 稍微向下滚动
@@ -654,9 +646,9 @@ async function runTaobao() {
                         if (await btn.isVisible()) {
                             await btn.click({timeout: 3000, force: true});
                             console.log(`   👆 已点击: ${selector}`);
-                            clicked = true;
-                            break;
-                        }
+                        clicked = true;
+                        break;
+                    }
                     } catch(e) {}
                 }
 
@@ -707,24 +699,24 @@ async function runTaobao() {
                 let priceText = "";
                 for (const sel of priceSelectors) {
                     try {
-                        const el = page.locator(sel).first();
+                    const el = page.locator(sel).first();
                         if (await el.isVisible({timeout: 2000})) {
                             priceText = await el.textContent();
                             if (priceText && /\d/.test(priceText)) {
                                 priceText = priceText.trim();
-                                break;
-                            }
+                        break;
+                    }
                         }
                     } catch(e) {}
                 }
-
+                
                 if (priceText) {
                     final_price_str = priceText;
                     console.log(`   💰 实付款: ${final_price_str}`);
                 } else {
                     console.log(`   ❌ 结算页无法定位价格`);
                 }
-
+                    
                 // 结果判断与隐私截图
                 if (final_price_str !== "Not Found") {
                     if (task.limitPrice !== null && !isNaN(task.limitPrice)) {
@@ -733,7 +725,7 @@ async function runTaobao() {
                             if (currentVal < task.limitPrice) {
                                 price_status = "破价警报";
                                 console.log(`   🚨 [破价] ${currentVal} < ${task.limitPrice}`);
-
+                                
                                 // [新增 1] 注入水印 (位置下移)
                                 const watermarkText = `【破价警报】\n时间: ${DateTime.now().toFormat('yyyy-MM-dd HH:mm:ss')}\nSKU: ${task.trueId}\n现价: ${currentVal} (限: ${task.limitPrice})`;
                                 await page.evaluate((text) => {
@@ -753,24 +745,48 @@ async function runTaobao() {
                                 const shotName = `${today_str}_TB_${task.trueId}.png`;
                                 const fullShotPath = path.join(SCREENSHOT_DIR, shotName); // 使用全局统一文件夹
                                 
-                                // 获取视口大小
-                                const viewport = page.viewportSize();
-                                const CROP_TOP_HEIGHT = 250; // ★★★ 顶部裁切高度 (像素) ★★★
+                                // 3. ★★★ 修正后的截图逻辑 ★★★
+                                try {
+                                    // 强制通过执行 JS 获取当前浏览器窗口的真实宽高 (比 page.viewportSize() 更稳)
+                                    const metrics = await page.evaluate(() => {
+                                        return {
+                                            width: window.innerWidth,
+                                            height: window.innerHeight
+                                        };
+                                    });
 
-                                // 仅当页面高度足够时才裁切，否则普通截图
-                                const clipRegion = (viewport && viewport.height > CROP_TOP_HEIGHT + 200) ? {
-                                    x: 0,
-                                    y: CROP_TOP_HEIGHT,
-                                    width: viewport.width,
-                                    height: viewport.height - CROP_TOP_HEIGHT
-                                } : undefined;
+                                    const CROP_TOP_HEIGHT = 250; // 你想切掉的高度
 
-                                await page.screenshot({ path: fullShotPath, clip: clipRegion });
-                                savedImagePath = fullShotPath;
-                                console.log(`   📸 隐私截图已保存 (已避开顶部 ${CROP_TOP_HEIGHT}px).`);
+                                    // 计算裁切区域
+                                    let clipRegion = undefined;
+                                    
+                                    // 只有当屏幕高度够切的时候才设置 clip
+                                    if (metrics.height > CROP_TOP_HEIGHT + 100) {
+                                        clipRegion = {
+                                            x: 0,
+                                            y: CROP_TOP_HEIGHT, // 从 250px 处开始截
+                                            width: metrics.width,
+                                            height: metrics.height - CROP_TOP_HEIGHT // 截剩下的高度
+                                        };
+                                    }
+
+                                    // 执行截图 (注意这里必须显式传入 clip: clipRegion)
+                                    await page.screenshot({ 
+                                        path: fullShotPath,
+                                        clip: clipRegion  // <--- 关键：如果不传这个，算半天也没用
+                                    });
+                                    
+                                    savedImagePath = fullShotPath;
+                                    console.log(`   📸 截图保存成功 (已去除顶部 ${clipRegion ? CROP_TOP_HEIGHT : 0}px)`);
+
+                                } catch (err) {
+                                    console.error(`   ❌ 截图失败: ${err.message}`);
+                                    // 如果裁切失败，尝试普通全屏截图作为兜底
+                                    await page.screenshot({ path: fullShotPath, fullPage: true });
+                                }
                                 
                                 // 移除水印
-                                // await page.evaluate(() => { const el = document.getElementById('js-privacy-watermark'); if(el) el.remove(); });
+                                await page.evaluate(() => { const el = document.getElementById('js-privacy-watermark'); if(el) el.remove(); });
 
                             } else if (currentVal > task.limitPrice) {
                                 price_status = "高价待调整";
@@ -806,8 +822,11 @@ async function runTaobao() {
             await sleep(2000);
         }
 
-    } catch (e) { console.error(`[Taobao] 严重错误: ${e}`); }
+    } catch (e) { console.error(`[Taobao] 致命错误: ${e}`); }
     finally {
+        // ★★★ 关键：不要关闭 Browser，只关闭 Page，或者什么都不做保留缓存
+        // 如果这里 close()，下次启动也很快。为了安全退出，我们选择 close()
+        // 因为 PersistentContext 写入磁盘是在运行时实时的或关闭时发生的
         if (browser) await browser.close();
         append_results_to_csv(new_records);
         console.log(`[Taobao] 阶段任务完成。`);
@@ -835,8 +854,8 @@ async function main() {
 // 将需要运行的模块设为 true，不需要的设为 false
 const RUN_CONFIG = {
     JD: true,      // 京东开关：调试淘宝时设为 false
-    PDD: true,     // 拼多多开关：调试淘宝时设为 false
-    TAOBAO: true    // 淘系开关：调试时设为 true
+    PDD: false,     // 拼多多开关：调试淘宝时设为 false
+    TAOBAO: false    // 淘系开关：调试时设为 true
 };
 
 async function main() {
