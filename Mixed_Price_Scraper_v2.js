@@ -259,17 +259,76 @@ async function runJD() {
                                 price_status = "破价警报";
                                 console.log(`   🚨 [破价] ${currentVal} < 限价 ${task.limitPrice}`);
                                 
-                                const watermarkText = `【破价警报】\n时间: ${DateTime.now().toFormat('yyyy-MM-dd HH:mm:ss')}\nSKU: ${task.trueId}\n现价: ${currentVal} (限: ${task.limitPrice})`;
+                                const watermarkText = `\n时间: ${DateTime.now().toFormat('yyyy-MM-dd HH:mm:ss')}\nSKU: ${task.trueId}\n现价: ${currentVal} (限: ${task.limitPrice})`;
                                 await workingPage.evaluate((text) => {
-                                    const div = document.createElement('div');
-                                    div.id = 'js-watermark';
-                                    Object.assign(div.style, {
-                                        position: 'fixed', top: '10%', left: '50%', transform: 'translate(-50%, 0)',
-                                        padding: '20px', backgroundColor: 'rgba(255, 0, 0, 0.9)', color: '#fff',
-                                        fontSize: '18px', fontWeight: 'bold', zIndex: '99999', borderRadius: '10px',
-                                        textAlign: 'center', boxShadow: '0 0 10px rgba(0,0,0,0.5)', pointerEvents: 'none'
+                                    // 1. 创建样式表
+                                    const style = document.createElement('style');
+                                    style.innerHTML = `
+                                        @keyframes alert-pulse {
+                                            0% { background-color: rgba(255, 0, 0, 0.2); }
+                                            50% { background-color: rgba(255, 0, 0, 0.6); }
+                                            100% { background-color: rgba(255, 0, 0, 0.2); }
+                                        }
+                                        @keyframes text-shake {
+                                            0% { transform: translate(-50%, -50%) scale(1); }
+                                            10% { transform: translate(-51%, -51%) scale(1.02); }
+                                            20% { transform: translate(-49%, -50%) scale(1); }
+                                            100% { transform: translate(-50%, -50%) scale(1); }
+                                        }
+                                    `;
+                                    document.head.appendChild(style);
+                                
+                                    // 2. 全屏蒙版
+                                    const overlay = document.createElement('div');
+                                    overlay.id = 'js-watermark-overlay';
+                                    Object.assign(overlay.style, {
+                                        position: 'fixed',
+                                        top: '0',
+                                        left: '0',
+                                        width: '100vw',
+                                        height: '100vh',
+                                        zIndex: '99998',
+                                        pointerEvents: 'none',
+                                        animation: 'alert-pulse 1s infinite'
                                     });
-                                    div.innerText = text;
+                                
+                                    // 3. 中心警报框
+                                    const div = document.createElement('div');
+                                    div.id = 'js-watermark-text';
+                                    Object.assign(div.style, {
+                                        position: 'fixed',
+                                        alignItems: 'center',
+                                        top: '50%',
+                                        left: '50%',
+                                        transform: 'translate(-50%, -50%)', // 初始定位
+                                        padding: '30px 50px',
+                                        backgroundColor: 'rgba(0, 0, 0, 0.85)',
+                                        color: '#ff0000',
+                                        zIndex: '99999',
+                                        border: '8px solid #ff0000',
+                                        textAlign: 'center',
+                                        boxShadow: '0 0 50px rgba(255, 0, 0, 0.8)',
+                                        animation: 'text-shake 0.5s infinite',
+                                        pointerEvents: 'none',
+                                        // 关键修改：使用 flex 布局确保上下排列不重叠
+                                        display: 'flex',
+                                        flexDirection: 'column',
+                                        alignItems: 'center',
+                                        justifyContent: 'center',
+                                        gap: '10px' // 两行字之间的间距
+                                    });
+                                
+                                    // 内部 HTML 结构调整
+                                    div.innerHTML = `
+                                        <div style="font-size: 100px; font-weight: 900; line-height: 1.1; text-shadow: 0 0 10px #ff0000;text-align: center;gap: 10px;">
+                                            ⚠️ 破价警报 ⚠️
+                                        </div>
+                                        <div style="font-size: 28px; color: #fff; font-weight: bold; line-height: 1.1; white-space: pre-wrap; max-width: 800px;text-align: center;">
+                                            ${text}
+                                        </div>
+                                    `;
+                                    
+                                    document.body.appendChild(overlay);
                                     document.body.appendChild(div);
                                 }, watermarkText);
 
@@ -739,89 +798,137 @@ async function runTaobao() {
                     console.log(`   ❌ 结算页无法定位价格`);
                 }
                     
+               // 结果判断与隐私截图
                 // 结果判断与隐私截图
-                if (final_price_str !== "Not Found") {
-                    if (task.limitPrice !== null && !isNaN(task.limitPrice)) {
-                        const currentVal = parseFloat(final_price_str.replace(/[^\d.]/g, ''));
-                        if (!isNaN(currentVal)) {
-                            if (currentVal < task.limitPrice) {
-                                price_status = "破价警报";
-                                console.log(`   🚨 [破价] ${currentVal} < ${task.limitPrice}`);
-                                
-                                // [新增 1] 注入水印 (位置下移)
-                                const watermarkText = `【破价警报】\n时间: ${DateTime.now().toFormat('yyyy-MM-dd HH:mm:ss')}\nSKU: ${task.trueId}\n现价: ${currentVal} (限: ${task.limitPrice})`;
-                                await page.evaluate((text) => {
-                                    const div = document.createElement('div');
-                                    div.id = 'js-privacy-watermark';
-                                    Object.assign(div.style, {
-                                        position: 'fixed', top: '40%', left: '50%', transform: 'translate(-50%, 0)',
-                                        padding: '20px', backgroundColor: 'rgba(255, 0, 0, 0.9)', color: '#fff',
-                                        fontSize: '18px', fontWeight: 'bold', zIndex: '99999', borderRadius: '10px',
-                                        textAlign: 'center', pointerEvents: 'none'
-                                    });
-                                    div.innerText = text;
-                                    document.body.appendChild(div);
-                                }, watermarkText);
+if (final_price_str !== "Not Found") {
+    if (task.limitPrice !== null && !isNaN(task.limitPrice)) {
+        const currentVal = parseFloat(final_price_str.replace(/[^\d.]/g, ''));
+        if (!isNaN(currentVal)) {
+            if (currentVal < task.limitPrice) {
+                price_status = "破价警报";
+                console.log(`    🚨 [破价] ${currentVal} < ${task.limitPrice}`);
 
-                                // [新增 2] 隐私截图 (裁切顶部)
-                                const shotName = `${today_str}_TB_${task.trueId}.png`;
-                                const fullShotPath = path.join(SCREENSHOT_DIR, shotName); // 使用全局统一文件夹
-                                
-                                // 3. ★★★ 修正后的截图逻辑 ★★★
-                                try {
-                                    // 强制通过执行 JS 获取当前浏览器窗口的真实宽高 (比 page.viewportSize() 更稳)
-                                    const metrics = await page.evaluate(() => {
-                                        return {
-                                            width: window.innerWidth,
-                                            height: window.innerHeight
-                                        };
-                                    });
+                // [迭代新增] 电影级红色警报 UI 注入
+                const watermarkText = {
+                    title: "🚨 破价警报 🚨",
+                    time: `时间: ${DateTime.now().toFormat('yyyy-MM-dd HH:mm:ss')}`,
+                    sku: `SKU: ${task.trueId}`,
+                    detail: `现价: ${currentVal} < 限价: ${task.limitPrice}`
+                };
 
-                                    const CROP_TOP_HEIGHT = 250; // 你想切掉的高度
-
-                                    // 计算裁切区域
-                                    let clipRegion = undefined;
-                                    
-                                    // 只有当屏幕高度够切的时候才设置 clip
-                                    if (metrics.height > CROP_TOP_HEIGHT + 100) {
-                                        clipRegion = {
-                                            x: 0,
-                                            y: CROP_TOP_HEIGHT, // 从 250px 处开始截
-                                            width: metrics.width,
-                                            height: metrics.height - CROP_TOP_HEIGHT // 截剩下的高度
-                                        };
-                                    }
-
-                                    // 执行截图 (注意这里必须显式传入 clip: clipRegion)
-                                    await page.screenshot({ 
-                                        path: fullShotPath,
-                                        clip: clipRegion  // <--- 关键：如果不传这个，算半天也没用
-                                    });
-                                    
-                                    savedImagePath = fullShotPath;
-                                    console.log(`   📸 截图保存成功 (已去除顶部 ${clipRegion ? CROP_TOP_HEIGHT : 0}px)`);
-
-                                } catch (err) {
-                                    console.error(`   ❌ 截图失败: ${err.message}`);
-                                    // 如果裁切失败，尝试普通全屏截图作为兜底
-                                    await page.screenshot({ path: fullShotPath, fullPage: true });
-                                }
-                                
-                                // 移除水印
-                                await page.evaluate(() => { const el = document.getElementById('js-privacy-watermark'); if(el) el.remove(); });
-
-                            } else if (currentVal > task.limitPrice) {
-                                price_status = "高价待调整";
-                                console.log(`   📈 [高价] ${currentVal} > ${task.limitPrice}`);
-                            } else {
-                                price_status = "价格正常";
-                            }
+                await page.evaluate((info) => {
+                    const style = document.createElement('style');
+                    style.id = 'js-alert-style';
+                    style.innerHTML = `
+                        @keyframes alertPulse {
+                            0% { background-color: rgba(255, 0, 0, 0.4); }
+                            50% { background-color: rgba(255, 0, 0, 0.7); }
+                            100% { background-color: rgba(255, 0, 0, 0.4); }
                         }
-                    } else { console.log(`   ℹ️ [跳过比价] 无限价`); }
-                } else {
-                    price_status = "抓取失败";
-                }
+                        @keyframes textShake {
+                            0% { transform: translate(-50%, -50%) scale(1); }
+                            50% { transform: translate(-50%, -50%) scale(1.05); }
+                            100% { transform: translate(-50%, -50%) scale(1); }
+                        }
+                    `;
+                    document.head.appendChild(style);
 
+                    const overlay = document.createElement('div');
+                    overlay.id = 'js-privacy-watermark';
+                    Object.assign(overlay.style, {
+                        position: 'fixed', top: '0', left: '0', width: '100%', height: '100%',
+                        zIndex: '99998', pointerEvents: 'none',
+                        animation: 'alertPulse 1s infinite ease-in-out',
+                        border: '20px solid red', boxSizing: 'border-box'
+                    });
+
+                    const box = document.createElement('div');
+                    Object.assign(box.style, {
+                        position: 'fixed', top: '50%', left: '50%',
+                        transform: 'translate(-50%, -50%)',
+                        backgroundColor: '#ff0000', color: '#fff',
+                        padding: '40px 60px', borderRadius: '15px',
+                        textAlign: 'center', boxShadow: '0 0 50px rgba(0,0,0,0.8)',
+                        border: '5px solid #fff', zIndex: '99999',
+                        fontFamily: 'sans-serif', animation: 'textShake 0.5s infinite'
+                    });
+
+                    box.innerHTML = `
+                        <div style="font-size: 48px; font-weight: 900; margin-bottom: 20px; text-shadow: 2px 2px 0 #000;">${info.title}</div>
+                        <div style="font-size: 20px; line-height: 1.6; font-weight: bold;">
+                            <div>${info.time}</div>
+                            <div>${info.sku}</div>
+                            <div style="background: #fff; color: #ff0000; margin-top: 15px; padding: 5px; font-size: 24px;">${info.detail}</div>
+                        </div>
+                    `;
+
+                    overlay.appendChild(box);
+                    document.body.appendChild(overlay);
+                }, watermarkText);
+
+                // [保持并迭代] 隐私截图 (四周裁切逻辑)
+                const shotName = `${today_str}_TB_${task.trueId}.png`;
+                const fullShotPath = path.join(SCREENSHOT_DIR, shotName);
+
+                try {
+                    const metrics = await page.evaluate(() => ({
+                        width: window.innerWidth,
+                        height: window.innerHeight
+                    }));
+
+                    // --- 裁切参数定义 ---
+                    const CROP_TOP = 250;     // 顶部裁剪
+                    const CROP_BOTTOM = 250;  // 底部裁剪
+                    const CROP_LEFT = 480;    // 左侧裁剪
+                    const CROP_RIGHT = 480;   // 右侧裁剪
+
+                    let clipRegion = undefined;
+
+                    // 安全校验：只有当剩余尺寸为正数时才执行裁切
+                    const finalWidth = metrics.width - CROP_LEFT - CROP_RIGHT;
+                    const finalHeight = metrics.height - CROP_TOP - CROP_BOTTOM;
+
+                    if (finalWidth > 100 && finalHeight > 100) {
+                        clipRegion = {
+                            x: CROP_LEFT,
+                            y: CROP_TOP,
+                            width: finalWidth,
+                            height: finalHeight
+                        };
+                    }
+
+                    await page.screenshot({ 
+                        path: fullShotPath,
+                        clip: clipRegion 
+                    });
+                    
+                    savedImagePath = fullShotPath;
+                    console.log(`    📸 警报截图成功 (四周已裁切: 左右各${CROP_LEFT}px, 上下各${CROP_TOP}px)`);
+
+                } catch (err) {
+                    console.error(`    ❌ 截图失败: ${err.message}`);
+                    await page.screenshot({ path: fullShotPath, fullPage: true });
+                }
+                
+                // [保持功能] 移除水印及样式
+                await page.evaluate(() => { 
+                    const el = document.getElementById('js-privacy-watermark'); 
+                    const style = document.getElementById('js-alert-style');
+                    if(el) el.remove(); 
+                    if(style) style.remove();
+                });
+
+            } else if (currentVal > task.limitPrice) {
+                price_status = "高价待调整";
+                console.log(`    📈 [高价] ${currentVal} > ${task.limitPrice}`);
+            } else {
+                price_status = "价格正常";
+            }
+        }
+    } else { console.log(`    ℹ️ [跳过比价] 无限价`); }
+} else {
+    price_status = "抓取失败";
+}
             } catch(e) {
                 console.log(`   [Error] ${e.message.split('\n')[0]}`);
                 final_price_str = "Error";
