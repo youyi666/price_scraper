@@ -122,8 +122,28 @@ async function runJD() {
         await workbook.xlsx.readFile(EXCEL_TASK_FILE_PATH);
         const worksheet = workbook.worksheets[0]; 
         
+
+        // [新增] 1. 动态寻找 '[T]' 开关所在的列号
+        let switchColIndex = -1;
+        const headerRow = worksheet.getRow(1);
+        headerRow.eachCell((cell, colNumber) => {
+            const headerText = cell.text ? cell.text.trim() : '';
+            if (headerText === '[T]') {
+                switchColIndex = colNumber;
+            }
+        });
+
         worksheet.eachRow({ includeEmpty: false }, (row, rowNumber) => {
             if (rowNumber === 1) return; 
+            
+            // [新增] 2. 检查开关状态
+            if (switchColIndex !== -1) {
+                const switchVal = row.getCell(switchColIndex).value;
+                // 如果值存在且不等于 1 (包括字符串 '1')，则跳过
+                if (switchVal != 1) return; 
+            }
+
+        
             const platform = row.getCell(1).text ? row.getCell(1).text.trim() : '';
             if (platform !== PLATFORM_NAME) return;
 
@@ -339,6 +359,7 @@ async function runPDD() {
         const data = XLSX.utils.sheet_to_json(sheet);
         
         data.forEach(row => {
+            if (row['[T]'] != 1) return;
             const p = row['Platform'] ? row['Platform'].trim() : '';
             if (p === '拼多多') {
                 const rawId = extractIdFromInput(row['URL']);
@@ -561,6 +582,7 @@ async function runTaobao() {
         const data = XLSX.utils.sheet_to_json(sheet);
         
         data.forEach(row => {
+            if (row['[T]'] != 1) return;
             const p = row['Platform'] ? row['Platform'].trim() : '';
             if (['淘系', '淘宝', '天猫'].includes(p)) {
                 if (row['URL']) {
@@ -853,8 +875,8 @@ async function main() {
 // ★★★ 调试开关区 ★★★
 // 将需要运行的模块设为 true，不需要的设为 false
 const RUN_CONFIG = {
-    JD: false,      // 京东开关：调试淘宝时设为 false
-    PDD: false,     // 拼多多开关：调试淘宝时设为 false
+    JD: true,      // 京东开关：调试淘宝时设为 false
+    PDD: true,     // 拼多多开关：调试淘宝时设为 false
     TAOBAO: true    // 淘系开关：调试时设为 true
 };
 
