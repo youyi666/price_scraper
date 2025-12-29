@@ -1,11 +1,3 @@
-// =============================================================================
-// Mixed_Price_Scraper_v2.1.js (京东 & 拼多多 & 淘系 三合一优化版)
-//
-// 更新日志 (v2.1):
-// 1. [JD优化] 移除预检流程，直接启动。遇到登录页自动暂停等待人工操作 (同PDD逻辑)。
-// 2. [Taobao优化] 缺少 auth.json 时自动弹窗引导登录，登录成功后自动保存凭证并继续任务。
-// =============================================================================
-
 const { chromium } = require('playwright'); // 标准版 (JD/PDD)
 const { chromium: chromiumExtra } = require('playwright-extra'); // 增强版 (Taobao)
 const stealth = require('puppeteer-extra-plugin-stealth')();
@@ -18,23 +10,28 @@ const path = require('path');
 const { DateTime } = require('luxon');
 
 // ================= [全局配置区] =================
+
+// 1. [全局控制开关] (调试与运行模式设置)
+const HEADLESS_MODE = false; // true=无头后台运行, false=显示浏览器窗口
+
+// 2. [静态路径定义] (固定目录结构)
 const BASE_DIR = path.dirname(__filename);
 const CONFIG_PATH = path.join(BASE_DIR, 'config.json');
 const CSV_OUTPUT_PATH = path.join(BASE_DIR, 'price_monitoring_results.csv');
-// [新增] 统一截图储存文件夹
-const SCREENSHOT_DIR = path.join(BASE_DIR, 'price_screenshots'); 
-// 如果文件夹不存在，预先创建
-if (!fs.existsSync(SCREENSHOT_DIR)) fs.mkdirSync(SCREENSHOT_DIR);
-// 淘宝登录凭证路径
-// [修改] 淘宝持久化浏览器路径 (必须与 setup-auth.js 一致)
-const TAOBAO_USER_DATA_DIR = path.join(BASE_DIR, 'browser_profiles', 'taobao_store');
+const SCREENSHOT_DIR = path.join(BASE_DIR, 'price_screenshots');
 
-// 加载 config.json
+// 浏览器缓存目录 (统一管理)
+const TAOBAO_USER_DATA_DIR = path.join(BASE_DIR, 'browser_profiles', 'taobao_store');
+const JD_USER_DATA_DIR     = path.join(BASE_DIR, 'browser_profiles', 'jd_store');
+const PDD_USER_DATA_DIR    = path.join(BASE_DIR, 'browser_profiles', 'pdd_store');
+
+// 3. [配置文件加载]
 let config;
 try {
     if (fs.existsSync(CONFIG_PATH)) {
         config = JSON.parse(fs.readFileSync(CONFIG_PATH, 'utf-8'));
     } else {
+        // 默认配置回退
         config = { 
             paths: { excel_task_file: 'tasks.xlsx' },
             browser_settings: { edge_executable_path: '', edge_user_data_dir: './jd_user_data' }
@@ -46,10 +43,13 @@ try {
     process.exit(1);
 }
 
+// 4. [动态路径与初始化] (依赖 config 的变量及副作用)
 const EXCEL_TASK_FILE_PATH = path.join(BASE_DIR, config.paths.excel_task_file);
-const JD_USER_DATA_DIR = path.join(BASE_DIR, 'browser_profiles', 'jd_store');
-const PDD_USER_DATA_DIR = path.join(BASE_DIR, 'browser_profiles', 'pdd_store');
-// const BROWSER_EXEC_PATH = config.browser_settings.edge_executable_path;
+
+// 初始化：如果截图目录不存在，则创建 (副作用逻辑放最后)
+if (!fs.existsSync(SCREENSHOT_DIR)) {
+    fs.mkdirSync(SCREENSHOT_DIR);
+}
 
 // ================= [公共工具函数] =================
 
@@ -166,7 +166,7 @@ async function runJD() {
         console.log(`[JD] 正在接管浏览器配置: ${JD_USER_DATA_DIR}`);
         browser = await chromium.launchPersistentContext(JD_USER_DATA_DIR, {
             // executablePath: BROWSER_EXEC_PATH, // 建议注释掉，使用 Playwright 内置浏览器更稳定
-            headless: false, 
+            headless: HEADLESS_MODE, // [修改] 使用全局变量控制
             viewport: null, // 允许最大化
             args: ['--start-maximized', '--disable-blink-features=AutomationControlled']
         });
@@ -366,7 +366,7 @@ async function runPDD() {
 
     try {
         const context = await chromium.launchPersistentContext(PDD_USER_DATA_DIR, {
-            headless: false, channel: 'msedge', args: ['--start-maximized', '--disable-blink-features=AutomationControlled'], viewport: null
+            headless: HEADLESS_MODE, channel: 'msedge', args: ['--start-maximized', '--disable-blink-features=AutomationControlled'], viewport: null
         });
         browser = context;
         const page = context.pages().length > 0 ? context.pages()[0] : await context.newPage();
@@ -570,7 +570,7 @@ async function runTaobao() {
                     
                     tb_tasks.push({
                         url: row['URL'],
-                        barcode: row['Barcode'] || row['SKU'] || "N/A",
+                        barcode: row['Barcode'] || row['SKU'] || row['SKU_Identifier'] || row['Product ID'] || row['ProductID'] || "N/A",
                         trueId: row['URL'].match(/[?&]id=(\d+)/) ? row['URL'].match(/[?&]id=(\d+)/)[1] : "N/A",
                         limitPrice: limitVal
                     });
@@ -591,7 +591,7 @@ async function runTaobao() {
         
         // ★★★ 核心修改：使用 launchPersistentContext 直接接管文件夹 ★★★
         browser = await chromiumExtra.launchPersistentContext(TAOBAO_USER_DATA_DIR, {
-            headless: false, // 必须为false以保持指纹一致性
+            headless: HEADLESS_MODE, // 必须为false以保持指纹一致性
             viewport: null,
             args: ['--start-maximized', '--disable-blink-features=AutomationControlled']
         });
@@ -853,9 +853,9 @@ async function main() {
 // ★★★ 调试开关区 ★★★
 // 将需要运行的模块设为 true，不需要的设为 false
 const RUN_CONFIG = {
-    JD: true,      // 京东开关：调试淘宝时设为 false
+    JD: false,      // 京东开关：调试淘宝时设为 false
     PDD: false,     // 拼多多开关：调试淘宝时设为 false
-    TAOBAO: false    // 淘系开关：调试时设为 true
+    TAOBAO: true    // 淘系开关：调试时设为 true
 };
 
 async function main() {

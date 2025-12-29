@@ -14,9 +14,9 @@ const readline = require('readline');
 const BASE_DIR = __dirname;
 const PROFILES = {
     '1': {
-        name: '淘宝 (Taobao/Sycm)',
+        name: '淘宝 (Taobao)',
         path: path.join(BASE_DIR, 'browser_profiles', 'taobao_store'),
-        url: 'https://sycm.taobao.com/'
+        url: 'https://taobao.com/'
     },
     '2': {
         name: '京东 (JD.com)',
