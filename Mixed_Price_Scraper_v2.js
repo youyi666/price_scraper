@@ -107,11 +107,11 @@ const randomDelay = (min = 1000, max = 3000) => {
     return new Promise(resolve => setTimeout(resolve, Math.floor(Math.random() * (max - min + 1)) + min));
 };
 
-// ================= [阶段一：京东模块 (简化版)] =================
+// ================= [阶段一：京东模块 (迭代版 - Edge 接管与精准复位)] =================
 
 async function runJD() {
     console.log(`\n=============================================`);
-    console.log(`📦 [阶段一] 启动京东监控任务...`);
+    console.log(`📦 [阶段一] 启动京东监控任务 (Edge 身份强化版)...`);
     console.log(`=============================================`);
 
     const PLATFORM_NAME = "京东";
@@ -143,7 +143,7 @@ async function runJD() {
                 if (switchVal != 1) return; 
             }
 
-        
+
             const platform = row.getCell(1).text ? row.getCell(1).text.trim() : '';
             if (platform !== PLATFORM_NAME) return;
 
@@ -182,17 +182,18 @@ async function runJD() {
     const today_str = DateTime.now().toFormat('yyyy-MM-dd');
 
     try {
-        // [修改] 统一启动参数，指向 jd_store
-        console.log(`[JD] 正在接管浏览器配置: ${JD_USER_DATA_DIR}`);
+        // [迭代修改] 使用 msedge 渠道并指定 User Data Dir 以强化身份信息
+        console.log(`[JD] 正在尝试接管 Edge 浏览器配置: ${JD_USER_DATA_DIR}`);
         browser = await chromium.launchPersistentContext(JD_USER_DATA_DIR, {
-            // executablePath: BROWSER_EXEC_PATH, // 建议注释掉，使用 Playwright 内置浏览器更稳定
-            headless: HEADLESS_MODE, // [修改] 使用全局变量控制
-            viewport: null, // 允许最大化
+            channel: 'msedge', // 明确指定使用 Edge
+            headless: HEADLESS_MODE,
+            viewport: null, 
             args: ['--start-maximized', '--disable-blink-features=AutomationControlled']
         });
 
         const workingPage = browser.pages().length > 0 ? browser.pages()[0] : await browser.newPage();
         const screenshotDir = path.join(BASE_DIR, 'error_screenshots');
+        const randomTime = Math.random() * (8000 - 3000) + 3000;
         if (!fs.existsSync(screenshotDir)) fs.mkdirSync(screenshotDir);
 
         for (let index = 0; index < jd_tasks.length; index++) {
@@ -205,6 +206,7 @@ async function runJD() {
             let savedImagePath = "";
 
             try {
+                // [迭代新增] 随机 User-Agent 注入，进一步降低指纹特征 (可选)
                 await workingPage.goto(task.url, { waitUntil: "domcontentloaded", timeout: 60000 });
 
                 // [新增] 登录页检测逻辑 (类似 PDD)
@@ -214,16 +216,16 @@ async function runJD() {
                     // 等待 URL 不包含 passport 或 safe
                     await workingPage.waitForURL(url => !url.toString().includes('passport.jd.com') && !url.toString().includes('safe.jd.com'), { timeout: 0 });
                     console.log("✅ [JD] 登录成功，继续执行...");
-                    await workingPage.waitForTimeout(2000); // 缓冲
+                    await workingPage.waitForTimeout(3000); // 缓冲
                 }
 
                 console.log("   ⏳ 等待页面渲染 (5s)...");
-                await workingPage.waitForTimeout(5000); 
+                await workingPage.waitForTimeout(randomTime);
 
                 // 验证码检测
                 const captchaSelectors = ['#captcha_modal', '.captcha-box', 'text="验证一下"', '#J-dj-captcha'];
                 for (const sel of captchaSelectors) {
-                    if (await workingPage.locator(sel).first().isVisible({timeout: 1000})) {
+                    if (await workingPage.locator(sel).first().isVisible({timeout: 3000})) {
                         console.log("   ⚠️ 触发验证，等待人工介入 (10s)...");
                         await workingPage.waitForTimeout(10000);
                         break;
@@ -243,6 +245,8 @@ async function runJD() {
                     try {
                         const el = workingPage.locator(sel).first();
                         if (await el.isVisible()) {
+                            // [迭代新增] 抓取前再次确保元素进入视野，防止截图切到空白
+                            await el.scrollIntoViewIfNeeded(); 
                             const txt = await el.textContent();
                             if (/\d/.test(txt)) { final_price_str = txt.trim(); break; }
                         }
@@ -253,14 +257,14 @@ async function runJD() {
                 if (final_price_str !== "Not Found") {
                     console.log(`   💰 抓取价格: ${final_price_str}`);
                     if (task.limitPrice !== null) {
-                        const currentVal = parsePriceToFloat(final_price_str);
+                    const currentVal = parsePriceToFloat(final_price_str);
                         if (currentVal !== null) {
-                            if (currentVal < task.limitPrice) {
-                                price_status = "破价警报";
+                        if (currentVal < task.limitPrice) {
+                            price_status = "破价警报";
                                 console.log(`   🚨 [破价] ${currentVal} < 限价 ${task.limitPrice}`);
-                                
+                            
                                 const watermarkText = `\n时间: ${DateTime.now().toFormat('yyyy-MM-dd HH:mm:ss')}\nSKU: ${task.trueId}\n现价: ${currentVal} (限: ${task.limitPrice})`;
-                                await workingPage.evaluate((text) => {
+                            await workingPage.evaluate((text) => {
                                     // 1. 创建样式表
                                     const style = document.createElement('style');
                                     style.innerHTML = `
@@ -271,9 +275,10 @@ async function runJD() {
                                         }
                                         @keyframes text-shake {
                                             0% { transform: translate(-50%, -50%) scale(1); }
-                                            10% { transform: translate(-51%, -51%) scale(1.02); }
-                                            20% { transform: translate(-49%, -50%) scale(1); }
-                                            100% { transform: translate(-50%, -50%) scale(1); }
+                                            25% { transform: translate(-51%, -51%) scale(1.03); } /* 往左上抖 */
+                                            50% { transform: translate(-49%, -49%) scale(1); }    /* 往右下抖 */
+                                            75% { transform: translate(-51%, -49%) scale(1.03); } /* 往左下抖 */
+                                            100% { transform: translate(-50%, -50%) scale(1); }   /* 回到中心 */
                                         }
                                     `;
                                     document.head.appendChild(style);
@@ -330,23 +335,27 @@ async function runJD() {
                                     
                                     document.body.appendChild(overlay);
                                     document.body.appendChild(div);
-                                }, watermarkText);
+                            }, watermarkText);
 
-                                const shotName = `${today_str}_JD_${task.barcode}.png`;
-                                const fullShotPath = path.join(SCREENSHOT_DIR, shotName); // 使用全局统一文件夹
-                                await workingPage.screenshot({ path: fullShotPath });
-                                savedImagePath = fullShotPath;
+                            const shotName = `${today_str}_JD_${task.barcode}.png`;
+                            const fullShotPath = path.join(SCREENSHOT_DIR, shotName);
+                            
+                            // 截图前强制让主商品图区域可见
+                            await workingPage.locator('.product-intro, #itemInfo').first().scrollIntoViewIfNeeded().catch(()=>{});
+                            
+                            await workingPage.screenshot({ path: fullShotPath });
+                            savedImagePath = fullShotPath;
                                 console.log(`   📸 截图已保存.`);
                                 await workingPage.evaluate(() => { const el = document.getElementById('js-watermark'); if(el) el.remove(); });
 
-                            } else if (currentVal > task.limitPrice) {
-                                price_status = "高价待调整";
+                        } else if (currentVal > task.limitPrice) {
+                            price_status = "高价待调整";
                                 console.log(`   📈 [高价] ${currentVal} > 限价 ${task.limitPrice}`);
-                            } else {
-                                price_status = "价格正常";
-                            }
+                        } else {
+                            price_status = "价格正常";
                         }
                     }
+                }
                 } else {
                     price_status = "抓取失败";
                     console.log(`   ❌ 未找到价格`);
@@ -372,7 +381,15 @@ async function runJD() {
                 Scrape_Date: DateTime.now().toFormat('yyyy-MM-dd HH:mm:ss'),
                 Main_Image_URL: savedImagePath
             });
-            await workingPage.waitForTimeout(2000);
+            
+            // [迭代新增] 随机大间隔：每 10 个任务额外休息 5-10 秒，缓解风控压力
+            if (index > 0 && index % 10 === 0) {
+                const restTime = Math.floor(Math.random() * 5000) + 5000;
+                console.log(`   ☕ 已连续处理10件，随机休息 ${restTime/1000}s...`);
+                await workingPage.waitForTimeout(restTime);
+            } else {
+                await workingPage.waitForTimeout(2000);
+            }
         }
 
     } catch (e) { console.error(`[JD] 严重错误: ${e}`); } 
@@ -815,53 +832,78 @@ if (final_price_str !== "Not Found") {
                     sku: `SKU: ${task.trueId}`,
                     detail: `现价: ${currentVal} < 限价: ${task.limitPrice}`
                 };
-
+                
                 await page.evaluate((info) => {
+                    // 1. 样式定义（保留并合并动画）
                     const style = document.createElement('style');
                     style.id = 'js-alert-style';
                     style.innerHTML = `
                         @keyframes alertPulse {
-                            0% { background-color: rgba(255, 0, 0, 0.4); }
-                            50% { background-color: rgba(255, 0, 0, 0.7); }
-                            100% { background-color: rgba(255, 0, 0, 0.4); }
+                            0% { background-color: rgba(255, 0, 0, 0.2); }
+                            50% { background-color: rgba(255, 0, 0, 0.6); }
+                            100% { background-color: rgba(255, 0, 0, 0.2); }
                         }
                         @keyframes textShake {
-                            0% { transform: translate(-50%, -50%) scale(1); }
-                            50% { transform: translate(-50%, -50%) scale(1.05); }
-                            100% { transform: translate(-50%, -50%) scale(1); }
+                            0% { transform: translate(-50%, -50%) rotate(0deg); }
+                            10% { transform: translate(-52%, -51%) rotate(-1deg); }
+                            30% { transform: translate(-48%, -49%) rotate(1deg); }
+                            50% { transform: translate(-51%, -52%) rotate(-1.5deg); }
+                            70% { transform: translate(-49%, -48%) rotate(1.5deg); }
+                            90% { transform: translate(-51%, -50%) rotate(-0.5deg); }
+                            100% { transform: translate(-50%, -50%) rotate(0deg); }
                         }
                     `;
                     document.head.appendChild(style);
-
+                
+                    // 2. 全屏背景层 (保留原有功能)
                     const overlay = document.createElement('div');
                     overlay.id = 'js-privacy-watermark';
                     Object.assign(overlay.style, {
-                        position: 'fixed', top: '300', left: '0', width: '100%', height: '100%',
+                        position: 'fixed', top: '0', left: '0', width: '100%', height: '100%',
                         zIndex: '99998', pointerEvents: 'none',
-                        animation: 'alertPulse 1s infinite ease-in-out',
+                        animation: 'alertPulse 1s infinite',
                         border: '20px solid red', boxSizing: 'border-box'
                     });
-
+                
+                    // 3. 中心警报框 (按照目标风格进行功能迭代)
                     const box = document.createElement('div');
                     Object.assign(box.style, {
-                        position: 'fixed', top: '50%', left: '50%',
+                        position: 'fixed', 
+                        top: '70%', 
+                        left: '50%',
                         transform: 'translate(-50%, -50%)',
-                        backgroundColor: '#ff0000', color: '#fff',
-                        padding: '40px 60px', borderRadius: '15px',
-                        textAlign: 'center', boxShadow: '0 0 50px rgba(0,0,0,0.8)',
-                        border: '5px solid #fff', zIndex: '99999',
-                        fontFamily: 'sans-serif', animation: 'textShake 0.5s infinite'
+                        // 样式迭代：黑底红字风格
+                        backgroundColor: 'rgba(0, 0, 0, 0.85)', 
+                        color: '#ff0000',
+                        padding: '25px 45px', 
+                        borderRadius: '0px', // 改为方正风格更有警报感
+                        textAlign: 'center', 
+                        boxShadow: '0 0 50px rgba(255, 0, 0, 0.8)',
+                        border: '8px solid #ff0000', 
+                        zIndex: '99999',
+                        pointerEvents: 'none',
+                        animation: 'textShake 0.5s infinite', // 加快抖动频率
+                        // 关键修改：使用 flex 布局确保信息上下排列整齐
+                        display: 'flex',
+                        flexDirection: 'column',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        gap: '10px' 
                     });
-
+                
+                    // 4. 内部 HTML 结构迭代
                     box.innerHTML = `
-                        <div style="font-size: 48px; font-weight: 900; margin-bottom: 20px; text-shadow: 2px 2px 0 #000;">${info.title}</div>
-                        <div style="font-size: 20px; line-height: 1.6; font-weight: bold;">
+                        <div style="font-size: 100px; font-weight: 900; line-height: 1.1; text-shadow: 0 0 10px #ff0000; white-space: nowrap;gap: 10px;">
+                            ⚠️ 破价警报 ⚠️
+                        </div>
+                        <div style="font-size: 28px; color: #fff; font-weight: bold; line-height: 1.1; max-width: 800px; text-align: center;">
                             <div>${info.time}</div>
                             <div>${info.sku}</div>
-                            <div style="background: #fff; color: #ff0000; margin-top: 15px; padding: 5px; font-size: 24px;">${info.detail}</div>
+                            <div>${info.detail}</div>
                         </div>
+                
                     `;
-
+                
                     overlay.appendChild(box);
                     document.body.appendChild(overlay);
                 }, watermarkText);
@@ -982,8 +1024,8 @@ async function main() {
 // ★★★ 调试开关区 ★★★
 // 将需要运行的模块设为 true，不需要的设为 false
 const RUN_CONFIG = {
-    JD: true,      // 京东开关：调试淘宝时设为 false
-    PDD: true,     // 拼多多开关：调试淘宝时设为 false
+    JD: false,      // 京东开关：调试淘宝时设为 false
+    PDD: false,     // 拼多多开关：调试淘宝时设为 false
     TAOBAO: true    // 淘系开关：调试时设为 true
 };
 

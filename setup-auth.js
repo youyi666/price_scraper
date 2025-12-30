@@ -21,7 +21,7 @@ const PROFILES = {
     '2': {
         name: '京东 (JD.com)',
         path: path.join(BASE_DIR, 'browser_profiles', 'jd_store'),
-        url: 'https://shop.jd.com/'
+        url: 'https://jd.com/'
     },
     '3': {
         name: '拼多多 (Pinduoduo)',
