@@ -283,7 +283,7 @@ async function runJD() {
                                     overlay.id = 'js-watermark-overlay';
                                     Object.assign(overlay.style, {
                                         position: 'fixed',
-                                        top: '0',
+                                        top: '15',
                                         left: '0',
                                         width: '100vw',
                                         height: '100vh',
@@ -298,10 +298,10 @@ async function runJD() {
                                     Object.assign(div.style, {
                                         position: 'fixed',
                                         alignItems: 'center',
-                                        top: '50%',
+                                        top: '70%',
                                         left: '50%',
                                         transform: 'translate(-50%, -50%)', // 初始定位
-                                        padding: '30px 50px',
+                                        padding: '25px 45px',
                                         backgroundColor: 'rgba(0, 0, 0, 0.85)',
                                         color: '#ff0000',
                                         zIndex: '99999',
@@ -332,7 +332,7 @@ async function runJD() {
                                     document.body.appendChild(div);
                                 }, watermarkText);
 
-                                const shotName = `${today_str}_JD_${task.trueId}.png`;
+                                const shotName = `${today_str}_JD_${task.barcode}.png`;
                                 const fullShotPath = path.join(SCREENSHOT_DIR, shotName); // 使用全局统一文件夹
                                 await workingPage.screenshot({ path: fullShotPath });
                                 savedImagePath = fullShotPath;
@@ -798,7 +798,7 @@ async function runTaobao() {
                     console.log(`   ❌ 结算页无法定位价格`);
                 }
                     
-               // 结果判断与隐私截图
+               
                 // 结果判断与隐私截图
 if (final_price_str !== "Not Found") {
     if (task.limitPrice !== null && !isNaN(task.limitPrice)) {
@@ -836,7 +836,7 @@ if (final_price_str !== "Not Found") {
                     const overlay = document.createElement('div');
                     overlay.id = 'js-privacy-watermark';
                     Object.assign(overlay.style, {
-                        position: 'fixed', top: '0', left: '0', width: '100%', height: '100%',
+                        position: 'fixed', top: '300', left: '0', width: '100%', height: '100%',
                         zIndex: '99998', pointerEvents: 'none',
                         animation: 'alertPulse 1s infinite ease-in-out',
                         border: '20px solid red', boxSizing: 'border-box'
@@ -867,7 +867,7 @@ if (final_price_str !== "Not Found") {
                 }, watermarkText);
 
                 // [保持并迭代] 隐私截图 (四周裁切逻辑)
-                const shotName = `${today_str}_TB_${task.trueId}.png`;
+                const shotName = `${today_str}_TB_${task.barcode}.png`;
                 const fullShotPath = path.join(SCREENSHOT_DIR, shotName);
 
                 try {
@@ -877,10 +877,10 @@ if (final_price_str !== "Not Found") {
                     }));
 
                     // --- 裁切参数定义 ---
-                    const CROP_TOP = 250;     // 顶部裁剪
-                    const CROP_BOTTOM = 250;  // 底部裁剪
-                    const CROP_LEFT = 480;    // 左侧裁剪
-                    const CROP_RIGHT = 480;   // 右侧裁剪
+                    const CROP_TOP = 300;     // 顶部裁剪
+                    const CROP_BOTTOM = 50;  // 底部裁剪
+                    const CROP_LEFT = 150;    // 左侧裁剪
+                    const CROP_RIGHT = 150;   // 右侧裁剪
 
                     let clipRegion = undefined;
 
