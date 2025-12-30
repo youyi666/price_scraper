@@ -55,7 +55,8 @@ if (!fs.existsSync(SCREENSHOT_DIR)) {
 
 function init_csv_file() {
     if (!fs.existsSync(CSV_OUTPUT_PATH)) {
-        const header = "\uFEFFPlatform,URL,SKU_Identifier,True_SKU_Identifier,Price,Limit_Price,Price_Status,Scrape_Date,Main_Image_URL\n";
+        // [迭代新增] 表头增加 Product_Name
+        const header = "\uFEFFPlatform,URL,Product_Name,SKU_Identifier,True_SKU_Identifier,Price,Limit_Price,Price_Status,Scrape_Date,Main_Image_URL\n";
         fs.writeFileSync(CSV_OUTPUT_PATH, header, 'utf8');
         console.log(`🆕 已创建新的结果文件: ${CSV_OUTPUT_PATH}`);
     }
@@ -76,6 +77,7 @@ function append_results_to_csv(records) {
         const line = [
             escapeCsv(r.Platform),
             escapeCsv(r.URL),
+            escapeCsv(r.Product_Name), // [迭代新增] 写入 Product_Name
             escapeCsv(r.SKU_Identifier),      
             escapeCsv(r.True_SKU_Identifier), 
             escapeCsv(r.Price),
@@ -146,6 +148,7 @@ async function runJD() {
 
             const platform = row.getCell(1).text ? row.getCell(1).text.trim() : '';
             if (platform !== PLATFORM_NAME) return;
+            const productName = row.getCell(3).text ? row.getCell(3).text.trim() : 'N/A'; // [迭代新增] 读取商品名称
 
             const urlCellValue = row.getCell(4).value;
             const barcodeValue = row.getCell(2).text ? row.getCell(2).text.trim() : 'N/A';
@@ -163,6 +166,7 @@ async function runJD() {
 
             jd_tasks.push({
                 url: finalUrl,
+                productName: productName, // [迭代新增] 暂存名称
                 barcode: barcodeValue,
                 trueId: trueSkuId,
                 limitPrice: limitPrice
@@ -373,6 +377,7 @@ async function runJD() {
             new_records.push({
                 Platform: "京东",
                 URL: task.url,
+                Product_Name: task.productName, // [迭代新增] 存入结果记录
                 SKU_Identifier: task.barcode,
                 True_SKU_Identifier: task.trueId,
                 Price: final_price_str,
@@ -441,6 +446,7 @@ async function runPDD() {
                 const rawId = extractIdFromInput(row['URL']);
                 if (rawId) {
                     ids.push(rawId);
+                    const pName = row['ProductName'] || row['商品名称'] || "N/A"; // [迭代新增] 读取商品名称
                     let limit = row['PriceLimit'] || row['Limit_Price']; 
                     let limitVal = -1;
                     if (limit) {
@@ -448,7 +454,8 @@ async function runPDD() {
                         else limitVal = limit;
                     }
                     let barcodeVal = row['ProductID'] || row['Barcode'] || row['Product ID'] || row['SKU'] || "N/A";
-                    limitMap[rawId] = { limit: limitVal, barcode: barcodeVal };
+                    limitMap[rawId] = { limit: limitVal, barcode: barcodeVal, productName: pName }; // [迭代新增] 暂存名称
+                    
                 }
             }
         });
@@ -538,6 +545,7 @@ async function runPDD() {
                             new_records.push({
                                 Platform: "拼多多",
                                 URL: `https://mobile.yangkeduo.com/goods.html?goods_id=${matchedId}`,
+                                Product_Name: info.productName, // [迭代新增] 存入结果记录
                                 SKU_Identifier: barcode, 
                                 True_SKU_Identifier: matchedId, 
                                 Price: currentPrice,
@@ -663,11 +671,13 @@ async function runTaobao() {
             if (['淘系', '淘宝', '天猫'].includes(p)) {
                 if (row['URL']) {
                     // 兼容多种表头写法：PriceLimit, limit_price, 第7列等
+                    const pName = row['ProductName'] || row['商品名称'] || "N/A"; // [迭代新增] 读取商品名称
                     let limit = row['PriceLimit'] || row['Limit_Price'] || row['pricelimit'];
                     let limitVal = limit ? parseFloat(String(limit).replace(/[,￥]/g, '')) : null;
                     
                     tb_tasks.push({
                         url: row['URL'],
+                        productName: pName, // [迭代新增] 暂存名称
                         barcode: row['Barcode'] || row['SKU'] || row['SKU_Identifier'] || row['Product ID'] || row['ProductID'] || "N/A",
                         trueId: row['URL'].match(/[?&]id=(\d+)/) ? row['URL'].match(/[?&]id=(\d+)/)[1] : "N/A",
                         limitPrice: limitVal
@@ -981,6 +991,7 @@ if (final_price_str !== "Not Found") {
             new_records.push({
                 Platform: "淘系",
                 URL: task.url,
+                Product_Name: task.productName, // [迭代新增] 存入结果记录
                 SKU_Identifier: task.barcode,
                 True_SKU_Identifier: task.trueId,
                 Price: final_price_str,
