@@ -1,90 +1,129 @@
-﻿Platform,URL,SKU_Identifier,True_SKU_Identifier,Price,Limit_Price,Price_Status,Scrape_Date,Main_Image_URL
-京东,https://item.jd.com/100135346870.html,云米AI昆仑矿泉净水机 Super 2E 2500,6923185654254,100135346870,Error,1699,脚本错误,2025-12-30 15:18:23,
-京东,https://item.jd.com/100135346870.html,云米AI昆仑矿泉净水机 Super 2E 2500,6923185654254,100135346870,2249.43,1699,高价待调整,2025-12-30 15:18:54,
+﻿Platform,URL,SKU_Identifier,True_SKU_Identifier,Price,Limit_Price,Price_Status,Scrape_Date,Main_Image_URL,
+京东,https://item.jd.com/10093429580106.html,垃圾处理器,6923185610250,10093429580106,899,899,价格正常,2025-12-30 15:21:54,
+京东,https://item.jd.com/10089198115504.html,免镁棒-60L-3000w热水器,6923185611899,10089198115504,799,799,价格正常,2025-12-30 15:23:56,
+京东,https://item.jd.com/100216835595.html,云米AI冷热管线机Super2 Pro,6923185655794,100216835595,1699.00,1699,价格正常,2025-12-30 15:28:28,
+京东,https://item.jd.com/10190186867694.html,云米AI冷热管线机Super2 Pro,6923185655794,10190186867694,1699.00,1699,价格正常,2025-12-30 15:28:52,
+京东,https://item.jd.com/10202290093822.html,"昆仑4 弱碱Pro 1400G",6923185655718,10202290093822,2999.00,2999,价格正常,2025-12-30 15:29:22,
+京东,https://item.jd.com/100113886253.html,云米AI净水器Super 2Y 1200G,6923185653981,100113886253,1399.00,1399,价格正常,2025-12-30 15:30:03,
+淘系,https://detail.tmall.com/item.htm?&id=839274619649&skuId=5932213893350,昆仑3 即热矿泉,6923185654445,839274619649,2399,2399,价格正常,2025-12-30 15:32:14,
+淘系,https://detail.tmall.com/item.htm?&id=831641379841&skuId=5932143705073,云米AI昆仑矿泉净水机 Super 2E 2500,6923185654254,831641379841,1699,1699,价格正常,2025-12-30 15:32:33,
+淘系,https://detail.tmall.com/item.htm?&id=625597690034&skuId=5626578542751,云米·泉先AI净水器蓝调600G+,6923185653592,625597690034,679,679,价格正常,2025-12-30 15:32:39,
+京东,https://item.jd.com/10114588738475.html,云米AI昆仑矿泉净水机 Super 2E 2500,6923185654254,10114588738475,1599,1599,价格正常,2025-12-31 10:07:08,
+京东,https://item.jd.com/10190163229722.html,云米AI冷热管线机Super2 Pro,6923185655794,10190163229722,1599,1599,价格正常,2025-12-31 10:07:30,
+淘系,https://detail.tmall.com/item.htm?&id=839274619649&skuId=5932213893350,昆仑3 即热矿泉,6923185654445,839274619649,2399,2399,价格正常,2025-12-31 10:10:27,
+淘系,https://detail.tmall.com/item.htm?&id=980169298266&skuId=6103649806591,云米昆仑3矿泉净水器2S Pro,6923185656593,980169298266,1999,1999,价格正常,2025-12-31 16:07:00,
+拼多多,https://mobile.yangkeduo.com/goods.html?goods_id=857325968546,前置过滤器,6923185621058,857325968546,399,399,正常,2025-12-30 15:30:14,https://img.pddpic.com/gaudit-image/2025-11-19/f0bb667f196525578a0bf7d0b08e0ddf.jpeg?imageView2/2/w/1700/q/85
+拼多多,https://mobile.yangkeduo.com/goods.html?goods_id=850883552953,"小蓝调600G,MAIN53",6923185653592,850883552953,679,679,正常,2025-12-30 15:30:14,https://img.pddpic.com/gaudit-image/2025-12-13/2f75a25efabe52709911101bc7a5f87f.jpeg?imageView2/2/w/1700/q/85
+拼多多,https://mobile.yangkeduo.com/goods.html?goods_id=849000374681,"鲜活泉2Y-1200G,MAIN36",6923185653981,849000374681,1399,1399,正常,2025-12-30 15:30:14,https://img.pddpic.com/gaudit-image/2025-12-17/f19b05c97df907fc9ea83474fddd3ff0.jpeg?imageView2/2/w/1700/q/85
+拼多多,https://mobile.yangkeduo.com/goods.html?goods_id=388827922980,蓝调烟机+super5.0（天）,S2405071349001,388827922980,1199,1199,正常,2025-12-30 15:30:23,https://img.pddpic.com/gaudit-image/2025-11-18/e8d24a3adb44d7c8e2e04e196e59aa03.jpeg?imageView2/2/w/1700/q/85
+拼多多,https://mobile.yangkeduo.com/goods.html?goods_id=364990106384,"即热1000G,MAIN84",6923185651116,364990106384,1599,1599,正常,2025-12-30 15:30:23,https://img.pddpic.com/gaudit-image/2025-12-09/79e619da424d96e298fa799d59328ba2.jpeg?imageView2/2/w/1700/q/85
+拼多多,https://mobile.yangkeduo.com/goods.html?goods_id=209837375742,flash烟机+power5.0（天然气）,S2409261034001,209837375742,1399,1399,正常,2025-12-30 15:30:23,https://img.pddpic.com/gaudit-image/2025-11-03/9c0066362c32714de18c63ad63d883c8.jpeg?imageView2/2/w/1700/q/85
+拼多多,https://mobile.yangkeduo.com/goods.html?goods_id=861508688697,管线机2E,6923185650966,861508688697,1099,1099,正常,2025-12-31 10:09:20,https://img.pddpic.com/gaudit-image/2025-12-12/2df376b084d675e0f302effa06c84265.jpeg?imageView2/2/w/1700/q/85
+拼多多,https://mobile.yangkeduo.com/goods.html?goods_id=857325968546,前置过滤器,6923185621058,857325968546,399,399,正常,2025-12-31 10:09:20,https://img.pddpic.com/gaudit-image/2025-11-19/f0bb667f196525578a0bf7d0b08e0ddf.jpeg?imageView2/2/w/1700/q/85
+拼多多,https://mobile.yangkeduo.com/goods.html?goods_id=850344043841,昆仑3台净,6923185615415,850344043841,1099,1099,正常,2025-12-31 10:09:20,https://img.pddpic.com/gaudit-image/2025-11-06/80e3cb0b64cd8433adfe2a219466882e.jpeg?imageView2/2/w/1700/q/85
+拼多多,https://mobile.yangkeduo.com/goods.html?goods_id=849648457333,"小昆仑2E,MAIN33",6923185654254,849648457333,1599,1599,正常,2025-12-31 10:09:20,https://img.pddpic.com/gaudit-image/2025-12-15/bda9e66ffa7e0d086121e82a87150a93.jpeg?imageView2/2/w/1700/q/85
+拼多多,https://mobile.yangkeduo.com/goods.html?goods_id=364990106384,"即热1000G,MAIN84",6923185651116,364990106384,1599,1599,正常,2025-12-31 10:09:24,https://img.pddpic.com/gaudit-image/2025-12-09/79e619da424d96e298fa799d59328ba2.jpeg?imageView2/2/w/1700/q/85
 京东,https://item.jd.com/100013447067.html,smart 前置过滤器 （VF4-A）,6923185621058,100013447067,387.03,399,破价警报,2025-12-30 15:19:12,d:\price_scraper\price_screenshots\2025-12-30_JD_6923185621058.png
 京东,https://item.jd.com/10137116625841.html,"即热1000G,MAIN84",6923185651116,10137116625841,1439.1,1599,破价警报,2025-12-30 15:19:29,d:\price_scraper\price_screenshots\2025-12-30_JD_6923185651116.png
 京东,https://item.jd.com/10181702828310.html,小鲸鱼2马桶 300mm,6923185654599,10181702828310,1278.4,1299,破价警报,2025-12-30 15:19:46,d:\price_scraper\price_screenshots\2025-12-30_JD_6923185654599.png
 京东,https://item.jd.com/100124625239.html,6L小厨宝,6923185611233,100124625239,216.03,299,破价警报,2025-12-30 15:20:03,d:\price_scraper\price_screenshots\2025-12-30_JD_6923185611233.png
 京东,https://item.jd.com/10101734415931.html,蓝调烟机,6923185650973,10101734415931,799.2,839,破价警报,2025-12-30 15:20:19,d:\price_scraper\price_screenshots\2025-12-30_JD_6923185650973.png
 京东,https://item.jd.com/10089284956258.html,flash烟机,6923185613664,10089284956258,899,999,破价警报,2025-12-30 15:20:35,d:\price_scraper\price_screenshots\2025-12-30_JD_6923185613664.png
-京东,https://item.jd.com/10196615370143.html,smart烟机,6923185649229,10196615370143,999.00,899,高价待调整,2025-12-30 15:20:47,
 京东,https://item.jd.com/10092678440219.html,super5.0灶具（天然气）,6923185649656,10092678440219,449,499,破价警报,2025-12-30 15:21:03,d:\price_scraper\price_screenshots\2025-12-30_JD_6923185649656.png
-京东,https://item.jd.com/10101734415932.html,蓝调烟机+power5.0（液）,S2411211436001,10101734415932,Not Found,1199,抓取失败,2025-12-30 15:21:19,d:\price_scraper\error_screenshots\fail_JD_9.png
-京东,https://item.jd.com/10089254213735.html,flash烟机+power5.0（天然气）,S2409261034001,10089254213735,Not Found,1399,抓取失败,2025-12-30 15:21:35,d:\price_scraper\error_screenshots\fail_JD_10.png
-京东,https://item.jd.com/10093429580106.html,垃圾处理器,6923185610250,10093429580106,899,899,价格正常,2025-12-30 15:21:54,
 京东,https://item.jd.com/10103268736846.html,消毒柜,6923185604303,10103268736846,849,899,破价警报,2025-12-30 15:22:10,d:\price_scraper\price_screenshots\2025-12-30_JD_6923185604303.png
-京东,https://item.jd.com/10103267064546.html,蒸烤一体机FaceA1,6923185620136,10103267064546,2599,2499,高价待调整,2025-12-30 15:22:22,
 京东,https://item.jd.com/10176913186809.html,蓝调2燃气热水器13L,6923185655688,10176913186809,534.73,699,破价警报,2025-12-30 15:22:39,d:\price_scraper\price_screenshots\2025-12-30_JD_6923185655688.png
 京东,https://item.jd.com/10094509029495.html,1A-60L-3000w热水器,6923185602224,10094509029495,623.2,699,破价警报,2025-12-30 15:22:55,d:\price_scraper\price_screenshots\2025-12-30_JD_6923185602224.png
-京东,https://item.jd.com/10091792539820.html,Air扁筒电热水器,6923185610410,10091792539820,Not Found,799,抓取失败,2025-12-30 15:23:12,d:\price_scraper\error_screenshots\fail_JD_16.png
 京东,https://item.jd.com/10097111681727.html,X1-50L-2000w热水器,6923185614920,10097111681727,449,499,破价警报,2025-12-30 15:23:28,d:\price_scraper\price_screenshots\2025-12-30_JD_6923185614920.png
 京东,https://item.jd.com/10097111681728.html,X1-60L-2000w热水器,6923185614937,10097111681728,549,599,破价警报,2025-12-30 15:23:44,d:\price_scraper\price_screenshots\2025-12-30_JD_6923185614937.png
-京东,https://item.jd.com/10089198115504.html,免镁棒-60L-3000w热水器,6923185611899,10089198115504,799,799,价格正常,2025-12-30 15:23:56,
 京东,https://item.jd.com/10105870187513.html,云米·泉先AI净水器蓝调600G+,6923185653592,10105870187513,629,679,破价警报,2025-12-30 15:24:12,d:\price_scraper\price_screenshots\2025-12-30_JD_6923185653592.png
-京东,https://item.jd.com/10187950646301.html,小海豚2 1000G,6923185654865,10187950646301,1299.00,899,高价待调整,2025-12-30 15:24:28,
 京东,https://item.jd.com/10130854696036.html,小鲸鱼2PRO马桶 300mm,6923185654575,10130854696036,2399.55,2499,破价警报,2025-12-30 15:24:44,d:\price_scraper\price_screenshots\2025-12-30_JD_6923185654575.png
-京东,https://item.jd.com/100105676026.html,云米AI净水器昆仑 Super 2S 1200G,6923185653585,100105676026,2482.42,1899,高价待调整,2025-12-30 15:24:56,
-京东,https://item.jd.com/100200100603.html,鲲鹏净热（热魔方）,6923185656098,100200100603,3499.00,3199,高价待调整,2025-12-30 15:25:08,
-京东,https://item.jd.com/100141797446.html,鲜活泉系列 Smart 1000G(小竹泉）,6923185654247,100141797446,1410.00,1199,高价待调整,2025-12-30 15:25:21,
 京东,https://item.jd.com/10143724381196.html,云米·泉先前置过滤器 Super,6923185649885,10143724381196,416.65,499,破价警报,2025-12-30 15:25:37,d:\price_scraper\price_screenshots\2025-12-30_JD_6923185649885.png
 京东,https://item.jd.com/100118324669.html,云米·泉先前置过滤器 Super,6923185649885,100118324669,484.03,499,破价警报,2025-12-30 15:25:53,d:\price_scraper\price_screenshots\2025-12-30_JD_6923185649885.png
 京东,https://item.jd.com/100094220985.html,云米·泉先AI管线机Master2S,6923185652526,100094220985,872.03,899,破价警报,2025-12-30 15:26:09,d:\price_scraper\price_screenshots\2025-12-30_JD_6923185652526.png
 京东,https://item.jd.com/10111293867587.html,云米·泉先AI管线机Master2S,6923185652526,10111293867587,849,899,破价警报,2025-12-30 15:26:25,d:\price_scraper\price_screenshots\2025-12-30_JD_6923185652526.png
-京东,https://item.jd.com/10190216497508.html,云米AI净饮机Super 2,6923185615415,10190216497508,Not Found,1199,抓取失败,2025-12-30 15:26:41,d:\price_scraper\error_screenshots\fail_JD_30.png
-京东,https://item.jd.com/100215523232.html,昆仑4 制冰台净,6923185655787,100215523232,Not Found,3199,抓取失败,2025-12-30 15:27:03,d:\price_scraper\error_screenshots\fail_JD_31.png
-京东,https://item.jd.com/100193748406.html,云米AI净饮机Super 2,6923185615415,100193748406,Not Found,1199,抓取失败,2025-12-30 15:27:18,d:\price_scraper\error_screenshots\fail_JD_32.png
-京东,https://item.jd.com/10109665694149.html,云米AI净水器Super 2Y 1200G,6923185653981,10109665694149,Not Found,1399,抓取失败,2025-12-30 15:27:34,d:\price_scraper\error_screenshots\fail_JD_33.png
 京东,https://item.jd.com/10143719582452.html,云米·泉先 AI冷热管线机 Super 2E,6923185650966,10143719582452,1099,1199,破价警报,2025-12-30 15:27:49,d:\price_scraper\error_screenshots\fail_JD_34.png
 京东,https://item.jd.com/10114588738475.html,云米AI昆仑矿泉净水机 Super 2E 2500,6923185654254,10114588738475,1599,1699,破价警报,2025-12-30 15:28:00,d:\price_scraper\price_screenshots\2025-12-30_JD_6923185654254.png
 京东,https://item.jd.com/10190163229722.html,云米AI冷热管线机Super2 Pro,6923185655794,10190163229722,1599,1699,破价警报,2025-12-30 15:28:16,d:\price_scraper\price_screenshots\2025-12-30_JD_6923185655794.png
-京东,https://item.jd.com/100216835595.html,云米AI冷热管线机Super2 Pro,6923185655794,100216835595,1699.00,1699,价格正常,2025-12-30 15:28:28,
-京东,https://item.jd.com/100152351404.html,云米AI净水器Super 2Y 1200G,6923185653981,100152351404,1699.00,1399,高价待调整,2025-12-30 15:28:40,
-京东,https://item.jd.com/10190186867694.html,云米AI冷热管线机Super2 Pro,6923185655794,10190186867694,1699.00,1699,价格正常,2025-12-30 15:28:52,
-京东,https://item.jd.com/10116378745406.html,云米AI昆仑矿泉净水机 Super 2E 2500,6923185654254,10116378745406,1998.00,1699,高价待调整,2025-12-30 15:29:02,
-京东,https://item.jd.com/10202290093822.html,昆仑4 弱碱Pro 1400G,6923185655718,10202290093822,2999.00,2999,价格正常,2025-12-30 15:29:22,
 京东,https://item.jd.com/10206797283677.html,昆仑3 即热矿泉,6923185654445,10206797283677,2199,2399,破价警报,2025-12-30 15:29:39,d:\price_scraper\price_screenshots\2025-12-30_JD_6923185654445.png
-京东,https://item.jd.com/100135346870.html,云米昆仑3矿泉净水器2S Pro,6923185656593,100135346870,2249.43,1999,高价待调整,2025-12-30 15:29:51,
-京东,https://item.jd.com/100113886253.html,云米AI净水器Super 2Y 1200G,6923185653981,100113886253,1399.00,1399,价格正常,2025-12-30 15:30:03,
-拼多多,https://mobile.yangkeduo.com/goods.html?goods_id=861508688697,管线机2E,6923185650966,861508688697,1099,1199,破价警报,2025-12-30 15:30:14,https://img.pddpic.com/gaudit-image/2025-12-12/2df376b084d675e0f302effa06c84265.jpeg?imageView2/2/w/1700/q/85
-拼多多,https://mobile.yangkeduo.com/goods.html?goods_id=857557599349,smart烟机,6923185649229,857557599349,823,899,破价警报,2025-12-30 15:30:14,https://img.pddpic.com/gaudit-image/2025-11-19/e59926adb633951a6e82dc2b081238f2.jpeg?imageView2/2/w/1700/q/85
-拼多多,https://mobile.yangkeduo.com/goods.html?goods_id=857325968546,前置过滤器,6923185621058,857325968546,399,399,正常,2025-12-30 15:30:14,https://img.pddpic.com/gaudit-image/2025-11-19/f0bb667f196525578a0bf7d0b08e0ddf.jpeg?imageView2/2/w/1700/q/85
-拼多多,https://mobile.yangkeduo.com/goods.html?goods_id=852932116812,"小海豚600G+,滤芯套装12",6923185653684,852932116812,772,559,高价待调整,2025-12-30 15:30:14,https://img.pddpic.com/gaudit-image/2025-12-11/287437687295083ca938136582960d72.jpeg?imageView2/2/w/1700/q/85
-拼多多,https://mobile.yangkeduo.com/goods.html?goods_id=852614628903,垃圾处理器,6923185610250,852614628903,880,899,破价警报,2025-12-30 15:30:14,https://img.pddpic.com/gaudit-image/2025-11-14/8bb98ef3e6ce8984423ab63a786112dc.jpeg?imageView2/2/w/1700/q/85
-拼多多,https://mobile.yangkeduo.com/goods.html?goods_id=850883552953,"小蓝调600G,MAIN53",6923185653592,850883552953,679,679,正常,2025-12-30 15:30:14,https://img.pddpic.com/gaudit-image/2025-12-13/2f75a25efabe52709911101bc7a5f87f.jpeg?imageView2/2/w/1700/q/85
+拼多多,https://mobile.yangkeduo.com/goods.html?goods_id=861508688697,"管线机2E",6923185650966,861508688697,1099,1199,破价警报,2025-12-30 15:30:14,https://img.pddpic.com/gaudit-image/2025-12-12/2df376b084d675e0f302effa06c84265.jpeg?imageView2/2/w/1700/q/85
+拼多多,https://mobile.yangkeduo.com/goods.html?goods_id=857557599349,"smart烟机",6923185649229,857557599349,823,899,破价警报,2025-12-30 15:30:14,https://img.pddpic.com/gaudit-image/2025-11-19/e59926adb633951a6e82dc2b081238f2.jpeg?imageView2/2/w/1700/q/85
+拼多多,https://mobile.yangkeduo.com/goods.html?goods_id=852614628903,"垃圾处理器",6923185610250,852614628903,880,899,破价警报,2025-12-30 15:30:14,https://img.pddpic.com/gaudit-image/2025-11-14/8bb98ef3e6ce8984423ab63a786112dc.jpeg?imageView2/2/w/1700/q/85
 拼多多,https://mobile.yangkeduo.com/goods.html?goods_id=850344043841,昆仑3台净,6923185615415,850344043841,1099,1199,破价警报,2025-12-30 15:30:14,https://img.pddpic.com/gaudit-image/2025-11-06/80e3cb0b64cd8433adfe2a219466882e.jpeg?imageView2/2/w/1700/q/85
 拼多多,https://mobile.yangkeduo.com/goods.html?goods_id=849648457333,"小昆仑2E,MAIN33",6923185654254,849648457333,1599,1699,破价警报,2025-12-30 15:30:14,https://img.pddpic.com/gaudit-image/2025-12-15/bda9e66ffa7e0d086121e82a87150a93.jpeg?imageView2/2/w/1700/q/85
-拼多多,https://mobile.yangkeduo.com/goods.html?goods_id=849000374681,"鲜活泉2Y-1200G,MAIN36",6923185653981,849000374681,1399,1399,正常,2025-12-30 15:30:14,https://img.pddpic.com/gaudit-image/2025-12-17/f19b05c97df907fc9ea83474fddd3ff0.jpeg?imageView2/2/w/1700/q/85
 拼多多,https://mobile.yangkeduo.com/goods.html?goods_id=848589244342,smart烟机+super5.0（天然气）,S2209231819001,848589244342,1099,1199,破价警报,2025-12-30 15:30:14,https://img.pddpic.com/gaudit-image/2025-11-03/96b0fa122b419fd61c69c2f1b692ab91.jpeg?imageView2/2/w/1700/q/85
 拼多多,https://mobile.yangkeduo.com/goods.html?goods_id=842195971715,"小竹泉1000G,MAIN15",6923185654247,842195971715,901,1199,破价警报,2025-12-30 15:30:19,https://img.pddpic.com/gaudit-image/2025-12-26/7359f6fc6f559ec42fd6a305e8b8d3b6.jpeg?imageView2/2/w/1700/q/85
-拼多多,https://mobile.yangkeduo.com/goods.html?goods_id=819506595979,"小海豚600G+,COPY79",6923185653684,819506595979,748,559,高价待调整,2025-12-30 15:30:19,https://img.pddpic.com/gaudit-image/2025-12-18/86f1092bae1a6e344392bedddd7a4cae.jpeg?imageView2/2/w/1700/q/85
 拼多多,https://mobile.yangkeduo.com/goods.html?goods_id=774960777953,蓝调2燃气热水器13L,6923185655688,774960777953,593,699,破价警报,2025-12-30 15:30:19,https://img.pddpic.com/gaudit-image/2025-10-17/4c72fddca7f9510d18d905279e0bf8b3.jpeg?imageView2/2/w/1700/q/85
 拼多多,https://mobile.yangkeduo.com/goods.html?goods_id=764094861934,蒸烤一体机FaceA1,6923185620136,764094861934,2216,2499,破价警报,2025-12-30 15:30:19,https://img.pddpic.com/gaudit-image/2025-12-02/dd3cc6a9765214e9e642dfd351f26405.jpeg?imageView2/2/w/1700/q/85
 拼多多,https://mobile.yangkeduo.com/goods.html?goods_id=743885774552,蓝调门锁基础款,6923185655381,743885774552,628,659,破价警报,2025-12-30 15:30:19,https://img.pddpic.com/gaudit-image/2025-07-15/eb40901cbb4451e6fa5e32566b12d2c5.jpeg?imageView2/2/w/1700/q/85
-拼多多,https://mobile.yangkeduo.com/goods.html?goods_id=661859626284,小海豚-40L-2000w热水器,6923185681281,661859626284,399,459,破价警报,2025-12-30 15:30:19,https://img.pddpic.com/gaudit-image/2025-11-19/aa6df6358cfcb8c69df4388854d9b1c3.jpeg?imageView2/2/w/1700/q/85
-拼多多,https://mobile.yangkeduo.com/goods.html?goods_id=657344402006,蓝调烟机,6923185650973,657344402006,868,839,高价待调整,2025-12-30 15:30:19,https://img.pddpic.com/gaudit-image/2025-10-20/24da21407bfb024e8cb3fa292ee4fb61.jpeg?imageView2/2/w/1700/q/85
+拼多多,https://mobile.yangkeduo.com/goods.html?goods_id=661859626284,"小海豚-40L-2000w热水器",6923185681281,661859626284,399,459,破价警报,2025-12-30 15:30:19,https://img.pddpic.com/gaudit-image/2025-11-19/aa6df6358cfcb8c69df4388854d9b1c3.jpeg?imageView2/2/w/1700/q/85
 拼多多,https://mobile.yangkeduo.com/goods.html?goods_id=623266189560,super5.0灶具（天然气）,6923185649656,623266189560,444,499,破价警报,2025-12-30 15:30:19,https://img.pddpic.com/gaudit-image/2025-09-25/1cf229b5d49854451e664fbbeea32589.jpeg?imageView2/2/w/1700/q/85
 拼多多,https://mobile.yangkeduo.com/goods.html?goods_id=604410073495,管线机2S,6923185652526,604410073495,879,899,破价警报,2025-12-30 15:30:19,https://img.pddpic.com/gaudit-image/2025-12-12/b0fcd8a36745b047da8a761e243e3b87.jpeg?imageView2/2/w/1700/q/85
-拼多多,https://mobile.yangkeduo.com/goods.html?goods_id=436320010098,X1-50L-2000w热水器,6923185614920,436320010098,444,499,破价警报,2025-12-30 15:30:19,https://img.pddpic.com/gaudit-image/2025-09-25/9b43db604f6db8f55461c695d8e4e40b.jpeg?imageView2/2/w/1700/q/85
-拼多多,https://mobile.yangkeduo.com/goods.html?goods_id=388827922980,蓝调烟机+super5.0（天）,S2405071349001,388827922980,1199,1199,正常,2025-12-30 15:30:23,https://img.pddpic.com/gaudit-image/2025-11-18/e8d24a3adb44d7c8e2e04e196e59aa03.jpeg?imageView2/2/w/1700/q/85
-拼多多,https://mobile.yangkeduo.com/goods.html?goods_id=369876178838,免镁棒-60L-3000w热水器,6923185611899,369876178838,823,799,高价待调整,2025-12-30 15:30:23,https://img.pddpic.com/gaudit-image/2025-09-25/bb1225594c05ce0adad86165e5c0ba01.jpeg?imageView2/2/w/1700/q/85
-拼多多,https://mobile.yangkeduo.com/goods.html?goods_id=364990106384,"即热1000G,MAIN84",6923185651116,364990106384,1599,1599,正常,2025-12-30 15:30:23,https://img.pddpic.com/gaudit-image/2025-12-09/79e619da424d96e298fa799d59328ba2.jpeg?imageView2/2/w/1700/q/85
+拼多多,https://mobile.yangkeduo.com/goods.html?goods_id=436320010098,"X1-50L-2000w热水器",6923185614920,436320010098,444,499,破价警报,2025-12-30 15:30:19,https://img.pddpic.com/gaudit-image/2025-09-25/9b43db604f6db8f55461c695d8e4e40b.jpeg?imageView2/2/w/1700/q/85
 拼多多,https://mobile.yangkeduo.com/goods.html?goods_id=290130975552,Air扁筒电热水器,6923185610410,290130975552,795,799,破价警报,2025-12-30 15:30:23,https://img.pddpic.com/gaudit-image/2025-09-25/2ffeb25a163f29a6fa59062d8bd48a1f.jpeg?imageView2/2/w/1700/q/85
-拼多多,https://mobile.yangkeduo.com/goods.html?goods_id=248791771968,小鲸鱼2PRO马桶 400mm,6923185654582,248791771968,3299,2499,高价待调整,2025-12-30 15:30:23,https://img.pddpic.com/gaudit-image/2025-09-25/54bd436cc3b322d3a9f9a0bd884c7a89.jpeg?imageView2/2/w/1700/q/85
-拼多多,https://mobile.yangkeduo.com/goods.html?goods_id=237591380789,小鲸鱼2马桶 400mm,6923185654605,237591380789,1124,1299,破价警报,2025-12-30 15:30:23,https://img.pddpic.com/gaudit-image/2025-12-02/682a20896c7bc82335c85e3faaee644d.jpeg?imageView2/2/w/1700/q/85
-拼多多,https://mobile.yangkeduo.com/goods.html?goods_id=225501370546,"小海豚600G+,MAIN46",6923185653684,225501370546,619,559,高价待调整,2025-12-30 15:30:23,https://img.pddpic.com/gaudit-image/2025-12-25/121d517c02f6226cf9c7a7acd4074245.jpeg?imageView2/2/w/1700/q/85
+拼多多,https://mobile.yangkeduo.com/goods.html?goods_id=237591380789,"小鲸鱼2马桶 400mm",6923185654605,237591380789,1124,1299,破价警报,2025-12-30 15:30:23,https://img.pddpic.com/gaudit-image/2025-12-02/682a20896c7bc82335c85e3faaee644d.jpeg?imageView2/2/w/1700/q/85
 拼多多,https://mobile.yangkeduo.com/goods.html?goods_id=220820325711,消毒柜,6923185604303,220820325711,838.85,899,破价警报,2025-12-30 15:30:23,https://img.pddpic.com/gaudit-image/2025-09-25/7a9a2859ed469a5a682b0ff7c7fc324f.jpeg?imageView2/2/w/1700/q/85
 拼多多,https://mobile.yangkeduo.com/goods.html?goods_id=219486126363,flash烟机,6923185613664,219486126363,879,999,破价警报,2025-12-30 15:30:23,https://img.pddpic.com/gaudit-image/2025-11-03/726f47979092c5b5e47ee405e97f7504.jpeg?imageView2/2/w/1700/q/85
-拼多多,https://mobile.yangkeduo.com/goods.html?goods_id=209837375742,flash烟机+power5.0（天然气）,S2409261034001,209837375742,1399,1399,正常,2025-12-30 15:30:23,https://img.pddpic.com/gaudit-image/2025-11-03/9c0066362c32714de18c63ad63d883c8.jpeg?imageView2/2/w/1700/q/85
 拼多多,https://mobile.yangkeduo.com/goods.html?goods_id=208073193570,小厨宝6L,6923185611233,208073193570,249,299,破价警报,2025-12-30 15:30:28,https://img.pddpic.com/gaudit-image/2025-09-25/127999368017e44e90ec7aef7977ad88.jpeg?imageView2/2/w/1700/q/85
 拼多多,https://mobile.yangkeduo.com/goods.html?goods_id=208071231700,1A-60L-3000w热水器,6923185602224,208071231700,637,699,破价警报,2025-12-30 15:30:28,https://img.pddpic.com/gaudit-image/2025-09-25/70334999a1a80698fe620382e98dba34.jpeg?imageView2/2/w/1700/q/85
-拼多多,https://mobile.yangkeduo.com/goods.html?goods_id=205458105137,"小海豚2_1000G,MAIN37",6923185654865,205458105137,969,899,高价待调整,2025-12-30 15:30:28,https://img.pddpic.com/gaudit-image/2025-10-24/693abb971b6f27b7bbf51fd3032fb596.jpeg?imageView2/2/w/1700/q/85
 淘系,https://detail.tmall.com/item.htm?id=902116631708&skuId=5759705680450,AI净饮机Super2,6923185615415,902116631708,1139,1199,破价警报,2025-12-30 15:31:51,d:\price_scraper\price_screenshots\2025-12-30_TB_6923185615415.png
-淘系,https://detail.tmall.com/item.htm?&id=975430836279&skuId=6127230887124,云米·泉先AI净水器蓝调600G+,6923185653592,975430836279,799,679,高价待调整,2025-12-30 15:31:58,
 淘系,https://detail.tmall.com/item.htm?&id=818443225222&skuId=5688219802644,管线机2S,6923185652526,818443225222,839,899,破价警报,2025-12-30 15:32:07,d:\price_scraper\price_screenshots\2025-12-30_TB_6923185652526.png
-淘系,https://detail.tmall.com/item.htm?&id=839274619649&skuId=5932213893350,昆仑3 即热矿泉,6923185654445,839274619649,2399,2399,价格正常,2025-12-30 15:32:14,
 淘系,https://detail.tmall.com/item.htm?&id=935542865349&skuId=5999562492773,昆仑4 弱碱Pro 1400G,6923185655718,935542865349,2939,2999,破价警报,2025-12-30 15:32:25,d:\price_scraper\price_screenshots\2025-12-30_TB_6923185655718.png
-淘系,https://detail.tmall.com/item.htm?&id=831641379841&skuId=5932143705073,云米AI昆仑矿泉净水机 Super 2E 2500,6923185654254,831641379841,1699,1699,价格正常,2025-12-30 15:32:33,
-淘系,https://detail.tmall.com/item.htm?&id=625597690034&skuId=5626578542751,云米·泉先AI净水器蓝调600G+,6923185653592,625597690034,679,679,价格正常,2025-12-30 15:32:39,
 淘系,https://detail.tmall.com/item.htm?id=671890389960&skuId=6119280170872,AI净水器Super2Y1200G,6923185653981,671890389960,1389,1399,破价警报,2025-12-30 15:32:49,d:\price_scraper\price_screenshots\2025-12-30_TB_6923185653981.png
 淘系,https://detail.tmall.com/item.htm?&id=818563300013&skuId=5519445640124,管线机2E,6923185650966,818563300013,1139,1199,破价警报,2025-12-30 15:32:59,d:\price_scraper\price_screenshots\2025-12-30_TB_6923185650966.png
 淘系,https://detail.tmall.com/item.htm?&id=1008507536404&skuId=6004590737390,昆仑4 制冰台净,6923185655787,1008507536404,3139,3199,破价警报,2025-12-30 15:33:16,d:\price_scraper\price_screenshots\2025-12-30_TB_6923185655787.png
+京东,https://item.jd.com/100013447067.html,smart 前置过滤器 （VF4-A）,6923185621058,100013447067,387.03,399,破价警报,2025-12-31 10:03:16,d:\price_scraper\price_screenshots\2025-12-31_JD_6923185621058.png
+京东,https://item.jd.com/10143724381196.html,云米·泉先前置过滤器 Super,6923185649885,10143724381196,416.65,599,破价警报,2025-12-31 10:03:31,d:\price_scraper\price_screenshots\2025-12-31_JD_6923185649885.png
+京东,https://item.jd.com/100118324669.html,云米·泉先前置过滤器 Super,6923185649885,100118324669,484.03,599,破价警报,2025-12-31 10:03:46,d:\price_scraper\price_screenshots\2025-12-31_JD_6923185649885.png
+京东,https://item.jd.com/10105870187513.html,云米·泉先AI净水器蓝调600G+,6923185653592,10105870187513,629,749,破价警报,2025-12-31 10:04:01,d:\price_scraper\price_screenshots\2025-12-31_JD_6923185653592.png
+京东,https://item.jd.com/10111293867587.html,云米·泉先AI管线机Master2S,6923185652526,10111293867587,849,859,破价警报,2025-12-31 10:04:28,d:\price_scraper\price_screenshots\2025-12-31_JD_6923185652526.png
+京东,https://item.jd.com/10137116625841.html,"即热1000G,MAIN84",6923185651116,10137116625841,1439.1,1599,破价警报,2025-12-31 10:06:46,d:\price_scraper\price_screenshots\2025-12-31_JD_6923185651116.png
+京东,https://item.jd.com/10206797283677.html,昆仑3 即热矿泉,6923185654445,10206797283677,2199,2399,破价警报,2025-12-31 10:08:35,d:\price_scraper\price_screenshots\2025-12-31_JD_6923185654445.png
+拼多多,https://mobile.yangkeduo.com/goods.html?goods_id=850883552953,"小蓝调600G,MAIN53",6923185653592,850883552953,679,749,破价警报,2025-12-31 10:09:20,https://img.pddpic.com/gaudit-image/2025-12-13/2f75a25efabe52709911101bc7a5f87f.jpeg?imageView2/2/w/1700/q/85
+拼多多,https://mobile.yangkeduo.com/goods.html?goods_id=842195971715,"小竹泉1000G,MAIN15",6923185654247,842195971715,901,999,破价警报,2025-12-31 10:09:20,https://img.pddpic.com/gaudit-image/2025-12-26/7359f6fc6f559ec42fd6a305e8b8d3b6.jpeg?imageView2/2/w/1700/q/85
+淘系,https://detail.tmall.com/item.htm?&id=625597690034&skuId=5626578542751,云米·泉先AI净水器蓝调600G+,6923185653592,625597690034,679,749,破价警报,2025-12-31 10:09:42,d:\price_scraper\price_screenshots\2025-12-31_TB_6923185653592.png
+淘系,https://detail.tmall.com/item.htm?&id=818443225222&skuId=5688219802644,管线机2S,6923185652526,818443225222,839,859,破价警报,2025-12-31 10:09:52,d:\price_scraper\price_screenshots\2025-12-31_TB_6923185652526.png
+京东,https://item.jd.com/100135346870.html,云米AI昆仑矿泉净水机 Super 2E 2500,6923185654254,100135346870,Error,1699,脚本错误,2025-12-30 15:18:23,
+京东,https://item.jd.com/100135346870.html,云米AI昆仑矿泉净水机 Super 2E 2500,6923185654254,100135346870,2249.43,1699,高价待调整,2025-12-30 15:18:54,
+京东,https://item.jd.com/10196615370143.html,smart烟机,6923185649229,10196615370143,999.00,899,高价待调整,2025-12-30 15:20:47,
+京东,https://item.jd.com/10103267064546.html,蒸烤一体机FaceA1,6923185620136,10103267064546,2599,2499,高价待调整,2025-12-30 15:22:22,
+京东,https://item.jd.com/10187950646301.html,小海豚2 1000G,6923185654865,10187950646301,1299.00,899,高价待调整,2025-12-30 15:24:28,
+京东,https://item.jd.com/100105676026.html,云米AI净水器昆仑 Super 2S 1200G,6923185653585,100105676026,2482.42,1899,高价待调整,2025-12-30 15:24:56,
+京东,https://item.jd.com/100200100603.html,鲲鹏净热（热魔方）,6923185656098,100200100603,3499.00,3199,高价待调整,2025-12-30 15:25:08,
+京东,https://item.jd.com/100141797446.html,鲜活泉系列 Smart 1000G(小竹泉）,6923185654247,100141797446,1410.00,1199,高价待调整,2025-12-30 15:25:21,
+京东,https://item.jd.com/100152351404.html,云米AI净水器Super 2Y 1200G,6923185653981,100152351404,1699.00,1399,高价待调整,2025-12-30 15:28:40,
+京东,https://item.jd.com/10116378745406.html,云米AI昆仑矿泉净水机 Super 2E 2500,6923185654254,10116378745406,1998.00,1699,高价待调整,2025-12-30 15:29:02,
+京东,https://item.jd.com/100135346870.html,"云米昆仑3矿泉净水器2S Pro",6923185656593,100135346870,2249.43,1999,高价待调整,2025-12-30 15:29:51,
+拼多多,https://mobile.yangkeduo.com/goods.html?goods_id=852932116812,"小海豚600G+,滤芯套装12",6923185653684,852932116812,772,559,高价待调整,2025-12-30 15:30:14,https://img.pddpic.com/gaudit-image/2025-12-11/287437687295083ca938136582960d72.jpeg?imageView2/2/w/1700/q/85
+拼多多,https://mobile.yangkeduo.com/goods.html?goods_id=819506595979,"小海豚600G+,COPY79",6923185653684,819506595979,748,559,高价待调整,2025-12-30 15:30:19,https://img.pddpic.com/gaudit-image/2025-12-18/86f1092bae1a6e344392bedddd7a4cae.jpeg?imageView2/2/w/1700/q/85
+拼多多,https://mobile.yangkeduo.com/goods.html?goods_id=657344402006,蓝调烟机,6923185650973,657344402006,868,839,高价待调整,2025-12-30 15:30:19,https://img.pddpic.com/gaudit-image/2025-10-20/24da21407bfb024e8cb3fa292ee4fb61.jpeg?imageView2/2/w/1700/q/85
+拼多多,https://mobile.yangkeduo.com/goods.html?goods_id=369876178838,免镁棒-60L-3000w热水器,6923185611899,369876178838,823,799,高价待调整,2025-12-30 15:30:23,https://img.pddpic.com/gaudit-image/2025-09-25/bb1225594c05ce0adad86165e5c0ba01.jpeg?imageView2/2/w/1700/q/85
+拼多多,https://mobile.yangkeduo.com/goods.html?goods_id=248791771968,小鲸鱼2PRO马桶 400mm,6923185654582,248791771968,3299,2499,高价待调整,2025-12-30 15:30:23,https://img.pddpic.com/gaudit-image/2025-09-25/54bd436cc3b322d3a9f9a0bd884c7a89.jpeg?imageView2/2/w/1700/q/85
+拼多多,https://mobile.yangkeduo.com/goods.html?goods_id=225501370546,"小海豚600G+,MAIN46",6923185653684,225501370546,619,559,高价待调整,2025-12-30 15:30:23,https://img.pddpic.com/gaudit-image/2025-12-25/121d517c02f6226cf9c7a7acd4074245.jpeg?imageView2/2/w/1700/q/85
+拼多多,https://mobile.yangkeduo.com/goods.html?goods_id=205458105137,"小海豚2_1000G,MAIN37",6923185654865,205458105137,969,899,高价待调整,2025-12-30 15:30:28,https://img.pddpic.com/gaudit-image/2025-10-24/693abb971b6f27b7bbf51fd3032fb596.jpeg?imageView2/2/w/1700/q/85
+淘系,https://detail.tmall.com/item.htm?&id=975430836279&skuId=6127230887124,云米·泉先AI净水器蓝调600G+,6923185653592,975430836279,799,679,高价待调整,2025-12-30 15:31:58,
+京东,https://item.jd.com/100094220985.html,云米·泉先AI管线机Master2S,6923185652526,100094220985,872.03,859,高价待调整,2025-12-31 10:04:12,
+京东,https://item.jd.com/10187950646301.html,小海豚2 1000G,6923185654865,10187950646301,1299.00,899,高价待调整,2025-12-31 10:04:39,
+京东,https://item.jd.com/100135346870.html,云米AI昆仑矿泉净水机 Super 2E 2500,6923185654254,100135346870,2377.00,1599,高价待调整,2025-12-31 10:06:57,
+京东,https://item.jd.com/10116378745406.html,云米AI昆仑矿泉净水机 Super 2E 2500,6923185654254,10116378745406,1998.00,1599,高价待调整,2025-12-31 10:07:19,
+京东,https://item.jd.com/100216835595.html,云米AI冷热管线机Super2 Pro,6923185655794,100216835595,1699.00,1599,高价待调整,2025-12-31 10:07:41,
+京东,https://item.jd.com/10190186867694.html,云米AI冷热管线机Super2 Pro,6923185655794,10190186867694,1699.00,1599,高价待调整,2025-12-31 10:07:52,
+京东,https://item.jd.com/100105676026.html,云米AI净水器昆仑 Super 2S 1200G,6923185653585,100105676026,2899.00,1799,高价待调整,2025-12-31 10:08:08,
+京东,https://item.jd.com/100135346870.html,云米昆仑3矿泉净水器2S Pro,6923185656593,100135346870,2377.00,1999,高价待调整,2025-12-31 10:08:19,
+京东,https://item.jd.com/10202290093822.html,昆仑4 弱碱Pro 1400G,6923185655718,10202290093822,2999.00,2699,高价待调整,2025-12-31 10:08:46,
+京东,https://item.jd.com/100215523232.html,昆仑4 制冰台净,6923185655787,100215523232,3199.00,2999,高价待调整,2025-12-31 10:08:57,
+京东,https://item.jd.com/100200100603.html,鲲鹏净热（热魔方）,6923185656098,100200100603,3499.00,3199,高价待调整,2025-12-31 10:09:08,
+拼多多,https://mobile.yangkeduo.com/goods.html?goods_id=852932116812,"小海豚600G+,滤芯套装12",6923185653684,852932116812,772,559,高价待调整,2025-12-31 10:09:20,https://img.pddpic.com/gaudit-image/2025-12-11/287437687295083ca938136582960d72.jpeg?imageView2/2/w/1700/q/85
+拼多多,https://mobile.yangkeduo.com/goods.html?goods_id=849000374681,"鲜活泉2Y-1200G,MAIN36",6923185653981,849000374681,1399,1199,高价待调整,2025-12-31 10:09:20,https://img.pddpic.com/gaudit-image/2025-12-17/f19b05c97df907fc9ea83474fddd3ff0.jpeg?imageView2/2/w/1700/q/85
+拼多多,https://mobile.yangkeduo.com/goods.html?goods_id=819506595979,"小海豚600G+,COPY79",6923185653684,819506595979,748,559,高价待调整,2025-12-31 10:09:20,https://img.pddpic.com/gaudit-image/2025-12-18/86f1092bae1a6e344392bedddd7a4cae.jpeg?imageView2/2/w/1700/q/85
+拼多多,https://mobile.yangkeduo.com/goods.html?goods_id=604410073495,管线机2S,6923185652526,604410073495,879,859,高价待调整,2025-12-31 10:09:20,https://img.pddpic.com/gaudit-image/2025-12-12/b0fcd8a36745b047da8a761e243e3b87.jpeg?imageView2/2/w/1700/q/85
+拼多多,https://mobile.yangkeduo.com/goods.html?goods_id=225501370546,"小海豚600G+,MAIN46",6923185653684,225501370546,619,559,高价待调整,2025-12-31 10:09:24,https://img.pddpic.com/gaudit-image/2025-12-25/121d517c02f6226cf9c7a7acd4074245.jpeg?imageView2/2/w/1700/q/85
+拼多多,https://mobile.yangkeduo.com/goods.html?goods_id=205458105137,"小海豚2_1000G,MAIN37",6923185654865,205458105137,969,899,高价待调整,2025-12-31 10:09:24,https://img.pddpic.com/gaudit-image/2025-10-24/693abb971b6f27b7bbf51fd3032fb596.jpeg?imageView2/2/w/1700/q/85
+淘系,https://detail.tmall.com/item.htm?&id=975430836279&skuId=6127230887124,云米·泉先AI净水器蓝调600G+,6923185653592,975430836279,799,749,高价待调整,2025-12-31 10:09:33,
+淘系,https://detail.tmall.com/item.htm?&id=818563300013&skuId=5519445640124,管线机2E,6923185650966,818563300013,1139,1099,高价待调整,2025-12-31 10:09:58,
+淘系,https://detail.tmall.com/item.htm?id=902116631708&skuId=5759705680450,AI净饮机Super2,6923185615415,902116631708,1139,1099,高价待调整,2025-12-31 10:10:06,
+淘系,https://detail.tmall.com/item.htm?id=671890389960&skuId=6119280170872,AI净水器Super2Y1200G,6923185653981,671890389960,1339,1199,高价待调整,2025-12-31 10:10:13,
+淘系,https://detail.tmall.com/item.htm?&id=831641379841&skuId=5932143705073,云米AI昆仑矿泉净水机 Super 2E 2500,6923185654254,831641379841,1699,1599,高价待调整,2025-12-31 10:10:20,
+淘系,https://detail.tmall.com/item.htm?&id=935542865349&skuId=5999562492773,昆仑4 弱碱Pro 1400G,6923185655718,935542865349,2939,2699,高价待调整,2025-12-31 10:10:33,
+淘系,https://detail.tmall.com/item.htm?&id=1008507536404&skuId=6004590737390,昆仑4 制冰台净,6923185655787,1008507536404,3139,2999,高价待调整,2025-12-31 10:10:41,
+京东,https://item.jd.com/100135346870.html,云米昆仑3矿泉净水器2S Pro,6923185656593,100135346870,2377.00,1999,高价待调整,2025-12-31 16:06:40,
+京东,https://item.jd.com/100270650122.html,云米昆仑3矿泉净水器2S Pro,6923185656593,100270650122,2821.00,1999,高价待调整,2025-12-31 16:06:47,

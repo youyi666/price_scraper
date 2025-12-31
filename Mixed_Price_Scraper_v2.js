@@ -292,7 +292,7 @@ async function runJD() {
                                     overlay.id = 'js-watermark-overlay';
                                     Object.assign(overlay.style, {
                                         position: 'fixed',
-                                        top: '15',
+                                        top: '10',
                                         left: '0',
                                         width: '100vw',
                                         height: '100vh',
@@ -307,10 +307,10 @@ async function runJD() {
                                     Object.assign(div.style, {
                                         position: 'fixed',
                                         alignItems: 'center',
-                                        top: '70%',
+                                        top: '60%',
                                         left: '50%',
                                         transform: 'translate(-50%, -50%)', // 初始定位
-                                        padding: '25px 45px',
+                                        padding: '24px 44px',
                                         backgroundColor: 'rgba(0, 0, 0, 0.85)',
                                         color: '#ff0000',
                                         zIndex: '99999',
@@ -1035,8 +1035,8 @@ async function main() {
 // ★★★ 调试开关区 ★★★
 // 将需要运行的模块设为 true，不需要的设为 false
 const RUN_CONFIG = {
-    JD: false,      // 京东开关：调试淘宝时设为 false
-    PDD: false,     // 拼多多开关：调试淘宝时设为 false
+    JD: true,      // 京东开关：调试淘宝时设为 false
+    PDD: true,     // 拼多多开关：调试淘宝时设为 false
     TAOBAO: true    // 淘系开关：调试时设为 true
 };
 
