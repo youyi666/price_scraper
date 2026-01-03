@@ -1,22 +1,45 @@
 {
-  "name": "price_scraper",
-  "version": "1.0.0",
-  "main": "JD_run_jingdong_scraper.js",
-  "scripts": {},
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "devDependencies": {
-    "@playwright/test": "^1.57.0",
-    "@types/node": "^25.0.3"
+  "name": "mixed-price-scraper-pro",
+  "version": "3.2.0",
+  "description": "全平台价格监控系统 - 专业版",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win --x64"
+  },
+  "build": {
+    "appId": "com.scraper.pro",
+    "productName": "PriceMonitor_Pro",
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": "nsis",
+      "icon": "icon.ico",
+      "requestedExecutionLevel": "asInvoker"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true
+    },
+    "extraResources": [
+      "scraper_engine.js",
+      "tasks.xlsx",
+      "config.json",
+      "node_modules/**"
+    ]
   },
   "dependencies": {
-    "exceljs": "^4.4.0",
-    "luxon": "^3.7.2",
+    "electron": "^28.0.0",
+    "exceljs": "^4.3.0",
+    "luxon": "^3.4.4",
+    "playwright": "^1.40.0",
     "playwright-extra": "^4.3.6",
     "puppeteer-extra-plugin-stealth": "^2.11.2",
-    "sqlite3": "^5.1.7",
     "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "electron-builder": "^24.9.1"
   }
 }
