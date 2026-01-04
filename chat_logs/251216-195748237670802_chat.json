@@ -1,0 +1,744 @@
+[
+  {
+    "time": "2025-12-07 13:53:14",
+    "role": "用户",
+    "name": "韩***",
+    "type": "text",
+    "content": "为什么现在都没人来拿货呢？"
+  },
+  {
+    "time": "2025-12-07 13:53:37",
+    "role": "客服",
+    "name": "viomi英英sk",
+    "type": "text",
+    "content": "是指什么呢，亲"
+  },
+  {
+    "time": "2025-12-07 13:54:14",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "消费者申请售后，建议先与消费者友好协商"
+  },
+  {
+    "time": "2025-12-07 13:54:34",
+    "role": "客服",
+    "name": "viomi英英sk",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2025-12-07/9a292a32-9fd6-43b4-b08c-b446e46b330b.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-07 13:54:36",
+    "role": "客服",
+    "name": "viomi英英sk",
+    "type": "text",
+    "content": "关于七天无理由退换货：自买家签收商品后的次日零时开始起算，满168小时为7天。买家签收商品时间以物流签收时间为准），且符合以下条件： 1）不影商品完好； 2）保证产品外包装、配件、赠品等完整； 3）提供产品图片、外包装图片； 4）如有赠品、发票，连同赠品、发票一起寄回； 5）保证产品完好，如运输途中发生破损将无法进行退换货； 6）使用过的产品一律不退换； 7）退回运费由买家承担，不支持到付及自提。 8）按照图例要求提供图片核实申请"
+  },
+  {
+    "time": "2025-12-07 13:54:37",
+    "role": "用户",
+    "name": "韩***",
+    "type": "text",
+    "content": "我做了退货,没人来取货啊！"
+  },
+  {
+    "time": "2025-12-07 13:54:45",
+    "role": "客服",
+    "name": "viomi英英sk",
+    "type": "text",
+    "content": "产品安装了嘛"
+  },
+  {
+    "time": "2025-12-07 13:54:49",
+    "role": "用户",
+    "name": "韩***",
+    "type": "text",
+    "content": "没有"
+  },
+  {
+    "time": "2025-12-07 13:54:54",
+    "role": "用户",
+    "name": "韩***",
+    "type": "text",
+    "content": "买重复了"
+  },
+  {
+    "time": "2025-12-07 13:54:59",
+    "role": "客服",
+    "name": "viomi英英sk",
+    "type": "text",
+    "content": "拍下SN码，这边审核的"
+  },
+  {
+    "time": "2025-12-07 13:55:09",
+    "role": "用户",
+    "name": "韩***",
+    "type": "text",
+    "content": "我买了3台，其中选了一台的"
+  },
+  {
+    "time": "2025-12-07 13:55:21",
+    "role": "客服",
+    "name": "viomi英英sk",
+    "type": "text",
+    "content": "拍下机器的SN码，这边审核处理"
+  },
+  {
+    "time": "2025-12-07 13:55:28",
+    "role": "用户",
+    "name": "韩***",
+    "type": "text",
+    "content": "Sn码？"
+  },
+  {
+    "time": "2025-12-07 13:55:32",
+    "role": "客服",
+    "name": "viomi英英sk",
+    "type": "text",
+    "content": "您好！SN码是设备的唯一识别码，通常印刷在产品包装外侧、机器背后底部条码处，通常由数字和“/”组成，如：“SN:000309/XXXXXXXX”。"
+  },
+  {
+    "time": "2025-12-07 13:56:21",
+    "role": "用户",
+    "name": "韩***",
+    "type": "text",
+    "content": "我得看下"
+  },
+  {
+    "time": "2025-12-07 13:56:25",
+    "role": "客服",
+    "name": "viomi英英sk",
+    "type": "text",
+    "content": "[动画表情]"
+  },
+  {
+    "time": "2025-12-07 13:56:44",
+    "role": "用户",
+    "name": "韩***",
+    "type": "text",
+    "content": "我退货有2周了，怎么现在才问"
+  },
+  {
+    "time": "2025-12-07 13:56:57",
+    "role": "客服",
+    "name": "viomi英英sk",
+    "type": "text",
+    "content": "您可以看看记录哈，这边一直有给您说的呢"
+  },
+  {
+    "time": "2025-12-07 15:18:48",
+    "role": "用户",
+    "name": "韩***",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-user-v1/2025-12-07/434f9737-f6da-4cd5-88c6-dc7f0b7f619d.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-07 15:18:48",
+    "role": "用户",
+    "name": "韩***",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-user-v1/2025-12-07/8a3f8f78-b5d2-4d6b-a1f3-322326e67822.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-07 15:18:49",
+    "role": "用户",
+    "name": "韩***",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-user-v1/2025-12-07/8d992d9b-56a7-47ca-b95c-c1fd056b9bc5.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-07 15:19:01",
+    "role": "客服",
+    "name": "viomi英英sk",
+    "type": "text",
+    "content": "订单申请售后哈，这边为您审核"
+  },
+  {
+    "time": "2025-12-07 15:21:44",
+    "role": "客服",
+    "name": "viomi英英sk",
+    "type": "text",
+    "content": "您需要申请售后，这边才能审核处理"
+  },
+  {
+    "time": "2025-12-07 17:22:19",
+    "role": "客服",
+    "name": "viomi英英sk",
+    "type": "text",
+    "content": "亲，抱歉给您带来了不好的购物体验~ 针对您描述的问题，还请把有问题的商品拍张照片给我们，我们会尽快处理您的申请~"
+  },
+  {
+    "time": "2025-12-07 17:23:22",
+    "role": "客服",
+    "name": "viomi英英sk",
+    "type": "text",
+    "content": "您的退货申请已通过，请按商家退货地址在7天内退回。推荐您使用“官方退货”服务（支持上门取件等方式），可享官方补贴价格更低，若您自行退回商品，请不要使用到付件，寄出后请及时填写快递单号。祝您生活愉快"
+  },
+  {
+    "time": "2025-12-08 10:54:26",
+    "role": "用户",
+    "name": "韩***",
+    "type": "text",
+    "content": "订单编号:251119-449388296550802"
+  },
+  {
+    "time": "2025-12-08 10:54:27",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[待用户寄出]"
+  },
+  {
+    "time": "2025-12-08 10:54:34",
+    "role": "用户",
+    "name": "韩***",
+    "type": "text",
+    "content": "怎么还不取件"
+  },
+  {
+    "time": "2025-12-08 10:54:47",
+    "role": "客服",
+    "name": "viomi英英sk",
+    "type": "text",
+    "content": "收件人： 李红梅（云米仓） 收件人地址： 广东省佛山市顺德区勒流镇黄连大道1号佛山逸语仓库"
+  },
+  {
+    "time": "2025-12-08 10:54:48",
+    "role": "用户",
+    "name": "韩***",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-user-v1/2025-12-08/8cdc861e-57bd-4af0-8690-cd9bae4ef68d.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-08 10:54:48",
+    "role": "用户",
+    "name": "韩***",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-user-v1/2025-12-08/c1cf3c65-b8c9-444d-9ff4-65bcf3c2e9a3.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-08 10:54:48",
+    "role": "用户",
+    "name": "韩***",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-user-v1/2025-12-08/de518814-26aa-4a6c-a3a4-b90897984695.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-08 10:54:49",
+    "role": "用户",
+    "name": "韩***",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-user-v1/2025-12-08/39b6b356-6577-4767-b89e-fabd5c3459bb.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-08 10:54:52",
+    "role": "客服",
+    "name": "viomi英英sk",
+    "type": "text",
+    "content": "收件人： 李红梅（云米仓） 收件人地址： 广东省佛山市顺德区勒流镇黄连大道1号佛山逸语仓库 收件人电话： 13288291084"
+  },
+  {
+    "time": "2025-12-08 10:55:03",
+    "role": "客服",
+    "name": "viomi英英sk",
+    "type": "text",
+    "content": "这边没有取件的哦，这边自行按照地址寄回的哈"
+  },
+  {
+    "time": "2025-12-08 10:55:18",
+    "role": "用户",
+    "name": "韩***",
+    "type": "text",
+    "content": "我们要寄出吗？"
+  },
+  {
+    "time": "2025-12-08 10:55:32",
+    "role": "客服",
+    "name": "viomi英英sk",
+    "type": "text",
+    "content": "是的哈"
+  },
+  {
+    "time": "2025-12-08 10:55:52",
+    "role": "用户",
+    "name": "韩***",
+    "type": "text",
+    "content": "为什么没人告知我们"
+  },
+  {
+    "time": "2025-12-08 10:55:54",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "请尽快解决售后问题，避免平台介入退款"
+  },
+  {
+    "time": "2025-12-08 10:56:04",
+    "role": "客服",
+    "name": "viomi英英sk",
+    "type": "text",
+    "content": "非质量问题，自行寄回的呢"
+  },
+  {
+    "time": "2025-12-12 15:50:06",
+    "role": "用户",
+    "name": "韩***",
+    "type": "text",
+    "content": "这个已经退了，请退款"
+  },
+  {
+    "time": "2025-12-12 15:50:08",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "请尽快解决售后问题，避免平台介入退款"
+  },
+  {
+    "time": "2025-12-12 15:50:19",
+    "role": "客服",
+    "name": "viomi英英sk",
+    "type": "text",
+    "content": "这边会审核的"
+  },
+  {
+    "time": "2025-12-15 01:43:38",
+    "role": "用户",
+    "name": "韩***",
+    "type": "text",
+    "content": "怎么还没退款，"
+  },
+  {
+    "time": "2025-12-15 01:43:41",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "请尽快解决售后问题，避免平台介入退款"
+  },
+  {
+    "time": "2025-12-15 01:43:50",
+    "role": "用户",
+    "name": "韩***",
+    "type": "text",
+    "content": "我要投诉了，太慢了"
+  },
+  {
+    "time": "2025-12-15 01:43:51",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "若您在购物过程中有不愉快的体验，可投诉商家"
+  },
+  {
+    "time": "2025-12-15 01:47:24",
+    "role": "用户",
+    "name": "韩***",
+    "type": "text",
+    "content": "订单编号:251119-449388296550802"
+  },
+  {
+    "time": "2025-12-15 01:47:34",
+    "role": "用户",
+    "name": "韩***",
+    "type": "text",
+    "content": "请及时处理"
+  },
+  {
+    "time": "2025-12-15 08:05:52",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "主账号 将该会话转移给 viomi小云朵，请及时处理"
+  },
+  {
+    "time": "2025-12-15 08:06:03",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "小主，当前咨询量较大，客服正在加急处理每一条消息～ 您的问题会按提问顺序逐一回复，感谢您的理解[玫瑰]"
+  },
+  {
+    "time": "2025-12-15 09:16:20",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "viomi小云朵 将该会话转移给 viomi范范sk，并留言：退款"
+  },
+  {
+    "time": "2025-12-15 09:16:39",
+    "role": "客服",
+    "name": "viomi范范sk",
+    "type": "text",
+    "content": "关于七天无理由退换货：自买家签收商品后的次日零时开始起算，满168小时为7天。买家签收商品时间以物流签收时间为准），且符合以下条件： 1）不影商品完好； 2）保证产品外包装、配件、赠品等完整； 3）提供产品图片、外包装图片； 4）如有赠品、发票，连同赠品、发票一起寄回； 5）保证产品完好，如运输途中发生破损将无法进行退换货； 6）使用过的产品一律不退换； 7）退回运费由买家承担，不支持到付及自提。 8）按照图例要求提供图片核实申请"
+  },
+  {
+    "time": "2025-12-15 09:16:41",
+    "role": "客服",
+    "name": "viomi范范sk",
+    "type": "image",
+    "content": "https://t00img.yangkeduo.com/chat/images/2025-12-15/31ee271d-03e1-4f14-99c5-29991bab90b9.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-23 13:58:24",
+    "role": "用户",
+    "name": "韩***",
+    "type": "text",
+    "content": "订单编号:251121-034770860390802"
+  },
+  {
+    "time": "2025-12-23 13:58:29",
+    "role": "用户",
+    "name": "韩***",
+    "type": "text",
+    "content": "在？"
+  },
+  {
+    "time": "2025-12-23 13:58:36",
+    "role": "客服",
+    "name": "viomi慧慧sk",
+    "type": "text",
+    "content": "在的呢，请问有什么可以帮到您"
+  },
+  {
+    "time": "2025-12-23 13:58:42",
+    "role": "用户",
+    "name": "韩***",
+    "type": "text",
+    "content": "怎么还没有退款啊？"
+  },
+  {
+    "time": "2025-12-23 13:58:47",
+    "role": "用户",
+    "name": "韩***",
+    "type": "text",
+    "content": "有什么问题吗？"
+  },
+  {
+    "time": "2025-12-23 13:58:57",
+    "role": "客服",
+    "name": "viomi慧慧sk",
+    "type": "text",
+    "content": "售后关闭了"
+  },
+  {
+    "time": "2025-12-23 13:59:00",
+    "role": "客服",
+    "name": "viomi慧慧sk",
+    "type": "text",
+    "content": "您重新申请一下"
+  },
+  {
+    "time": "2025-12-23 13:59:21",
+    "role": "用户",
+    "name": "韩***",
+    "type": "text",
+    "content": "货都给你寄出去了啊"
+  },
+  {
+    "time": "2025-12-23 13:59:28",
+    "role": "用户",
+    "name": "韩***",
+    "type": "text",
+    "content": "你帮我操作一下"
+  },
+  {
+    "time": "2025-12-23 13:59:38",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "消费者催促您，请尽快回复！"
+  },
+  {
+    "time": "2025-12-23 13:59:43",
+    "role": "客服",
+    "name": "viomi慧慧sk",
+    "type": "text",
+    "content": "请去申请售后"
+  },
+  {
+    "time": "2025-12-23 14:03:18",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "消费者申请售后，建议先与消费者友好协商"
+  },
+  {
+    "time": "2025-12-23 14:03:47",
+    "role": "客服",
+    "name": "viomi慧慧sk",
+    "type": "text",
+    "content": "寄回的物流单号麻烦提供一下"
+  },
+  {
+    "time": "2025-12-23 14:03:55",
+    "role": "用户",
+    "name": "韩***",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-user-v1/2025-12-23/7825f7ac-9576-4aef-8824-7178bb876af2.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-23 14:04:08",
+    "role": "客服",
+    "name": "viomi慧慧sk",
+    "type": "text",
+    "content": "请提供寄出的物流单号谢谢"
+  },
+  {
+    "time": "2025-12-23 14:04:24",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[聊天记录]"
+  },
+  {
+    "time": "2025-12-23 14:04:30",
+    "role": "用户",
+    "name": "韩***",
+    "type": "text",
+    "content": "2台"
+  },
+  {
+    "time": "2025-12-23 14:04:40",
+    "role": "客服",
+    "name": "viomi慧慧sk",
+    "type": "text",
+    "content": "麻烦提供寄出的物流单号"
+  },
+  {
+    "time": "2025-12-23 14:05:01",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "消费者申请售后，建议先与消费者友好协商"
+  },
+  {
+    "time": "2025-12-23 14:05:06",
+    "role": "用户",
+    "name": "韩***",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-user-v1/2025-12-23/17714635-50c2-49cb-90c3-8657784e5015.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-23 14:05:08",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "消费者反馈的订单问题，已为您创建为工单，请您及时跟进处理"
+  },
+  {
+    "time": "2025-12-23 14:05:20",
+    "role": "客服",
+    "name": "viomi慧慧sk",
+    "type": "text",
+    "content": "物流单号提供一下呢"
+  },
+  {
+    "time": "2025-12-23 14:09:14",
+    "role": "用户",
+    "name": "韩***",
+    "type": "text",
+    "content": "信丰xf0054989638"
+  },
+  {
+    "time": "2025-12-23 14:09:20",
+    "role": "用户",
+    "name": "韩***",
+    "type": "text",
+    "content": "请尽快处理"
+  },
+  {
+    "time": "2025-12-23 14:09:57",
+    "role": "客服",
+    "name": "viomi慧慧sk",
+    "type": "text",
+    "content": "两个机器一个订单号吗"
+  },
+  {
+    "time": "2025-12-23 14:10:01",
+    "role": "客服",
+    "name": "viomi慧慧sk",
+    "type": "text",
+    "content": "这是什么快递呢"
+  },
+  {
+    "time": "2025-12-23 14:10:59",
+    "role": "用户",
+    "name": "韩***",
+    "type": "text",
+    "content": "信丰快递"
+  },
+  {
+    "time": "2025-12-23 14:11:15",
+    "role": "客服",
+    "name": "viomi慧慧sk",
+    "type": "text",
+    "content": "两个机器一个物流单号吗"
+  },
+  {
+    "time": "2025-12-23 14:11:47",
+    "role": "用户",
+    "name": "韩***",
+    "type": "text",
+    "content": "是的，买重复了，后来我用了。单级的 也是你们的"
+  },
+  {
+    "time": "2025-12-23 14:11:49",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "消费者反馈的订单问题，已为您创建为工单，请您及时跟进处理"
+  },
+  {
+    "time": "2025-12-23 14:11:50",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "请尽快解决售后问题，避免平台介入退款"
+  },
+  {
+    "time": "2025-12-23 14:12:10",
+    "role": "客服",
+    "name": "viomi慧慧sk",
+    "type": "text",
+    "content": "这个订单号没有查询物流信息哦"
+  },
+  {
+    "time": "2025-12-23 14:12:12",
+    "role": "用户",
+    "name": "韩***",
+    "type": "text",
+    "content": "拼多多退货也太慢了吧，也太坏了吧"
+  },
+  {
+    "time": "2025-12-23 14:12:21",
+    "role": "客服",
+    "name": "viomi慧慧sk",
+    "type": "text",
+    "content": "您这边提供一下物流走件信息这边核实一下呢"
+  },
+  {
+    "time": "2025-12-23 14:12:25",
+    "role": "用户",
+    "name": "韩***",
+    "type": "text",
+    "content": "你们都查收了"
+  },
+  {
+    "time": "2025-12-23 14:12:42",
+    "role": "客服",
+    "name": "viomi慧慧sk",
+    "type": "text",
+    "content": "没有查询到走件信息呢"
+  },
+  {
+    "time": "2025-12-23 14:12:43",
+    "role": "客服",
+    "name": "viomi慧慧sk",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2025-12-23/a47371de-616f-4a10-8111-831edce79938.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-23 14:13:01",
+    "role": "客服",
+    "name": "viomi慧慧sk",
+    "type": "text",
+    "content": "您这边提供一下物流走件信息截图哦"
+  },
+  {
+    "time": "2025-12-23 14:13:33",
+    "role": "用户",
+    "name": "韩***",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-user-v1/2025-12-23/64ee58fa-360f-4a3e-8c9a-5983962508cc.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-23 14:13:33",
+    "role": "用户",
+    "name": "韩***",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-user-v1/2025-12-23/5d421b3e-ce17-420a-9d94-656ba133689d.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-23 14:13:34",
+    "role": "用户",
+    "name": "韩***",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-user-v1/2025-12-23/8070c0ba-edc9-436c-99c3-60a09f548051.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-23 14:13:50",
+    "role": "客服",
+    "name": "viomi慧慧sk",
+    "type": "text",
+    "content": "好哒~"
+  },
+  {
+    "time": "2025-12-23 14:13:50",
+    "role": "用户",
+    "name": "韩***",
+    "type": "text",
+    "content": "我们要给你服务 是吧？"
+  },
+  {
+    "time": "2025-12-23 14:14:17",
+    "role": "客服",
+    "name": "viomi慧慧sk",
+    "type": "text",
+    "content": "这边帮您核实中哦，核实成功后再给您答复哦"
+  },
+  {
+    "time": "2025-12-23 14:19:30",
+    "role": "用户",
+    "name": "韩***",
+    "type": "text",
+    "content": "好优秀的服务啊？[吐]"
+  },
+  {
+    "time": "2025-12-23 14:19:41",
+    "role": "客服",
+    "name": "viomi慧慧sk",
+    "type": "text",
+    "content": "实在不好意思~不过您的心情我能理解的，会尽快帮您处理的呢~"
+  },
+  {
+    "time": "2025-12-23 15:24:23",
+    "role": "客服",
+    "name": "viomi慧慧sk",
+    "type": "text",
+    "content": "您的退货申请已通过，请按商家退货地址在7天内退回。推荐您使用“官方退货”服务（支持上门取件等方式），可享官方补贴价格更低，若您自行退回商品，请不要使用到付件，寄出后请及时填写快递单号。祝您生活愉快"
+  },
+  {
+    "time": "2025-12-25 11:55:44",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "消费者反馈的订单问题，已为您创建为工单，请您及时跟进处理"
+  },
+  {
+    "time": "2025-12-25 11:55:46",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "消费者反馈的订单问题，已为您创建为工单，请您及时跟进处理"
+  },
+  {
+    "time": "2025-12-25 20:59:50",
+    "role": "用户",
+    "name": "韩***",
+    "type": "text",
+    "content": "有一个处理了，这个还没处理哦"
+  },
+  {
+    "time": "2025-12-25 21:00:16",
+    "role": "客服",
+    "name": "viomi慧慧sk",
+    "type": "text",
+    "content": "嗯呢 有记录的哈"
+  },
+  {
+    "time": "2025-12-25 21:00:34",
+    "role": "客服",
+    "name": "viomi慧慧sk",
+    "type": "text",
+    "content": "另一个也在核实退回情况 核实好给您处理哈"
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "time": "2025-12-19 20:32:20",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[常见问题列表]"
+  },
+  {
+    "time": "2025-12-19 20:32:21",
+    "role": "用户",
+    "name": "固***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610&_oak_rcto=YWLKx4OqrViIV2ub9RrRZg5mZeyfHfis5qywbkgCUta8TYYQpva8PvBT&page_from=63&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2025-12-19 20:32:27",
+    "role": "用户",
+    "name": "固***",
+    "type": "text",
+    "content": "这个是净水器还是滤芯"
+  },
+  {
+    "time": "2025-12-19 20:32:40",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "净水器"
+  },
+  {
+    "time": "2025-12-19 20:33:34",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "【小海豚3净水器】纳斯达克上市品牌全球平台国内新品首发~ 【一净到底】6级纯物理过滤，去除重金属守护孩子成长 【一机守护】 0阻垢剂不含双酚A，孕妈宝宝安心喝 【一触即饮】4秒就能接满一杯水，随时开怀畅饮 【一芯五年】5年长效RO滤芯，用得久真省芯 【一按换芯】弹扣式一按一拿，爸妈也能轻松换芯"
+  },
+  {
+    "time": "2025-12-19 20:35:18",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "小云朵您好，这边还没有下单是有什么顾虑吗？有任何问题都可以咨询我的呢"
+  }
+]

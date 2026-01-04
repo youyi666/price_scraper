@@ -1,0 +1,520 @@
+[
+  {
+    "time": "2025-12-30 13:26:34",
+    "role": "用户",
+    "name": "m***",
+    "type": "text",
+    "content": "订单卡片"
+  },
+  {
+    "time": "2025-12-30 13:26:34",
+    "role": "用户",
+    "name": "m***",
+    "type": "text",
+    "content": "我已拼单成功，能尽快帮我发货吗？"
+  },
+  {
+    "time": "2025-12-30 13:26:48",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "在的"
+  },
+  {
+    "time": "2025-12-30 13:26:57",
+    "role": "用户",
+    "name": "m***",
+    "type": "text",
+    "content": "尽快发货"
+  },
+  {
+    "time": "2025-12-30 13:27:01",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "尊敬的客户: 因本店仓库进行库存盘点，2025年12月29日00:00-2025年12月31日23:59期间支付的订单暂停发货，2026年1月1日开始恢复发货，按照付款的先后顺序陆续发出。感谢您的理解~"
+  },
+  {
+    "time": "2025-12-30 13:27:10",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[商家申请延后发货]"
+  },
+  {
+    "time": "2025-12-30 13:27:28",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "方便同意一下延迟发货吗"
+  },
+  {
+    "time": "2025-12-31 17:55:17",
+    "role": "用户",
+    "name": "m***",
+    "type": "text",
+    "content": "收到货怎么约上门安装"
+  },
+  {
+    "time": "2025-12-31 17:55:30",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "稍等"
+  },
+  {
+    "time": "2025-12-31 17:55:33",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "viomi小可爱 将该会话转移给 viomi米小锋MKD，请及时处理"
+  },
+  {
+    "time": "2025-12-31 17:55:45",
+    "role": "客服",
+    "name": "viomi米小锋MKD",
+    "type": "text",
+    "content": "您好！这里是云米专属客服，很高兴为您服务，有任何订单，商品，售后问题都会尽力为您答疑解惑～"
+  },
+  {
+    "time": "2025-12-31 17:55:57",
+    "role": "用户",
+    "name": "m***",
+    "type": "text",
+    "content": "要约上门安装"
+  },
+  {
+    "time": "2025-12-31 17:56:09",
+    "role": "客服",
+    "name": "viomi米小锋MKD",
+    "type": "text",
+    "content": "这边已收到到您的需求，我们正在努力解决您的问题，请您稍等片刻"
+  },
+  {
+    "time": "2025-12-31 17:56:51",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "https://video5.pddpic.com/i1/2024-11-25/8cb1f39178fec2d39842fdcab5fa887c.mp4.f30.mp4"
+  },
+  {
+    "time": "2025-12-31 17:57:12",
+    "role": "客服",
+    "name": "viomi米小锋MKD",
+    "type": "text",
+    "content": "滤芯可以自行更换的"
+  },
+  {
+    "time": "2025-12-31 17:57:17",
+    "role": "客服",
+    "name": "viomi米小锋MKD",
+    "type": "text",
+    "content": "不需要师傅上门安装"
+  },
+  {
+    "time": "2025-12-31 17:57:18",
+    "role": "用户",
+    "name": "m***",
+    "type": "text",
+    "content": "不是有上门安装吗"
+  },
+  {
+    "time": "2025-12-31 17:57:22",
+    "role": "客服",
+    "name": "viomi米小锋MKD",
+    "type": "text",
+    "content": "需要收费的哈"
+  },
+  {
+    "time": "2025-12-31 17:57:25",
+    "role": "用户",
+    "name": "m***",
+    "type": "text",
+    "content": "我不会弄"
+  },
+  {
+    "time": "2025-12-31 17:57:32",
+    "role": "客服",
+    "name": "viomi米小锋MKD",
+    "type": "text",
+    "content": "一般是100到200作用"
+  },
+  {
+    "time": "2025-12-31 17:57:36",
+    "role": "客服",
+    "name": "viomi米小锋MKD",
+    "type": "text",
+    "content": "左右"
+  },
+  {
+    "time": "2025-12-31 17:57:39",
+    "role": "用户",
+    "name": "m***",
+    "type": "text",
+    "content": "这样那我就要拒收了"
+  },
+  {
+    "time": "2025-12-31 17:57:47",
+    "role": "客服",
+    "name": "viomi米小锋MKD",
+    "type": "text",
+    "content": "这边已收到到您的需求，我们正在努力解决您的问题，请您稍等片刻"
+  },
+  {
+    "time": "2025-12-31 17:57:52",
+    "role": "用户",
+    "name": "m***",
+    "type": "text",
+    "content": "你们不是说包安装么"
+  },
+  {
+    "time": "2025-12-31 17:58:00",
+    "role": "客服",
+    "name": "viomi米小锋MKD",
+    "type": "text",
+    "content": "帮您问下"
+  },
+  {
+    "time": "2025-12-31 17:58:55",
+    "role": "用户",
+    "name": "m***",
+    "type": "text",
+    "content": "我拒收好了"
+  },
+  {
+    "time": "2025-12-31 17:58:59",
+    "role": "用户",
+    "name": "m***",
+    "type": "text",
+    "content": "你们那么不靠谱"
+  },
+  {
+    "time": "2025-12-31 17:59:03",
+    "role": "客服",
+    "name": "viomi米小锋MKD",
+    "type": "text",
+    "content": "稍等"
+  },
+  {
+    "time": "2025-12-31 17:59:13",
+    "role": "用户",
+    "name": "m***",
+    "type": "text",
+    "content": "说好的上门包安装"
+  },
+  {
+    "time": "2025-12-31 17:59:28",
+    "role": "客服",
+    "name": "viomi米小锋MKD",
+    "type": "text",
+    "content": "小妹看一下哈"
+  },
+  {
+    "time": "2025-12-31 17:59:31",
+    "role": "用户",
+    "name": "m***",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-user-v1/2025-12-31/3c9f9cec-cf29-496a-a827-ab5ee7c563b1.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-31 17:59:31",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-31 17:59:38",
+    "role": "用户",
+    "name": "m***",
+    "type": "text",
+    "content": "包安装"
+  },
+  {
+    "time": "2025-12-31 17:59:42",
+    "role": "用户",
+    "name": "m***",
+    "type": "text",
+    "content": "你自己看"
+  },
+  {
+    "time": "2025-12-31 17:59:46",
+    "role": "客服",
+    "name": "viomi米小锋MKD",
+    "type": "text",
+    "content": "这边已收到到您的需求，我们正在努力解决您的问题，请您稍等片刻"
+  },
+  {
+    "time": "2025-12-31 18:00:28",
+    "role": "用户",
+    "name": "m***",
+    "type": "text",
+    "content": "怎么说"
+  },
+  {
+    "time": "2025-12-31 18:00:33",
+    "role": "客服",
+    "name": "viomi米小锋MKD",
+    "type": "text",
+    "content": "稍等一下呢"
+  },
+  {
+    "time": "2025-12-31 18:00:42",
+    "role": "用户",
+    "name": "m***",
+    "type": "text",
+    "content": "給个确定的说法"
+  },
+  {
+    "time": "2025-12-31 18:00:49",
+    "role": "客服",
+    "name": "viomi米小锋MKD",
+    "type": "text",
+    "content": "稍等"
+  },
+  {
+    "time": "2025-12-31 18:02:37",
+    "role": "客服",
+    "name": "viomi米小锋MKD",
+    "type": "text",
+    "content": "可以哒小主"
+  },
+  {
+    "time": "2025-12-31 18:02:41",
+    "role": "客服",
+    "name": "viomi米小锋MKD",
+    "type": "text",
+    "content": "机器的话可以上门安装的"
+  },
+  {
+    "time": "2025-12-31 18:02:43",
+    "role": "客服",
+    "name": "viomi米小锋MKD",
+    "type": "text",
+    "content": "报单需要您提供下信息，预约后师傅会在48小时之内联系您沟通上门时间哒，您到时候留意一下来电哈 订单号： 上门地址： 手机号： 联系人姓名： （地址需要具体到省-市-区"
+  },
+  {
+    "time": "2025-12-31 18:02:49",
+    "role": "客服",
+    "name": "viomi米小锋MKD",
+    "type": "text",
+    "content": "提供下信息"
+  },
+  {
+    "time": "2025-12-31 18:03:20",
+    "role": "用户",
+    "name": "m***",
+    "type": "text",
+    "content": "罗小姐 15016547486 广东省揭阳市普宁市 环市东路A家家居(普宁旗舰店)西北侧约50米景泓园小区c栋11楼1104户型"
+  },
+  {
+    "time": "2025-12-31 18:03:24",
+    "role": "客服",
+    "name": "viomi米小锋MKD",
+    "type": "text",
+    "content": "您好，这边先帮您登记，登记完后48小时内师傅会与您联系并预约好上门时间，您注意一下手机来电哈~"
+  },
+  {
+    "time": "2025-12-31 18:03:52",
+    "role": "用户",
+    "name": "m***",
+    "type": "text",
+    "content": "251230-611655401823119"
+  },
+  {
+    "time": "2025-12-31 18:03:56",
+    "role": "客服",
+    "name": "viomi米小锋MKD",
+    "type": "text",
+    "content": "好的小主"
+  },
+  {
+    "time": "2025-12-31 18:04:04",
+    "role": "用户",
+    "name": "m***",
+    "type": "text",
+    "content": "尽快安装"
+  },
+  {
+    "time": "2025-12-31 18:04:14",
+    "role": "客服",
+    "name": "viomi米小锋MKD",
+    "type": "text",
+    "content": "好的"
+  },
+  {
+    "time": "2025-12-31 18:04:16",
+    "role": "用户",
+    "name": "m***",
+    "type": "text",
+    "content": "要不把师傅号码給我"
+  },
+  {
+    "time": "2025-12-31 18:04:18",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "请尽快解决售后问题，避免平台介入退款"
+  },
+  {
+    "time": "2025-12-31 18:04:23",
+    "role": "客服",
+    "name": "viomi米小锋MKD",
+    "type": "text",
+    "content": "已经在帮您预约了"
+  },
+  {
+    "time": "2025-12-31 18:04:30",
+    "role": "用户",
+    "name": "m***",
+    "type": "text",
+    "content": "因为我后天就没有在家了"
+  },
+  {
+    "time": "2025-12-31 18:04:41",
+    "role": "客服",
+    "name": "viomi米小锋MKD",
+    "type": "text",
+    "content": "好的小主"
+  },
+  {
+    "time": "2025-12-31 18:04:50",
+    "role": "用户",
+    "name": "m***",
+    "type": "text",
+    "content": "明天有在家你叫他帮我约明天"
+  },
+  {
+    "time": "2025-12-31 18:04:53",
+    "role": "客服",
+    "name": "viomi米小锋MKD",
+    "type": "text",
+    "content": "好的"
+  },
+  {
+    "time": "2025-12-31 18:05:25",
+    "role": "用户",
+    "name": "m***",
+    "type": "text",
+    "content": "催一下"
+  },
+  {
+    "time": "2025-12-31 18:05:31",
+    "role": "客服",
+    "name": "viomi米小锋MKD",
+    "type": "text",
+    "content": "好的"
+  },
+  {
+    "time": "2025-12-31 18:16:35",
+    "role": "用户",
+    "name": "m***",
+    "type": "text",
+    "content": "订单编号:251230-611655401823119"
+  },
+  {
+    "time": "2025-12-31 18:16:42",
+    "role": "客服",
+    "name": "viomi米小锋MKD",
+    "type": "text",
+    "content": "在的】"
+  },
+  {
+    "time": "2025-12-31 18:16:47",
+    "role": "用户",
+    "name": "m***",
+    "type": "text",
+    "content": "把师傅电话号码給我"
+  },
+  {
+    "time": "2025-12-31 18:16:54",
+    "role": "客服",
+    "name": "viomi米小锋MKD",
+    "type": "text",
+    "content": "网点还在协调师傅"
+  },
+  {
+    "time": "2025-12-31 18:17:05",
+    "role": "客服",
+    "name": "viomi米小锋MKD",
+    "type": "text",
+    "content": "没有这么快有"
+  },
+  {
+    "time": "2025-12-31 18:17:22",
+    "role": "用户",
+    "name": "m***",
+    "type": "text",
+    "content": "那什么时候有"
+  },
+  {
+    "time": "2025-12-31 18:17:34",
+    "role": "客服",
+    "name": "viomi米小锋MKD",
+    "type": "text",
+    "content": "大概明天就有了"
+  },
+  {
+    "time": "2025-12-31 18:18:28",
+    "role": "用户",
+    "name": "m***",
+    "type": "text",
+    "content": "确定有給我上门包安装对吧"
+  },
+  {
+    "time": "2025-12-31 18:18:36",
+    "role": "客服",
+    "name": "viomi米小锋MKD",
+    "type": "text",
+    "content": "对哒"
+  },
+  {
+    "time": "2025-12-31 18:18:40",
+    "role": "用户",
+    "name": "m***",
+    "type": "text",
+    "content": "那就好"
+  },
+  {
+    "time": "2025-12-31 18:18:44",
+    "role": "客服",
+    "name": "viomi米小锋MKD",
+    "type": "text",
+    "content": "嗯嗯"
+  },
+  {
+    "time": "2025-12-31 18:18:55",
+    "role": "用户",
+    "name": "m***",
+    "type": "text",
+    "content": "不用我出安装费对吧"
+  },
+  {
+    "time": "2025-12-31 18:19:02",
+    "role": "客服",
+    "name": "viomi米小锋MKD",
+    "type": "text",
+    "content": "不需要的"
+  },
+  {
+    "time": "2025-12-31 18:19:08",
+    "role": "用户",
+    "name": "m***",
+    "type": "text",
+    "content": "好的"
+  },
+  {
+    "time": "2025-12-31 18:19:12",
+    "role": "客服",
+    "name": "viomi米小锋MKD",
+    "type": "text",
+    "content": "好哒小主 给您添麻烦了"
+  },
+  {
+    "time": "2025-12-31 18:19:34",
+    "role": "客服",
+    "name": "viomi米小锋MKD",
+    "type": "text",
+    "content": "我们首次安装是免费的哦！材料不够可以再和师傅购买哈，每个客户的装修环境不同，所需材料也不同呢，这个具体所需要什么材料可以安装的时候再和师傅确认哦."
+  }
+]

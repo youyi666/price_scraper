@@ -1,0 +1,1234 @@
+[
+  {
+    "time": "2025-12-22 18:09:00",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "你好"
+  },
+  {
+    "time": "2025-12-22 18:09:12",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "在的"
+  },
+  {
+    "time": "2025-12-22 18:09:21",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "有没有安装视频"
+  },
+  {
+    "time": "2025-12-22 18:09:26",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "我看我需不需要安装服务"
+  },
+  {
+    "time": "2025-12-22 18:09:33",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "稍等"
+  },
+  {
+    "time": "2025-12-22 18:09:36",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "viomi小可爱 将该会话转移给 viomi诺诺sk，请及时处理"
+  },
+  {
+    "time": "2025-12-22 18:10:14",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "没有安装视频呢"
+  },
+  {
+    "time": "2025-12-22 18:21:02",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "那有没有安装说明呢"
+  },
+  {
+    "time": "2025-12-22 18:21:16",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "没有呢亲亲"
+  },
+  {
+    "time": "2025-12-22 18:22:00",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "那除了把电源接好，把供水三通和下水三通接上，还有额外的操作吗"
+  },
+  {
+    "time": "2025-12-22 18:22:10",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "没有了呢"
+  },
+  {
+    "time": "2025-12-22 18:22:26",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "不需要在下面打孔固定之类吗"
+  },
+  {
+    "time": "2025-12-22 18:22:37",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "龙头安装打孔呢"
+  },
+  {
+    "time": "2025-12-22 18:22:37",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "或者不需要涉及到组装吗"
+  },
+  {
+    "time": "2025-12-22 18:22:45",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "龙头不需要"
+  },
+  {
+    "time": "2025-12-22 18:22:49",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "不需要打孔，我有孔"
+  },
+  {
+    "time": "2025-12-22 18:22:52",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "好的"
+  },
+  {
+    "time": "2025-12-22 18:23:02",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "我也有足够长的软管，上下水三通都有"
+  },
+  {
+    "time": "2025-12-22 18:23:08",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "嗯嗯"
+  },
+  {
+    "time": "2025-12-22 18:23:23",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "本来我的水槽就是两个龙头孔"
+  },
+  {
+    "time": "2025-12-22 18:23:36",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "好的呢亲亲"
+  },
+  {
+    "time": "2025-12-22 18:23:37",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "我把清洁剂那个孔拆出来就可以"
+  },
+  {
+    "time": "2025-12-22 18:23:45",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "image",
+    "content": "https://t00img.yangkeduo.com/chat/images/2025-12-22/91e5e1a5-7f57-4e98-bd5c-e3449d56de5d.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-22 18:23:47",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "image",
+    "content": "https://t00img.yangkeduo.com/chat/images/2025-12-22/9777ec38-5b86-4e80-8b4c-9486f49758e6.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-22 18:23:48",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "管安装好就可以呢"
+  },
+  {
+    "time": "2025-12-22 18:24:49",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "那行等一下我把下水三通取回来，我先装一装试一试，有什么不明白的，我再问你"
+  },
+  {
+    "time": "2025-12-22 18:24:58",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "嗯嗯"
+  },
+  {
+    "time": "2025-12-22 18:25:21",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "本来这个水槽就是我自己装的，上下水方面应该不会比水槽难，但是我不知道有什么要特别注意的地方"
+  },
+  {
+    "time": "2025-12-22 18:25:57",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "管路连接好就可以呢"
+  },
+  {
+    "time": "2025-12-22 18:26:03",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "进水器水管、背后那三根管中，较粗的白色管为3分PE管进水管（连接自来水三通球阀），较细的中间白色管是纯水管2分PE管（连接水龙头），边上白色细管是浓缩水管2分PE管（是排水用的），请将浓缩水管放入地漏 下水道通过下水道有效排出。3分进水管长度约为2m左右，2分管长度是3M左右"
+  },
+  {
+    "time": "2025-12-22 18:27:41",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "等一下我看看"
+  },
+  {
+    "time": "2025-12-22 18:27:53",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "我还没拆"
+  },
+  {
+    "time": "2025-12-22 18:28:02",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "好的"
+  },
+  {
+    "time": "2025-12-22 18:36:14",
+    "role": "用户",
+    "name": "寻***",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-user-v1/2025-12-22/55eb20ba-8343-491a-9e89-4328457813d7.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-22 18:36:19",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "这些是干什么的"
+  },
+  {
+    "time": "2025-12-22 18:36:27",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "固定的呢"
+  },
+  {
+    "time": "2025-12-22 18:36:34",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "防止漏水呢"
+  },
+  {
+    "time": "2025-12-22 18:36:58",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "不是有 4 个吗"
+  },
+  {
+    "time": "2025-12-22 18:37:24",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "刚好四个呀"
+  },
+  {
+    "time": "2025-12-22 18:38:27",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "不是净水、废水、纯水各一个吗"
+  },
+  {
+    "time": "2025-12-22 18:38:33",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "进水"
+  },
+  {
+    "time": "2025-12-22 18:38:44",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "image",
+    "content": "https://t00img.yangkeduo.com/chat/images/2025-12-22/244a060d-5d6c-4983-8e84-b99b76eb0859.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-22 18:38:46",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "这里还有一个哦"
+  },
+  {
+    "time": "2025-12-22 18:39:35",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "哦，龙头也放一个"
+  },
+  {
+    "time": "2025-12-22 18:39:39",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "嗯嗯"
+  },
+  {
+    "time": "2025-12-22 18:40:18",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "不对呀，这个不是龙头啊，不像"
+  },
+  {
+    "time": "2025-12-22 18:40:38",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "龙头连接进水口呢"
+  },
+  {
+    "time": "2025-12-22 18:43:19",
+    "role": "用户",
+    "name": "寻***",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-user-v1/2025-12-22/98e9d921-d424-49b5-ab5d-ade3ab614b5e.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-22 18:43:24",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "是套在这里吗"
+  },
+  {
+    "time": "2025-12-22 18:43:37",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "是的呢"
+  },
+  {
+    "time": "2025-12-22 18:43:47",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "这和你给的图片长得不像啊"
+  },
+  {
+    "time": "2025-12-22 18:44:04",
+    "role": "用户",
+    "name": "寻***",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-user-v1/2025-12-22/6ba59df8-d8ce-4bf2-a369-5998181fd93b.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-22 18:44:10",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "这个黑色垫片是放在上方还是下方"
+  },
+  {
+    "time": "2025-12-22 18:44:29",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "上方呢"
+  },
+  {
+    "time": "2025-12-22 18:44:36",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "下方不需要垫片吗"
+  },
+  {
+    "time": "2025-12-22 18:44:53",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "不用呢"
+  },
+  {
+    "time": "2025-12-22 18:45:16",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "把塞子拔出来，然后把管子插进去，对吧"
+  },
+  {
+    "time": "2025-12-22 18:45:24",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "是的"
+  },
+  {
+    "time": "2025-12-22 18:45:44",
+    "role": "用户",
+    "name": "寻***",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-user-v1/2025-12-22/5370563e-ec45-4d04-86be-bf168b7447d0.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-22 18:45:53",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "塞子上这个红色的东西要套到管子上插进去吗"
+  },
+  {
+    "time": "2025-12-22 18:46:12",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "对的哈"
+  },
+  {
+    "time": "2025-12-22 18:52:54",
+    "role": "用户",
+    "name": "寻***",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-user-v1/2025-12-22/41db419c-2e0a-4780-b4d7-c7a83b68fe51.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-22 18:53:07",
+    "role": "用户",
+    "name": "寻***",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-user-v1/2025-12-22/b569aa8b-f682-4e8c-b285-62d1f9eb51c9.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-22 18:53:19",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "嗯嗯"
+  },
+  {
+    "time": "2025-12-22 18:53:22",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "机器上就接成这样就行吗"
+  },
+  {
+    "time": "2025-12-22 18:53:35",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "可以的呢，对应接好就可以呢"
+  },
+  {
+    "time": "2025-12-22 18:55:05",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "然后接好三通和龙头和下水就可以了"
+  },
+  {
+    "time": "2025-12-22 18:55:16",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "对哒"
+  },
+  {
+    "time": "2025-12-22 18:58:48",
+    "role": "用户",
+    "name": "寻***",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-user-v1/2025-12-22/d97f204f-de1d-4313-bea0-35e339f8e246.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-22 18:58:53",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "下面这个白色的塑料"
+  },
+  {
+    "time": "2025-12-22 18:58:57",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "使用的时候也要一直放着吗"
+  },
+  {
+    "time": "2025-12-22 18:59:03",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "请尽快解决售后问题，避免平台介入退款"
+  },
+  {
+    "time": "2025-12-22 18:59:03",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "是需要垫在下面吗"
+  },
+  {
+    "time": "2025-12-22 18:59:14",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "这个应该是包装呢"
+  },
+  {
+    "time": "2025-12-22 18:59:17",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "可以拆掉呢"
+  },
+  {
+    "time": "2025-12-22 18:59:28",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "哦"
+  },
+  {
+    "time": "2025-12-22 18:59:40",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "嗯嗯"
+  },
+  {
+    "time": "2025-12-22 18:59:55",
+    "role": "用户",
+    "name": "寻***",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-user-v1/2025-12-22/5cf4afef-43d7-4bb2-bda9-3536e2449c86.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-22 19:00:01",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "下面这两个孔是干什么的"
+  },
+  {
+    "time": "2025-12-22 19:00:04",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "不需要固定吗"
+  },
+  {
+    "time": "2025-12-22 19:00:20",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "不用呢"
+  },
+  {
+    "time": "2025-12-22 19:00:32",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "这两个孔是做什么用的"
+  },
+  {
+    "time": "2025-12-22 19:00:46",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "暂时还没有具体用途哦"
+  },
+  {
+    "time": "2025-12-22 19:00:54",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "设计是这样的哈"
+  },
+  {
+    "time": "2025-12-22 19:02:22",
+    "role": "用户",
+    "name": "寻***",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-user-v1/2025-12-22/62a2509c-50aa-46cc-ab20-daafce5498a7.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-22 19:02:27",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "我在包装里还发现一个这样的卡扣"
+  },
+  {
+    "time": "2025-12-22 19:02:31",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "总共 5 个"
+  },
+  {
+    "time": "2025-12-22 19:02:36",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "4 个大的一个小的"
+  },
+  {
+    "time": "2025-12-22 19:02:41",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "另一个是多出来的吗"
+  },
+  {
+    "time": "2025-12-22 19:02:55",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "备用的哦"
+  },
+  {
+    "time": "2025-12-22 19:05:57",
+    "role": "用户",
+    "name": "寻***",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-user-v1/2025-12-22/ab85dcdd-4826-45e9-a91f-2a7a15f869b9.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-22 19:06:04",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "龙头的卡扣卡在这边吗"
+  },
+  {
+    "time": "2025-12-22 19:06:31",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "image",
+    "content": "https://t00img.yangkeduo.com/chat/images/2025-12-22/2505a676-3291-4707-bf2c-9ea9bfc03a1d.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-22 19:06:34",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "嗯嗯"
+  },
+  {
+    "time": "2025-12-22 20:24:09",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "你好"
+  },
+  {
+    "time": "2025-12-22 20:24:14",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "在的呢"
+  },
+  {
+    "time": "2025-12-22 20:24:53",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "插好电接好管开水没反应"
+  },
+  {
+    "time": "2025-12-22 20:25:08",
+    "role": "用户",
+    "name": "寻***",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-user-v1/2025-12-22/b3733f13-b26e-4d9c-ae7d-e53b9fe30b53.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-22 20:25:17",
+    "role": "用户",
+    "name": "寻***",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-user-v1/2025-12-22/93577ce3-a07e-4741-913e-7298414c6af3.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-22 20:25:22",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "三通阀打开了吗亲亲"
+  },
+  {
+    "time": "2025-12-22 20:25:35",
+    "role": "用户",
+    "name": "寻***",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-user-v1/2025-12-22/251b0310-c446-4706-a345-1f034afb2e63.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-22 20:26:05",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "开了"
+  },
+  {
+    "time": "2025-12-22 20:26:20",
+    "role": "用户",
+    "name": "寻***",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-user-v1/2025-12-22/269dd954-0c62-41d0-9696-8efd5ca43a41.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-22 20:26:32",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "这边看看呢"
+  },
+  {
+    "time": "2025-12-22 20:27:01",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "三通是怎么算打开的"
+  },
+  {
+    "time": "2025-12-22 20:27:12",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "调到跟管子交叉的方向，对吧"
+  },
+  {
+    "time": "2025-12-22 20:27:23",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "跟管子一致的方向是关吧"
+  },
+  {
+    "time": "2025-12-22 20:27:31",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "image",
+    "content": "https://t00img.yangkeduo.com/chat/images/2025-12-22/91c4a968-8dd7-42de-b2f3-8e0db7d8dc37.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-22 20:27:52",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "你这个跟我不一样，我说的是三通的开关"
+  },
+  {
+    "time": "2025-12-22 20:27:55",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "on的方向呢"
+  },
+  {
+    "time": "2025-12-22 20:27:57",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "你这个明确的有开和关"
+  },
+  {
+    "time": "2025-12-22 20:28:15",
+    "role": "用户",
+    "name": "寻***",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-user-v1/2025-12-22/cf543c45-1649-4650-8ed3-029277c5b932.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-22 20:28:33",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "也是一样呢亲亲"
+  },
+  {
+    "time": "2025-12-22 20:28:43",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "image",
+    "content": "https://t00img.yangkeduo.com/chat/images/2025-12-22/f1046f1c-8911-440c-aec5-d109d37c6bcf.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-22 20:28:58",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "那个箭头看不清楚"
+  },
+  {
+    "time": "2025-12-22 20:29:08",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "已经装进去了，看不清楚往哪个方向拧是开"
+  },
+  {
+    "time": "2025-12-22 20:29:16",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "但是不重要，两个方向我都拧过了，都没水"
+  },
+  {
+    "time": "2025-12-22 20:29:29",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "都不进吗"
+  },
+  {
+    "time": "2025-12-22 20:29:49",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "嗯"
+  },
+  {
+    "time": "2025-12-22 20:30:07",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "然后另一头进的水槽，正常的水管是有水的"
+  },
+  {
+    "time": "2025-12-22 20:30:17",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "进水管接通水了吗亲亲"
+  },
+  {
+    "time": "2025-12-22 20:31:13",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "三通的另外一边有出水"
+  },
+  {
+    "time": "2025-12-22 20:31:51",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "帮您预约师傅上门安装呢亲亲"
+  },
+  {
+    "time": "2025-12-22 20:34:42",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "那我把装好的拆下来"
+  },
+  {
+    "time": "2025-12-22 20:35:18",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "不用呢亲亲"
+  },
+  {
+    "time": "2025-12-22 20:35:23",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "等师傅来就好呢"
+  },
+  {
+    "time": "2025-12-22 20:35:26",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "您要预约安装麻烦提供一下详细的地址（务必准确填写省市区到门牌号）和姓名电话号码哦，这边帮您登记信息预约师傅上门安装的哈"
+  },
+  {
+    "time": "2025-12-22 20:36:03",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "那行，我等师傅来"
+  },
+  {
+    "time": "2025-12-22 20:36:38",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "提供一下信息呢"
+  },
+  {
+    "time": "2025-12-22 20:36:41",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "这边帮您预约"
+  },
+  {
+    "time": "2025-12-22 20:37:16",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "收件人: 陈超 手机号码: 18610280730 所在地区: 河北省廊坊市固安县固安镇 详细地址: 孔雀城大卫城3期东区23号楼1单元502"
+  },
+  {
+    "time": "2025-12-22 20:37:23",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "好的"
+  },
+  {
+    "time": "2025-12-22 20:37:26",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "师傅预计在48小时内与您联系，请您保持手机畅通，后续有任何问题，可随时联系客服为您服务哦"
+  },
+  {
+    "time": "2025-12-22 20:45:58",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "不用了"
+  },
+  {
+    "time": "2025-12-22 20:46:06",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "好的呢"
+  },
+  {
+    "time": "2025-12-22 20:46:10",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "刚才我开着水龙头，重新插拔一下电源就上水了"
+  },
+  {
+    "time": "2025-12-22 20:46:23",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "好的哦"
+  },
+  {
+    "time": "2025-12-22 20:46:30",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "刚才不知道为什么，开水龙头没反应机器都不响"
+  },
+  {
+    "time": "2025-12-22 20:46:48",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "就是不知道以后会不会还这样"
+  },
+  {
+    "time": "2025-12-22 20:46:49",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "可以正常使用即可呢"
+  },
+  {
+    "time": "2025-12-22 20:47:08",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "你这个保修多久"
+  },
+  {
+    "time": "2025-12-22 20:47:17",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "一年呢"
+  },
+  {
+    "time": "2025-12-22 20:47:22",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "好"
+  },
+  {
+    "time": "2025-12-22 20:47:26",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "[动画表情]"
+  },
+  {
+    "time": "2025-12-23 15:33:19",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "你好"
+  },
+  {
+    "time": "2025-12-23 15:33:40",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "您好有什么可以帮到您~"
+  },
+  {
+    "time": "2025-12-23 15:33:44",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "这个滤芯怎么更换"
+  },
+  {
+    "time": "2025-12-23 15:34:41",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "亲亲，请您稍等，客服帮您转接专业售后客服，转接之后您跟咱们售后同事描述下您遇到的问题哦~"
+  },
+  {
+    "time": "2025-12-23 15:34:45",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "viomi小仙女 将该会话转移给 viomi莉莉sk，请及时处理"
+  },
+  {
+    "time": "2025-12-23 15:35:19",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "说明书里面有更换教程的哦"
+  },
+  {
+    "time": "2025-12-23 15:35:49",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "image",
+    "content": "https://t00img.yangkeduo.com/chat/images/2025-12-23/f5e09a30-0a5e-477e-b4d2-0d2433ffab5f.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-23 15:35:49",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "image",
+    "content": "https://t00img.yangkeduo.com/chat/images/2025-12-23/ca700b8f-1d2f-469f-8d80-5160b1304fcc.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-23 15:36:33",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "prc 和 ro 更换方式一样吗"
+  },
+  {
+    "time": "2025-12-23 15:36:44",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "是的哈"
+  },
+  {
+    "time": "2025-12-23 15:37:09",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "这个报警只能看灯吗"
+  },
+  {
+    "time": "2025-12-23 15:37:16",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "有没有声音或者别的方式"
+  },
+  {
+    "time": "2025-12-23 15:37:34",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "这个没有呢"
+  },
+  {
+    "time": "2025-12-23 15:37:42",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "看净水器面板的滤芯灯"
+  },
+  {
+    "time": "2025-12-23 15:38:02",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "这个我总不能每天去看一次吧"
+  },
+  {
+    "time": "2025-12-23 15:38:19",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "还是说有报警以后还可以用很长时间"
+  },
+  {
+    "time": "2025-12-23 15:38:32",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "image",
+    "content": "https://t00img.yangkeduo.com/chat/images/2025-12-23/f6c5b0df-74b2-4f0b-a120-20c4a5c95a01.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-23 15:38:33",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "这是滤芯寿命"
+  },
+  {
+    "time": "2025-12-23 15:39:58",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "但他说的是日均 10L，我日均两升都用不到"
+  },
+  {
+    "time": "2025-12-23 15:40:11",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "后续留意下滤芯灯提示呢"
+  },
+  {
+    "time": "2025-12-23 15:40:45",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "那我假设有半个月没看灯，看到晚了会不会中毒"
+  },
+  {
+    "time": "2025-12-23 15:41:38",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "这个不至于呢亲"
+  },
+  {
+    "time": "2025-12-23 15:41:45",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "开玩笑的，我就是想知道，这个灯的报警有没有提前量"
+  },
+  {
+    "time": "2025-12-23 15:42:21",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "比方说，报警之后还有多少升是水质不会下降的"
+  },
+  {
+    "time": "2025-12-23 15:42:36",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "到期了可能会达不到过滤效果的哦"
+  },
+  {
+    "time": "2025-12-23 15:42:54",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "还是说，从开始闪灯那一刻，就立即达不到过滤效果"
+  },
+  {
+    "time": "2025-12-23 15:44:10",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "我理解，这个闪灯应该是会有提前量的，不然你直接做成到期不能出水不就好了"
+  },
+  {
+    "time": "2025-12-23 15:45:36",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "稍等"
+  },
+  {
+    "time": "2025-12-23 15:45:46",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "有提前的"
+  },
+  {
+    "time": "2025-12-23 15:45:56",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "会提前闪烁"
+  },
+  {
+    "time": "2025-12-23 15:45:59",
+    "role": "用户",
+    "name": "寻***",
+    "type": "text",
+    "content": "ok"
+  },
+  {
+    "time": "2025-12-23 15:46:07",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "到期了就是常亮，常亮的时候就需要更换了"
+  }
+]

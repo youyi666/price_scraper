@@ -1,0 +1,72 @@
+[
+  {
+    "time": "2025-12-09 05:56:25",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[常见问题列表]"
+  },
+  {
+    "time": "2025-12-09 11:14:26",
+    "role": "用户",
+    "name": "K***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610&_oak_rcto=YWLUjlDJwqfqCcIqSsroRK_P_VyZr7k2T_XXVfrMmfENL0hEeQwjppDlmcUL1qR1ZdE&page_from=63&_oc_trace_mark=199&_oc_adinfo=eyJwYWdlX3NuIjoxMDAwMiwic2NlbmVfaWQiOjUwNn0%3D&_oc_refer_ad=1&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2025-12-09 11:14:33",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "亲亲您好～欢迎光临云米电器官方旗舰店！我是您的专属客服小云朵，对任何产品有疑问可以随时咨询，很高兴为您服务~😊”"
+  },
+  {
+    "time": "2025-12-09 11:14:37",
+    "role": "用户",
+    "name": "K***",
+    "type": "text",
+    "content": "这款净水机没有水泵"
+  },
+  {
+    "time": "2025-12-09 11:14:37",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-09 11:14:54",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "没有的哦 亲亲"
+  },
+  {
+    "time": "2025-12-09 11:15:04",
+    "role": "用户",
+    "name": "K***",
+    "type": "text",
+    "content": "不插电"
+  },
+  {
+    "time": "2025-12-09 11:15:20",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "需要插电的呢 亲亲"
+  },
+  {
+    "time": "2025-12-09 11:15:40",
+    "role": "用户",
+    "name": "K***",
+    "type": "text",
+    "content": "跟以前的超滤净水机一样"
+  },
+  {
+    "time": "2025-12-09 11:15:53",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "没有哦 抱歉呢"
+  }
+]

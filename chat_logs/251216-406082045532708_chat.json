@@ -1,0 +1,65 @@
+[
+  {
+    "time": "2025-12-16 09:08:05",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[常见问题列表]"
+  },
+  {
+    "time": "2025-12-16 09:08:06",
+    "role": "用户",
+    "name": "F***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610&_oak_rcto=YWKLTl4Xhq93oJqNWMKKYVD56_NhY0yPjKmcaTxRyxP5OaabeDrSFqfq2FRxBJwwyL8&page_from=101&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2025-12-16 09:08:20",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "您好有什么可以帮到您~"
+  },
+  {
+    "time": "2025-12-16 09:08:22",
+    "role": "用户",
+    "name": "F***",
+    "type": "text",
+    "content": "你好 这个机器滤芯以后有单独买吗"
+  },
+  {
+    "time": "2025-12-16 09:08:22",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-16 09:08:47",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "是的亲~"
+  },
+  {
+    "time": "2025-12-16 09:09:05",
+    "role": "用户",
+    "name": "F***",
+    "type": "text",
+    "content": "噢噢"
+  },
+  {
+    "time": "2025-12-16 09:09:12",
+    "role": "用户",
+    "name": "F***",
+    "type": "text",
+    "content": "可以买到是吧"
+  },
+  {
+    "time": "2025-12-16 09:09:24",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "是的亲~"
+  }
+]

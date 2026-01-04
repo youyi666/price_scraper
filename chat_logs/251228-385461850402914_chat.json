@@ -1,0 +1,254 @@
+[
+  {
+    "time": "2025-12-28 21:37:45",
+    "role": "用户",
+    "name": "A***",
+    "type": "text",
+    "content": "订单卡片"
+  },
+  {
+    "time": "2025-12-28 21:37:46",
+    "role": "用户",
+    "name": "A***",
+    "type": "text",
+    "content": "我已拼单成功，能尽快帮我发货吗？"
+  },
+  {
+    "time": "2025-12-28 21:38:06",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "退款成功通知"
+  },
+  {
+    "time": "2025-12-28 21:38:07",
+    "role": "客服",
+    "name": "viomi范范sk",
+    "type": "text",
+    "content": "购买后48小时内发出呢"
+  },
+  {
+    "time": "2025-12-31 20:55:24",
+    "role": "用户",
+    "name": "A***",
+    "type": "text",
+    "content": "订单编号:251228-262715533602914"
+  },
+  {
+    "time": "2025-12-31 20:55:30",
+    "role": "客服",
+    "name": "viomi范范sk",
+    "type": "text",
+    "content": "在的呢"
+  },
+  {
+    "time": "2025-12-31 20:55:31",
+    "role": "用户",
+    "name": "A***",
+    "type": "text",
+    "content": "要上门安装"
+  },
+  {
+    "time": "2025-12-31 20:55:42",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "消费者催促您，请尽快回复！"
+  },
+  {
+    "time": "2025-12-31 20:55:50",
+    "role": "客服",
+    "name": "viomi范范sk",
+    "type": "text",
+    "content": "小云朵，收到货后需要预约安装的话可以通过云米商城app进行预约安装，预约成功后会为您安排师傅上门的哦~后续有什么问题也都可以随时联系我们在线客服哦~"
+  },
+  {
+    "time": "2025-12-31 20:55:51",
+    "role": "客服",
+    "name": "viomi范范sk",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2025-12-31/1ed7d9ca-646e-4764-bfc1-077c1fc67dcc.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-31 20:55:52",
+    "role": "客服",
+    "name": "viomi范范sk",
+    "type": "text",
+    "content": "预约成功后~~师傅会在48小时内联系您跟您确认上门时间~您等师傅电话就就好~具体时间您也可以跟师傅预约的哈~"
+  },
+  {
+    "time": "2025-12-31 20:56:06",
+    "role": "用户",
+    "name": "A***",
+    "type": "text",
+    "content": "好"
+  },
+  {
+    "time": "2025-12-31 20:56:15",
+    "role": "客服",
+    "name": "viomi范范sk",
+    "type": "text",
+    "content": "[动画表情]"
+  },
+  {
+    "time": "2025-12-31 20:59:28",
+    "role": "用户",
+    "name": "A***",
+    "type": "text",
+    "content": "app怎么下载啊"
+  },
+  {
+    "time": "2025-12-31 20:59:41",
+    "role": "客服",
+    "name": "viomi范范sk",
+    "type": "text",
+    "content": "手机商城搜索云米呢"
+  },
+  {
+    "time": "2025-12-31 21:00:10",
+    "role": "用户",
+    "name": "A***",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-user-v1/2025-12-31/3929f2c6-2a07-4782-8dea-9149f4622cb0.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-31 21:00:13",
+    "role": "用户",
+    "name": "A***",
+    "type": "text",
+    "content": "是哪款"
+  },
+  {
+    "time": "2025-12-31 21:00:31",
+    "role": "客服",
+    "name": "viomi范范sk",
+    "type": "text",
+    "content": "第二个"
+  },
+  {
+    "time": "2025-12-31 21:02:29",
+    "role": "用户",
+    "name": "A***",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-user-v1/2025-12-31/2d94fd74-1c8e-4d02-8aec-3c9c46154d7f.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-31 21:02:33",
+    "role": "用户",
+    "name": "A***",
+    "type": "text",
+    "content": "没看见"
+  },
+  {
+    "time": "2025-12-31 21:02:36",
+    "role": "用户",
+    "name": "A***",
+    "type": "text",
+    "content": "安装在哪"
+  },
+  {
+    "time": "2025-12-31 21:02:47",
+    "role": "客服",
+    "name": "viomi范范sk",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2025-12-31/c4b973e3-5e15-47cd-a5dc-b85d42538fca.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-31 21:07:17",
+    "role": "用户",
+    "name": "A***",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-user-v1/2025-12-31/0ae40bfd-65fd-4a58-bccb-4d1cef3459eb.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-31 21:07:22",
+    "role": "用户",
+    "name": "A***",
+    "type": "text",
+    "content": "这样提交就好了"
+  },
+  {
+    "time": "2025-12-31 21:07:23",
+    "role": "用户",
+    "name": "A***",
+    "type": "text",
+    "content": "是不是"
+  },
+  {
+    "time": "2025-12-31 21:07:30",
+    "role": "客服",
+    "name": "viomi范范sk",
+    "type": "text",
+    "content": "是的"
+  },
+  {
+    "time": "2026-01-02 21:50:48",
+    "role": "用户",
+    "name": "A***",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-user-v1/2026-01-02/90ad1ae6-c703-4808-8044-38d6a8ab14a8.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2026-01-02 21:50:53",
+    "role": "用户",
+    "name": "A***",
+    "type": "text",
+    "content": "根本没人预约"
+  },
+  {
+    "time": "2026-01-02 21:51:04",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "尊敬的小云朵，术业有专攻为了更好的为您解决问题，这边为您转接对应客服帮您核实下，转接后客服会查看聊天记录蛤~请放心~"
+  },
+  {
+    "time": "2026-01-02 21:51:07",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "viomi小仙女 将该会话转移给 viomi米小锋MKD，请及时处理"
+  },
+  {
+    "time": "2026-01-02 21:51:12",
+    "role": "客服",
+    "name": "viomi米小锋MKD",
+    "type": "text",
+    "content": "您好！这里是云米专属客服，很高兴为您服务，有任何订单，商品，售后问题都会尽力为您答疑解惑～"
+  },
+  {
+    "time": "2026-01-02 21:51:37",
+    "role": "客服",
+    "name": "viomi米小锋MKD",
+    "type": "text",
+    "content": "提供一下电话小妹帮您看一下"
+  },
+  {
+    "time": "2026-01-02 21:51:47",
+    "role": "用户",
+    "name": "A***",
+    "type": "text",
+    "content": "13247030779"
+  },
+  {
+    "time": "2026-01-02 21:51:55",
+    "role": "客服",
+    "name": "viomi米小锋MKD",
+    "type": "text",
+    "content": "好的小主"
+  },
+  {
+    "time": "2026-01-02 21:55:48",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "亲，已分配安装师傅为您上门安装商品："
+  },
+  {
+    "time": "2026-01-02 21:55:48",
+    "role": "客服",
+    "name": "viomi米小锋MKD",
+    "type": "text",
+    "content": "安装时间：您可以拨打安装师傅电话预约上门安装时间"
+  }
+]

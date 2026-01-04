@@ -1,0 +1,100 @@
+[
+  {
+    "time": "2025-12-18 22:09:07",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[常见问题列表]"
+  },
+  {
+    "time": "2025-12-18 22:09:11",
+    "role": "用户",
+    "name": "你***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610&_oak_rcto=YWIW5veqC-LfmkjXnvKw9d5Ee3ULZ38UnIf49V0nnd0KAmCWh7dWdJVQ&page_from=76&_oc_mkt_type=3&_oc_mkt_domain=535&_oc_mkt_tr_sc=super_discount&_oc_mkt_tr_token=hvhzavzebed5lzxy5sozb62z6kra5taqlaoctmcgr62yq7gqwvpgvv5cqvxswzf27u7pkbri4bolfcyz4duzpsvluxws5knmfjzkdywveff4pzvqddy34efybmt2aoby33fpmljepqay7v3fzpd2axxncuq7dqmfzq2wd4mfzemks5uxnwbllxuqn2ecmdqwum2lg4hijpbcgxwwpnnb3dhupf2j2sogrmxgjla&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2025-12-18 22:09:26",
+    "role": "用户",
+    "name": "你***",
+    "type": "text",
+    "content": "多少g流量的"
+  },
+  {
+    "time": "2025-12-18 22:09:26",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "来咯来咯~欢迎光临~~~非常乐意解答您的任何疑问。如有任何问题，欢迎随时向我咨询，我是您的专属客服‘小甜心’，今天将为您全程服务~~o(*￣▽￣*)o"
+  },
+  {
+    "time": "2025-12-18 22:09:26",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-18 22:09:29",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "600"
+  },
+  {
+    "time": "2025-12-18 22:09:40",
+    "role": "用户",
+    "name": "你***",
+    "type": "text",
+    "content": "质保多长时间?"
+  },
+  {
+    "time": "2025-12-18 22:10:11",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "一年的整机"
+  },
+  {
+    "time": "2025-12-18 22:10:15",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2025-12-18/c40cf864-a182-419d-96b5-9450736c6848.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-18 22:10:39",
+    "role": "用户",
+    "name": "你***",
+    "type": "text",
+    "content": "如果换芯店里有吧"
+  },
+  {
+    "time": "2025-12-18 22:10:59",
+    "role": "用户",
+    "name": "你***",
+    "type": "text",
+    "content": "5年一换？"
+  },
+  {
+    "time": "2025-12-18 22:11:04",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "有的呢"
+  },
+  {
+    "time": "2025-12-18 22:12:01",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "新品首发 Viomi云米 净水器小海豚3 ①首发价499 ②晒图送1年延保 ③预售期间下单可99换购滤芯，限量2个（滤芯原价199）"
+  },
+  {
+    "time": "2025-12-18 22:13:45",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "小主~喜欢就早点拍下的呢 活动期间价格会随时结束的哈"
+  }
+]

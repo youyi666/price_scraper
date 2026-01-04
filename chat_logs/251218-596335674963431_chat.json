@@ -1,0 +1,177 @@
+[
+  {
+    "time": "2025-12-16 08:33:11",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[常见问题列表]"
+  },
+  {
+    "time": "2025-12-16 08:33:13",
+    "role": "用户",
+    "name": "哆***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610&_oak_rcto=YWLJvLZZkGzqU6P4Gpa4K5OAp8_Umi4cO2WG5Cs49hAgvUDCHXIoYvW7zuaDIgGMpiE&page_from=63&_oc_trace_mark=199&_oc_mkt_domain=1286&_oc_adinfo=eyJwYWdlX3NuIjoxMzA3OTksInNjZW5lX2lkIjoxOTE4fQ%3D%3D&_oc_mkt_tr_sc=cash_back_for_pre_coupons&_oc_mkt_tr_token=bt3gkl6mtkr52gorbjnfesyhybi7hof7ka2jbp4u4hshz7yqwqb6nefqot4ffk2v6oubcn2543hxg4tsf7ybjlfs75nsdeu3pgnrm2a&_oc_refer_ad=1&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2025-12-16 08:33:29",
+    "role": "用户",
+    "name": "哆***",
+    "type": "text",
+    "content": "你好请问电源线有多长"
+  },
+  {
+    "time": "2025-12-16 08:33:29",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-16 08:33:47",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "一米的亲~"
+  },
+  {
+    "time": "2025-12-16 08:34:22",
+    "role": "用户",
+    "name": "哆***",
+    "type": "text",
+    "content": "可延长吗"
+  },
+  {
+    "time": "2025-12-16 08:35:11",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "延长的话建议自己购买一个插排哦~"
+  },
+  {
+    "time": "2025-12-16 08:36:28",
+    "role": "用户",
+    "name": "哆***",
+    "type": "text",
+    "content": "可接米家吗"
+  },
+  {
+    "time": "2025-12-16 08:38:44",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=225501370546"
+  },
+  {
+    "time": "2025-12-16 08:38:47",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "这款可以链接~"
+  },
+  {
+    "time": "2025-12-18 17:52:41",
+    "role": "用户",
+    "name": "哆***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610&_oak_rcto=YWKrbVCZXBzfZKP4Gpa4K5OAp8_Umi4cO2XDMdLsRycM1kLRTQngpf79&page_from=63&_oc_trace_mark=199&_oc_mkt_domain=1286&_oc_adinfo=eyJwYWdlX3NuIjoxMzA3OTksInNjZW5lX2lkIjoxOTE4fQ%3D%3D&_oc_mkt_tr_sc=cash_back_for_pre_coupons&_oc_mkt_tr_token=l3vok5lzbqlgalvrmyqwuimgecuhxxqffldhkccu27unyss6tsujszpsqbt2vx2lntbisgpmkbf6duvifqpk3ub5skyt3qpm37ka53i&_oc_refer_ad=1&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2025-12-18 17:52:48",
+    "role": "用户",
+    "name": "哆***",
+    "type": "text",
+    "content": "自己安装可以优惠点吗"
+  },
+  {
+    "time": "2025-12-18 17:52:48",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-18 17:53:01",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "亲 自行安装后续出现问题这边是不保修的哈 一般家电都是建议让专业的师傅进行安装哦~~我们的产品大多是都是有安装服务的，如果是您自行安装，若是因安装造成的机器损伤或者配件问题厂家是不保修的。如果安装后一切正常，在后期使用中出了问题厂家才保修的哦"
+  },
+  {
+    "time": "2025-12-18 17:53:09",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "小主自行安装不保修的呢"
+  },
+  {
+    "time": "2025-12-18 17:53:29",
+    "role": "用户",
+    "name": "哆***",
+    "type": "text",
+    "content": "那好吧，质保多久呀"
+  },
+  {
+    "time": "2025-12-18 17:53:36",
+    "role": "用户",
+    "name": "哆***",
+    "type": "text",
+    "content": "滤芯能用多长时间?"
+  },
+  {
+    "time": "2025-12-18 17:53:47",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "消费者催促您，请尽快回复！"
+  },
+  {
+    "time": "2025-12-18 17:53:55",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2025-12-18/026beea7-27a6-4113-b92b-5c47db193ac8.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-18 17:54:00",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "质保一年的呢"
+  },
+  {
+    "time": "2025-12-18 17:54:52",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "申请发票"
+  },
+  {
+    "time": "2025-12-18 17:54:57",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "小主，请您稍等，客服帮您转接专业售后客服，转接之后您跟咱们售后同事描述下您遇到的问题哦~"
+  },
+  {
+    "time": "2025-12-18 17:55:02",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "viomi小甜心 将该会话转移给 viomi慧慧sk，请及时处理"
+  },
+  {
+    "time": "2025-12-18 17:55:12",
+    "role": "客服",
+    "name": "viomi慧慧sk",
+    "type": "text",
+    "content": "亲我们是支持开发票的哈 如果您需要开发票~可以在订单完成后在订单申请开发票哦~申请后财务会在5-7个工作日内为您开具好的哈"
+  },
+  {
+    "time": "2025-12-18 17:55:14",
+    "role": "客服",
+    "name": "viomi慧慧sk",
+    "type": "image",
+    "content": "https://t00img.yangkeduo.com/chat/images/2025-12-18/1a71fd81-b08b-463e-9aac-6d6c93746782.png?imageMogr2/thumbnail/800x800"
+  }
+]

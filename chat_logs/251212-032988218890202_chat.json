@@ -1,0 +1,359 @@
+[
+  {
+    "time": "2025-12-12 09:48:35",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[常见问题列表]"
+  },
+  {
+    "time": "2025-12-12 09:49:05",
+    "role": "用户",
+    "name": "老***",
+    "type": "text",
+    "content": "终身免费送滤芯吗?"
+  },
+  {
+    "time": "2025-12-12 09:49:18",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "亲不是终身免费送哦~"
+  },
+  {
+    "time": "2025-12-12 09:49:36",
+    "role": "用户",
+    "name": "老***",
+    "type": "text",
+    "content": "免费安装嘛?"
+  },
+  {
+    "time": "2025-12-12 09:49:44",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "净水器包装里材料是免费上门安装的，免费安装不涉及橱柜改造、下水管改造、电源改造、拆旧等。 龙头安装如需开孔，木板、不锈钢、亚克力台面提供免费开孔"
+  },
+  {
+    "time": "2025-12-12 09:54:19",
+    "role": "用户",
+    "name": "老***",
+    "type": "text",
+    "content": "安装是怎么安排的?"
+  },
+  {
+    "time": "2025-12-12 09:54:37",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "到货后根我们这边说就好了哈~帮您安排对接售后"
+  },
+  {
+    "time": "2025-12-12 09:55:08",
+    "role": "用户",
+    "name": "老***",
+    "type": "text",
+    "content": "可以预约安装吗?"
+  },
+  {
+    "time": "2025-12-12 09:55:22",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "需要到货后才能预约哦~"
+  },
+  {
+    "time": "2025-12-12 09:56:15",
+    "role": "用户",
+    "name": "老***",
+    "type": "text",
+    "content": "不是送装，到货后单独后面预约安装。"
+  },
+  {
+    "time": "2025-12-12 09:56:46",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "是的"
+  },
+  {
+    "time": "2025-12-12 09:56:57",
+    "role": "用户",
+    "name": "老***",
+    "type": "text",
+    "content": "[好的]"
+  },
+  {
+    "time": "2025-12-12 09:57:10",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "[动画表情]"
+  },
+  {
+    "time": "2025-12-12 19:51:59",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[买家申请修改为新地址]"
+  },
+  {
+    "time": "2025-12-12 19:52:33",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "收货地址修改成功"
+  },
+  {
+    "time": "2025-12-18 09:15:48",
+    "role": "用户",
+    "name": "老***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=852932116812&_oak_rcto=YWLebVs0cgoZrFnFEQfTnBNDvdX-aS8mTRCIuPEvZWMi8ebLnskxqZBAXbRYZpq5d5w&page_from=63&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2025-12-18 09:16:19",
+    "role": "用户",
+    "name": "老***",
+    "type": "text",
+    "content": "这个套餐共有几支复合滤芯"
+  },
+  {
+    "time": "2025-12-18 09:16:29",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2025-12-18/946ecbd4-e66f-412c-9133-87d5b7ddc8c2.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-18 09:16:31",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "小主，这款云米净水器600G小海豚套餐到货后会收到4支滤芯，1根标配的ro滤芯，1根标配复合滤芯，2根复合滤芯的呀~"
+  },
+  {
+    "time": "2025-12-18 09:46:30",
+    "role": "用户",
+    "name": "老***",
+    "type": "text",
+    "content": "这款可用六年不用买滤芯了吗"
+  },
+  {
+    "time": "2025-12-18 09:46:31",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-18 09:46:59",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=852932116812"
+  },
+  {
+    "time": "2025-12-18 09:47:06",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "这款套装的"
+  },
+  {
+    "time": "2025-12-18 09:48:21",
+    "role": "用户",
+    "name": "老***",
+    "type": "text",
+    "content": "送水质检测笔吗"
+  },
+  {
+    "time": "2025-12-18 09:48:42",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "是的哈 下单后联系小妹这边登记赠品呢"
+  },
+  {
+    "time": "2025-12-18 09:48:49",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "小主~ 赠品到货后联系售后客服晒单评价登记后返的哈~大概30个工作日内发出哈~不是随商品一起寄出的哦[玫瑰]"
+  },
+  {
+    "time": "2025-12-18 10:18:29",
+    "role": "用户",
+    "name": "老***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610&_oak_rcto=YWK1V21apxB2ZLyFpZlKXUyivdX-aS8mTRCIuPEvZWMi8ebLnskxqZBAXbRYZpq5d5w&page_from=63&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2025-12-18 10:18:40",
+    "role": "用户",
+    "name": "老***",
+    "type": "text",
+    "content": "晒图送滤芯吗"
+  },
+  {
+    "time": "2025-12-18 10:18:40",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-18 10:19:06",
+    "role": "用户",
+    "name": "老***",
+    "type": "text",
+    "content": "赠一年延保是什么"
+  },
+  {
+    "time": "2025-12-18 10:19:25",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "没有赠送活动哦~"
+  },
+  {
+    "time": "2025-12-18 10:19:46",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "现在下单到货后晒图评价联系售后小妹这边登记多返您一年延保的哈"
+  },
+  {
+    "time": "2025-12-18 10:20:09",
+    "role": "用户",
+    "name": "老***",
+    "type": "text",
+    "content": "一年延保有哪些"
+  },
+  {
+    "time": "2025-12-18 10:20:20",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "整机"
+  },
+  {
+    "time": "2025-12-18 10:21:03",
+    "role": "用户",
+    "name": "老***",
+    "type": "text",
+    "content": "本来保一年，送一年就是保2年。"
+  },
+  {
+    "time": "2025-12-18 10:21:27",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "是的哈"
+  },
+  {
+    "time": "2025-12-18 10:21:56",
+    "role": "用户",
+    "name": "老***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610&_oak_rcto=YWJUNyMu4XVreLyFpZlKXUyivdX-aS8mTRCIuPEvZWMi8ebLnskxqZBAXbRYZpq5d5w&page_from=63&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2025-12-18 10:22:10",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "在的哈"
+  },
+  {
+    "time": "2025-12-18 10:22:23",
+    "role": "用户",
+    "name": "老***",
+    "type": "text",
+    "content": "这款一年后需要买滤芯换吗"
+  },
+  {
+    "time": "2025-12-18 10:22:44",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "复合滤芯是要的"
+  },
+  {
+    "time": "2025-12-18 10:23:51",
+    "role": "用户",
+    "name": "老***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=852932116812&_oak_rcto=YWK4iY6HWSV3LlnFEQfTnBNDvdX-aS8mTRCIuPEvZWMi8ebLnskxqZBAXbRYZpq5d5w&page_from=63&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2025-12-18 10:24:00",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "在的哈"
+  },
+  {
+    "time": "2025-12-18 10:24:17",
+    "role": "用户",
+    "name": "老***",
+    "type": "text",
+    "content": "那这一款六年都不用买滤芯换了吗？"
+  },
+  {
+    "time": "2025-12-18 10:24:17",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-18 10:24:37",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "是的哈"
+  },
+  {
+    "time": "2025-12-18 10:25:35",
+    "role": "用户",
+    "name": "老***",
+    "type": "text",
+    "content": "质保多长时间呢?"
+  },
+  {
+    "time": "2025-12-18 10:26:22",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "整机1年 零部件1年"
+  },
+  {
+    "time": "2025-12-18 10:26:58",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "退款成功通知"
+  },
+  {
+    "time": "2025-12-18 10:27:11",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "[握手]"
+  },
+  {
+    "time": "2025-12-18 16:19:59",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "您好，还没有收到您的订单，有什么顾虑吗，可以给我说下呢，非常乐意为您解决的哈~"
+  },
+  {
+    "time": "2025-12-18 16:20:05",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "小主～双旦活动倒计时~库存告急，现在下单还能赶上节前发货哦~心动不如行动呢~手慢无库存[亲亲]"
+  }
+]

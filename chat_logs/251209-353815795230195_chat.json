@@ -1,0 +1,72 @@
+[
+  {
+    "time": "2025-12-23 09:16:10",
+    "role": "用户",
+    "name": "無***",
+    "type": "text",
+    "content": "你好货已收到"
+  },
+  {
+    "time": "2025-12-23 09:16:36",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "好的呢"
+  },
+  {
+    "time": "2025-12-23 09:16:41",
+    "role": "用户",
+    "name": "無***",
+    "type": "text",
+    "content": "预约安装的时候SN码识别不了"
+  },
+  {
+    "time": "2025-12-23 09:16:52",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "消费者催促您，请尽快回复！"
+  },
+  {
+    "time": "2025-12-23 09:16:52",
+    "role": "用户",
+    "name": "無***",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-user-v1/2025-12-23/6337dbe7-e9d3-4807-ae5d-8776553907d9.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-23 09:17:03",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "小主，请您稍等，客服帮您转接专业售后客服，转接之后您跟咱们售后同事描述下您遇到的问题哦~"
+  },
+  {
+    "time": "2025-12-23 09:17:05",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "viomi小云朵 将该会话转移给 viomi莉莉sk，请及时处理"
+  },
+  {
+    "time": "2025-12-23 09:17:33",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "搜产品信息 小海豚2"
+  },
+  {
+    "time": "2025-12-23 09:17:39",
+    "role": "用户",
+    "name": "無***",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-user-v1/2025-12-23/0b25e614-3776-4cf9-a5ce-460b2d20cc9a.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-23 09:17:40",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "小海豚3 试试看"
+  }
+]

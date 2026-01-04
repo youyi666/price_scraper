@@ -1,0 +1,366 @@
+[
+  {
+    "time": "2025-12-08 21:07:57",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[常见问题列表]"
+  },
+  {
+    "time": "2025-12-08 21:08:19",
+    "role": "用户",
+    "name": "吴***",
+    "type": "text",
+    "content": "这个是有包安装是吗"
+  },
+  {
+    "time": "2025-12-08 21:08:29",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "来咯来咯~欢迎光临~~~金牌销售为您服务，非常乐意解答您的任何疑问。如有任何问题，欢迎随时向我咨询，小客服今天将为您全程服务~~o(*￣▽￣*)o"
+  },
+  {
+    "time": "2025-12-08 21:08:51",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "小云朵，净水器商品和随商品一起发货的标配配件免费上门安装1次哦，免费安装不涉及橱柜改造、下水管改造、电源改造、拆旧等。 ?龙头安装开孔可参考以下开孔费用~自备辅材收取人工服务费 30 元/次~，如您家是有净水器需要拆旧的，云米品牌净水器会提供免费拆旧哦，如非云米品牌产品拆旧费用 30 元/台左右呢，（每个客户的装修环境不同，这个具体所费用要师傅到了现场确认哦"
+  },
+  {
+    "time": "2025-12-08 21:11:39",
+    "role": "用户",
+    "name": "吴***",
+    "type": "text",
+    "content": "这个小海豚3和2有什么区别阿"
+  },
+  {
+    "time": "2025-12-08 21:11:39",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-08 21:11:50",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "小主，麻烦您稍等一下，我这边帮您看看噢~"
+  },
+  {
+    "time": "2025-12-08 21:16:55",
+    "role": "用户",
+    "name": "吴***",
+    "type": "text",
+    "content": "这个配的龙头吗没一圈蓝灯提示换芯的吗？"
+  },
+  {
+    "time": "2025-12-08 21:17:17",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "亲亲配有龙头的"
+  },
+  {
+    "time": "2025-12-08 21:18:22",
+    "role": "用户",
+    "name": "吴***",
+    "type": "text",
+    "content": "知道，配的龙头没有智能灯环吗"
+  },
+  {
+    "time": "2025-12-08 21:18:22",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-08 21:18:57",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "有的呢亲亲"
+  },
+  {
+    "time": "2025-12-08 21:19:13",
+    "role": "用户",
+    "name": "吴***",
+    "type": "text",
+    "content": "小海豚3也有是吗"
+  },
+  {
+    "time": "2025-12-08 21:19:13",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-08 21:19:43",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "抱歉哈亲亲，这边小妹看了一下"
+  },
+  {
+    "time": "2025-12-08 21:20:09",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2025-12-08/fd1d80a5-d800-4cfd-a1ca-62a90c7dc1b3.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-08 21:20:12",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "3是没有的呢"
+  },
+  {
+    "time": "2025-12-08 21:20:33",
+    "role": "用户",
+    "name": "吴***",
+    "type": "text",
+    "content": "那3也没能连接米家"
+  },
+  {
+    "time": "2025-12-08 21:20:40",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "可以链接的呢"
+  },
+  {
+    "time": "2025-12-08 21:20:55",
+    "role": "用户",
+    "name": "吴***",
+    "type": "text",
+    "content": "要插电的吗"
+  },
+  {
+    "time": "2025-12-08 21:21:15",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "是滴呢亲亲"
+  },
+  {
+    "time": "2025-12-08 21:23:27",
+    "role": "用户",
+    "name": "吴***",
+    "type": "text",
+    "content": "小海豚3也要插电吗"
+  },
+  {
+    "time": "2025-12-08 21:23:46",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "是滴"
+  },
+  {
+    "time": "2025-12-08 21:37:44",
+    "role": "用户",
+    "name": "吴***",
+    "type": "text",
+    "content": "反渗透都是要插电的吗"
+  },
+  {
+    "time": "2025-12-08 21:38:03",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "要哒哈亲亲"
+  },
+  {
+    "time": "2025-12-08 21:41:32",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "小主，我们的新品首发小海豚3 预售活动开始咯~现在拍下499到手，12月20日发货，现在下单还加送一年延保，延保只有预售期间拍下的才有哦~超值福利不容错过！！！"
+  },
+  {
+    "time": "2025-12-08 21:49:04",
+    "role": "用户",
+    "name": "吴***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610&_oak_rcto=YWL4WmPuTMI3MODXXed4K-LrgkZNmIsNbAGwJ-RdXAlNaPYXa2NlGdMlGUdlm_HVai8&page_from=63&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2025-12-08 21:49:09",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "来咯来咯~欢迎光临~~~金牌销售为您服务，非常乐意解答您的任何疑问。如有任何问题，欢迎随时向我咨询，小客服今天将为您全程服务~~o(*￣▽￣*)o"
+  },
+  {
+    "time": "2025-12-08 21:49:14",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "在的呢亲亲"
+  },
+  {
+    "time": "2025-12-08 21:49:15",
+    "role": "用户",
+    "name": "吴***",
+    "type": "text",
+    "content": "显示559呢"
+  },
+  {
+    "time": "2025-12-08 21:49:15",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-08 21:49:33",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "方便截图给小妹看下吗"
+  },
+  {
+    "time": "2025-12-08 21:49:45",
+    "role": "用户",
+    "name": "吴***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610&_oak_rcto=YWLEnk68AXg-E-DXXed4K-LrgkZNmIsNbAGwJ-RdXAlNaPYXa2NlGdMlGUdlm_HVai8&page_from=63&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2025-12-08 21:49:50",
+    "role": "用户",
+    "name": "吴***",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-user-v1/2025-12-08/77dfab71-2f41-43ee-9122-0630c28aee71.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-08 21:50:05",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "亲亲这边您下单付款多少钱呢"
+  },
+  {
+    "time": "2025-12-08 21:50:07",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2025-12-08/1219048e-6de1-484a-befa-31853f573284.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-08 21:50:16",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "这边看到您实收499呢"
+  },
+  {
+    "time": "2025-12-08 21:50:34",
+    "role": "用户",
+    "name": "吴***",
+    "type": "text",
+    "content": "我是说再买就要559吗"
+  },
+  {
+    "time": "2025-12-08 21:50:45",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "小主，麻烦您稍等一下，我这边帮您看看噢~"
+  },
+  {
+    "time": "2025-12-08 21:53:31",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "小主一个账号只能优惠一台呢"
+  },
+  {
+    "time": "2025-12-08 21:54:48",
+    "role": "用户",
+    "name": "吴***",
+    "type": "text",
+    "content": "哦，这种是有废水的吗"
+  },
+  {
+    "time": "2025-12-08 21:55:35",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "有的呢亲亲"
+  },
+  {
+    "time": "2025-12-08 21:56:18",
+    "role": "用户",
+    "name": "吴***",
+    "type": "text",
+    "content": "还有，我那个厨下没插座，咋办呢"
+  },
+  {
+    "time": "2025-12-08 21:56:35",
+    "role": "用户",
+    "name": "吴***",
+    "type": "text",
+    "content": "又不能装厨上？"
+  },
+  {
+    "time": "2025-12-08 21:57:27",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "小主，麻烦您稍等一下，我这边帮您看看噢~"
+  },
+  {
+    "time": "2025-12-08 21:57:45",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "您可以带插排呢"
+  },
+  {
+    "time": "2025-12-08 21:58:33",
+    "role": "用户",
+    "name": "吴***",
+    "type": "text",
+    "content": "带插排门关不了呢"
+  },
+  {
+    "time": "2025-12-08 21:59:08",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "亲亲您看下是否有小一点的插排嘛"
+  },
+  {
+    "time": "2025-12-09 00:13:49",
+    "role": "用户",
+    "name": "吴***",
+    "type": "text",
+    "content": "厨房那个洗碗盆只有一个孔，装了水龙头了，净水器的龙头没法装了，安装时能帮忙开孔吗"
+  },
+  {
+    "time": "2025-12-09 00:13:50",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-09 00:14:14",
+    "role": "用户",
+    "name": "吴***",
+    "type": "text",
+    "content": "小米的是免费开一个孔，你们有吗"
+  },
+  {
+    "time": "2025-12-09 08:06:05",
+    "role": "客服",
+    "name": "留言账号专用",
+    "type": "text",
+    "content": "净水器包装里材料是免费上门安装的，免费安装不涉及橱柜改造、下水管改造、电源改造、拆旧等。 龙头安装如需开孔，木板、不锈钢、亚克力台面提供免费开孔"
+  }
+]

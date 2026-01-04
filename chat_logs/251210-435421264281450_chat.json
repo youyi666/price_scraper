@@ -1,0 +1,261 @@
+[
+  {
+    "time": "2025-12-07 23:35:22",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[常见问题列表]"
+  },
+  {
+    "time": "2025-12-07 23:35:36",
+    "role": "用户",
+    "name": "叫***",
+    "type": "text",
+    "content": "成品水质怎么样"
+  },
+  {
+    "time": "2025-12-07 23:35:37",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-07 23:36:29",
+    "role": "用户",
+    "name": "叫***",
+    "type": "text",
+    "content": "用笔测试，是多少tds值"
+  },
+  {
+    "time": "2025-12-08 07:25:31",
+    "role": "用户",
+    "name": "叫***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=296967601341&_oak_rcto=YWLHqh-v6wOi6ELf64_37l_pFfpQsTN9-5T6A6wRuZw7D96_hJnHID0_&page_from=63&_oak_actype=null&_oak_sub_actype=null"
+  },
+  {
+    "time": "2025-12-08 07:25:46",
+    "role": "用户",
+    "name": "叫***",
+    "type": "text",
+    "content": "买设备复购滤芯多少钱"
+  },
+  {
+    "time": "2025-12-08 07:25:46",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-08 07:31:57",
+    "role": "用户",
+    "name": "叫***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=819506595979&_oak_rcto=YWJD4f08NNNXSeRXUUdtGmHSFfpQsTN9-5T6A6wRuZw7D96_hJnHID0_&page_from=63&_oc_refer_ad=0&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2025-12-08 07:32:03",
+    "role": "用户",
+    "name": "叫***",
+    "type": "text",
+    "content": "配件包括啥"
+  },
+  {
+    "time": "2025-12-08 07:32:04",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-08 07:45:21",
+    "role": "用户",
+    "name": "叫***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=225501370546&_oak_rcto=YWJZfkMOMuG7e8eabTtuYxikFfpQsTN9-5T6A6wRuZw7D96_hJnHID0_&page_from=63&_oc_trace_mark=199&_oc_adinfo=eyJwYWdlX3NuIjoxMDAxNSwic2NlbmVfaWQiOjJ9&_oc_refer_ad=1&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2025-12-08 07:45:29",
+    "role": "用户",
+    "name": "叫***",
+    "type": "text",
+    "content": "有人吗"
+  },
+  {
+    "time": "2025-12-08 07:45:29",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-08 08:01:15",
+    "role": "客服",
+    "name": "留言账号专用",
+    "type": "text",
+    "content": "您好，请问有什么可以帮到您呢"
+  },
+  {
+    "time": "2025-12-10 07:45:36",
+    "role": "用户",
+    "name": "叫***",
+    "type": "text",
+    "content": "插电吗"
+  },
+  {
+    "time": "2025-12-10 07:45:36",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-10 07:45:46",
+    "role": "用户",
+    "name": "叫***",
+    "type": "text",
+    "content": "以后滤芯有卖的吗"
+  },
+  {
+    "time": "2025-12-10 08:05:30",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "留言账号专用 将该会话转移给 viomi小云朵，请及时处理"
+  },
+  {
+    "time": "2025-12-10 08:06:04",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "亲亲您好～欢迎光临云米电器官方旗舰店！我是您的专属客服小云朵，对任何产品有疑问可以随时咨询，很高兴为您服务~😊”"
+  },
+  {
+    "time": "2025-12-10 08:06:17",
+    "role": "用户",
+    "name": "叫***",
+    "type": "text",
+    "content": "您好"
+  },
+  {
+    "time": "2025-12-10 08:07:21",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "您好 小妹在的哦"
+  },
+  {
+    "time": "2025-12-10 13:42:21",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "您看的小海豚3这款滤芯20号才上线的哈~"
+  },
+  {
+    "time": "2025-12-10 20:10:06",
+    "role": "用户",
+    "name": "叫***",
+    "type": "text",
+    "content": "插电的吗"
+  },
+  {
+    "time": "2025-12-10 20:10:06",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-10 20:10:20",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "是"
+  },
+  {
+    "time": "2025-12-10 20:10:24",
+    "role": "用户",
+    "name": "叫***",
+    "type": "text",
+    "content": "好"
+  },
+  {
+    "time": "2025-12-10 20:10:37",
+    "role": "用户",
+    "name": "叫***",
+    "type": "text",
+    "content": "每年一换的滤芯回购多少钱"
+  },
+  {
+    "time": "2025-12-10 20:11:00",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "亲亲，马上帮您查询，请稍等一下哈，查好了第一时间给您回复的哟"
+  },
+  {
+    "time": "2025-12-10 20:11:13",
+    "role": "用户",
+    "name": "叫***",
+    "type": "text",
+    "content": "还有换滤芯会提醒吗"
+  },
+  {
+    "time": "2025-12-10 20:11:33",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "没有提醒的哦 这款"
+  },
+  {
+    "time": "2025-12-10 20:11:42",
+    "role": "用户",
+    "name": "叫***",
+    "type": "text",
+    "content": "哪一款有提醒的"
+  },
+  {
+    "time": "2025-12-10 20:11:59",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "可以链接米家的"
+  },
+  {
+    "time": "2025-12-10 20:12:04",
+    "role": "用户",
+    "name": "叫***",
+    "type": "text",
+    "content": "好的"
+  },
+  {
+    "time": "2025-12-10 20:12:46",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=225501370546"
+  },
+  {
+    "time": "2025-12-10 20:13:13",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2025-12-10/00cdf0e6-7393-42a6-bb31-daad67739597.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-10 20:13:17",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2025-12-10/411a9e7c-42a2-4e07-81bf-844bf34c70b2.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-10 20:13:21",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "可以看看这款的哈"
+  }
+]

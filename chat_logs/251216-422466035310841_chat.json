@@ -1,0 +1,184 @@
+[
+  {
+    "time": "2025-12-15 20:37:23",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[常见问题列表]"
+  },
+  {
+    "time": "2025-12-15 20:37:40",
+    "role": "用户",
+    "name": "向***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610&_oak_rcto=YWJF7g80KPpEQCWwVUcQGHsXJ9kR57ZKu5-wJ-RdXAlNaNZbGFRrTxUjECN9E7hLb1I&page_from=63&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2025-12-15 20:37:49",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "您好有什么可以帮到您~"
+  },
+  {
+    "time": "2025-12-15 20:37:56",
+    "role": "用户",
+    "name": "向***",
+    "type": "text",
+    "content": "下单后多久发货？包安装吗"
+  },
+  {
+    "time": "2025-12-15 20:38:41",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "您好亲这款是预售产品哦~"
+  },
+  {
+    "time": "2025-12-15 20:38:47",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "20号发货的"
+  },
+  {
+    "time": "2025-12-15 20:38:53",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "净水器包装里材料是免费上门安装的，免费安装不涉及橱柜改造、下水管改造、电源改造、拆旧等。 龙头安装如需开孔，木板、不锈钢、亚克力台面提供免费开孔"
+  },
+  {
+    "time": "2025-12-16 12:31:28",
+    "role": "用户",
+    "name": "向***",
+    "type": "text",
+    "content": "你好，我六月份买的这支滤芯还没用，现在我要换你家这款新净水器，这支滤芯就要浪费了，你们回收滤芯吗？"
+  },
+  {
+    "time": "2025-12-16 12:31:37",
+    "role": "用户",
+    "name": "向***",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-user-v1/2025-12-16/57779e24-43e3-49e2-9d7b-ac3abc891f8a.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-16 12:31:37",
+    "role": "用户",
+    "name": "向***",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-user-v1/2025-12-16/25b508fc-6531-4eab-a037-503b35f139e2.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-16 12:32:06",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "亲亲，马上帮您查询，请稍等一下哈，查好了第一时间给您回复的哟"
+  },
+  {
+    "time": "2025-12-16 12:42:07",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "不回收的哦 亲亲"
+  },
+  {
+    "time": "2025-12-20 14:25:16",
+    "role": "用户",
+    "name": "向***",
+    "type": "text",
+    "content": "请问什么时候可以安排安装"
+  },
+  {
+    "time": "2025-12-20 14:25:16",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-20 14:25:27",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "消费者催促您，请尽快回复！"
+  },
+  {
+    "time": "2025-12-20 14:25:39",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "小主，请您稍等，客服帮您转接专业售后客服，转接之后您跟咱们售后同事描述下您遇到的问题哦~"
+  },
+  {
+    "time": "2025-12-20 14:25:44",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "viomi小云朵 将该会话转移给 viomi莉莉sk，请及时处理"
+  },
+  {
+    "time": "2025-12-20 14:26:06",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "小云朵，收到货后需要预约安装的话可以通过云米商城app进行预约安装，预约成功后会为您安排师傅上门的哦~后续有什么问题也都可以随时联系我们在线客服哦~"
+  },
+  {
+    "time": "2025-12-20 14:26:07",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "image",
+    "content": "https://t00img.yangkeduo.com/chat/images/2025-12-20/ac311474-ef47-41a5-8f41-56a4e7e1a4b2.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-21 11:24:33",
+    "role": "用户",
+    "name": "向***",
+    "type": "text",
+    "content": "这款不能联网查看滤芯使用情况吗"
+  },
+  {
+    "time": "2025-12-21 11:24:33",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-21 11:25:00",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "小主，请您稍等，客服帮您转接专业售后客服，转接之后您跟咱们售后同事描述下您遇到的问题哦~"
+  },
+  {
+    "time": "2025-12-21 11:25:10",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "viomi小云朵 将该会话转移给 viomi慧慧sk，请及时处理"
+  },
+  {
+    "time": "2025-12-21 11:25:18",
+    "role": "客服",
+    "name": "viomi慧慧sk",
+    "type": "text",
+    "content": "不可以的哦"
+  },
+  {
+    "time": "2025-12-21 11:44:30",
+    "role": "用户",
+    "name": "向***",
+    "type": "text",
+    "content": "啊，那我怎么知道什么时候要换滤芯？"
+  },
+  {
+    "time": "2025-12-21 11:44:43",
+    "role": "客服",
+    "name": "viomi慧慧sk",
+    "type": "text",
+    "content": "机器有指示灯提示的哦"
+  }
+]

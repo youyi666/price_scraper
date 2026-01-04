@@ -1,0 +1,58 @@
+[
+  {
+    "time": "2025-12-21 18:03:46",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[常见问题列表]"
+  },
+  {
+    "time": "2025-12-21 18:03:57",
+    "role": "用户",
+    "name": "1***",
+    "type": "text",
+    "content": "货收到了 怎么联系上门安装呢"
+  },
+  {
+    "time": "2025-12-21 18:03:57",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-21 18:04:17",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2025-12-21/738d89cd-9cb8-49cb-be2e-3b7ef54f6724.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-21 18:04:20",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "联系400哈"
+  },
+  {
+    "time": "2025-12-21 18:04:24",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "viomi小甜心 将该会话转移给 viomi诺诺sk，请及时处理"
+  },
+  {
+    "time": "2025-12-21 18:04:38",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "小云朵，收到货后需要预约安装的话可以通过云米商城app进行预约安装，预约成功后会为您安排师傅上门的哦~后续有什么问题也都可以随时联系我们在线客服哦~"
+  },
+  {
+    "time": "2025-12-21 18:04:40",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "image",
+    "content": "https://t00img.yangkeduo.com/chat/images/2025-12-21/4fa9b02d-e2f1-41b1-b5c2-a71ecad9a626.png?imageMogr2/thumbnail/800x800"
+  }
+]

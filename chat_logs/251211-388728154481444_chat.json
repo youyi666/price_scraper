@@ -1,0 +1,191 @@
+[
+  {
+    "time": "2025-12-11 23:31:53",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "申请发票"
+  },
+  {
+    "time": "2025-12-11 23:32:01",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "小主，很抱歉售后客服目前已经下班，售后上班时间是：9:00-22:00，辛苦您明天9点后再次入线咨询我们的售后客服哒 （如需安装/维修，可直接扫码后在小程序上自助报单，更快捷~）"
+  },
+  {
+    "time": "2025-12-22 20:11:05",
+    "role": "用户",
+    "name": "挺***",
+    "type": "text",
+    "content": "麻烦安排安装啊"
+  },
+  {
+    "time": "2025-12-22 20:11:05",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-22 20:11:29",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "小主，请您稍等，客服帮您转接专业售后客服，转接之后您跟咱们售后同事描述下您遇到的问题哦~"
+  },
+  {
+    "time": "2025-12-22 20:11:34",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "viomi小甜心 将该会话转移给 viomi诺诺sk，请及时处理"
+  },
+  {
+    "time": "2025-12-22 20:11:43",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "小云朵，收到货后需要预约安装的话可以通过云米商城app进行预约安装，预约成功后会为您安排师傅上门的哦~后续有什么问题也都可以随时联系我们在线客服哦~"
+  },
+  {
+    "time": "2025-12-22 20:11:46",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "image",
+    "content": "https://t00img.yangkeduo.com/chat/images/2025-12-22/ceafc3e8-ff21-4d43-a427-d8f4e6bb4d59.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-24 19:27:34",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "https://video3.yangkeduo.com/idaho-api-video/2025-12-24/5509b02982dfce8c3e4b7073e90f6b9d.mp4"
+  },
+  {
+    "time": "2025-12-24 19:27:38",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "在的"
+  },
+  {
+    "time": "2025-12-24 19:27:45",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "viomi小可爱 将该会话转移给 viomi慧慧sk，请及时处理"
+  },
+  {
+    "time": "2025-12-24 19:27:51",
+    "role": "用户",
+    "name": "挺***",
+    "type": "text",
+    "content": "师傅装好，但是怎么晃动这么大"
+  },
+  {
+    "time": "2025-12-24 19:27:58",
+    "role": "客服",
+    "name": "viomi慧慧sk",
+    "type": "text",
+    "content": "小云朵~这边是售后客服，麻烦您稍等我先看一下聊天记录后马上为您处理。您暂时先不用回复我哈~"
+  },
+  {
+    "time": "2025-12-24 19:29:22",
+    "role": "客服",
+    "name": "viomi慧慧sk",
+    "type": "text",
+    "content": "底座是固定哦 颈部分是可以移动的呢 正常的哈"
+  },
+  {
+    "time": "2025-12-24 19:35:12",
+    "role": "用户",
+    "name": "挺***",
+    "type": "text",
+    "content": "我要退货"
+  },
+  {
+    "time": "2025-12-24 19:35:16",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "在的"
+  },
+  {
+    "time": "2025-12-24 19:35:17",
+    "role": "用户",
+    "name": "挺***",
+    "type": "text",
+    "content": "这个这么抖"
+  },
+  {
+    "time": "2025-12-24 19:35:21",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "稍等"
+  },
+  {
+    "time": "2025-12-24 19:35:24",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "viomi小可爱 将该会话转移给 viomi范范sk，请及时处理"
+  },
+  {
+    "time": "2025-12-24 19:35:31",
+    "role": "用户",
+    "name": "挺***",
+    "type": "text",
+    "content": "晃得要死"
+  },
+  {
+    "time": "2025-12-24 19:35:35",
+    "role": "客服",
+    "name": "viomi范范sk",
+    "type": "text",
+    "content": "您可以查看下您的发票详情：个人中心-点击头像-找到“我的发票助手”查看开票进度/申请发票"
+  },
+  {
+    "time": "2025-12-24 19:35:51",
+    "role": "客服",
+    "name": "viomi范范sk",
+    "type": "text",
+    "content": "拍个视频这边帮您看看呢"
+  },
+  {
+    "time": "2025-12-24 19:56:11",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "https://video3.yangkeduo.com/idaho-api-video/2025-12-24/0bcb6d0eb0ad2954f83dcd24eea31ec1.mp4"
+  },
+  {
+    "time": "2025-12-24 19:57:18",
+    "role": "客服",
+    "name": "viomi范范sk",
+    "type": "text",
+    "content": "如果拧太紧的话龙头是无法转动的呢，您需要拧紧的话这边何师傅反馈下重新跟进呢"
+  },
+  {
+    "time": "2025-12-24 20:01:00",
+    "role": "用户",
+    "name": "挺***",
+    "type": "text",
+    "content": "她说没办法"
+  },
+  {
+    "time": "2025-12-24 20:01:00",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-24 20:02:44",
+    "role": "客服",
+    "name": "viomi范范sk",
+    "type": "text",
+    "content": "好的呢"
+  }
+]

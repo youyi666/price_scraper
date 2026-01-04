@@ -1,0 +1,72 @@
+[
+  {
+    "time": "2025-12-14 01:59:56",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[常见问题列表]"
+  },
+  {
+    "time": "2025-12-14 01:59:58",
+    "role": "用户",
+    "name": "仲***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610&_oak_rcto=YWIqxRcFeK98J54Mjvt83_iRf8eLix8dw-FBkFcndYkb8CI5MW6Qu6mA5lca_r1D9uw&page_from=63&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2025-12-14 11:41:49",
+    "role": "用户",
+    "name": "仲***",
+    "type": "text",
+    "content": "订单编号:251214-086843092602677"
+  },
+  {
+    "time": "2025-12-14 11:42:18",
+    "role": "用户",
+    "name": "仲***",
+    "type": "text",
+    "content": "可以说一下过滤后它的tds是多少么"
+  },
+  {
+    "time": "2025-12-14 11:42:29",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "消费者催促您，请尽快回复！"
+  },
+  {
+    "time": "2025-12-14 11:42:34",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "在50以下哦~"
+  },
+  {
+    "time": "2025-12-14 11:42:49",
+    "role": "用户",
+    "name": "仲***",
+    "type": "text",
+    "content": "[好的][好的][好的]"
+  },
+  {
+    "time": "2025-12-14 11:42:56",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "[动画表情]"
+  },
+  {
+    "time": "2025-12-14 12:22:19",
+    "role": "用户",
+    "name": "仲***",
+    "type": "text",
+    "content": "@姐，你们这个脱盐率能达到多少"
+  },
+  {
+    "time": "2025-12-14 12:22:45",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "我们净水器的脱盐率是不低于85%的呢，脱盐率简单计算方法为 ●脱盐率=(自来水TDS-纯水TDS)/自来水TDS ●若您家市政自来水TDS值在200以内，则纯水TDS值≤30；若自来水TDS值在100以内，则纯水TDS值≤15，不同地方自来水TDS会不同，只要脱盐率≥85%即符合国家标准呢~"
+  }
+]

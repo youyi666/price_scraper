@@ -1,0 +1,282 @@
+[
+  {
+    "time": "2025-12-24 18:44:22",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[常见问题列表]"
+  },
+  {
+    "time": "2025-12-24 18:44:24",
+    "role": "用户",
+    "name": "七***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610&_oak_rcto=YWKQzPDu_WT69PFn16OrUSzeO8RFWHW0MKGSvprn40cQIB4I_n3Ej1kq&page_from=63&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2025-12-24 18:44:30",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "小云朵您好，在的呢~很高兴为您服务，请问有什么可以帮到您的呢~"
+  },
+  {
+    "time": "2025-12-24 18:44:30",
+    "role": "用户",
+    "name": "七***",
+    "type": "text",
+    "content": "滤芯可以用多久"
+  },
+  {
+    "time": "2025-12-24 18:44:30",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-24 18:44:36",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "这款净水机包含两根滤芯，一根复合滤芯（1年左右更换），一根RO滤芯（5年左右更换）"
+  },
+  {
+    "time": "2025-12-24 18:44:47",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "【小海豚3净水器】纳斯达克上市品牌全球平台国内新品首发~ 【一净到底】6级纯物理过滤，去除重金属守护孩子成长 【一机守护】 0阻垢剂不含双酚A，孕妈宝宝安心喝 【一触即饮】4秒就能接满一杯水，随时开怀畅饮 【一芯五年】5年长效RO滤芯，用得久真省芯 【一按换芯】弹扣式一按一拿，爸妈也能轻松换芯"
+  },
+  {
+    "time": "2025-12-24 18:44:56",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "小云朵您好，这边还没有下单是有什么顾虑吗？有任何问题都可以咨询我的呢"
+  },
+  {
+    "time": "2025-12-24 18:45:21",
+    "role": "用户",
+    "name": "七***",
+    "type": "text",
+    "content": "需要插电吗"
+  },
+  {
+    "time": "2025-12-24 18:45:30",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "要的呢"
+  },
+  {
+    "time": "2025-12-25 09:00:43",
+    "role": "用户",
+    "name": "七***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610&_oak_rcto=YWLiqW77b7Zmv_Fn16OrUSzeO8RFWHW0MKGwJ-RdXAlNaIFeJB9y1Wglbb3tMLMqRtI&page_from=63&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2025-12-25 09:00:49",
+    "role": "用户",
+    "name": "七***",
+    "type": "text",
+    "content": "滤芯怎么卖的"
+  },
+  {
+    "time": "2025-12-25 09:00:52",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "您好"
+  },
+  {
+    "time": "2025-12-25 09:01:00",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2025-12-25/614e6e7d-f7cd-49c7-b8be-664fedc5a756.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-25 09:17:19",
+    "role": "用户",
+    "name": "七***",
+    "type": "text",
+    "content": "是几分管？"
+  },
+  {
+    "time": "2025-12-25 09:17:23",
+    "role": "用户",
+    "name": "七***",
+    "type": "text",
+    "content": "已经买了"
+  },
+  {
+    "time": "2025-12-25 09:17:32",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "云米净水器的水管都是PE材质的 1.进水管(自来水)是3分管 2.纯水管是2分管/3分管 3.浓缩水(废水)管是2分管"
+  },
+  {
+    "time": "2025-12-25 09:17:40",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "这个出水是3分管的亲~"
+  },
+  {
+    "time": "2025-12-25 09:17:53",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "出纯水是3分，废水是2分"
+  },
+  {
+    "time": "2025-12-25 09:18:11",
+    "role": "用户",
+    "name": "七***",
+    "type": "text",
+    "content": "哦哦"
+  },
+  {
+    "time": "2025-12-25 09:18:16",
+    "role": "用户",
+    "name": "七***",
+    "type": "text",
+    "content": "需要转接头嘛"
+  },
+  {
+    "time": "2025-12-25 09:18:35",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "正常不需要的"
+  },
+  {
+    "time": "2025-12-25 09:19:09",
+    "role": "用户",
+    "name": "七***",
+    "type": "text",
+    "content": "嗯嗯"
+  },
+  {
+    "time": "2025-12-25 09:19:27",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "[动画表情]"
+  },
+  {
+    "time": "2025-12-26 09:08:18",
+    "role": "用户",
+    "name": "七***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=852161740747&_oak_rcto=YWLvNmwhTXktsNLl-kiOpf2IO8RFWHW0MKGwJ-RdXAlNaN-4JNx8cZXPuHieR5OkTyM&page_from=63&_oc_trace_mark=199&_oc_adinfo=eyJwYWdlX3NuIjoxMDAxNSwic2NlbmVfaWQiOjJ9&_oc_refer_ad=1&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2025-12-26 09:08:27",
+    "role": "用户",
+    "name": "七***",
+    "type": "text",
+    "content": "这款里面几个滤芯"
+  },
+  {
+    "time": "2025-12-26 09:08:27",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-26 09:08:54",
+    "role": "用户",
+    "name": "七***",
+    "type": "text",
+    "content": "出水进水多大管"
+  },
+  {
+    "time": "2025-12-26 09:09:06",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "云米净水器的水管都是PE材质的 1.进水管(自来水)是3分管 2.纯水管是2分管/3分管 3.浓缩水(废水)管是2分管"
+  },
+  {
+    "time": "2025-12-26 09:09:24",
+    "role": "用户",
+    "name": "七***",
+    "type": "text",
+    "content": "几个滤芯"
+  },
+  {
+    "time": "2025-12-26 09:09:43",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "机器是标配2个滤芯的哦~"
+  },
+  {
+    "time": "2025-12-26 09:10:09",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "Viomi云米新品首发直饮净水器--小海豚3 ①预售首发价499 ②晒图送1年延保 ③预售期间下单可99换购滤芯，限量2个（滤芯原价199 ） 滤芯套购更划算立省100元！！！！"
+  },
+  {
+    "time": "2025-12-26 09:10:28",
+    "role": "用户",
+    "name": "七***",
+    "type": "text",
+    "content": "包安装嘛"
+  },
+  {
+    "time": "2025-12-26 09:11:04",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "退款成功通知"
+  },
+  {
+    "time": "2025-12-26 09:11:17",
+    "role": "用户",
+    "name": "七***",
+    "type": "text",
+    "content": "我换成这个了"
+  },
+  {
+    "time": "2025-12-26 09:11:54",
+    "role": "用户",
+    "name": "七***",
+    "type": "text",
+    "content": "？"
+  },
+  {
+    "time": "2025-12-26 09:11:56",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "净水器包装里材料是免费上门安装的，免费安装不涉及橱柜改造、下水管改造、电源改造、拆旧等。 龙头安装如需开孔，木板、不锈钢、亚克力台面提供免费开孔"
+  },
+  {
+    "time": "2025-12-26 09:12:15",
+    "role": "用户",
+    "name": "七***",
+    "type": "text",
+    "content": "好的"
+  },
+  {
+    "time": "2025-12-26 09:12:27",
+    "role": "用户",
+    "name": "七***",
+    "type": "text",
+    "content": "快点发货，谢谢"
+  },
+  {
+    "time": "2025-12-26 09:12:57",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "嗯呢~"
+  }
+]

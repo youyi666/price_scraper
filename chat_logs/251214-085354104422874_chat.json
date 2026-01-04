@@ -1,0 +1,44 @@
+[
+  {
+    "time": "2025-12-14 13:51:03",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[常见问题列表]"
+  },
+  {
+    "time": "2025-12-14 13:51:04",
+    "role": "用户",
+    "name": "静***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610&_oak_rcto=YWKmfC91CPWnievwxkUU_4MrIyMVRdljXSouBqSD7Bu08oJ-0hD0JSMa&page_from=63&_oc_payment_biz=manufacturer_duoduo&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2025-12-14 13:51:14",
+    "role": "用户",
+    "name": "静***",
+    "type": "text",
+    "content": "你好，请问这个是多少G的"
+  },
+  {
+    "time": "2025-12-14 13:51:14",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-14 13:51:31",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "您好这款是600G的哦~"
+  },
+  {
+    "time": "2025-12-14 14:06:06",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "退款成功通知"
+  }
+]

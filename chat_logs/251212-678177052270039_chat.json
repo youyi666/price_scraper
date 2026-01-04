@@ -1,0 +1,415 @@
+[
+  {
+    "time": "2025-12-12 17:42:23",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[常见问题列表]"
+  },
+  {
+    "time": "2025-12-12 17:42:25",
+    "role": "用户",
+    "name": "刘***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610&_oak_rcto=YWKsqdNudhZEercgyPVPRbnFJ3fP_9TMldPV0-DK2gS46Lwl1uY9pOXV&page_from=63&_oc_trace_mark=199&_oc_adinfo=eyJwYWdlX3NuIjoxMDAwMiwic2NlbmVfaWQiOjUwNn0%3D&_oc_refer_ad=1&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2025-12-12 17:42:32",
+    "role": "用户",
+    "name": "刘***",
+    "type": "text",
+    "content": "怎么买"
+  },
+  {
+    "time": "2025-12-12 17:42:32",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-12 17:42:36",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "您好有什么可以帮到您~"
+  },
+  {
+    "time": "2025-12-12 17:42:43",
+    "role": "用户",
+    "name": "刘***",
+    "type": "text",
+    "content": "包安装吗"
+  },
+  {
+    "time": "2025-12-12 17:42:50",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "净水器包装里材料是免费上门安装的，免费安装不涉及橱柜改造、下水管改造、电源改造、拆旧等。 龙头安装如需开孔，木板、不锈钢、亚克力台面提供免费开孔"
+  },
+  {
+    "time": "2025-12-12 17:43:03",
+    "role": "用户",
+    "name": "刘***",
+    "type": "text",
+    "content": "出水量多大？"
+  },
+  {
+    "time": "2025-12-12 17:43:29",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "这款小海豚3出水量是600G哦"
+  },
+  {
+    "time": "2025-12-12 17:43:46",
+    "role": "用户",
+    "name": "刘***",
+    "type": "text",
+    "content": "之前多少钱一台？"
+  },
+  {
+    "time": "2025-12-12 17:43:54",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "新品亲"
+  },
+  {
+    "time": "2025-12-12 17:43:55",
+    "role": "用户",
+    "name": "刘***",
+    "type": "text",
+    "content": "双12之前"
+  },
+  {
+    "time": "2025-12-12 17:44:15",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "前几天好像是卖619的"
+  },
+  {
+    "time": "2025-12-12 17:44:42",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "现在我们到手价499"
+  },
+  {
+    "time": "2025-12-12 17:44:58",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "晒单赠送延保一年"
+  },
+  {
+    "time": "2025-12-12 17:45:19",
+    "role": "用户",
+    "name": "刘***",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-user-v1/2025-12-12/18ba3903-7b62-407a-abc1-73c37805cf74.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-12 17:45:33",
+    "role": "用户",
+    "name": "刘***",
+    "type": "text",
+    "content": "之前，在你家买过一台"
+  },
+  {
+    "time": "2025-12-12 17:45:37",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "小海豚不同款式的"
+  },
+  {
+    "time": "2025-12-12 17:45:58",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "是要补差价吗亲"
+  },
+  {
+    "time": "2025-12-12 17:45:59",
+    "role": "用户",
+    "name": "刘***",
+    "type": "text",
+    "content": "反渗透的吗？"
+  },
+  {
+    "time": "2025-12-12 17:46:09",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "是的也是反渗透滤芯"
+  },
+  {
+    "time": "2025-12-12 17:46:25",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2025-12-12/963c7a97-9407-4eff-a39f-440aee9b9aa2.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-12 17:46:30",
+    "role": "用户",
+    "name": "刘***",
+    "type": "text",
+    "content": "差价补吗？"
+  },
+  {
+    "time": "2025-12-12 17:46:30",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "为保障您的购物权益和资金安全，请联系商家客服使用小额打款或小额收款。请勿在其他平台与商家进行资金往来！"
+  },
+  {
+    "time": "2025-12-12 17:46:45",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "我们支持30天保价的亲"
+  },
+  {
+    "time": "2025-12-12 17:48:26",
+    "role": "用户",
+    "name": "刘***",
+    "type": "text",
+    "content": "没有小海豚1好啊"
+  },
+  {
+    "time": "2025-12-12 17:48:40",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "滤芯不同的"
+  },
+  {
+    "time": "2025-12-12 17:49:59",
+    "role": "用户",
+    "name": "刘***",
+    "type": "text",
+    "content": "哪个虑芯好一点？"
+  },
+  {
+    "time": "2025-12-12 17:50:20",
+    "role": "用户",
+    "name": "刘***",
+    "type": "text",
+    "content": "1好还3好？"
+  },
+  {
+    "time": "2025-12-12 17:52:57",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "过滤效果一样的亲"
+  },
+  {
+    "time": "2025-12-12 17:53:07",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2025-12-12/ce729259-68f3-422c-ab59-9f7ea8fdbd22.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-12 17:53:27",
+    "role": "用户",
+    "name": "刘***",
+    "type": "text",
+    "content": "时间长短有区别？"
+  },
+  {
+    "time": "2025-12-12 17:53:59",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "就是使用时间长短有差异"
+  },
+  {
+    "time": "2025-12-12 17:54:11",
+    "role": "用户",
+    "name": "刘***",
+    "type": "text",
+    "content": "行，我买"
+  },
+  {
+    "time": "2025-12-12 17:54:24",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "[动画表情]"
+  },
+  {
+    "time": "2025-12-12 17:55:00",
+    "role": "用户",
+    "name": "刘***",
+    "type": "text",
+    "content": "能到下个星期发货吗？现在人不在家，"
+  },
+  {
+    "time": "2025-12-12 17:55:43",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "可以的亲，国补订单除外都可以延迟最长3个月"
+  },
+  {
+    "time": "2025-12-12 17:56:25",
+    "role": "用户",
+    "name": "刘***",
+    "type": "text",
+    "content": "已买"
+  },
+  {
+    "time": "2025-12-12 17:56:40",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "几号发货呢亲~"
+  },
+  {
+    "time": "2025-12-12 17:58:39",
+    "role": "用户",
+    "name": "刘***",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-user-v1/2025-12-12/cf9b1ae5-c89e-4636-b13a-a28c3bea0819.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-12 17:58:46",
+    "role": "用户",
+    "name": "刘***",
+    "type": "text",
+    "content": "20号发"
+  },
+  {
+    "time": "2025-12-12 17:58:56",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "好的稍等下这边给您处理"
+  },
+  {
+    "time": "2025-12-12 18:01:18",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[商家申请延后发货]"
+  },
+  {
+    "time": "2025-12-12 18:01:40",
+    "role": "用户",
+    "name": "刘***",
+    "type": "text",
+    "content": "我已同意延后发货。"
+  },
+  {
+    "time": "2025-12-12 18:01:40",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "感谢亲的理解，我们将如期为您安排发货。"
+  },
+  {
+    "time": "2025-12-12 18:01:55",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "好了这边给您登记好了"
+  },
+  {
+    "time": "2025-12-12 18:01:57",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "麻烦您了"
+  },
+  {
+    "time": "2025-12-21 11:28:30",
+    "role": "用户",
+    "name": "刘***",
+    "type": "text",
+    "content": "订单编号:251212-678177052270039"
+  },
+  {
+    "time": "2025-12-21 11:28:45",
+    "role": "用户",
+    "name": "刘***",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-user-v1/2025-12-21/c2773664-f20e-4a4b-bd92-b89bcb75255a.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-21 11:28:57",
+    "role": "用户",
+    "name": "刘***",
+    "type": "text",
+    "content": "已到货，申请安装"
+  },
+  {
+    "time": "2025-12-21 11:29:13",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "viomi小仙女 将该会话转移给 viomi慧慧sk，请及时处理"
+  },
+  {
+    "time": "2025-12-21 11:29:18",
+    "role": "客服",
+    "name": "viomi慧慧sk",
+    "type": "text",
+    "content": "您要预约安装的话麻烦提供一下详细的地址（务必准确填写省市区到门牌号）和姓名电话号码哦~"
+  },
+  {
+    "time": "2025-12-21 11:36:47",
+    "role": "用户",
+    "name": "刘***",
+    "type": "text",
+    "content": "人呢，这个产品不是反渗透吗？"
+  },
+  {
+    "time": "2025-12-21 11:37:01",
+    "role": "客服",
+    "name": "viomi慧慧sk",
+    "type": "text",
+    "content": "是反渗透净水器的呢"
+  },
+  {
+    "time": "2025-12-21 11:39:28",
+    "role": "用户",
+    "name": "刘***",
+    "type": "text",
+    "content": "不用电吗？"
+  },
+  {
+    "time": "2025-12-21 11:39:39",
+    "role": "客服",
+    "name": "viomi慧慧sk",
+    "type": "text",
+    "content": "要用的"
+  },
+  {
+    "time": "2025-12-21 11:39:48",
+    "role": "客服",
+    "name": "viomi慧慧sk",
+    "type": "text",
+    "content": "我们的净水器都需要插电哦，因为是ro膜净化，而且水龙头带显示灯的呢~~（需要有电源插座或插排（220v交流电的2孔插座），外部电源线长1.6米左右哈）"
+  },
+  {
+    "time": "2025-12-21 11:45:51",
+    "role": "用户",
+    "name": "刘***",
+    "type": "text",
+    "content": "安徽省马鞍山市含山县阳光世纪城6幢605 刘思胜13856581260"
+  },
+  {
+    "time": "2025-12-21 11:46:00",
+    "role": "客服",
+    "name": "viomi慧慧sk",
+    "type": "text",
+    "content": "预约后，师傅会在48小时内联系您跟您确认上门时间，您等师傅电话就就好，具体时间您也可以跟师傅预约"
+  }
+]

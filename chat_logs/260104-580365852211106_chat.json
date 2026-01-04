@@ -1,0 +1,107 @@
+[
+  {
+    "time": "2026-01-04 13:34:42",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[常见问题列表]"
+  },
+  {
+    "time": "2026-01-04 13:34:44",
+    "role": "用户",
+    "name": "育***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610&_oak_rcto=YWLNAT_iVbAAX_aBFaY1uSSacL7hMu0hpcFfHJIeODC5ZCEpYI6mPYvgUkYy2LPeRtA&page_from=26&_oc_trace_mark=199&_oc_refer_ad=1&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2026-01-04 13:35:07",
+    "role": "用户",
+    "name": "育***",
+    "type": "text",
+    "content": "自己装偏宜多少钱"
+  },
+  {
+    "time": "2026-01-04 13:35:08",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2026-01-04 13:35:13",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "您好有什么可以帮到您~"
+  },
+  {
+    "time": "2026-01-04 13:35:35",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "亲安装这个没有便宜哦~我们包安装是标配的是自己师父"
+  },
+  {
+    "time": "2026-01-04 13:36:57",
+    "role": "用户",
+    "name": "育***",
+    "type": "text",
+    "content": "1支滤芯能用多久？"
+  },
+  {
+    "time": "2026-01-04 13:37:13",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2026-01-04/d3023519-8624-463b-b3ac-1c162ac17f2f.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2026-01-04 13:37:48",
+    "role": "用户",
+    "name": "育***",
+    "type": "text",
+    "content": "好的"
+  },
+  {
+    "time": "2026-01-04 13:37:54",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "[动画表情]"
+  },
+  {
+    "time": "2026-01-04 13:38:57",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "申请发票"
+  },
+  {
+    "time": "2026-01-04 13:39:13",
+    "role": "用户",
+    "name": "育***",
+    "type": "text",
+    "content": "拍了"
+  },
+  {
+    "time": "2026-01-04 13:39:30",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "好的亲尽快给您发货"
+  },
+  {
+    "time": "2026-01-04 13:39:32",
+    "role": "用户",
+    "name": "育***",
+    "type": "text",
+    "content": "多买了一个滤芯"
+  },
+  {
+    "time": "2026-01-04 13:39:54",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "这个套装内是有的亲~"
+  }
+]

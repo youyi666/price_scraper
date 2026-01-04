@@ -1,0 +1,240 @@
+[
+  {
+    "time": "2025-12-10 15:56:34",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[常见问题列表]"
+  },
+  {
+    "time": "2025-12-10 15:56:35",
+    "role": "用户",
+    "name": "周***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610&_oak_rcto=YWLXlImcju5u_L8wcHOrFGJJaEGMSrg_Gor-xfH3XLFCjr4mUoCS8BiafIebGr5P6jI&page_from=63&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2025-12-10 15:56:41",
+    "role": "用户",
+    "name": "周***",
+    "type": "text",
+    "content": "请问这包安装不"
+  },
+  {
+    "time": "2025-12-10 15:56:41",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-10 15:56:51",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "净水器包装里材料是免费上门安装的，免费安装不涉及橱柜改造、下水管改造、电源改造、拆旧等。 龙头安装如需开孔，木板、不锈钢、亚克力台面提供免费开孔"
+  },
+  {
+    "time": "2025-12-15 19:26:33",
+    "role": "用户",
+    "name": "周***",
+    "type": "text",
+    "content": "订单编号:251210-558366769570990"
+  },
+  {
+    "time": "2025-12-15 19:26:40",
+    "role": "用户",
+    "name": "周***",
+    "type": "text",
+    "content": "请问啥时候发货啊"
+  },
+  {
+    "time": "2025-12-15 19:26:41",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "消费者反馈的订单问题，已为您创建为工单，请您及时跟进处理"
+  },
+  {
+    "time": "2025-12-15 19:26:51",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "亲亲，请您稍等，客服帮您转接专业售后客服，转接之后您跟咱们售后同事描述下您遇到的问题哦~"
+  },
+  {
+    "time": "2025-12-15 19:26:55",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "viomi小仙女 将该会话转移给 viomi慧慧sk，请及时处理"
+  },
+  {
+    "time": "2025-12-15 19:27:20",
+    "role": "客服",
+    "name": "viomi慧慧sk",
+    "type": "text",
+    "content": "这款预售品20号左右发完哈"
+  },
+  {
+    "time": "2025-12-16 09:44:33",
+    "role": "客服",
+    "name": "viomi慧慧sk",
+    "type": "text",
+    "content": "抱歉耽误您的使用了，您的货物会按照承诺发货时间2025-12-20内发出，正在加急安排中"
+  },
+  {
+    "time": "2025-12-21 11:34:22",
+    "role": "用户",
+    "name": "周***",
+    "type": "text",
+    "content": "订单编号:251210-558366769570990"
+  },
+  {
+    "time": "2025-12-21 11:34:22",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[待收货]"
+  },
+  {
+    "time": "2025-12-21 11:34:31",
+    "role": "用户",
+    "name": "周***",
+    "type": "text",
+    "content": "你好，净水器送到了"
+  },
+  {
+    "time": "2025-12-21 11:34:31",
+    "role": "客服",
+    "name": "viomi慧慧sk",
+    "type": "text",
+    "content": "亲亲需要咨询什么呢~"
+  },
+  {
+    "time": "2025-12-21 11:34:34",
+    "role": "客服",
+    "name": "viomi慧慧sk",
+    "type": "text",
+    "content": "您要预约安装的话麻烦提供一下详细的地址（务必准确填写省市区到门牌号）和姓名电话号码哦~"
+  },
+  {
+    "time": "2025-12-21 11:35:05",
+    "role": "用户",
+    "name": "周***",
+    "type": "text",
+    "content": "长沙市芙蓉区新军路煤炭机关宿舍9栋3单元210 周女士 17673659303"
+  },
+  {
+    "time": "2025-12-21 11:35:10",
+    "role": "客服",
+    "name": "viomi慧慧sk",
+    "type": "text",
+    "content": "预约后，师傅会在48小时内联系您跟您确认上门时间，您等师傅电话就就好，具体时间您也可以跟师傅预约"
+  },
+  {
+    "time": "2025-12-21 11:35:19",
+    "role": "用户",
+    "name": "周***",
+    "type": "text",
+    "content": "好的"
+  },
+  {
+    "time": "2025-12-21 11:35:24",
+    "role": "客服",
+    "name": "viomi慧慧sk",
+    "type": "text",
+    "content": "小云朵，后续如有任何疑问，都可随时联系我们商家客服为您处理~"
+  },
+  {
+    "time": "2025-12-22 14:11:49",
+    "role": "用户",
+    "name": "周***",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-user-v1/2025-12-22/ef9b5f34-02d2-44fc-9143-1b4933185ac1.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-22 14:11:58",
+    "role": "用户",
+    "name": "周***",
+    "type": "text",
+    "content": "已经安装好了"
+  },
+  {
+    "time": "2025-12-22 14:12:04",
+    "role": "用户",
+    "name": "周***",
+    "type": "text",
+    "content": "为啥水质这样啊"
+  },
+  {
+    "time": "2025-12-22 14:12:06",
+    "role": "客服",
+    "name": "viomi慧慧sk",
+    "type": "text",
+    "content": "亲亲，自来水中的气泡经过RO挤压后会分散成许多微小气泡，在打开龙头放水时因为压力下降会大量释放出来，因为气泡体积微小，不容易破裂，会在水面长时间漂浮，容易让误以为是杂质，可以使用深颜色筷子搅拌测试是气泡还是异物哦"
+  },
+  {
+    "time": "2025-12-22 14:12:32",
+    "role": "用户",
+    "name": "周***",
+    "type": "text",
+    "content": "哦哦这是正常的是吗"
+  },
+  {
+    "time": "2025-12-22 14:12:39",
+    "role": "客服",
+    "name": "viomi慧慧sk",
+    "type": "text",
+    "content": "是的呢 正常的哈"
+  },
+  {
+    "time": "2025-12-22 14:12:44",
+    "role": "客服",
+    "name": "viomi慧慧sk",
+    "type": "text",
+    "content": "可以使用深颜色筷子搅拌测试是气泡还是异物哦"
+  },
+  {
+    "time": "2025-12-22 14:13:10",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "https://video3.yangkeduo.com/idaho-api-video/2025-12-22/b16145805fd58ff12e43b78ca52c40d2.mp4"
+  },
+  {
+    "time": "2025-12-22 14:13:14",
+    "role": "用户",
+    "name": "周***",
+    "type": "text",
+    "content": "咋测试啊"
+  },
+  {
+    "time": "2025-12-22 14:13:30",
+    "role": "客服",
+    "name": "viomi慧慧sk",
+    "type": "text",
+    "content": "搅拌消失气泡就是正常的哦"
+  },
+  {
+    "time": "2025-12-22 14:13:36",
+    "role": "客服",
+    "name": "viomi慧慧sk",
+    "type": "text",
+    "content": "这些气泡不是异物哈"
+  },
+  {
+    "time": "2025-12-22 14:15:34",
+    "role": "用户",
+    "name": "周***",
+    "type": "text",
+    "content": "好的"
+  },
+  {
+    "time": "2025-12-22 14:15:43",
+    "role": "客服",
+    "name": "viomi慧慧sk",
+    "type": "text",
+    "content": "[动画表情]"
+  }
+]
