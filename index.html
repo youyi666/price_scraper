@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Mixed Price Scraper Pro</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #e0e0e0;
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+        .header {
+            padding: 20px;
+            background-color: #1e1e1e;
+            border-bottom: 1px solid #333;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .title { font-size: 18px; font-weight: bold; color: #4CAF50; }
+        
+        .controls { display: flex; gap: 15px; align-items: center; }
+        
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.2s;
+        }
+        #btn-start { background-color: #2e7d32; color: white; }
+        #btn-start:hover { background-color: #388e3c; }
+        #btn-start:disabled { background-color: #555; cursor: not-allowed; }
+
+        #btn-stop { background-color: #c62828; color: white; }
+        #btn-stop:hover { background-color: #d32f2f; }
+        #btn-stop:disabled { background-color: #555; cursor: not-allowed; }
+
+        .checkbox-wrapper { display: flex; align-items: center; gap: 8px; font-size: 14px; }
+
+        /* 日志窗口：黑客风格 */
+        #log-container {
+            flex: 1;
+            padding: 15px;
+            overflow-y: auto;
+            font-family: 'Consolas', monospace;
+            font-size: 13px;
+            line-height: 1.5;
+            background-color: #000;
+        }
+        .log-line { margin-bottom: 2px; word-wrap: break-word; }
+        .log-info { color: #cccccc; }
+        .log-error { color: #ff5252; }
+        .log-success { color: #69f0ae; }
+        .log-warn { color: #ffd740; }
+        
+        /* 滚动条美化 */
+        ::-webkit-scrollbar { width: 10px; }
+        ::-webkit-scrollbar-track { background: #1e1e1e; }
+        ::-webkit-scrollbar-thumb { background: #444; border-radius: 5px; }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <div class="title">🛒 全平台价格监控系统 <span style="font-size:12px;opacity:0.6;">v3.2 GUI</span></div>
+        <div class="controls">
+            <div class="checkbox-wrapper">
+                <input type="checkbox" id="chk-headless">
+                <label for="chk-headless">后台静默运行 (不显示浏览器)</label>
+            </div>
+            <button id="btn-start" onclick="startTask()">🚀 开始监控</button>
+            <button id="btn-stop" onclick="stopTask()" disabled>🛑 停止</button>
+        </div>
+    </div>
+
+    <div id="log-container">
+        <div class="log-line log-info">Waiting for command...</div>
+    </div>
+
+    <script>
+        const { ipcRenderer } = require('electron');
+        const logContainer = document.getElementById('log-container');
+        const btnStart = document.getElementById('btn-start');
+        const btnStop = document.getElementById('btn-stop');
+
+        // 自动滚动到底部
+        function scrollToBottom() {
+            logContainer.scrollTop = logContainer.scrollHeight;
+        }
+
+        // 添加日志
+        function addLog(text) {
+            // 简单处理 ANSI 颜色代码 (清理掉)
+            const cleanText = text.replace(/\u001b\[\d+m/g, '');
+            
+            const div = document.createElement('div');
+            div.className = 'log-line';
+            
+            if (cleanText.includes('Error') || cleanText.includes('❌') || cleanText.includes('警报')) {
+                div.className += ' log-error';
+            } else if (cleanText.includes('成功') || cleanText.includes('✅')) {
+                div.className += ' log-success';
+            } else {
+                div.className += ' log-info';
+            }
+            
+            div.textContent = cleanText;
+            logContainer.appendChild(div);
+            scrollToBottom();
+        }
+
+        // 按钮逻辑
+        function startTask() {
+            const headless = document.getElementById('chk-headless').checked;
+            
+            logContainer.innerHTML = ''; // 清空日志
+            addLog(">>> 发送启动指令...");
+            
+            ipcRenderer.send('start-task', { headless });
+            
+            btnStart.disabled = true;
+            btnStop.disabled = false;
+        }
+
+        function stopTask() {
+            addLog(">>> 发送停止信号...");
+            ipcRenderer.send('stop-task');
+            btnStop.disabled = true; // 防止重复点击
+        }
+
+        // 监听主进程发来的日志
+        ipcRenderer.on('log-update', (event, text) => {
+            addLog(text);
+        });
+
+        // 监听任务结束
+        ipcRenderer.on('task-finished', () => {
+            addLog(">>> 流程结束");
+            btnStart.disabled = false;
+            btnStop.disabled = true;
+        });
+
+    </script>
+</body>
+</html>
