@@ -1,0 +1,58 @@
+[
+  {
+    "time": "2026-01-04 20:06:32",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[常见问题列表]"
+  },
+  {
+    "time": "2026-01-04 20:06:34",
+    "role": "用户",
+    "name": "阿***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610&_oak_rcto=YWJPJr8sibIHJAkruti9uYBjZ3nG0HS9vn8LdyE_ZBuf5l_c0KoK3RnP&page_from=63&_oc_pid=240005_63649473&_oc_duoduo_type=2&_oc_jinbao_real_name=1&_oc_mkt_tr_sc=ddjb_goods_coupon&_oc_mkt_tr_token=f33jd3d7xuhyvq7uc5kiasgr6xnjfqslohflixyzky2anp4hk2bfpa7mlxf3jjmw7mgt3qqyfxfqw&_oc_cps_sign=CC_260104_240005_63649473_f868d492be4e3055901cbcb0b560911f&_oc_mkt_domain=222&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2026-01-04 20:06:38",
+    "role": "用户",
+    "name": "阿***",
+    "type": "text",
+    "content": "这个包安装吗"
+  },
+  {
+    "time": "2026-01-04 20:06:38",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2026-01-04 20:06:45",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "小云朵，净水器商品和随商品一起发货的标配配件免费上门安装1次哦，免费安装不涉及橱柜改造、下水管改造、电源改造、拆旧等。 ☞龙头安装开孔可参考以下开孔费用~自备辅材收取人工服务费 30 元/次"
+  },
+  {
+    "time": "2026-01-04 20:06:51",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2026-01-04/3e0ec813-95a5-402a-b553-61a2e41fc9d7.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2026-01-04 20:07:33",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "【小海豚3净水器】纳斯达克上市品牌全球平台国内新品首发~ 【一净到底】6级纯物理过滤，去除重金属守护孩子成长 【一机守护】 0阻垢剂不含双酚A，孕妈宝宝安心喝 【一触即饮】4秒就能接满一杯水，随时开怀畅饮 【一芯五年】5年长效RO滤芯，用得久真省芯 【一按换芯】弹扣式一按一拿，爸妈也能轻松换芯"
+  },
+  {
+    "time": "2026-01-04 20:08:17",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "小云朵您好，这边还没有下单是有什么顾虑吗？有任何问题都可以咨询我的呢"
+  }
+]

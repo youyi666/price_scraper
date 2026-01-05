@@ -1,0 +1,688 @@
+[
+  {
+    "time": "2026-01-04 17:06:45",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[常见问题列表]"
+  },
+  {
+    "time": "2026-01-04 17:06:47",
+    "role": "用户",
+    "name": "邓***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610&_oak_rcto=YWLMK-JSjcn5svEfklTMYz7lo7xXtjDORaewJ-RdXAlNaPnfVoTFXjmVk0R1MmiHyCc&page_from=23&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2026-01-04 17:06:54",
+    "role": "用户",
+    "name": "邓***",
+    "type": "text",
+    "content": "人工客服"
+  },
+  {
+    "time": "2026-01-04 17:06:54",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2026-01-04 17:06:59",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "小云朵您好，在的呢~很高兴为您服务，请问有什么可以帮到您的呢~"
+  },
+  {
+    "time": "2026-01-04 17:07:02",
+    "role": "用户",
+    "name": "邓***",
+    "type": "text",
+    "content": "这款有货吗"
+  },
+  {
+    "time": "2026-01-04 17:07:16",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "能下单就有货的呢"
+  },
+  {
+    "time": "2026-01-04 17:07:29",
+    "role": "用户",
+    "name": "邓***",
+    "type": "text",
+    "content": "复合滤芯三年换一次吗"
+  },
+  {
+    "time": "2026-01-04 17:07:35",
+    "role": "用户",
+    "name": "邓***",
+    "type": "text",
+    "content": "湖北咸宁快递是什么"
+  },
+  {
+    "time": "2026-01-04 17:07:36",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "该商品提供以下发货服务:"
+  },
+  {
+    "time": "2026-01-04 17:07:40",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "这款净水机包含两根滤芯，一根复合滤芯（1年左右更换），一根RO滤芯（5年左右更换）"
+  },
+  {
+    "time": "2026-01-04 17:07:41",
+    "role": "用户",
+    "name": "邓***",
+    "type": "text",
+    "content": "这款包安装吗"
+  },
+  {
+    "time": "2026-01-04 17:07:44",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "小云朵，正常拼单成功后会在48小时左右发出 （预售商品除外）优选京.东快递发货，会根据您的地址选择就近仓库发货，您放心下单"
+  },
+  {
+    "time": "2026-01-04 17:07:46",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "小云朵，净水器商品和随商品一起发货的标配配件免费上门安装1次哦，免费安装不涉及橱柜改造、下水管改造、电源改造、拆旧等。 ☞龙头安装开孔可参考以下开孔费用~自备辅材收取人工服务费 30 元/次"
+  },
+  {
+    "time": "2026-01-04 17:07:53",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2026-01-04/9e922844-e421-4d60-8439-28b63ad8c3e0.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2026-01-04 17:08:23",
+    "role": "用户",
+    "name": "邓***",
+    "type": "text",
+    "content": "609款"
+  },
+  {
+    "time": "2026-01-04 17:08:37",
+    "role": "用户",
+    "name": "邓***",
+    "type": "text",
+    "content": "加复合滤芯的"
+  },
+  {
+    "time": "2026-01-04 17:08:49",
+    "role": "用户",
+    "name": "邓***",
+    "type": "text",
+    "content": "这个滤芯是一年一换的吗"
+  },
+  {
+    "time": "2026-01-04 17:08:55",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "这款净水机包含两根滤芯，一根复合滤芯（1年左右更换），一根RO滤芯（5年左右更换）"
+  },
+  {
+    "time": "2026-01-04 17:09:10",
+    "role": "用户",
+    "name": "邓***",
+    "type": "text",
+    "content": "690元"
+  },
+  {
+    "time": "2026-01-04 17:09:29",
+    "role": "用户",
+    "name": "邓***",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-user-v1/2026-01-04/6d4e146e-6ec3-4a26-9f6a-0d89d9f3187b.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2026-01-04 17:09:39",
+    "role": "用户",
+    "name": "邓***",
+    "type": "text",
+    "content": "选择的那款"
+  },
+  {
+    "time": "2026-01-04 17:10:00",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "在的"
+  },
+  {
+    "time": "2026-01-04 17:10:01",
+    "role": "用户",
+    "name": "邓***",
+    "type": "text",
+    "content": "里面复合的"
+  },
+  {
+    "time": "2026-01-04 17:10:09",
+    "role": "用户",
+    "name": "邓***",
+    "type": "text",
+    "content": "是一年以后吗"
+  },
+  {
+    "time": "2026-01-04 17:10:22",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "这款净水机标配包含两根滤芯，一根复合滤芯（1年左右更换），一根RO滤芯（5年左右更换）"
+  },
+  {
+    "time": "2026-01-04 17:10:42",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "+1套装是多一根复合滤芯的"
+  },
+  {
+    "time": "2026-01-04 17:11:10",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "【小海豚3净水器】纳斯达克上市品牌全球平台国内新品首发~ 【一净到底】6级纯物理过滤，去除重金属守护孩子成长 【一机守护】 0阻垢剂不含双酚A，孕妈宝宝安心喝 【一触即饮】4秒就能接满一杯水，随时开怀畅饮 【一芯五年】5年长效RO滤芯，用得久真省芯 【一按换芯】弹扣式一按一拿，爸妈也能轻松换芯"
+  },
+  {
+    "time": "2026-01-04 17:11:13",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "小云朵您好，这边还没有下单是有什么顾虑吗？有任何问题都可以咨询我的呢"
+  },
+  {
+    "time": "2026-01-04 17:34:35",
+    "role": "用户",
+    "name": "邓***",
+    "type": "text",
+    "content": "不是加那个5年的吗"
+  },
+  {
+    "time": "2026-01-04 17:34:38",
+    "role": "用户",
+    "name": "邓***",
+    "type": "text",
+    "content": "人工客服"
+  },
+  {
+    "time": "2026-01-04 17:34:48",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "在的"
+  },
+  {
+    "time": "2026-01-04 17:34:58",
+    "role": "用户",
+    "name": "邓***",
+    "type": "text",
+    "content": "这款里面共几个滤芯"
+  },
+  {
+    "time": "2026-01-04 17:35:01",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "不太明白您的意思"
+  },
+  {
+    "time": "2026-01-04 17:35:06",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "这款净水机标配包含两根滤芯，一根复合滤芯（1年左右更换），一根RO滤芯（5年左右更换）"
+  },
+  {
+    "time": "2026-01-04 17:35:32",
+    "role": "用户",
+    "name": "邓***",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-user-v1/2026-01-04/2d62e007-f975-43d5-b17f-a06bf50e69d8.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2026-01-04 17:35:50",
+    "role": "用户",
+    "name": "邓***",
+    "type": "text",
+    "content": "这款选择里面不是5年更换的吗"
+  },
+  {
+    "time": "2026-01-04 17:35:58",
+    "role": "用户",
+    "name": "邓***",
+    "type": "text",
+    "content": "加的"
+  },
+  {
+    "time": "2026-01-04 17:36:16",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "这个标配的，您套装就是多加一根复合滤芯（1年左右更换）"
+  },
+  {
+    "time": "2026-01-04 17:36:27",
+    "role": "用户",
+    "name": "邓***",
+    "type": "text",
+    "content": "滤芯有效期多久"
+  },
+  {
+    "time": "2026-01-04 17:36:39",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "存放时间，"
+  },
+  {
+    "time": "2026-01-04 17:36:40",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "吗"
+  },
+  {
+    "time": "2026-01-04 17:36:52",
+    "role": "用户",
+    "name": "邓***",
+    "type": "text",
+    "content": "是的"
+  },
+  {
+    "time": "2026-01-04 17:37:03",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "未拆封未通水的滤芯没有保质期的说法。滤芯是个封闭空间，内部滤料与外界的空气、水分、阳光等外界条件是隔离的，而且滤料本身是干燥的，不存在影响滤料变质的条件，因此未拆封的滤芯在干燥通风、无阳光直射的储存环境下可保存5年之久。"
+  },
+  {
+    "time": "2026-01-04 17:37:34",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "小云朵您好，这边还没有下单是有什么顾虑吗？有任何问题都可以咨询我的呢"
+  },
+  {
+    "time": "2026-01-04 17:41:26",
+    "role": "用户",
+    "name": "邓***",
+    "type": "text",
+    "content": "订单编号:260104-592718149973497"
+  },
+  {
+    "time": "2026-01-04 17:41:34",
+    "role": "用户",
+    "name": "邓***",
+    "type": "text",
+    "content": "人工客服"
+  },
+  {
+    "time": "2026-01-04 17:41:36",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "在的"
+  },
+  {
+    "time": "2026-01-04 17:41:36",
+    "role": "用户",
+    "name": "邓***",
+    "type": "text",
+    "content": "付款了"
+  },
+  {
+    "time": "2026-01-04 17:41:45",
+    "role": "用户",
+    "name": "邓***",
+    "type": "text",
+    "content": "啥时候发货"
+  },
+  {
+    "time": "2026-01-04 17:41:54",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "小云朵，正常拼单成功后会在48小时左右发出 （预售商品除外）优选京.东快递发货，会根据您的地址选择就近仓库发货，您放心下单"
+  },
+  {
+    "time": "2026-01-04 17:42:08",
+    "role": "用户",
+    "name": "邓***",
+    "type": "text",
+    "content": "这款有现货吗"
+  },
+  {
+    "time": "2026-01-04 17:42:21",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "能下单就有现货的呢"
+  },
+  {
+    "time": "2026-01-04 17:42:32",
+    "role": "用户",
+    "name": "邓***",
+    "type": "text",
+    "content": "包安装吗"
+  },
+  {
+    "time": "2026-01-04 17:42:37",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "小云朵，净水器商品和随商品一起发货的标配配件免费上门安装1次哦，免费安装不涉及橱柜改造、下水管改造、电源改造、拆旧等。 ☞龙头安装开孔可参考以下开孔费用~自备辅材收取人工服务费 30 元/次"
+  },
+  {
+    "time": "2026-01-04 17:42:44",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2026-01-04/42339d5a-9c58-421c-8f34-dce83ce9138e.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2026-01-04 17:42:52",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "收到联系我们"
+  },
+  {
+    "time": "2026-01-04 17:42:57",
+    "role": "用户",
+    "name": "邓***",
+    "type": "text",
+    "content": "收到货有安装师傅联系我吧"
+  },
+  {
+    "time": "2026-01-04 17:43:04",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "收到联系我们"
+  },
+  {
+    "time": "2026-01-04 20:35:08",
+    "role": "用户",
+    "name": "邓***",
+    "type": "text",
+    "content": "好的"
+  },
+  {
+    "time": "2026-01-04 20:35:23",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "[玫瑰]"
+  },
+  {
+    "time": "2026-01-05 15:55:41",
+    "role": "用户",
+    "name": "邓***",
+    "type": "text",
+    "content": "订单编号:260104-592718149973497"
+  },
+  {
+    "time": "2026-01-05 15:55:41",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[待收货]"
+  },
+  {
+    "time": "2026-01-05 15:55:53",
+    "role": "用户",
+    "name": "邓***",
+    "type": "text",
+    "content": "人工客服"
+  },
+  {
+    "time": "2026-01-05 15:55:55",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "请尽快解决售后问题，避免平台介入退款"
+  },
+  {
+    "time": "2026-01-05 15:55:58",
+    "role": "用户",
+    "name": "邓***",
+    "type": "text",
+    "content": "货发了"
+  },
+  {
+    "time": "2026-01-05 15:56:03",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "在的"
+  },
+  {
+    "time": "2026-01-05 15:56:08",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "亲亲，请您稍等，客服帮您转接专业售后客服，转接之后您跟咱们售后同事描述下您遇到的问题哦~"
+  },
+  {
+    "time": "2026-01-05 15:56:08",
+    "role": "用户",
+    "name": "邓***",
+    "type": "text",
+    "content": "湖北咸宁明天可以收到货吗"
+  },
+  {
+    "time": "2026-01-05 15:56:10",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "稍等"
+  },
+  {
+    "time": "2026-01-05 15:56:15",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "viomi小可爱 将该会话转移给 viomi米小颖MKD，请及时处理"
+  },
+  {
+    "time": "2026-01-05 15:56:19",
+    "role": "客服",
+    "name": "viomi米小颖MKD",
+    "type": "text",
+    "content": "欢迎小云朵您的到来，很开心能为您服务，您在使用云米产品时遇到任何问题，都可以毫无顾虑的跟我说哦~"
+  },
+  {
+    "time": "2026-01-05 15:56:29",
+    "role": "用户",
+    "name": "邓***",
+    "type": "text",
+    "content": "你好"
+  },
+  {
+    "time": "2026-01-05 15:56:49",
+    "role": "客服",
+    "name": "viomi米小颖MKD",
+    "type": "text",
+    "content": "小主具体要看物流时效呢"
+  },
+  {
+    "time": "2026-01-05 15:56:57",
+    "role": "客服",
+    "name": "viomi米小颖MKD",
+    "type": "text",
+    "content": "这边您的订单已经发货了哈"
+  },
+  {
+    "time": "2026-01-05 15:57:01",
+    "role": "客服",
+    "name": "viomi米小颖MKD",
+    "type": "text",
+    "content": "耐心等待送达呢"
+  },
+  {
+    "time": "2026-01-05 15:57:06",
+    "role": "用户",
+    "name": "邓***",
+    "type": "text",
+    "content": "哪里发出"
+  },
+  {
+    "time": "2026-01-05 15:57:18",
+    "role": "用户",
+    "name": "邓***",
+    "type": "text",
+    "content": "人工客服"
+  },
+  {
+    "time": "2026-01-05 15:57:27",
+    "role": "用户",
+    "name": "邓***",
+    "type": "text",
+    "content": "货是哪里发出"
+  },
+  {
+    "time": "2026-01-05 15:57:27",
+    "role": "客服",
+    "name": "viomi米小颖MKD",
+    "type": "text",
+    "content": "是人工的呢"
+  },
+  {
+    "time": "2026-01-05 15:57:55",
+    "role": "客服",
+    "name": "viomi米小颖MKD",
+    "type": "text",
+    "content": "小主我们一般就近仓库发送的呢"
+  },
+  {
+    "time": "2026-01-05 20:16:44",
+    "role": "用户",
+    "name": "邓***",
+    "type": "text",
+    "content": "订单编号:260104-592718149973497"
+  },
+  {
+    "time": "2026-01-05 20:16:50",
+    "role": "客服",
+    "name": "viomi米小颖MKD",
+    "type": "text",
+    "content": "在哒小主 您可以描述一下您碰到的问题"
+  },
+  {
+    "time": "2026-01-05 20:16:53",
+    "role": "用户",
+    "name": "邓***",
+    "type": "text",
+    "content": "人工客服"
+  },
+  {
+    "time": "2026-01-05 20:17:02",
+    "role": "客服",
+    "name": "viomi米小颖MKD",
+    "type": "text",
+    "content": "什么问题呢小主"
+  },
+  {
+    "time": "2026-01-05 20:17:03",
+    "role": "用户",
+    "name": "邓***",
+    "type": "text",
+    "content": "看看我的货到哪了"
+  },
+  {
+    "time": "2026-01-05 20:17:11",
+    "role": "客服",
+    "name": "viomi米小颖MKD",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2026-01-05/82a55bcf-81d2-4156-9cb6-8d90723c9537.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2026-01-05 20:17:24",
+    "role": "用户",
+    "name": "邓***",
+    "type": "text",
+    "content": "哪个城市发出"
+  },
+  {
+    "time": "2026-01-05 20:17:42",
+    "role": "客服",
+    "name": "viomi米小颖MKD",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2026-01-05/adb6abf3-e9e5-4d1e-bf4c-be38f1439b4d.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2026-01-05 20:17:58",
+    "role": "用户",
+    "name": "邓***",
+    "type": "text",
+    "content": "广东佛山吗"
+  },
+  {
+    "time": "2026-01-05 20:18:16",
+    "role": "客服",
+    "name": "viomi米小颖MKD",
+    "type": "text",
+    "content": "订单物流信息可以查看的呢小主"
+  },
+  {
+    "time": "2026-01-05 20:18:19",
+    "role": "用户",
+    "name": "邓***",
+    "type": "text",
+    "content": "哪个省"
+  },
+  {
+    "time": "2026-01-05 20:18:29",
+    "role": "用户",
+    "name": "邓***",
+    "type": "text",
+    "content": "发出"
+  },
+  {
+    "time": "2026-01-05 20:18:34",
+    "role": "客服",
+    "name": "viomi米小颖MKD",
+    "type": "text",
+    "content": "这个的呢小主"
+  },
+  {
+    "time": "2026-01-05 20:18:42",
+    "role": "用户",
+    "name": "邓***",
+    "type": "text",
+    "content": "你不知道吗"
+  },
+  {
+    "time": "2026-01-05 20:18:50",
+    "role": "用户",
+    "name": "邓***",
+    "type": "text",
+    "content": "哪里省发出"
+  },
+  {
+    "time": "2026-01-05 20:19:15",
+    "role": "客服",
+    "name": "viomi米小颖MKD",
+    "type": "text",
+    "content": "小主您参考一下图片呢"
+  },
+  {
+    "time": "2026-01-05 20:19:21",
+    "role": "客服",
+    "name": "viomi米小颖MKD",
+    "type": "text",
+    "content": "图片就是的呢"
+  }
+]

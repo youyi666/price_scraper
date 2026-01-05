@@ -1,0 +1,51 @@
+[
+  {
+    "time": "2026-01-03 00:07:35",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[常见问题列表]"
+  },
+  {
+    "time": "2026-01-03 00:07:56",
+    "role": "用户",
+    "name": "颠***",
+    "type": "text",
+    "content": "请问这款有阻垢剂吗？"
+  },
+  {
+    "time": "2026-01-03 00:07:57",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2026-01-03 00:08:10",
+    "role": "用户",
+    "name": "颠***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610&_oak_rcto=YWLyHLxDTZ4TM8Qb_41mMcN25W_tcRV_2_bB5JXahMY8qKJehrTTtrGW&page_from=63&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2026-01-04 09:33:42",
+    "role": "客服",
+    "name": "viomi何静",
+    "type": "text",
+    "content": "出水0阻垢的小主"
+  },
+  {
+    "time": "2026-01-04 09:33:49",
+    "role": "客服",
+    "name": "viomi何静",
+    "type": "text",
+    "content": "新品首发 Viomi云米 净水器小海豚3 ①首发价499 ②晒图送1年延保 ③免费安装 快来抢购吧~"
+  },
+  {
+    "time": "2026-01-04 09:33:52",
+    "role": "客服",
+    "name": "viomi何静",
+    "type": "text",
+    "content": "/催"
+  }
+]

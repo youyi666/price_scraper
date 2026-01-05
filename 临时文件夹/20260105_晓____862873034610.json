@@ -1,0 +1,37 @@
+[
+  {
+    "time": "2025-12-31 14:34:51",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[常见问题列表]"
+  },
+  {
+    "time": "2025-12-31 14:34:52",
+    "role": "用户",
+    "name": "晓***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610&_oak_rcto=YWJ24rEc_k4d-yVbIs4PpbiUlBU_ZdZ41DKcaTxRyxP5ObHZgpbmGJX5cerofoYj6qY&page_from=63&_oc_trace_mark=199&_oc_adinfo=eyJwYWdlX3NuIjoxMDAxNSwic2NlbmVfaWQiOjJ9&_oc_refer_ad=1&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2025-12-31 14:34:57",
+    "role": "用户",
+    "name": "晓***",
+    "type": "text",
+    "content": "需要插电吗"
+  },
+  {
+    "time": "2025-12-31 14:34:58",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-31 14:35:04",
+    "role": "客服",
+    "name": "系统消息",
+    "type": "text",
+    "content": "要的"
+  }
+]

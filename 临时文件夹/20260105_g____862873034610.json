@@ -1,0 +1,79 @@
+[
+  {
+    "time": "2025-12-31 17:14:39",
+    "role": "用户",
+    "name": "g***",
+    "type": "text",
+    "content": "怎么预约"
+  },
+  {
+    "time": "2025-12-31 17:14:39",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-31 17:14:49",
+    "role": "客服",
+    "name": "viomi英英sk",
+    "type": "text",
+    "content": "小云朵，收到货后需要预约安装的话可以通过云米商城app进行预约安装，预约成功后会为您安排师傅上门的哦~后续有什么问题也都可以随时联系我们在线客服哦~"
+  },
+  {
+    "time": "2025-12-31 17:14:51",
+    "role": "客服",
+    "name": "viomi英英sk",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2025-12-31/61a03201-6072-4411-a06f-340e4654f05f.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2026-01-05 13:25:42",
+    "role": "用户",
+    "name": "g***",
+    "type": "text",
+    "content": "好评返现吗？"
+  },
+  {
+    "time": "2026-01-05 13:25:42",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "若您承诺对消费者的评价进行奖励，不得对评价内容进行诱导（如：五星评价，好评等）。拼多多支持消费者根据交易的实际情况进行评价。"
+  },
+  {
+    "time": "2026-01-05 13:25:43",
+    "role": "客服",
+    "name": "viomi小仙女\n机器人",
+    "type": "text",
+    "content": "亲亲，感谢您的评价，已为您打款3.5元在【微信】中，您可以自行查看~"
+  },
+  {
+    "time": "2026-01-05 13:25:53",
+    "role": "用户",
+    "name": "g***",
+    "type": "text",
+    "content": "还是有什么延保吗"
+  },
+  {
+    "time": "2026-01-05 13:26:09",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "晒单延保1年亲"
+  },
+  {
+    "time": "2026-01-05 13:26:31",
+    "role": "用户",
+    "name": "g***",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-user-v1/2026-01-05/87615637-14fe-468f-ae48-0cbb2f6893dd.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2026-01-05 13:26:54",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "好的亲这边给您登记了"
+  }
+]

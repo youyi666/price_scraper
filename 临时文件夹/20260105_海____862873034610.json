@@ -1,0 +1,93 @@
+[
+  {
+    "time": "2026-01-01 11:16:51",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[常见问题列表]"
+  },
+  {
+    "time": "2026-01-01 11:16:52",
+    "role": "用户",
+    "name": "海***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610&_oak_rcto=YWIw_TPK99999MRv_rFqJb8VcvnET0ZaJOBfHJIeODC5ZHtnvK8iX-Zhw3TnieLiN3I&page_from=23&_oc_trace_mark=199&_oc_refer_ad=1&_oc_adinfo=eyJwYWdlX3NuIjoxMDAxNSwic2NlbmVfaWQiOjJ9&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2026-01-01 11:17:00",
+    "role": "用户",
+    "name": "海***",
+    "type": "text",
+    "content": "为何要接电？"
+  },
+  {
+    "time": "2026-01-01 11:17:01",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2026-01-01 11:17:30",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "我们的净水器都需要插电哦，因为是ro膜净化，而且水龙头带显示灯的呢~~（需要有电源插座或插排（220v交流电的2孔插座），外部电源线长1.6米左右哈）"
+  },
+  {
+    "time": "2026-01-01 11:17:44",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "这款水龙头不带灯 但是也需要拆弹的"
+  },
+  {
+    "time": "2026-01-01 11:17:47",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "插电"
+  },
+  {
+    "time": "2026-01-01 11:17:48",
+    "role": "用户",
+    "name": "海***",
+    "type": "text",
+    "content": "没有电并用？"
+  },
+  {
+    "time": "2026-01-01 11:17:53",
+    "role": "用户",
+    "name": "海***",
+    "type": "text",
+    "content": "不能用"
+  },
+  {
+    "time": "2026-01-01 11:18:03",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "是额"
+  },
+  {
+    "time": "2026-01-01 15:25:46",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2026-01-01/b87a6579-b407-4e0a-b7da-523599036ae9.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2026-01-01 15:26:00",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "【小海豚3净水器】纳斯达克上市品牌全球平台国内新品首发~ 【一净到底】6级纯物理过滤，去除重金属守护孩子成长 【一机守护】 0阻垢剂不含双酚A，孕妈宝宝安心喝 【一触即饮】4秒就能接满一杯水，随时开怀畅饮 【一芯五年】5年长效RO滤芯，用得久真省芯 【一按换芯】弹扣式一按一拿，爸妈也能轻松换芯"
+  },
+  {
+    "time": "2026-01-01 15:26:13",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "小主～元旦活动倒计时~库存告急，现在下单还能赶上节前发货哦~心动不如行动呢~手慢无库存[亲亲]"
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "time": "2025-12-31 10:45:13",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[常见问题列表]"
+  },
+  {
+    "time": "2025-12-31 10:45:14",
+    "role": "用户",
+    "name": "定***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610&_oak_rcto=YWK6Xr99fme4VIIcZpyq4ZM8fX-xMiu4OCyKR09PU9kMB02R_eCFxYsjeENaXHIrzAw&page_from=63&_oc_trace_mark=199&_oc_adinfo=eyJwYWdlX3NuIjoxMDAxNSwic2NlbmVfaWQiOjJ9&_oc_refer_ad=1&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2025-12-31 10:45:22",
+    "role": "用户",
+    "name": "定***",
+    "type": "text",
+    "content": "这个有没有废水"
+  },
+  {
+    "time": "2025-12-31 10:45:22",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-31 10:45:25",
+    "role": "用户",
+    "name": "定***",
+    "type": "text",
+    "content": "要不要插电"
+  },
+  {
+    "time": "2025-12-31 10:45:28",
+    "role": "客服",
+    "name": "系统消息",
+    "type": "text",
+    "content": "有的"
+  },
+  {
+    "time": "2025-12-31 10:45:33",
+    "role": "客服",
+    "name": "系统消息",
+    "type": "text",
+    "content": "2比1"
+  },
+  {
+    "time": "2025-12-31 10:45:53",
+    "role": "用户",
+    "name": "定***",
+    "type": "text",
+    "content": "厨下没有插座"
+  },
+  {
+    "time": "2025-12-31 10:46:03",
+    "role": "用户",
+    "name": "定***",
+    "type": "text",
+    "content": "所以我问一下要不要插电"
+  },
+  {
+    "time": "2025-12-31 10:46:11",
+    "role": "客服",
+    "name": "系统消息",
+    "type": "text",
+    "content": "要的"
+  }
+]

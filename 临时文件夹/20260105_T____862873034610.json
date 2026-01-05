@@ -1,0 +1,58 @@
+[
+  {
+    "time": "2026-01-03 18:13:41",
+    "role": "用户",
+    "name": "T***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610&_oak_rcto=YWISnIfDsVfdYic5c6HgqnCzsoRrqsMUDZPcMSZH-T5ELM0VxaPHQP1k&page_from=51"
+  },
+  {
+    "time": "2026-01-03 18:13:48",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[咨询商品规格]"
+  },
+  {
+    "time": "2026-01-03 18:13:48",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2026-01-03 18:13:55",
+    "role": "用户",
+    "name": "T***",
+    "type": "text",
+    "content": "这两款有什么区别"
+  },
+  {
+    "time": "2026-01-03 18:13:58",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "您好"
+  },
+  {
+    "time": "2026-01-03 18:14:08",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2026-01-03/11fc3778-723f-4436-8c2e-b41badc188a8.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2026-01-03 18:14:09",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "可以参考下这个哦~"
+  },
+  {
+    "time": "2026-01-03 18:14:25",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "主要就是滤芯使用寿命和联网有差别"
+  }
+]

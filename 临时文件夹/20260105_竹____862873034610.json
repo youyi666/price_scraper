@@ -1,0 +1,506 @@
+[
+  {
+    "time": "2026-01-02 22:21:13",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[常见问题列表]"
+  },
+  {
+    "time": "2026-01-02 22:21:18",
+    "role": "用户",
+    "name": "竹***",
+    "type": "text",
+    "content": "你好"
+  },
+  {
+    "time": "2026-01-02 22:21:18",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2026-01-02 22:21:41",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "您好有什么可以帮到您~"
+  },
+  {
+    "time": "2026-01-02 22:21:47",
+    "role": "用户",
+    "name": "竹***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=852161740747&_oak_rcto=YWLJiFswZUSsLy8k5Mgi-jne_6r3sNv17cd4X3w4TfWK0WI8XEAhE37c&page_from=63&_oc_brand_neigou_param=_8_14&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2026-01-02 22:22:04",
+    "role": "用户",
+    "name": "竹***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=852932116812&_oak_rcto=YWJUwX0BpKMEysa6EcTol_Fl_6r3sNv17cd4X3w4TfWK0WI8XEAhE37c&page_from=63&_oc_trace_mark=199&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2026-01-02 22:22:14",
+    "role": "用户",
+    "name": "竹***",
+    "type": "text",
+    "content": "这两个是一样的吗？"
+  },
+  {
+    "time": "2026-01-02 22:22:15",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2026-01-02 22:22:39",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "是的机器是一样的"
+  },
+  {
+    "time": "2026-01-02 22:22:59",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "云米净水器600G+小海豚这款套装到货后会收到4支滤芯，1根标配的ro滤芯，1根标配复合滤芯，2根复合滤芯的呢~"
+  },
+  {
+    "time": "2026-01-02 22:23:49",
+    "role": "用户",
+    "name": "竹***",
+    "type": "text",
+    "content": "另外一个少了两个复合滤芯是吗"
+  },
+  {
+    "time": "2026-01-02 22:24:04",
+    "role": "用户",
+    "name": "竹***",
+    "type": "text",
+    "content": "一根滤芯是多少费用？"
+  },
+  {
+    "time": "2026-01-02 22:24:08",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "559这个少两个复合滤芯，标配一个RO+一个复合滤芯"
+  },
+  {
+    "time": "2026-01-02 22:24:15",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "净水器标配2支滤芯，建议更换时间： ①复合滤芯（最长2年一换），299元/支 ②RO反渗透滤芯（最长6年一换），699元/支"
+  },
+  {
+    "time": "2026-01-02 22:28:13",
+    "role": "用户",
+    "name": "竹***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610&_oak_rcto=YWL2C3hGKmGz6B6TAk8tRpvy_6r3sNv17cd4X3w4TfWK0WI8XEAhE37c&page_from=63&_oc_trace_mark=199&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2026-01-02 22:28:27",
+    "role": "用户",
+    "name": "竹***",
+    "type": "text",
+    "content": "和这款哪个好用些啊？"
+  },
+  {
+    "time": "2026-01-02 22:28:28",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2026-01-02 22:29:04",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "看您是否有联网的需求，如果不需要的话买小海豚3就好了会更实在些"
+  },
+  {
+    "time": "2026-01-02 22:29:07",
+    "role": "用户",
+    "name": "竹***",
+    "type": "text",
+    "content": "可以延迟多久发货呢？"
+  },
+  {
+    "time": "2026-01-02 22:29:07",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2026-01-02 22:29:35",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "最多延迟3个月哦"
+  },
+  {
+    "time": "2026-01-02 22:43:13",
+    "role": "用户",
+    "name": "竹***",
+    "type": "text",
+    "content": "有阻垢剂吗？"
+  },
+  {
+    "time": "2026-01-02 22:43:13",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2026-01-02 22:43:42",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "滤芯是一定含有阻垢剂的"
+  },
+  {
+    "time": "2026-01-02 22:43:47",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "出水不含有阻垢剂"
+  },
+  {
+    "time": "2026-01-02 22:43:49",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2026-01-02/21ff1bc0-deca-45eb-b65e-e66f41f5ff84.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2026-01-02 22:43:53",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "您好，云米小海豚600G+净水器直饮水不含阻垢剂。 RO反渗透滤芯过滤精度为0.0001微米，阻垢剂分子量远大于水中溶解的钠钾钙镁离子，无法通过RO膜，会随着水中钙镁离子、重金属等一起从浓缩水管排出，所以可以放心使用哦。"
+  },
+  {
+    "time": "2026-01-03 16:04:50",
+    "role": "用户",
+    "name": "竹***",
+    "type": "text",
+    "content": "延迟发货"
+  },
+  {
+    "time": "2026-01-03 16:04:52",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "系统识别到消费者要求延后发货。若您能支持消费者，可以点击这里，申请延后发货。"
+  },
+  {
+    "time": "2026-01-03 16:05:00",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "亲需要延迟多少天呢"
+  },
+  {
+    "time": "2026-01-03 16:05:03",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "这边给您备注下"
+  },
+  {
+    "time": "2026-01-03 16:05:13",
+    "role": "用户",
+    "name": "竹***",
+    "type": "text",
+    "content": "3个月吧，还没装修完"
+  },
+  {
+    "time": "2026-01-03 16:05:19",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "稍等哈~"
+  },
+  {
+    "time": "2026-01-03 16:05:24",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[商家申请延后发货]"
+  },
+  {
+    "time": "2026-01-03 16:05:28",
+    "role": "用户",
+    "name": "竹***",
+    "type": "text",
+    "content": "我已同意延后发货。"
+  },
+  {
+    "time": "2026-01-03 16:05:28",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "感谢亲的理解，我们将如期为您安排发货。"
+  },
+  {
+    "time": "2026-01-03 16:05:34",
+    "role": "用户",
+    "name": "竹***",
+    "type": "text",
+    "content": "嗯嗯，等通知发货"
+  },
+  {
+    "time": "2026-01-03 16:05:36",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "系统识别到消费者要求延后发货。若您能支持消费者，可以点击这里，申请延后发货。"
+  },
+  {
+    "time": "2026-01-03 16:05:41",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "好的亲这边给您备注好了，需要提前发货跟我们说就好了"
+  },
+  {
+    "time": "2026-01-03 16:05:57",
+    "role": "用户",
+    "name": "竹***",
+    "type": "text",
+    "content": "好的，发货前也通知我一下"
+  },
+  {
+    "time": "2026-01-03 16:06:10",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "嗯呢~"
+  },
+  {
+    "time": "2026-01-04 15:43:26",
+    "role": "用户",
+    "name": "竹***",
+    "type": "text",
+    "content": "在？"
+  },
+  {
+    "time": "2026-01-04 15:43:35",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "您好有什么可以帮到您~"
+  },
+  {
+    "time": "2026-01-04 15:44:06",
+    "role": "用户",
+    "name": "竹***",
+    "type": "text",
+    "content": "为啥提前发货了啊？"
+  },
+  {
+    "time": "2026-01-04 15:44:19",
+    "role": "用户",
+    "name": "竹***",
+    "type": "text",
+    "content": "我刚看到物流信息"
+  },
+  {
+    "time": "2026-01-04 15:44:21",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "请尽快解决售后问题，避免平台介入退款"
+  },
+  {
+    "time": "2026-01-04 15:44:26",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "尊敬的小云朵，术业有专攻为了更好的为您解决问题，这边为您转接对应客服帮您核实下，转接后客服会查看聊天记录蛤~请放心~"
+  },
+  {
+    "time": "2026-01-04 15:44:30",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "viomi小仙女 将该会话转移给 Viomi米萌mk10，请及时处理"
+  },
+  {
+    "time": "2026-01-04 15:45:04",
+    "role": "用户",
+    "name": "竹***",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-user-v1/2026-01-04/b06a34db-d439-4622-bd9b-90324f69655c.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2026-01-04 15:47:52",
+    "role": "客服",
+    "name": "Viomi米萌mk10",
+    "type": "text",
+    "content": "您好"
+  },
+  {
+    "time": "2026-01-04 15:48:06",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "Viomi米萌mk10 将该会话转移给 Viomi米萌mk09，并留言：1"
+  },
+  {
+    "time": "2026-01-04 15:48:26",
+    "role": "客服",
+    "name": "Viomi米萌mk09",
+    "type": "text",
+    "content": "您好！这里是云米专属客服，很高兴为您服务，有任何订单，商品，售后问题都会尽力为您答疑解惑～"
+  },
+  {
+    "time": "2026-01-04 16:09:01",
+    "role": "用户",
+    "name": "竹***",
+    "type": "text",
+    "content": "看到信息了吗？"
+  },
+  {
+    "time": "2026-01-04 16:09:23",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "小主，请您稍等，客服帮您转接专业售后客服，转接之后您跟咱们售后同事描述下您遇到的问题哦~"
+  },
+  {
+    "time": "2026-01-04 16:09:26",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "viomi小甜心 将该会话转移给 viomi米小锋MKD，请及时处理"
+  },
+  {
+    "time": "2026-01-04 16:09:43",
+    "role": "客服",
+    "name": "viomi米小锋MKD",
+    "type": "text",
+    "content": "您好！这里是云米专属客服，很高兴为您服务，有任何订单，商品，售后问题都会尽力为您答疑解惑～"
+  },
+  {
+    "time": "2026-01-04 16:10:08",
+    "role": "客服",
+    "name": "viomi米小锋MKD",
+    "type": "text",
+    "content": "可能是没有拦截成功哈小主"
+  },
+  {
+    "time": "2026-01-04 16:10:13",
+    "role": "客服",
+    "name": "viomi米小锋MKD",
+    "type": "text",
+    "content": "实在抱歉呢小主"
+  },
+  {
+    "time": "2026-01-04 16:12:30",
+    "role": "用户",
+    "name": "竹***",
+    "type": "text",
+    "content": "那怎么办？"
+  },
+  {
+    "time": "2026-01-04 16:12:38",
+    "role": "用户",
+    "name": "竹***",
+    "type": "text",
+    "content": "我现在又用不到"
+  },
+  {
+    "time": "2026-01-04 16:12:43",
+    "role": "客服",
+    "name": "viomi米小锋MKD",
+    "type": "text",
+    "content": "可以等您装修好再安装的哈小主"
+  },
+  {
+    "time": "2026-01-04 16:12:54",
+    "role": "客服",
+    "name": "viomi米小锋MKD",
+    "type": "text",
+    "content": "我们包安装的哈"
+  },
+  {
+    "time": "2026-01-04 16:13:01",
+    "role": "客服",
+    "name": "viomi米小锋MKD",
+    "type": "text",
+    "content": "什么时候安装都可以呢"
+  },
+  {
+    "time": "2026-01-04 16:14:00",
+    "role": "用户",
+    "name": "竹***",
+    "type": "text",
+    "content": "那假如安装前不需要了怎么办？"
+  },
+  {
+    "time": "2026-01-04 16:14:16",
+    "role": "用户",
+    "name": "竹***",
+    "type": "text",
+    "content": "或者降价了"
+  },
+  {
+    "time": "2026-01-04 16:14:20",
+    "role": "客服",
+    "name": "viomi米小锋MKD",
+    "type": "text",
+    "content": "可以申请退货退款的哈小主"
+  },
+  {
+    "time": "2026-01-04 16:14:41",
+    "role": "客服",
+    "name": "viomi米小锋MKD",
+    "type": "text",
+    "content": "我们是支持30天价保的哈小主"
+  },
+  {
+    "time": "2026-01-04 16:15:31",
+    "role": "用户",
+    "name": "竹***",
+    "type": "text",
+    "content": "这真是有点，，，你们的失误让我来买单"
+  },
+  {
+    "time": "2026-01-04 16:15:40",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "亲亲，请您稍等，客服帮您转接专业售后客服，转接之后您跟咱们售后同事描述下您遇到的问题哦~"
+  },
+  {
+    "time": "2026-01-04 16:15:46",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "viomi小可爱 将该会话转移给 viomi米小颖MKD，请及时处理"
+  },
+  {
+    "time": "2026-01-04 16:15:52",
+    "role": "客服",
+    "name": "viomi米小颖MKD",
+    "type": "text",
+    "content": "欢迎小云朵您的到来，很开心能为您服务，您在使用云米产品时遇到任何问题，都可以毫无顾虑的跟我说哦~"
+  },
+  {
+    "time": "2026-01-04 16:19:16",
+    "role": "客服",
+    "name": "viomi米小颖MKD",
+    "type": "text",
+    "content": "真的不好意思，小客服也希望您在咱家的购物体验是非常愉快的，您的建议我们也会虚心接受的，以后会改善做的更好的，这次真的给您添麻烦了，抱歉~"
+  }
+]

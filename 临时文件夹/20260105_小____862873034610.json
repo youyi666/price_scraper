@@ -1,0 +1,72 @@
+[
+  {
+    "time": "2026-01-04 20:25:35",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[常见问题列表]"
+  },
+  {
+    "time": "2026-01-04 20:25:37",
+    "role": "用户",
+    "name": "小***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610&_oak_rcto=YWKvpKnm7Yk0XEORNgfsJcNZ_tqp85hE7E9YvYWf9N_kA461m_wHbQwF&page_from=63&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2026-01-04 20:25:50",
+    "role": "用户",
+    "name": "小***",
+    "type": "text",
+    "content": "能说一下换芯的问题吗"
+  },
+  {
+    "time": "2026-01-04 20:25:51",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2026-01-04 20:25:53",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "在的"
+  },
+  {
+    "time": "2026-01-04 20:25:56",
+    "role": "用户",
+    "name": "小***",
+    "type": "text",
+    "content": "什么价格，多久换一次"
+  },
+  {
+    "time": "2026-01-04 20:25:59",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "这款净水机包含两根滤芯，一根复合滤芯（1年左右更换），一根RO滤芯（5年左右更换）"
+  },
+  {
+    "time": "2026-01-04 20:26:03",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "小海豚3复合滤芯到手179元（到货退差），复合滤芯购买链接https://mobile.yangkeduo.com/goods.html?goods_id=872941778883 小海豚3RO滤芯398元，RO购买链接https://mobile.yangkeduo.com/goods.html?goods_id=873065157674"
+  },
+  {
+    "time": "2026-01-04 20:26:19",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "【小海豚3净水器】纳斯达克上市品牌全球平台国内新品首发~ 【一净到底】6级纯物理过滤，去除重金属守护孩子成长 【一机守护】 0阻垢剂不含双酚A，孕妈宝宝安心喝 【一触即饮】4秒就能接满一杯水，随时开怀畅饮 【一芯五年】5年长效RO滤芯，用得久真省芯 【一按换芯】弹扣式一按一拿，爸妈也能轻松换芯"
+  },
+  {
+    "time": "2026-01-04 20:26:22",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "小云朵您好，这边还没有下单是有什么顾虑吗？有任何问题都可以咨询我的呢"
+  }
+]
