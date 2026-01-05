@@ -1,0 +1,21 @@
+[2026-01-05T03:06:21.353Z] ID:3 URL:http://swj.wuhai.gov.cn/swj/843439/843564/843569/843468/2383906/index.html Error:Protocol "http:" not supported. Expected "https:"
+[2026-01-05T03:07:12.300Z] ID:6 URL:http://www.nbhtz.gov.cn/col/col1229021956/art/2025/art_48a83eaf26d3459aa7026b4deb3addca.html Error:Protocol "http:" not supported. Expected "https:"
+[2026-01-05T03:09:31.730Z] ID:11 URL:https://www.suichang.gov.cn/col/col1229425524/art/2025/art_79226dc76cc041eea1928fc1cdab962f.html Error:page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.suichang.gov.cn/col/col1229425524/art/2025/art_79226dc76cc041eea1928fc1cdab962f.html
+Call log:
+[2m  - navigating to "https://www.suichang.gov.cn/col/col1229425524/art/2025/art_79226dc76cc041eea1928fc1cdab962f.html", waiting until "domcontentloaded"[22m
+
+[2026-01-05T03:09:47.291Z] ID:12 URL:https://www.fh.gov.cn/art/2025/12/25/art_1229037542_4707515.html Error:page.goto: net::ERR_ABORTED at https://www.fh.gov.cn/art/2025/12/25/art_1229037542_4707515.html
+Call log:
+[2m  - navigating to "https://www.fh.gov.cn/art/2025/12/25/art_1229037542_4707515.html", waiting until "domcontentloaded"[22m
+
+[2026-01-05T03:10:03.087Z] ID:13 URL:https://www.songyang.gov.cn/col/col1229355058/art/2025/art_ebcf416321a94200a5314e81474408a0.html Error:page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.songyang.gov.cn/col/col1229355058/art/2025/art_ebcf416321a94200a5314e81474408a0.html
+Call log:
+[2m  - navigating to "https://www.songyang.gov.cn/col/col1229355058/art/2025/art_ebcf416321a94200a5314e81474408a0.html", waiting until "domcontentloaded"[22m
+
+[2026-01-05T03:10:17.550Z] ID:14 URL:https://www.zh.gov.cn/col/col1229822352/art/2025/art_24d20edb316a4c2a9207f0ffa2c3b00d.html Error:page.goto: net::ERR_ABORTED; maybe frame was detached?
+Call log:
+[2m  - navigating to "https://www.zh.gov.cn/col/col1229822352/art/2025/art_24d20edb316a4c2a9207f0ffa2c3b00d.html", waiting until "domcontentloaded"[22m
+
+[2026-01-05T03:24:37.821Z] ID:3 URL:http://swj.wuhai.gov.cn/swj/843439/843564/843569/843468/2383906/index.html Error:Protocol "http:" not supported. Expected "https:"
+[2026-01-05T03:25:26.403Z] ID:6 URL:http://www.nbhtz.gov.cn/col/col1229021956/art/2025/art_48a83eaf26d3459aa7026b4deb3addca.html Error:Protocol "http:" not supported. Expected "https:"
+[2026-01-05T03:30:17.230Z] ID:18 URL:https://www.dinghai.gov.cn/col/col1229339496/art/2025/art_d91648c24629c230df72d1e27582c499.html Error:Protocol "http:" not supported. Expected "https:"
