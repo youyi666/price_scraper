@@ -1,0 +1,128 @@
+[
+  {
+    "time": "2025-12-30 22:57:21",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[常见问题列表]"
+  },
+  {
+    "time": "2025-12-30 22:57:23",
+    "role": "用户",
+    "name": "果***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610&_oak_rcto=YWKOWB0YLeM3JjY7af9eBnbGxJyo0L4hGfn-xfH3XLFCjqAJ0Zj7LFzCSwBsZm4cq2o&page_from=63&_oc_trace_mark=199&_oc_adinfo=eyJwYWdlX3NuIjoxMDAwMiwic2NlbmVfaWQiOjUwNn0%3D&_oc_refer_ad=1&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2025-12-30 22:57:27",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "在的呀小主~有什么帮到您的么"
+  },
+  {
+    "time": "2025-12-30 22:57:31",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "新品首发 Viomi云米 净水器小海豚3 ①首发价499 ②晒图送1年延保 ③预售期间下单可99换购滤芯，限量2个（滤芯原价199）"
+  },
+  {
+    "time": "2025-12-30 22:57:35",
+    "role": "用户",
+    "name": "果***",
+    "type": "text",
+    "content": "这款必须放到橱柜下面吗？可不可以壁挂？"
+  },
+  {
+    "time": "2025-12-30 22:57:35",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-30 22:57:45",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "小主可以的哈"
+  },
+  {
+    "time": "2025-12-30 22:59:13",
+    "role": "用户",
+    "name": "果***",
+    "type": "text",
+    "content": "这机器的净重量是多少？选择壁挂需要承重多少公斤？"
+  },
+  {
+    "time": "2025-12-30 23:00:14",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2025-12-30/e98d221c-ad34-4ee2-b5df-a93925646b85.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-30 23:00:29",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "小主具体您咨询一下400师傅哈"
+  },
+  {
+    "time": "2026-01-03 17:08:22",
+    "role": "用户",
+    "name": "果***",
+    "type": "text",
+    "content": "订单编号:251231-239547246952470"
+  },
+  {
+    "time": "2026-01-03 17:08:30",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "您好有什么可以帮到您~"
+  },
+  {
+    "time": "2026-01-03 17:08:43",
+    "role": "用户",
+    "name": "果***",
+    "type": "text",
+    "content": "已收到了，什么时候可以安排安装师傅跟我联系？"
+  },
+  {
+    "time": "2026-01-03 17:08:54",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "消费者催促您，请尽快回复！"
+  },
+  {
+    "time": "2026-01-03 17:09:06",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "尊敬的小云朵，术业有专攻为了更好的为您解决问题，这边为您转接对应客服帮您核实下，转接后客服会查看聊天记录蛤~请放心~"
+  },
+  {
+    "time": "2026-01-03 17:09:12",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "viomi小仙女 将该会话转移给 viomi米小颖MKD，请及时处理"
+  },
+  {
+    "time": "2026-01-03 17:09:15",
+    "role": "客服",
+    "name": "viomi米小颖MKD",
+    "type": "text",
+    "content": "欢迎小云朵您的到来，很开心能为您服务，您在使用云米产品时遇到任何问题，都可以毫无顾虑的跟我说哦~"
+  },
+  {
+    "time": "2026-01-03 17:09:51",
+    "role": "客服",
+    "name": "viomi米小颖MKD",
+    "type": "text",
+    "content": "您可以通过以下两种方式预约师傅上门： ①线上预约：关注“云米”→“安装/保修”预约； ②热线预约：拨打云米服务热线400-100-2632预约；"
+  }
+]

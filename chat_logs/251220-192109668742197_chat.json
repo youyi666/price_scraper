@@ -1,0 +1,289 @@
+[
+  {
+    "time": "2025-12-20 12:45:44",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[常见问题列表]"
+  },
+  {
+    "time": "2025-12-20 12:45:46",
+    "role": "用户",
+    "name": "南***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610&_oak_rcto=YWJmMpUz1FpW9TMtvTyl65PMm9S4Ov34uDLlob1Hr5CEfiIS1e4tSkvR&page_from=63&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2025-12-20 12:46:02",
+    "role": "用户",
+    "name": "南***",
+    "type": "text",
+    "content": "这个质保多久？"
+  },
+  {
+    "time": "2025-12-20 12:46:02",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-20 12:46:24",
+    "role": "用户",
+    "name": "南***",
+    "type": "text",
+    "content": "不含阻垢剂？"
+  },
+  {
+    "time": "2025-12-20 12:47:14",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "质保一年哦~"
+  },
+  {
+    "time": "2025-12-20 12:47:27",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "您好，云米小海豚净水器直饮水不含阻垢剂。 RO反渗透滤芯过滤精度为0.0001微米，阻垢剂分子量远大于水中溶解的钠钾钙镁离子，无法通过RO膜，会随着水中钙镁离子、重金属等一起从浓缩水管排出，所以可以放心使用哦。"
+  },
+  {
+    "time": "2025-12-20 12:47:32",
+    "role": "用户",
+    "name": "南***",
+    "type": "text",
+    "content": "晒图能延保1年"
+  },
+  {
+    "time": "2025-12-20 12:47:57",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "是的"
+  },
+  {
+    "time": "2025-12-20 12:48:11",
+    "role": "用户",
+    "name": "南***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=225501370546&_oak_rcto=YWI7F2blFCqK4b7SdWm7qa4Qm9S4Ov34uDJMyLFEn9m_mjSsXZcOXhnw&page_from=63&_oc_trace_mark=199&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2025-12-20 12:48:23",
+    "role": "用户",
+    "name": "南***",
+    "type": "text",
+    "content": "和这款有什么区别"
+  },
+  {
+    "time": "2025-12-20 12:48:23",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-20 12:48:28",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "滤芯使用不一样"
+  },
+  {
+    "time": "2025-12-20 12:48:49",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "后面发这个能接入手机APP"
+  },
+  {
+    "time": "2025-12-20 12:48:56",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "其他过滤精度啥的一样的"
+  },
+  {
+    "time": "2025-12-20 12:49:18",
+    "role": "用户",
+    "name": "南***",
+    "type": "text",
+    "content": "也是无阻垢剂？"
+  },
+  {
+    "time": "2025-12-20 12:49:25",
+    "role": "用户",
+    "name": "南***",
+    "type": "text",
+    "content": "质保呢"
+  },
+  {
+    "time": "2025-12-20 12:49:49",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "也是一样出水无阻垢剂的"
+  },
+  {
+    "time": "2025-12-20 12:50:00",
+    "role": "用户",
+    "name": "南***",
+    "type": "text",
+    "content": "复合滤芯一支能产多少纯水？"
+  },
+  {
+    "time": "2025-12-20 12:50:15",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "大概10000L左右"
+  },
+  {
+    "time": "2025-12-20 12:51:43",
+    "role": "用户",
+    "name": "南***",
+    "type": "text",
+    "content": "质保能延保吗"
+  },
+  {
+    "time": "2025-12-20 12:52:30",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "这个送不了延保哦"
+  },
+  {
+    "time": "2025-12-20 12:54:25",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "因为小海豚600G现在有送复购复合滤芯终身半价的"
+  },
+  {
+    "time": "2025-12-20 12:55:06",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "复合滤芯复购价99元，每个账号限2次，RO滤芯复购349，后续购买复合滤芯终身半价"
+  },
+  {
+    "time": "2025-12-20 13:04:26",
+    "role": "用户",
+    "name": "南***",
+    "type": "text",
+    "content": "这两款有是0陈水吗"
+  },
+  {
+    "time": "2025-12-20 13:04:26",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-20 13:04:41",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "这个没有哦~"
+  },
+  {
+    "time": "2025-12-20 13:05:18",
+    "role": "用户",
+    "name": "南***",
+    "type": "text",
+    "content": "每天要放水？"
+  },
+  {
+    "time": "2025-12-20 13:05:54",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "直饮的话建议放两杯，不直饮烧开就不用"
+  },
+  {
+    "time": "2025-12-20 13:28:10",
+    "role": "用户",
+    "name": "南***",
+    "type": "text",
+    "content": "可以延期发货吗"
+  },
+  {
+    "time": "2025-12-20 13:28:31",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "可以延迟3个月发货的哈"
+  },
+  {
+    "time": "2025-12-20 13:29:08",
+    "role": "用户",
+    "name": "南***",
+    "type": "text",
+    "content": "好，帮我等通知发货"
+  },
+  {
+    "time": "2025-12-20 13:29:25",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "您是需要延迟多少天发货呢"
+  },
+  {
+    "time": "2025-12-20 13:29:33",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "viomi小云朵 将该会话转移给 viomi莉莉sk，并留言：延迟发货"
+  },
+  {
+    "time": "2025-12-20 13:29:38",
+    "role": "用户",
+    "name": "南***",
+    "type": "text",
+    "content": "先一个月"
+  },
+  {
+    "time": "2025-12-20 13:29:49",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "【延迟发货小提醒】 适用说明：除小家电 / 智能家居、政府补贴订单外，其他订单可申请一次延迟发货，最长 30 天哦～ 操作指引：付款后麻烦您立即联系客服，告知想发货的具体时间并登记。客服会发延迟确认卡片，您点击同意后延迟才生效；若没点击，系统会默认正常发货呢。 温馨提示：延迟到期后，商品可能会因为库存变化无货，请您提前悉知～"
+  },
+  {
+    "time": "2025-12-20 13:29:55",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[商家申请延后发货]"
+  },
+  {
+    "time": "2025-12-20 13:29:57",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "您确认下"
+  },
+  {
+    "time": "2025-12-20 13:29:58",
+    "role": "用户",
+    "name": "南***",
+    "type": "text",
+    "content": "我已同意延后发货。"
+  },
+  {
+    "time": "2025-12-20 13:29:58",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "感谢亲的理解，我们将如期为您安排发货。"
+  },
+  {
+    "time": "2025-12-20 13:30:21",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "后续会按照约定时间安排发出哈，需要提前发出可以联系我们，"
+  }
+]

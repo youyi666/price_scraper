@@ -1,0 +1,471 @@
+[
+  {
+    "time": "2026-01-03 13:19:44",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[常见问题列表]"
+  },
+  {
+    "time": "2026-01-03 13:19:45",
+    "role": "用户",
+    "name": "d***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=852932116812&_oak_rcto=YWJLWKhETCe7CEv2SQCyz3cfqbzXZrJIprvN9nia71rYglJ_BHmv8ZZ9&page_from=63&_oc_trace_mark=199&_oc_adinfo=eyJwYWdlX3NuIjoxMDAwMiwic2NlbmVfaWQiOjUwNn0%3D&_oc_refer_ad=1&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2026-01-03 13:19:48",
+    "role": "用户",
+    "name": "d***",
+    "type": "text",
+    "content": "包安装吗"
+  },
+  {
+    "time": "2026-01-03 13:19:49",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2026-01-03 13:19:59",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "消费者催促您，请尽快回复！"
+  },
+  {
+    "time": "2026-01-03 13:20:04",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "净水器包装里材料是免费上门安装的，免费安装不涉及橱柜改造、下水管改造、电源改造、拆旧等。 龙头安装如需开孔，木板、不锈钢、亚克力台面提供免费开孔"
+  },
+  {
+    "time": "2026-01-03 13:20:35",
+    "role": "用户",
+    "name": "d***",
+    "type": "text",
+    "content": "送啥滤芯 ，可以用六年吗"
+  },
+  {
+    "time": "2026-01-03 13:20:57",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "这个套装是多两根这个复合滤芯的"
+  },
+  {
+    "time": "2026-01-03 13:21:11",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "一根复合滤芯是2年一更换，RO滤芯是6年一换"
+  },
+  {
+    "time": "2026-01-03 13:21:15",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "云米净水器600G+小海豚这款套装到货后会收到4支滤芯，1根标配的ro滤芯，1根标配复合滤芯，2根复合滤芯的呢~"
+  },
+  {
+    "time": "2026-01-03 13:21:43",
+    "role": "用户",
+    "name": "d***",
+    "type": "text",
+    "content": "这是几级别过滤"
+  },
+  {
+    "time": "2026-01-03 13:21:52",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "这个是6级的亲"
+  },
+  {
+    "time": "2026-01-03 13:22:00",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "· 6级精率：PP棉+前置活性炭+长效因子+RO反渗透滤芯+后置椰壳活性炭+无纺布"
+  },
+  {
+    "time": "2026-01-03 13:22:09",
+    "role": "用户",
+    "name": "d***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610&_oak_rcto=YWKlZLF8y3ej0JwkEC_HzgT6qbzXZrJIprvN9nia71rYglJ_BHmv8ZZ9&page_from=63&_oc_brand_neigou_param=_8_14&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2026-01-03 13:22:11",
+    "role": "用户",
+    "name": "d***",
+    "type": "text",
+    "content": "这款呢"
+  },
+  {
+    "time": "2026-01-03 13:22:12",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2026-01-03 13:22:23",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "这款也是一样的过滤精度"
+  },
+  {
+    "time": "2026-01-03 13:31:47",
+    "role": "用户",
+    "name": "d***",
+    "type": "text",
+    "content": "包安装吗"
+  },
+  {
+    "time": "2026-01-03 13:31:54",
+    "role": "用户",
+    "name": "d***",
+    "type": "text",
+    "content": "也是六级"
+  },
+  {
+    "time": "2026-01-03 13:32:01",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "是的亲包安装的"
+  },
+  {
+    "time": "2026-01-03 13:32:21",
+    "role": "用户",
+    "name": "d***",
+    "type": "text",
+    "content": "滤芯用多久"
+  },
+  {
+    "time": "2026-01-03 13:33:14",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2026-01-03/820ddd9c-4b0c-4a38-981d-c06c04ad4a5a.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2026-01-03 13:35:44",
+    "role": "用户",
+    "name": "d***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=852161740747&_oak_rcto=YWJ0cemGtzq455CuKKXbCe1UqbzXZrJIprvN9nia71rYglJ_BHmv8ZZ9&page_from=63&_oc_brand_neigou_param=_8_14&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2026-01-03 13:35:57",
+    "role": "用户",
+    "name": "d***",
+    "type": "text",
+    "content": "这个和第二款比 有啥差别"
+  },
+  {
+    "time": "2026-01-03 13:35:57",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2026-01-03 13:36:10",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2026-01-03/0d398ebe-a170-4cfb-bb83-b7731f6f79a1.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2026-01-03 13:36:16",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "这个是小海豚系列的对比您看下"
+  },
+  {
+    "time": "2026-01-03 13:36:50",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "还有就是小海豚600G+和小海豚2是可以链接米家和云米APP的，小海豚3暂时还没接入APP"
+  },
+  {
+    "time": "2026-01-03 13:46:07",
+    "role": "用户",
+    "name": "d***",
+    "type": "text",
+    "content": "都要插电，也太排废水？"
+  },
+  {
+    "time": "2026-01-03 13:46:33",
+    "role": "用户",
+    "name": "d***",
+    "type": "text",
+    "content": "600g和小海豚3主要区别在哪里"
+  },
+  {
+    "time": "2026-01-03 13:46:58",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "主要就是滤芯使用寿命不同亲，他的尺寸不一样的嘛"
+  },
+  {
+    "time": "2026-01-03 13:47:11",
+    "role": "用户",
+    "name": "d***",
+    "type": "text",
+    "content": "哪里滤芯久"
+  },
+  {
+    "time": "2026-01-03 13:47:31",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "小海豚600G+会更长效些"
+  },
+  {
+    "time": "2026-01-03 13:48:08",
+    "role": "用户",
+    "name": "d***",
+    "type": "text",
+    "content": "几级渗透 都要插电，接废水管吗"
+  },
+  {
+    "time": "2026-01-03 13:48:29",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "一样是6级的亲，都是需要插电接废水管"
+  },
+  {
+    "time": "2026-01-03 13:48:40",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "小云朵，咱们家600G+净水器是新国标一级水效，纯废水比是2：1哈，相当于3升自来水可制出2升的纯净水、1升的废水，减少水源浪费哦~"
+  },
+  {
+    "time": "2026-01-03 16:55:58",
+    "role": "用户",
+    "name": "d***",
+    "type": "text",
+    "content": "这个滤芯怎么更换哈"
+  },
+  {
+    "time": "2026-01-03 16:56:14",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "哪款呢亲"
+  },
+  {
+    "time": "2026-01-03 16:56:35",
+    "role": "用户",
+    "name": "d***",
+    "type": "text",
+    "content": "600G"
+  },
+  {
+    "time": "2026-01-03 16:56:35",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2026-01-03 16:56:41",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=852161740747"
+  },
+  {
+    "time": "2026-01-03 16:57:14",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "这个打开前盖一转一提就出来了"
+  },
+  {
+    "time": "2026-01-03 16:57:36",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "你撤回了一条消息"
+  },
+  {
+    "time": "2026-01-03 16:57:50",
+    "role": "用户",
+    "name": "d***",
+    "type": "text",
+    "content": "那两款七十更换滤芯的方式是一样的，为什么一款可以更久？"
+  },
+  {
+    "time": "2026-01-03 16:58:13",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "滤芯尺寸不同"
+  },
+  {
+    "time": "2026-01-03 16:58:59",
+    "role": "用户",
+    "name": "d***",
+    "type": "text",
+    "content": "有两款的更换滤芯视频吗？"
+  },
+  {
+    "time": "2026-01-03 16:58:59",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2026-01-03 16:59:33",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "有的亲"
+  },
+  {
+    "time": "2026-01-03 16:59:38",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "我们售后这边都是齐全的"
+  },
+  {
+    "time": "2026-01-03 17:12:16",
+    "role": "用户",
+    "name": "d***",
+    "type": "text",
+    "content": "看一下"
+  },
+  {
+    "time": "2026-01-03 17:12:51",
+    "role": "用户",
+    "name": "d***",
+    "type": "text",
+    "content": "哪款是新出品的"
+  },
+  {
+    "time": "2026-01-03 17:12:54",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "亲这边售前暂时没有这类资料哦~"
+  },
+  {
+    "time": "2026-01-03 17:12:58",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "小海豚3是新品"
+  },
+  {
+    "time": "2026-01-03 17:13:00",
+    "role": "用户",
+    "name": "d***",
+    "type": "text",
+    "content": "[大哭]"
+  },
+  {
+    "time": "2026-01-03 17:13:45",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "[动画表情]"
+  },
+  {
+    "time": "2026-01-03 22:37:18",
+    "role": "用户",
+    "name": "d***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=852161740747&_oak_rcto=YWJI_LExR3zoepCuKKXbCe1UqbzXZrJIprvN9nia71rYglJ_BHmv8ZZ9&page_from=63&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2026-01-03 22:37:27",
+    "role": "用户",
+    "name": "d***",
+    "type": "text",
+    "content": "这款可以自己更换滤芯吗"
+  },
+  {
+    "time": "2026-01-03 22:37:28",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2026-01-03 22:37:48",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "在的"
+  },
+  {
+    "time": "2026-01-03 22:39:54",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "退款成功通知"
+  },
+  {
+    "time": "2026-01-03 22:40:21",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "可以的呢"
+  },
+  {
+    "time": "2026-01-03 23:12:54",
+    "role": "用户",
+    "name": "d***",
+    "type": "text",
+    "content": "好嘞 买了"
+  },
+  {
+    "time": "2026-01-03 23:13:01",
+    "role": "用户",
+    "name": "d***",
+    "type": "text",
+    "content": "滤芯更换视频发一下"
+  },
+  {
+    "time": "2026-01-03 23:13:07",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "亲亲，请您稍等，客服帮您转接专业售后客服，转接之后您跟咱们售后同事描述下您遇到的问题哦~"
+  },
+  {
+    "time": "2026-01-03 23:13:11",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "viomi小可爱 将该会话转移给 viomi米小锋MKD，请及时处理"
+  },
+  {
+    "time": "2026-01-03 23:13:14",
+    "role": "客服",
+    "name": "viomi米小锋MKD",
+    "type": "text",
+    "content": "您好！这里是云米专属客服，很高兴为您服务，有任何订单，商品，售后问题都会尽力为您答疑解惑～"
+  },
+  {
+    "time": "2026-01-03 23:13:34",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "https://video5.pddpic.com/i1/2024-11-25/8cb1f39178fec2d39842fdcab5fa887c.mp4.f30.mp4"
+  }
+]

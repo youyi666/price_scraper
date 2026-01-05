@@ -1,0 +1,170 @@
+[
+  {
+    "time": "2025-12-19 20:12:55",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[常见问题列表]"
+  },
+  {
+    "time": "2025-12-19 20:12:56",
+    "role": "用户",
+    "name": "北***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610&_oak_rcto=YWL5k3lyy8E4D8QMY3nVKDJanVFzJlfAIhdfHJIeODC5ZBsi7xzWoGPuhRvYLPjF95k&page_from=63&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2025-12-19 20:12:58",
+    "role": "用户",
+    "name": "北***",
+    "type": "text",
+    "content": "你好"
+  },
+  {
+    "time": "2025-12-19 20:12:58",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-19 20:13:03",
+    "role": "用户",
+    "name": "北***",
+    "type": "text",
+    "content": "这个有运费险嘛"
+  },
+  {
+    "time": "2025-12-19 20:13:11",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "来咯来咯~欢迎光临~~~非常乐意解答您的任何疑问。如有任何问题，欢迎随时向我咨询，我是您的专属客服‘小甜心’，今天将为您全程服务~~o(*￣▽￣*)o"
+  },
+  {
+    "time": "2025-12-19 20:13:21",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "小主您可以自行购买的哈"
+  },
+  {
+    "time": "2025-12-22 19:23:43",
+    "role": "用户",
+    "name": "北***",
+    "type": "text",
+    "content": "安装是免费的吗？"
+  },
+  {
+    "time": "2025-12-22 19:23:43",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-22 19:24:16",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "净水器包装里材料是免费上门安装的，免费安装不涉及橱柜改造、下水管改造、电源改造、拆旧等。 龙头安装如需开孔，木板、不锈钢、亚克力台面提供免费开孔"
+  },
+  {
+    "time": "2025-12-22 19:24:50",
+    "role": "用户",
+    "name": "北***",
+    "type": "text",
+    "content": "好的,谢谢!"
+  },
+  {
+    "time": "2025-12-22 19:25:15",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "不客气的呢"
+  },
+  {
+    "time": "2025-12-22 19:25:18",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "[爱心]"
+  },
+  {
+    "time": "2026-01-02 15:48:08",
+    "role": "用户",
+    "name": "北***",
+    "type": "text",
+    "content": "你好"
+  },
+  {
+    "time": "2026-01-02 15:48:08",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2026-01-02 15:48:19",
+    "role": "用户",
+    "name": "北***",
+    "type": "text",
+    "content": "咱这个净水机有减压阀吗"
+  },
+  {
+    "time": "2026-01-02 15:48:22",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "在的呀小主~有什么帮到您的么"
+  },
+  {
+    "time": "2026-01-02 15:48:54",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2026-01-02/ae3febaa-4bcd-4907-9190-ec632bbe3cb5.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2026-01-02 15:49:10",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "没有的哈小主"
+  },
+  {
+    "time": "2026-01-02 15:49:57",
+    "role": "用户",
+    "name": "北***",
+    "type": "text",
+    "content": "如果要安装的话装在哪儿！"
+  },
+  {
+    "time": "2026-01-02 15:49:58",
+    "role": "用户",
+    "name": "北***",
+    "type": "text",
+    "content": "？"
+  },
+  {
+    "time": "2026-01-02 15:50:19",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "亲爱哒~产品可以直接电话联系400"
+  },
+  {
+    "time": "2026-01-02 15:50:23",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2026-01-02/b0d0dd75-f868-419d-944a-c5aeb8e7807b.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2026-01-02 15:50:33",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "小主这边建议您咨询一下400的哈"
+  }
+]

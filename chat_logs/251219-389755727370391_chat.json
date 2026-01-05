@@ -1,0 +1,604 @@
+[
+  {
+    "time": "2025-12-19 20:30:53",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[常见问题列表]"
+  },
+  {
+    "time": "2025-12-19 20:30:59",
+    "role": "用户",
+    "name": "拼***",
+    "type": "text",
+    "content": "可以拍了先不要发货吗"
+  },
+  {
+    "time": "2025-12-19 20:31:00",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-19 20:31:22",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "可以的呢"
+  },
+  {
+    "time": "2025-12-19 20:31:27",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "【延迟发货小提醒】 适用说明：除小家电 / 智能家居、政府补贴订单外，其他订单可申请一次延迟发货，最长 30 天哦～ 操作指引：付款后麻烦您立即联系客服，告知想发货的具体时间并登记。客服会发延迟确认卡片，您点击同意后延迟才生效；若没点击，系统会默认正常发货呢。 温馨提示：延迟到期后，商品可能会因为库存变化无货，请您提前悉知～"
+  },
+  {
+    "time": "2025-12-19 20:34:00",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2025-12-19/57c91e6c-1353-4638-9739-ffd1b9b1fbeb.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-19 20:34:04",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "需要您这边申请一下哦"
+  },
+  {
+    "time": "2025-12-19 20:35:01",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "这边需要什么时候给您发货呢"
+  },
+  {
+    "time": "2025-12-19 20:35:21",
+    "role": "用户",
+    "name": "拼***",
+    "type": "text",
+    "content": "要求延迟发货"
+  },
+  {
+    "time": "2025-12-19 20:35:22",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "系统识别到消费者要求延后发货。若您能支持消费者，可以点击这里，申请延后发货。"
+  },
+  {
+    "time": "2025-12-19 20:35:35",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "这边是需要什么时候发货呢"
+  },
+  {
+    "time": "2025-12-19 20:35:57",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[商家申请延后发货]"
+  },
+  {
+    "time": "2025-12-19 20:36:09",
+    "role": "用户",
+    "name": "拼***",
+    "type": "text",
+    "content": "我已同意延后发货。"
+  },
+  {
+    "time": "2025-12-19 20:36:09",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "感谢亲的理解，我们将如期为您安排发货。"
+  },
+  {
+    "time": "2025-12-19 20:36:11",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "订单已延后发货，请备注发货时间"
+  },
+  {
+    "time": "2025-12-19 20:36:15",
+    "role": "用户",
+    "name": "拼***",
+    "type": "text",
+    "content": "等我确认好了再联系你们可以吗"
+  },
+  {
+    "time": "2025-12-19 20:36:18",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "可以的"
+  },
+  {
+    "time": "2025-12-19 20:36:25",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "需要发货联系我们"
+  },
+  {
+    "time": "2025-12-19 20:36:31",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "2026.03.21 20:34:36 前发货"
+  },
+  {
+    "time": "2025-12-19 20:36:42",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "不要晚于这个时间哦"
+  },
+  {
+    "time": "2025-12-19 20:37:31",
+    "role": "用户",
+    "name": "拼***",
+    "type": "text",
+    "content": "好的"
+  },
+  {
+    "time": "2025-12-19 20:37:47",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "[玫瑰]"
+  },
+  {
+    "time": "2025-12-19 21:10:23",
+    "role": "用户",
+    "name": "拼***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=225501370546&_oak_rcto=YWL6TaUwVC6kPXYwqDSR2in7PRfxqMqGMzqwJ-RdXAlNaOqxceJreG5bIizLtOLtckc&page_from=63&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2025-12-19 21:10:24",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "【小海豚600G+净水器】 ------- 【安全】母婴直饮无罐设计，即滤即饮鲜出水无双酚A 【滤芯】6年长效RO滤芯、2年优质复合滤芯，健康又经济！省芯更省薪 【600G通量】即滤即饮，洗菜做饭也不耽误 【无罐设计】对比带罐的都是老款，时间长了容易滋生细菌，影响水质。 【升级】无需水盒子，app支持管线机！实现不同场景热水直饮 【联网】支持“云米/米家APP”实时监测用水情况与滤芯寿命"
+  },
+  {
+    "time": "2025-12-19 21:10:31",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "来咯来咯~欢迎光临~~~非常乐意解答您的任何疑问。如有任何问题，欢迎随时向我咨询，我是您的专属客服‘小甜心’，今天将为您全程服务~~o(*￣▽￣*)o"
+  },
+  {
+    "time": "2025-12-19 21:10:49",
+    "role": "用户",
+    "name": "拼***",
+    "type": "text",
+    "content": "这个和我下单的那款有什么区别"
+  },
+  {
+    "time": "2025-12-19 21:10:49",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-19 21:11:19",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2025-12-19/f098a87f-4a5d-4c70-9006-a9bde1a0370c.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-19 21:11:22",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "小主您可以看下的呢"
+  },
+  {
+    "time": "2025-12-19 21:12:28",
+    "role": "用户",
+    "name": "拼***",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-user-v1/2025-12-19/432bf2db-81db-4a6c-9cf9-d99c48b4ca23.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-19 21:12:38",
+    "role": "用户",
+    "name": "拼***",
+    "type": "text",
+    "content": "这个咨询客服是什么"
+  },
+  {
+    "time": "2025-12-19 21:12:54",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2025-12-19/0c136621-83ec-440f-9559-940a879d6b16.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-19 21:13:01",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "小主就是99元加购的呢"
+  },
+  {
+    "time": "2025-12-19 21:13:52",
+    "role": "用户",
+    "name": "拼***",
+    "type": "text",
+    "content": "这个加购的滤芯可以用在之前的云米小蓝调上吗"
+  },
+  {
+    "time": "2025-12-19 21:14:27",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "不通用的呢"
+  },
+  {
+    "time": "2025-12-19 21:14:46",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=850333437206"
+  },
+  {
+    "time": "2025-12-19 21:14:57",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "小主这一款滤芯 的呢"
+  },
+  {
+    "time": "2025-12-19 21:16:03",
+    "role": "用户",
+    "name": "拼***",
+    "type": "text",
+    "content": "按滤芯寿命和价格来算，小海豚和小海豚3哪个更划算"
+  },
+  {
+    "time": "2025-12-19 21:16:36",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "小主这边建议600g的呢"
+  },
+  {
+    "time": "2025-12-19 21:16:48",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "小主~购买净水器在加购99元滤芯可换复和滤芯的呢（原价299元，后返200的呢 ，限2支）"
+  },
+  {
+    "time": "2025-12-19 21:17:47",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "是小海豚600g的滤芯的呢"
+  },
+  {
+    "time": "2025-12-19 21:19:12",
+    "role": "用户",
+    "name": "拼***",
+    "type": "text",
+    "content": "只有小海豚有加购滤芯活动吗"
+  },
+  {
+    "time": "2025-12-19 21:19:19",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "是滴呀"
+  },
+  {
+    "time": "2025-12-19 21:19:28",
+    "role": "用户",
+    "name": "拼***",
+    "type": "text",
+    "content": "滤芯是用两年的？"
+  },
+  {
+    "time": "2025-12-19 21:19:39",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "消费者催促您，请尽快回复！"
+  },
+  {
+    "time": "2025-12-19 21:19:54",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "具体看您当地水质情况来判断的呢"
+  },
+  {
+    "time": "2025-12-19 21:22:48",
+    "role": "用户",
+    "name": "拼***",
+    "type": "text",
+    "content": "有阻垢剂吗"
+  },
+  {
+    "time": "2025-12-19 21:23:08",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "0阻垢的呢"
+  },
+  {
+    "time": "2025-12-20 10:13:37",
+    "role": "用户",
+    "name": "拼***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=852932116812&_oak_rcto=YWIu6q4bO7KHfSjIwHSg-BJbPRfxqMqGMzqwJ-RdXAlNaOaqXYOEroPXL0eFj9edA7s&page_from=63&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2025-12-20 10:13:52",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "您好有什么可以帮到您~"
+  },
+  {
+    "time": "2025-12-20 10:14:01",
+    "role": "用户",
+    "name": "拼***",
+    "type": "text",
+    "content": "这个是买了可以用6年，不需要另外买滤芯了吧"
+  },
+  {
+    "time": "2025-12-20 10:14:01",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-20 10:14:26",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "是的亲~"
+  },
+  {
+    "time": "2025-12-20 10:14:35",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "云米净水器600G+小海豚这款套装到货后会收到4支滤芯，1根标配的ro滤芯，1根标配复合滤芯，2根复合滤芯的呢~"
+  },
+  {
+    "time": "2025-12-20 10:14:51",
+    "role": "用户",
+    "name": "拼***",
+    "type": "text",
+    "content": "还有更多优惠吗"
+  },
+  {
+    "time": "2025-12-20 10:15:03",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=852932116812"
+  },
+  {
+    "time": "2025-12-20 10:15:13",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "这个吗亲~"
+  },
+  {
+    "time": "2025-12-20 10:15:19",
+    "role": "用户",
+    "name": "拼***",
+    "type": "text",
+    "content": "对"
+  },
+  {
+    "time": "2025-12-20 10:15:28",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "稍等哈`"
+  },
+  {
+    "time": "2025-12-20 10:16:15",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "不含平台券到手价是796，前10名下单可送TDS检测笔"
+  },
+  {
+    "time": "2025-12-20 10:24:08",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "退款成功通知"
+  },
+  {
+    "time": "2025-12-20 10:31:44",
+    "role": "用户",
+    "name": "拼***",
+    "type": "text",
+    "content": "订单编号:251220-590138600970391"
+  },
+  {
+    "time": "2025-12-20 10:31:49",
+    "role": "用户",
+    "name": "拼***",
+    "type": "text",
+    "content": "先不要发货"
+  },
+  {
+    "time": "2025-12-20 10:31:50",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "系统识别到消费者要求延后发货。若您能支持消费者，可以点击这里，申请延后发货。"
+  },
+  {
+    "time": "2025-12-20 10:32:03",
+    "role": "用户",
+    "name": "拼***",
+    "type": "text",
+    "content": "申请延迟发货"
+  },
+  {
+    "time": "2025-12-20 10:32:05",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "系统识别到消费者要求延后发货。若您能支持消费者，可以点击这里，申请延后发货。"
+  },
+  {
+    "time": "2025-12-20 10:32:13",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "亲延迟几天呢·"
+  },
+  {
+    "time": "2025-12-20 10:32:22",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "这边帮您登记"
+  },
+  {
+    "time": "2025-12-20 10:32:29",
+    "role": "用户",
+    "name": "拼***",
+    "type": "text",
+    "content": "等我需要发货的时候联系你"
+  },
+  {
+    "time": "2025-12-20 10:32:48",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "这边需要填写时间的"
+  },
+  {
+    "time": "2025-12-20 10:32:59",
+    "role": "用户",
+    "name": "拼***",
+    "type": "text",
+    "content": "现在还不确定"
+  },
+  {
+    "time": "2025-12-20 10:33:05",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "这样我帮您先延迟1个月，需要提前发货就来找我们这样吧"
+  },
+  {
+    "time": "2025-12-20 10:33:43",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "后续需要继续延迟发货的话也可以来这边调整的，最多可以延迟3个月"
+  },
+  {
+    "time": "2025-12-20 10:33:46",
+    "role": "用户",
+    "name": "拼***",
+    "type": "text",
+    "content": "好的"
+  },
+  {
+    "time": "2025-12-20 10:33:51",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[商家申请延后发货]"
+  },
+  {
+    "time": "2025-12-20 10:34:05",
+    "role": "用户",
+    "name": "拼***",
+    "type": "text",
+    "content": "我已同意延后发货。"
+  },
+  {
+    "time": "2025-12-20 10:34:05",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "感谢亲的理解，我们将如期为您安排发货。"
+  },
+  {
+    "time": "2025-12-20 10:34:27",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "[动画表情]"
+  },
+  {
+    "time": "2025-12-20 20:28:37",
+    "role": "用户",
+    "name": "拼***",
+    "type": "text",
+    "content": "我的订单发货了？"
+  },
+  {
+    "time": "2025-12-20 20:28:45",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "小主，请您稍等，客服帮您转接专业售后客服，转接之后您跟咱们售后同事描述下您遇到的问题哦~"
+  },
+  {
+    "time": "2025-12-20 20:28:49",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "viomi小甜心 将该会话转移给 viomi范范sk，请及时处理"
+  },
+  {
+    "time": "2025-12-20 20:29:05",
+    "role": "客服",
+    "name": "viomi范范sk",
+    "type": "text",
+    "content": "没有呢"
+  },
+  {
+    "time": "2025-12-27 11:39:45",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "消费者申请售后，建议先与消费者友好协商"
+  },
+  {
+    "time": "2025-12-27 11:40:32",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "嗯嗯"
+  },
+  {
+    "time": "2025-12-27 14:12:11",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "亲，我们已经同意您的售后申请。商品已经发货，我们会尽力拦截，如果没能拦截成功，快递员联系您时请说明“我不要了”。待快递返回，我们会尽快为您退款。有任何问题可以随时联系我们哦~"
+  },
+  {
+    "time": "2025-12-27 14:28:32",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "亲亲，您的这个订单参加了【多多视频-拼单返现】等活动，在退款之后，之前获得的奖励就需要扣除。但您已经在其他订单上使用了之前获得的奖励，所以只能从当前订单的退款金额中扣除了~ 您放心，账肯定会算清楚，不会多扣您的钱的~您也可以点击「费用明细」看看~"
+  }
+]

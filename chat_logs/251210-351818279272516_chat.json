@@ -1,0 +1,156 @@
+[
+  {
+    "time": "2025-12-10 13:32:47",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[常见问题列表]"
+  },
+  {
+    "time": "2025-12-10 13:32:48",
+    "role": "用户",
+    "name": "六***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610&_oak_rcto=YWIVDKRA0G_1O7_VZLWJnVv50JPV-XSw9UOcaTxRyxP5OcWXCW9LpYhqp72LtLAoun8&page_from=101&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2025-12-10 13:32:55",
+    "role": "用户",
+    "name": "六***",
+    "type": "text",
+    "content": "滤芯能用多久"
+  },
+  {
+    "time": "2025-12-10 13:32:55",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-10 13:33:01",
+    "role": "用户",
+    "name": "六***",
+    "type": "text",
+    "content": "一根多少钱"
+  },
+  {
+    "time": "2025-12-10 13:33:05",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "消费者催促您，请尽快回复！"
+  },
+  {
+    "time": "2025-12-10 13:33:48",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "复合滤芯这款机器的是用一年，一根是159哦"
+  },
+  {
+    "time": "2025-12-10 13:34:26",
+    "role": "用户",
+    "name": "六***",
+    "type": "text",
+    "content": "两根都是1年一换？"
+  },
+  {
+    "time": "2025-12-10 13:34:36",
+    "role": "用户",
+    "name": "六***",
+    "type": "text",
+    "content": "这个有送滤芯么"
+  },
+  {
+    "time": "2025-12-10 13:35:11",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "没有送滤芯的哦，机器购买的时候是有标配一个复合滤芯和一个RO滤芯"
+  },
+  {
+    "time": "2025-12-10 13:35:46",
+    "role": "用户",
+    "name": "六***",
+    "type": "text",
+    "content": "Ro滤芯多少钱"
+  },
+  {
+    "time": "2025-12-10 13:35:51",
+    "role": "用户",
+    "name": "六***",
+    "type": "text",
+    "content": "多长时间换"
+  },
+  {
+    "time": "2025-12-10 13:36:02",
+    "role": "用户",
+    "name": "六***",
+    "type": "text",
+    "content": "这个更换时间为啥这么短？"
+  },
+  {
+    "time": "2025-12-10 13:36:45",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "ro滤芯是5年一换亲"
+  },
+  {
+    "time": "2025-12-10 13:37:09",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2025-12-10/c9e372bb-de32-46d8-bfe0-6e46c2303c7a.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-10 13:38:15",
+    "role": "用户",
+    "name": "六***",
+    "type": "text",
+    "content": "小海豚1的滤芯为啥是两年一换"
+  },
+  {
+    "time": "2025-12-10 13:39:14",
+    "role": "用户",
+    "name": "六***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=852932116812&_oak_rcto=YWLH5_D4zDipqo1jwJ8vfxi20JPV-XSw9UOcaTxRyxP5OcWXCW9LpYhqp72LtLAoun8&page_from=39&_oc_trace_mark=199&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2025-12-10 13:39:30",
+    "role": "用户",
+    "name": "六***",
+    "type": "text",
+    "content": "这个滤芯是多久一换"
+  },
+  {
+    "time": "2025-12-10 13:39:30",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-10 13:40:33",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "可以参考页面信息哦`"
+  },
+  {
+    "time": "2025-12-10 13:40:42",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2025-12-10/f02e4257-5a96-45cd-b76b-f7a8822df051.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-10 13:41:53",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "退款成功通知"
+  }
+]

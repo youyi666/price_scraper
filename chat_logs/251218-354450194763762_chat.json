@@ -1,0 +1,30 @@
+[
+  {
+    "time": "2025-12-18 12:39:24",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[常见问题列表]"
+  },
+  {
+    "time": "2025-12-18 12:40:42",
+    "role": "用户",
+    "name": "久***",
+    "type": "text",
+    "content": "发什么快递"
+  },
+  {
+    "time": "2025-12-18 12:40:48",
+    "role": "用户",
+    "name": "久***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610&_oak_rcto=YWI5h2gazEuXcMoktwOigKHHfdT6FRY3FZy_17r9yvBs9T5htCz1-6hG&page_from=26&_oc_trace_mark=199&_oc_refer_ad=1&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2025-12-18 12:40:49",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "小云朵，正常拼单成功后会在48小时左右发出 （预售商品除外）优选京.东快递发货，会根据您的地址选择就近仓库发货，您放心下单"
+  }
+]

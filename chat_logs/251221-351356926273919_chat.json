@@ -1,0 +1,541 @@
+[
+  {
+    "time": "2025-12-22 12:20:57",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[常见问题列表]"
+  },
+  {
+    "time": "2025-12-22 12:20:59",
+    "role": "用户",
+    "name": "什***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610&_oak_rcto=YWLpYlC7BStB4_y62NZlyWZTY7c5_MWD7ZmqLu0KZqNdqjm850dHrbe1&page_from=63&_oc_mkt_domain=197&_oc_video_hide_multi=1&_oc_live_feed_id=6801444369574147656&_oc_mkt_tr_token=xwdzq6vdmvt3p4ghhq6wyhit2umux4hqmg576bs344l65x5qqickitwsp5sgddhb5kvihltugkc2azek76kgk4sv5scwz3gdr3yzz4eun5mebfhcfk6ewkn4ogibvzgiliycvnzuo3l2lrw3fcv3npdvculjjb7tp4pw2omfqy2lvit7chsa&_oc_mkt_tr_sc=first_order_multi_coin_ten&_oak_actype=null&_oak_sub_actype=null"
+  },
+  {
+    "time": "2025-12-22 12:21:16",
+    "role": "用户",
+    "name": "什***",
+    "type": "text",
+    "content": "接管线机怎么接啊？"
+  },
+  {
+    "time": "2025-12-22 12:21:16",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-22 12:21:38",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "亲亲，请您稍等，客服帮您转接专业售后客服，转接之后您跟咱们售后同事描述下您遇到的问题哦~"
+  },
+  {
+    "time": "2025-12-22 12:21:41",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "viomi小仙女 将该会话转移给 viomi莉莉sk，请及时处理"
+  },
+  {
+    "time": "2025-12-22 12:21:53",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "小云朵您好，在的呢~很高兴为您服务，请问有什么可以帮到您的呢~！"
+  },
+  {
+    "time": "2025-12-22 12:22:05",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "这款不支持管线机的哦"
+  },
+  {
+    "time": "2025-12-22 12:22:07",
+    "role": "用户",
+    "name": "什***",
+    "type": "text",
+    "content": "净水器里面带水泵跟电磁阀的不？"
+  },
+  {
+    "time": "2025-12-22 12:22:14",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "这款不支持的哦亲"
+  },
+  {
+    "time": "2025-12-22 12:22:15",
+    "role": "用户",
+    "name": "什***",
+    "type": "text",
+    "content": "啊？？？？"
+  },
+  {
+    "time": "2025-12-22 12:22:32",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "是的呢"
+  },
+  {
+    "time": "2025-12-22 12:22:41",
+    "role": "用户",
+    "name": "什***",
+    "type": "text",
+    "content": "净水器里面带水泵跟电磁阀的不？"
+  },
+  {
+    "time": "2025-12-22 12:22:44",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "您是要搭配管线机吗，您考虑下是否需要留下呢"
+  },
+  {
+    "time": "2025-12-22 12:23:01",
+    "role": "用户",
+    "name": "什***",
+    "type": "text",
+    "content": "我想配个直饮机"
+  },
+  {
+    "time": "2025-12-22 12:23:07",
+    "role": "用户",
+    "name": "什***",
+    "type": "text",
+    "content": "能改装吗？"
+  },
+  {
+    "time": "2025-12-22 12:23:25",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "这边核实下"
+  },
+  {
+    "time": "2025-12-22 12:24:05",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "亲，核实了下可以的哦，但是建议我们云米的管线机"
+  },
+  {
+    "time": "2025-12-22 12:24:12",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "其他品牌的管线机里面要有进水阀和液位控制哈。"
+  },
+  {
+    "time": "2025-12-22 12:27:13",
+    "role": "用户",
+    "name": "什***",
+    "type": "text",
+    "content": "云米的管线机就可以是吧"
+  },
+  {
+    "time": "2025-12-22 12:27:21",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "可以的"
+  },
+  {
+    "time": "2025-12-22 12:27:29",
+    "role": "用户",
+    "name": "什***",
+    "type": "text",
+    "content": "哪款呢？"
+  },
+  {
+    "time": "2025-12-22 12:27:38",
+    "role": "用户",
+    "name": "什***",
+    "type": "text",
+    "content": "发个链接型号给我"
+  },
+  {
+    "time": "2025-12-22 12:27:47",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "给您转接售前，稍等"
+  },
+  {
+    "time": "2025-12-22 12:27:53",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "viomi莉莉sk 将该会话转移给 viomi小溪月，请及时处理"
+  },
+  {
+    "time": "2025-12-22 12:47:18",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "viomi小溪月 将该会话转移给 viomi小仙女，请及时处理"
+  },
+  {
+    "time": "2025-12-22 12:48:14",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "稍等亲~"
+  },
+  {
+    "time": "2025-12-22 12:48:22",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=604410073495"
+  },
+  {
+    "time": "2025-12-22 12:48:23",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=861508688697"
+  },
+  {
+    "time": "2025-12-22 12:48:24",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=837301408995"
+  },
+  {
+    "time": "2025-12-28 12:33:16",
+    "role": "用户",
+    "name": "什***",
+    "type": "text",
+    "content": "预约安装"
+  },
+  {
+    "time": "2025-12-28 12:33:27",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "消费者催促您，请尽快回复！"
+  },
+  {
+    "time": "2025-12-28 12:33:45",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "亲亲，请您稍等，客服帮您转接专业售后客服，转接之后您跟咱们售后同事描述下您遇到的问题哦~"
+  },
+  {
+    "time": "2025-12-28 12:48:58",
+    "role": "用户",
+    "name": "什***",
+    "type": "text",
+    "content": "订单编号:251221-351356926273919"
+  },
+  {
+    "time": "2025-12-28 12:49:29",
+    "role": "用户",
+    "name": "什***",
+    "type": "text",
+    "content": "你好，我想问一下，这个净水器写的包安装。"
+  },
+  {
+    "time": "2025-12-28 12:49:47",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "亲是需要对接安装吗"
+  },
+  {
+    "time": "2025-12-28 12:49:53",
+    "role": "用户",
+    "name": "什***",
+    "type": "text",
+    "content": "是啊"
+  },
+  {
+    "time": "2025-12-28 12:50:38",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "亲亲，请您稍等，客服帮您转接专业售后客服，转接之后您跟咱们售后同事描述下您遇到的问题哦~"
+  },
+  {
+    "time": "2025-12-28 12:50:41",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "viomi小仙女 将该会话转移给 viomi莉莉sk，请及时处理"
+  },
+  {
+    "time": "2025-12-28 12:50:49",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "小云朵，收到货后需要预约安装的话可以通过云米商城app进行预约安装，预约成功后会为您安排师傅上门的哦~后续有什么问题也都可以随时联系我们在线客服哦~"
+  },
+  {
+    "time": "2025-12-28 12:50:50",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "image",
+    "content": "https://t00img.yangkeduo.com/chat/images/2025-12-28/03716ee9-0b67-4dbf-9780-ef0291c2c54c.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-28 12:51:19",
+    "role": "用户",
+    "name": "什***",
+    "type": "text",
+    "content": "是否收费？"
+  },
+  {
+    "time": "2025-12-28 12:51:25",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "小云朵，净水器商品和随商品一起发货的标配配件免费上门安装1次哦，免费安装不涉及橱柜改造、下水管改造、电源改造、拆旧等。 ☞龙头安装开孔可参考以下开孔费用~自备辅材收取人工服务费 30 元/次"
+  },
+  {
+    "time": "2025-12-28 12:51:26",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "image",
+    "content": "https://t00img.yangkeduo.com/chat/images/2025-12-28/b3b2f47d-bf9d-42a1-b2ce-5836e49a50fa.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-30 11:16:22",
+    "role": "用户",
+    "name": "什***",
+    "type": "text",
+    "content": "你好，我原来的净水器有个双出水的水龙头，也是不带磁力开关的，这个净水器的净水出口可以接到这种水龙头上吧？"
+  },
+  {
+    "time": "2025-12-30 11:16:43",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "不建议的哦亲"
+  },
+  {
+    "time": "2025-12-30 11:16:57",
+    "role": "用户",
+    "name": "什***",
+    "type": "text",
+    "content": "为啥"
+  },
+  {
+    "time": "2025-12-30 11:17:08",
+    "role": "用户",
+    "name": "什***",
+    "type": "text",
+    "content": "你问一下技术行吗？"
+  },
+  {
+    "time": "2025-12-30 11:17:15",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "需要使用我们标配的龙头呢"
+  },
+  {
+    "time": "2025-12-30 11:17:19",
+    "role": "用户",
+    "name": "什***",
+    "type": "text",
+    "content": "就一个出水口"
+  },
+  {
+    "time": "2025-12-30 11:17:35",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "稍等一下，这边帮您看看哦"
+  },
+  {
+    "time": "2025-12-30 11:17:58",
+    "role": "用户",
+    "name": "什***",
+    "type": "text",
+    "content": "也没有水质监测的。"
+  },
+  {
+    "time": "2025-12-30 11:18:06",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "这个没有的呢"
+  },
+  {
+    "time": "2025-12-30 11:18:15",
+    "role": "用户",
+    "name": "什***",
+    "type": "text",
+    "content": "你们发过来的就是机械式水龙头"
+  },
+  {
+    "time": "2025-12-30 11:18:45",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "第二个龙头一定要有阀芯开关，这样才能正常使用呢"
+  },
+  {
+    "time": "2025-12-30 11:19:07",
+    "role": "用户",
+    "name": "什***",
+    "type": "text",
+    "content": "啥阀芯开关？"
+  },
+  {
+    "time": "2025-12-30 11:19:14",
+    "role": "用户",
+    "name": "什***",
+    "type": "text",
+    "content": "需要接电的吗？"
+  },
+  {
+    "time": "2025-12-30 11:19:34",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "可以问问龙头的客服"
+  },
+  {
+    "time": "2025-12-30 11:19:49",
+    "role": "用户",
+    "name": "什***",
+    "type": "text",
+    "content": "哪个龙头的客服？"
+  },
+  {
+    "time": "2025-12-30 11:19:54",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "请尽快解决售后问题，避免平台介入退款"
+  },
+  {
+    "time": "2025-12-30 11:19:57",
+    "role": "用户",
+    "name": "什***",
+    "type": "text",
+    "content": "龙头不是你们发来的吗"
+  },
+  {
+    "time": "2025-12-30 11:20:03",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "您需要额外分流的龙头"
+  },
+  {
+    "time": "2025-12-30 11:20:07",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "需要带有阀芯"
+  },
+  {
+    "time": "2025-12-30 11:20:16",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "我们龙头是可以的，您分流的也需要"
+  },
+  {
+    "time": "2025-12-30 11:20:40",
+    "role": "用户",
+    "name": "什***",
+    "type": "text",
+    "content": "你们的龙头就是一个机械式水口头"
+  },
+  {
+    "time": "2025-12-30 11:20:54",
+    "role": "用户",
+    "name": "什***",
+    "type": "text",
+    "content": "不带磁力开关的，不带水质检测的。"
+  },
+  {
+    "time": "2025-12-30 11:21:04",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "是的呢"
+  },
+  {
+    "time": "2025-12-30 11:21:07",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "不带的哦"
+  },
+  {
+    "time": "2025-12-30 11:21:17",
+    "role": "用户",
+    "name": "什***",
+    "type": "text",
+    "content": "我的意思是我原来的就是一个机械式水龙头"
+  },
+  {
+    "time": "2025-12-30 11:21:30",
+    "role": "用户",
+    "name": "什***",
+    "type": "text",
+    "content": "我就不换了，用原来的行不行"
+  },
+  {
+    "time": "2025-12-30 11:21:51",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "这个需要咨询下安装师傅呢"
+  },
+  {
+    "time": "2026-01-01 14:07:51",
+    "role": "用户",
+    "name": "什***",
+    "type": "text",
+    "content": "下个安装单"
+  },
+  {
+    "time": "2026-01-01 14:08:02",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "消费者催促您，请尽快回复！"
+  },
+  {
+    "time": "2026-01-01 14:08:12",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "小主，请您稍等，客服帮您转接专业售后客服，转接之后您跟咱们售后同事描述下您遇到的问题哦~"
+  },
+  {
+    "time": "2026-01-01 14:08:15",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "viomi小云朵 将该会话转移给 Viomi米萌mk14，请及时处理"
+  },
+  {
+    "time": "2026-01-01 14:08:18",
+    "role": "客服",
+    "name": "Viomi米萌mk14",
+    "type": "text",
+    "content": "您好小云朵，很荣幸为您服务我是您的专属客服，您可以随时向我提问"
+  },
+  {
+    "time": "2026-01-01 14:08:45",
+    "role": "客服",
+    "name": "Viomi米萌mk14",
+    "type": "text",
+    "content": "这个是不行的"
+  }
+]

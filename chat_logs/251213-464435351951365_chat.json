@@ -1,0 +1,72 @@
+[
+  {
+    "time": "2025-12-13 15:34:25",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "申请发票"
+  },
+  {
+    "time": "2025-12-13 15:34:37",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "viomi小仙女 将该会话转移给 viomi英英sk，请及时处理"
+  },
+  {
+    "time": "2025-12-13 15:35:23",
+    "role": "客服",
+    "name": "viomi英英sk",
+    "type": "text",
+    "content": "小云朵~~我们是支持开发票的哈如果您需要开发票，可以在订单完成后在订单申请开发票哦，申请后财务会在5-7个工作日内为您开具好的哈"
+  },
+  {
+    "time": "2025-12-27 10:25:17",
+    "role": "用户",
+    "name": "向***",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-user-v1/2025-12-27/28b63cf1-7437-4418-86bd-2b217881216b.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-27 10:25:23",
+    "role": "用户",
+    "name": "向***",
+    "type": "text",
+    "content": "已经好评，"
+  },
+  {
+    "time": "2025-12-27 10:25:30",
+    "role": "客服",
+    "name": "viomi英英sk",
+    "type": "text",
+    "content": "麻烦提供电话，这边登记的"
+  },
+  {
+    "time": "2025-12-27 10:25:40",
+    "role": "用户",
+    "name": "向***",
+    "type": "text",
+    "content": "是不是有延保政策"
+  },
+  {
+    "time": "2025-12-27 10:26:01",
+    "role": "客服",
+    "name": "viomi英英sk",
+    "type": "text",
+    "content": "延保一年哈"
+  },
+  {
+    "time": "2025-12-27 10:26:35",
+    "role": "用户",
+    "name": "向***",
+    "type": "text",
+    "content": "13387514640"
+  },
+  {
+    "time": "2025-12-27 10:26:53",
+    "role": "客服",
+    "name": "viomi英英sk",
+    "type": "text",
+    "content": "好的，这边登记"
+  }
+]

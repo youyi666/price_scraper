@@ -1,0 +1,72 @@
+[
+  {
+    "time": "2026-01-02 16:13:17",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[常见问题列表]"
+  },
+  {
+    "time": "2026-01-02 16:13:19",
+    "role": "用户",
+    "name": "我***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610&_oak_rcto=YWK2bL90i0IBrg2AkIlSWzke7X_kc42ExxyMs3DOQevUbSLs9Pd1JSBB&page_from=63&_oc_trace_mark=199&_oc_adinfo=eyJwYWdlX3NuIjoxMDAwMSwic2NlbmVfaWQiOjI4NX0%3D&_oc_refer_ad=1&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2026-01-02 16:13:25",
+    "role": "用户",
+    "name": "我***",
+    "type": "text",
+    "content": "需要通电？"
+  },
+  {
+    "time": "2026-01-02 16:13:25",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "在的呀小主~有什么帮到您的么"
+  },
+  {
+    "time": "2026-01-02 16:13:26",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2026-01-02 16:13:33",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "需要的哈小主"
+  },
+  {
+    "time": "2026-01-02 16:13:36",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "新品首发 Viomi云米 净水器小海豚3 ①首发价499 ②晒图送1年延保 ③预售期间下单可99换购滤芯，限量2个（滤芯原价199）"
+  },
+  {
+    "time": "2026-01-02 16:13:43",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2026-01-02/4bc7a6d5-f56c-44ac-b99a-a7ba85641cfd.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2026-01-02 16:13:47",
+    "role": "用户",
+    "name": "我***",
+    "type": "text",
+    "content": "这是要通电才能用？"
+  },
+  {
+    "time": "2026-01-02 16:14:19",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "是滴哈小主"
+  }
+]

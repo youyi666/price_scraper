@@ -1,0 +1,198 @@
+[
+  {
+    "time": "2025-12-11 20:10:07",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[常见问题列表]"
+  },
+  {
+    "time": "2025-12-11 20:10:20",
+    "role": "用户",
+    "name": "f***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610&_oak_rcto=YWIGutwQyBrC5mGcc821qGaM29Y0o8QPF7T7ky61k8zLUjFq75q2mbW9&page_from=63&_oc_trace_mark=199&_oc_adinfo=eyJwYWdlX3NuIjoxMDAxNSwic2NlbmVfaWQiOjJ9&_oc_refer_ad=1&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2025-12-11 20:10:29",
+    "role": "用户",
+    "name": "f***",
+    "type": "text",
+    "content": "多大流量"
+  },
+  {
+    "time": "2025-12-11 20:10:37",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "600g"
+  },
+  {
+    "time": "2025-12-11 20:10:54",
+    "role": "用户",
+    "name": "f***",
+    "type": "text",
+    "content": "有自动冲水吗"
+  },
+  {
+    "time": "2025-12-11 20:10:59",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "净水器的通量不一样主要区别是出水流量不一样哈~~标准状态下 400g出水流量1.0l/分, 600g出水流量1.5l/分， 800g出水量2.1l/分， 1000g出水流量2.2l/分， 1200g出水流量3.0l/分；"
+  },
+  {
+    "time": "2025-12-11 20:11:09",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "不支持的嗯"
+  },
+  {
+    "time": "2025-12-11 20:11:13",
+    "role": "用户",
+    "name": "f***",
+    "type": "text",
+    "content": "自动冲水洗滤芯"
+  },
+  {
+    "time": "2025-12-11 20:11:17",
+    "role": "用户",
+    "name": "f***",
+    "type": "text",
+    "content": "不支持吗"
+  },
+  {
+    "time": "2025-12-11 20:11:21",
+    "role": "用户",
+    "name": "f***",
+    "type": "text",
+    "content": "质保几年"
+  },
+  {
+    "time": "2025-12-11 20:11:29",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "亲亲水龙头是机械的呢"
+  },
+  {
+    "time": "2025-12-11 20:11:39",
+    "role": "用户",
+    "name": "f***",
+    "type": "text",
+    "content": "不是"
+  },
+  {
+    "time": "2025-12-11 20:11:43",
+    "role": "用户",
+    "name": "f***",
+    "type": "text",
+    "content": "有废水管吗"
+  },
+  {
+    "time": "2025-12-11 20:11:49",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "质保一年的呢亲亲"
+  },
+  {
+    "time": "2025-12-11 20:12:08",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "有的呢"
+  },
+  {
+    "time": "2025-12-11 20:12:13",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "浓缩水(废水)管是2分管"
+  },
+  {
+    "time": "2025-12-11 20:12:18",
+    "role": "用户",
+    "name": "f***",
+    "type": "text",
+    "content": "ro膜坏了也质保吗？"
+  },
+  {
+    "time": "2025-12-11 20:12:28",
+    "role": "用户",
+    "name": "f***",
+    "type": "text",
+    "content": "发什么快递"
+  },
+  {
+    "time": "2025-12-11 20:12:34",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "小主，正常拼单成功后会在48小时左右发出(预售商品除外)优选京,东快递发货，会根据您的地址选择就近仓库发货，偏远地区会慢一点，届时您可关注物流走件信息，您放心下单购买哈 付款的客户我们会尽快安排镖师火速发出的~ 送货的时候师傅是会联系您的，您可以告诉师傅一个合适的收货时间段哦"
+  },
+  {
+    "time": "2025-12-11 20:12:45",
+    "role": "用户",
+    "name": "f***",
+    "type": "text",
+    "content": "ro膜呢"
+  },
+  {
+    "time": "2025-12-11 20:13:03",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "亲亲"
+  },
+  {
+    "time": "2025-12-11 20:13:26",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "①复合滤芯（最长2年一换），299元/支 ②RO反渗透滤芯（最长6年一换），699元/支"
+  },
+  {
+    "time": "2025-12-11 20:13:40",
+    "role": "用户",
+    "name": "f***",
+    "type": "text",
+    "content": "一年内坏了质保吗"
+  },
+  {
+    "time": "2025-12-11 20:13:44",
+    "role": "用户",
+    "name": "f***",
+    "type": "text",
+    "content": "ro膜"
+  },
+  {
+    "time": "2025-12-11 20:13:47",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "质保的呢"
+  },
+  {
+    "time": "2025-12-11 20:13:49",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "亲亲"
+  },
+  {
+    "time": "2025-12-11 20:13:54",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "放心购买"
+  },
+  {
+    "time": "2025-12-15 22:17:29",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "小主还在线么~考虑的怎么样啦，是还有什么疑惑吗，现在活动期间价格非常划算优惠的呢，喜欢就早点拍下带回家的呢，，活动会随时结束的呢 心动不如行动[加油][买买买]"
+  }
+]

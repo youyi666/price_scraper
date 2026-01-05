@@ -1,0 +1,450 @@
+[
+  {
+    "time": "2025-12-13 13:16:53",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[常见问题列表]"
+  },
+  {
+    "time": "2025-12-13 13:16:54",
+    "role": "用户",
+    "name": "面***",
+    "type": "text",
+    "content": "订单编号:251213-598789394861272"
+  },
+  {
+    "time": "2025-12-13 13:17:02",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "小主，请您稍等，客服帮您转接专业售后客服，转接之后您跟咱们售后同事描述下您遇到的问题哦~"
+  },
+  {
+    "time": "2025-12-13 13:17:04",
+    "role": "用户",
+    "name": "面***",
+    "type": "text",
+    "content": "能先别发发货吗"
+  },
+  {
+    "time": "2025-12-13 13:17:09",
+    "role": "用户",
+    "name": "面***",
+    "type": "text",
+    "content": "先别发"
+  },
+  {
+    "time": "2025-12-13 13:17:22",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "这边为您转接一下售后客服哈"
+  },
+  {
+    "time": "2025-12-13 13:17:38",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "viomi小云朵 将该会话转移给 viomi英英sk，并留言：延迟发货"
+  },
+  {
+    "time": "2025-12-13 13:17:43",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[商家申请延后发货]"
+  },
+  {
+    "time": "2025-12-13 13:17:50",
+    "role": "客服",
+    "name": "viomi英英sk",
+    "type": "text",
+    "content": "目前店铺部分商品可延迟到3个月内发货【政府补贴订单不支持延迟】，如您需要延后发货，现在下单付款后发送文字【延后发货】给客服，帮您查询是否支持延迟哦~ ●推迟发货到期后可能会出现产品无货发出的情况，这个请您知悉，如果您还需要推迟发货的话付款后联系我们给您安排报备推迟发货哈~"
+  },
+  {
+    "time": "2025-12-13 13:17:52",
+    "role": "客服",
+    "name": "viomi英英sk",
+    "type": "image",
+    "content": "https://t00img.yangkeduo.com/chat/images/2025-12-13/6cdcdc70-7dd4-4ecd-ad8d-cb6115f22ace.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-13 13:18:01",
+    "role": "用户",
+    "name": "面***",
+    "type": "text",
+    "content": "要求延迟发货"
+  },
+  {
+    "time": "2025-12-13 13:18:02",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "系统识别到消费者要求延后发货。若您能支持消费者，可以点击这里，申请延后发货。"
+  },
+  {
+    "time": "2025-12-13 13:18:11",
+    "role": "客服",
+    "name": "viomi英英sk",
+    "type": "text",
+    "content": "同意一下卡片就可以了"
+  },
+  {
+    "time": "2025-12-13 13:18:15",
+    "role": "用户",
+    "name": "面***",
+    "type": "text",
+    "content": "我已同意延后发货。"
+  },
+  {
+    "time": "2025-12-13 13:18:15",
+    "role": "客服",
+    "name": "viomi英英sk",
+    "type": "text",
+    "content": "感谢亲的理解，我们将如期为您安排发货。"
+  },
+  {
+    "time": "2025-12-13 13:18:18",
+    "role": "用户",
+    "name": "面***",
+    "type": "text",
+    "content": "好"
+  },
+  {
+    "time": "2025-12-13 13:18:19",
+    "role": "客服",
+    "name": "viomi英英sk",
+    "type": "text",
+    "content": "[动画表情]"
+  },
+  {
+    "time": "2025-12-13 13:21:08",
+    "role": "用户",
+    "name": "面***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610&_oak_rcto=YWI-KaoJySpO4vv9DutkmgyTxMWdUfotx8D-xfH3XLFCjmuUQJW8TiX-yxjq6CeCpgc&page_from=39&_oc_trace_mark=199&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2025-12-13 13:21:15",
+    "role": "用户",
+    "name": "面***",
+    "type": "text",
+    "content": "这个带电源线不"
+  },
+  {
+    "time": "2025-12-13 13:21:15",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-13 13:21:59",
+    "role": "客服",
+    "name": "viomi英英sk",
+    "type": "image",
+    "content": "https://t00img.yangkeduo.com/chat/images/2025-12-13/9cb3885a-54e7-4007-a95e-523899e9f3f4.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-13 13:22:01",
+    "role": "客服",
+    "name": "viomi英英sk",
+    "type": "text",
+    "content": "有的哈"
+  },
+  {
+    "time": "2025-12-14 11:23:02",
+    "role": "用户",
+    "name": "面***",
+    "type": "text",
+    "content": "订单编号:251213-598789394861272"
+  },
+  {
+    "time": "2025-12-14 11:23:05",
+    "role": "用户",
+    "name": "面***",
+    "type": "text",
+    "content": "发货吧"
+  },
+  {
+    "time": "2025-12-14 11:23:30",
+    "role": "客服",
+    "name": "viomi英英sk",
+    "type": "text",
+    "content": "预售的哦，12月20左右哈"
+  },
+  {
+    "time": "2025-12-14 11:23:34",
+    "role": "客服",
+    "name": "viomi英英sk",
+    "type": "text",
+    "content": "您到时候在进线联系我们安排"
+  },
+  {
+    "time": "2025-12-23 12:33:28",
+    "role": "用户",
+    "name": "面***",
+    "type": "text",
+    "content": "？"
+  },
+  {
+    "time": "2025-12-23 12:33:46",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "您好有什么可以帮到您~"
+  },
+  {
+    "time": "2025-12-23 12:33:48",
+    "role": "用户",
+    "name": "面***",
+    "type": "text",
+    "content": "订单编号:251213-598789394861272"
+  },
+  {
+    "time": "2025-12-23 12:34:01",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "亲有什么可以帮您"
+  },
+  {
+    "time": "2025-12-23 12:34:34",
+    "role": "用户",
+    "name": "面***",
+    "type": "text",
+    "content": "订单编号:251213-598789394861272"
+  },
+  {
+    "time": "2025-12-23 12:34:41",
+    "role": "用户",
+    "name": "面***",
+    "type": "text",
+    "content": "为啥给我拦截退回去"
+  },
+  {
+    "time": "2025-12-23 12:34:50",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "亲亲，请您稍等，客服帮您转接专业售后客服，转接之后您跟咱们售后同事描述下您遇到的问题哦~"
+  },
+  {
+    "time": "2025-12-23 12:34:55",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "viomi小仙女 将该会话转移给 viomi莉莉sk，请及时处理"
+  },
+  {
+    "time": "2025-12-23 12:35:05",
+    "role": "用户",
+    "name": "面***",
+    "type": "text",
+    "content": "为啥私自给我拦截"
+  },
+  {
+    "time": "2025-12-23 12:35:10",
+    "role": "用户",
+    "name": "面***",
+    "type": "text",
+    "content": "我要东西"
+  },
+  {
+    "time": "2025-12-23 12:35:16",
+    "role": "用户",
+    "name": "面***",
+    "type": "text",
+    "content": "为啥给我退回去？"
+  },
+  {
+    "time": "2025-12-23 12:35:17",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "亲~这边是人工客服~麻烦您稍等我先看一下聊天记录后马上为您处理。您暂时先不用回复我哈"
+  },
+  {
+    "time": "2025-12-23 12:35:50",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "这边核实下，稍后给您答复"
+  },
+  {
+    "time": "2025-12-23 12:37:35",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "亲，这边核实物流站点异常导致拦截退回了，实在不好意思"
+  },
+  {
+    "time": "2025-12-23 12:37:40",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "为您重新安排发出可以吗"
+  },
+  {
+    "time": "2025-12-23 12:37:46",
+    "role": "用户",
+    "name": "面***",
+    "type": "text",
+    "content": "发"
+  },
+  {
+    "time": "2025-12-23 12:37:49",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "该订单已有收货信息，您可前往官方打单页直接打单补寄"
+  },
+  {
+    "time": "2025-12-23 12:37:58",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "好的亲，感谢您谅解"
+  },
+  {
+    "time": "2025-12-24 15:45:29",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "亲亲，已经给您安排补发，补发物流单号为JDV024684235396"
+  },
+  {
+    "time": "2025-12-24 15:45:35",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "亲亲，这边已经给您补发了哦~单号为：JDV024684235396 的快递已由< 京东配送 >发出，注意查收哦~"
+  },
+  {
+    "time": "2025-12-26 11:20:32",
+    "role": "用户",
+    "name": "面***",
+    "type": "text",
+    "content": "？"
+  },
+  {
+    "time": "2025-12-26 11:20:32",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-26 11:20:58",
+    "role": "用户",
+    "name": "面***",
+    "type": "text",
+    "content": "你补寄的商品物流单号"
+  },
+  {
+    "time": "2025-12-26 11:21:00",
+    "role": "用户",
+    "name": "面***",
+    "type": "text",
+    "content": "是多少"
+  },
+  {
+    "time": "2025-12-26 11:21:23",
+    "role": "用户",
+    "name": "面***",
+    "type": "text",
+    "content": "这个是原来的单号"
+  },
+  {
+    "time": "2025-12-26 11:21:30",
+    "role": "用户",
+    "name": "面***",
+    "type": "text",
+    "content": "亲亲，已经给您安排补发，补发物流单号为JDV024684235396"
+  },
+  {
+    "time": "2025-12-26 11:21:37",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "viomi小仙女 将该会话转移给 viomi英英sk，请及时处理"
+  },
+  {
+    "time": "2025-12-26 11:21:48",
+    "role": "客服",
+    "name": "viomi英英sk",
+    "type": "text",
+    "content": "在的呢，请问有什么可以帮到您"
+  },
+  {
+    "time": "2025-12-26 11:22:14",
+    "role": "用户",
+    "name": "面***",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-user-v1/2025-12-26/1917c356-bc84-4e71-bd04-d3d60a991466.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-26 11:22:21",
+    "role": "用户",
+    "name": "面***",
+    "type": "text",
+    "content": "396是原来的单号"
+  },
+  {
+    "time": "2025-12-26 11:22:27",
+    "role": "用户",
+    "name": "面***",
+    "type": "text",
+    "content": "麻烦你补寄商品"
+  },
+  {
+    "time": "2025-12-26 11:22:28",
+    "role": "用户",
+    "name": "面***",
+    "type": "text",
+    "content": "谢谢"
+  },
+  {
+    "time": "2025-12-26 11:22:31",
+    "role": "客服",
+    "name": "viomi英英sk",
+    "type": "text",
+    "content": "稍等哈 这边为您查询下哦~~~在线等我一下~暂时不用回复"
+  },
+  {
+    "time": "2025-12-26 11:23:03",
+    "role": "客服",
+    "name": "viomi英英sk",
+    "type": "image",
+    "content": "https://t00img.yangkeduo.com/chat/images/2025-12-26/80c90c84-3cc0-424a-9a5a-b1dc4e5d2b25.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-26 11:23:06",
+    "role": "客服",
+    "name": "viomi英英sk",
+    "type": "text",
+    "content": "JDV024774616222"
+  },
+  {
+    "time": "2025-12-26 11:23:07",
+    "role": "客服",
+    "name": "viomi英英sk",
+    "type": "text",
+    "content": "这个的哦"
+  },
+  {
+    "time": "2025-12-26 11:23:11",
+    "role": "用户",
+    "name": "面***",
+    "type": "text",
+    "content": "好"
+  },
+  {
+    "time": "2025-12-26 11:23:21",
+    "role": "客服",
+    "name": "viomi英英sk",
+    "type": "text",
+    "content": "[动画表情]"
+  }
+]

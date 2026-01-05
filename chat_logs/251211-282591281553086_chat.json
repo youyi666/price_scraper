@@ -1,0 +1,121 @@
+[
+  {
+    "time": "2025-12-21 17:38:07",
+    "role": "用户",
+    "name": "a***",
+    "type": "text",
+    "content": "上门服务怎么预约"
+  },
+  {
+    "time": "2025-12-21 17:43:09",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "稍等"
+  },
+  {
+    "time": "2025-12-21 17:43:14",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "viomi小可爱 将该会话转移给 viomi诺诺sk，请及时处理"
+  },
+  {
+    "time": "2025-12-21 17:43:23",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "小云朵，收到货后需要预约安装的话可以通过云米商城app进行预约安装，预约成功后会为您安排师傅上门的哦~后续有什么问题也都可以随时联系我们在线客服哦~"
+  },
+  {
+    "time": "2025-12-21 17:43:25",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "image",
+    "content": "https://t00img.yangkeduo.com/chat/images/2025-12-21/49eb1c2b-434d-4c7b-a6b8-8eb39275c583.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-22 15:20:51",
+    "role": "用户",
+    "name": "a***",
+    "type": "text",
+    "content": "师傅不联系我"
+  },
+  {
+    "time": "2025-12-22 15:20:57",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "稍等"
+  },
+  {
+    "time": "2025-12-22 15:20:59",
+    "role": "用户",
+    "name": "a***",
+    "type": "text",
+    "content": "约不上啊"
+  },
+  {
+    "time": "2025-12-22 15:21:02",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "稍等"
+  },
+  {
+    "time": "2025-12-22 15:21:05",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "viomi小可爱 将该会话转移给 viomi莉莉sk，请及时处理"
+  },
+  {
+    "time": "2025-12-22 15:21:15",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "您的电话提供下呢"
+  },
+  {
+    "time": "2025-12-22 15:21:24",
+    "role": "用户",
+    "name": "a***",
+    "type": "text",
+    "content": "17326774420"
+  },
+  {
+    "time": "2025-12-22 15:21:50",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "好饿"
+  },
+  {
+    "time": "2025-12-22 15:21:51",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "好的"
+  },
+  {
+    "time": "2025-12-22 15:21:52",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "稍等一下，这边帮您看看哦"
+  },
+  {
+    "time": "2025-12-22 15:22:36",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "昨天预约的还在时效内的，亲再等等"
+  },
+  {
+    "time": "2025-12-22 15:22:37",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "预约后师傅会在48小时内联系您跟您确认上门时间，您等师傅电话就就好，具体时间您也可以跟师傅预约的哈"
+  }
+]

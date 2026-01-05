@@ -1,0 +1,37 @@
+[
+  {
+    "time": "2025-12-30 16:58:49",
+    "role": "用户",
+    "name": "微***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=852161740747&_oak_rcto=YWLAaykpYRNOzmXfz-pstrWWqZgkRnuGHSl9GfLjkK71Dp4jCc5-Nqwv&page_from=63&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2025-12-30 16:59:07",
+    "role": "用户",
+    "name": "微***",
+    "type": "text",
+    "content": "这是包安装的么？"
+  },
+  {
+    "time": "2025-12-30 16:59:07",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-30 16:59:13",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "小云朵，净水器商品和随商品一起发货的标配配件免费上门安装1次哦，免费安装不涉及橱柜改造、下水管改造、电源改造、拆旧等。 ☞龙头安装开孔可参考以下开孔费用~自备辅材收取人工服务费 30 元/次"
+  },
+  {
+    "time": "2025-12-30 16:59:19",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2025-12-30/8173185f-a432-4098-8cf0-bfa5051c66cf.png?imageMogr2/thumbnail/800x800"
+  }
+]

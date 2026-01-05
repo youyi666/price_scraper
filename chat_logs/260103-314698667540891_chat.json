@@ -1,0 +1,499 @@
+[
+  {
+    "time": "2026-01-03 19:01:23",
+    "role": "用户",
+    "name": "沧***",
+    "type": "text",
+    "content": "订单编号:211102-509028668820891"
+  },
+  {
+    "time": "2026-01-03 19:01:33",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "您好有什么可以帮到您~"
+  },
+  {
+    "time": "2026-01-03 19:01:38",
+    "role": "用户",
+    "name": "沧***",
+    "type": "text",
+    "content": "滤芯"
+  },
+  {
+    "time": "2026-01-03 19:01:48",
+    "role": "用户",
+    "name": "沧***",
+    "type": "text",
+    "content": "匹配的滤芯还有那"
+  },
+  {
+    "time": "2026-01-03 19:02:20",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "方便发一下您机器的SN码吗这边给您查一下型号"
+  },
+  {
+    "time": "2026-01-03 19:02:34",
+    "role": "用户",
+    "name": "沧***",
+    "type": "text",
+    "content": "在哪查呀"
+  },
+  {
+    "time": "2026-01-03 19:02:46",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "一般再机身进水口附近的"
+  },
+  {
+    "time": "2026-01-03 19:02:52",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "有个白色小标签"
+  },
+  {
+    "time": "2026-01-03 19:03:25",
+    "role": "用户",
+    "name": "沧***",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-user-v1/2026-01-03/537735e6-59ad-4dc5-9284-131d0f9085d0.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2026-01-03 19:03:33",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "好的稍等"
+  },
+  {
+    "time": "2026-01-03 19:04:27",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "云米·泉先互联网净水器 小海豚400G"
+  },
+  {
+    "time": "2026-01-03 19:04:32",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=232467205433"
+  },
+  {
+    "time": "2026-01-03 19:04:42",
+    "role": "用户",
+    "name": "沧***",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-user-v1/2026-01-03/de7d324f-0eda-45ea-ba4a-89ca43bb507d.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2026-01-03 19:04:43",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "您看下是哪个滤芯要更换，这边发支付链接给您~"
+  },
+  {
+    "time": "2026-01-03 19:05:15",
+    "role": "用户",
+    "name": "沧***",
+    "type": "text",
+    "content": "都要换"
+  },
+  {
+    "time": "2026-01-03 19:06:05",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "那就是一个5in1的滤芯+一个400G的RO滤芯"
+  },
+  {
+    "time": "2026-01-03 19:06:10",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "亲，喜欢的话，您可点击“发起拼单”完成支付"
+  },
+  {
+    "time": "2026-01-03 19:06:13",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "亲，喜欢的话，您可点击“发起拼单”完成支付"
+  },
+  {
+    "time": "2026-01-03 19:06:17",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "这两个亲"
+  },
+  {
+    "time": "2026-01-03 19:06:30",
+    "role": "用户",
+    "name": "沧***",
+    "type": "text",
+    "content": "这么贵呀，我买个净水器才多少钱呀？"
+  },
+  {
+    "time": "2026-01-03 19:06:43",
+    "role": "用户",
+    "name": "沧***",
+    "type": "text",
+    "content": "滤芯好贵呀"
+  },
+  {
+    "time": "2026-01-03 19:06:48",
+    "role": "用户",
+    "name": "沧***",
+    "type": "text",
+    "content": "买个净水器才几百"
+  },
+  {
+    "time": "2026-01-03 19:06:50",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "净水机跟这个滤芯不同的哈，滤芯是贵些的"
+  },
+  {
+    "time": "2026-01-03 19:07:08",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "或者您可以考虑换新机呢"
+  },
+  {
+    "time": "2026-01-03 19:07:10",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "您可帮消费者申请换货"
+  },
+  {
+    "time": "2026-01-03 19:07:28",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=852161740747"
+  },
+  {
+    "time": "2026-01-03 19:07:30",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=225501370546"
+  },
+  {
+    "time": "2026-01-03 19:07:48",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "这个是小海豚600G+也挺多人购买的"
+  },
+  {
+    "time": "2026-01-03 19:08:35",
+    "role": "用户",
+    "name": "沧***",
+    "type": "text",
+    "content": "这个净水器带滤芯吗？"
+  },
+  {
+    "time": "2026-01-03 19:08:43",
+    "role": "用户",
+    "name": "沧***",
+    "type": "text",
+    "content": "那还真不如直接买个新的了"
+  },
+  {
+    "time": "2026-01-03 19:09:03",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "有带滤芯的"
+  },
+  {
+    "time": "2026-01-03 19:09:15",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "一个复合滤芯2年一换+一个RO滤芯6年一换"
+  },
+  {
+    "time": "2026-01-03 19:09:42",
+    "role": "用户",
+    "name": "沧***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=225501370546&_oak_rcto=YWKUtIfAuPRev-yh5F2eXh33bcTuhWeILBrh0upB4-axPaKI-JuyqKEH&page_from=63&_oak_actype=3&_oak_sub_actype=0"
+  },
+  {
+    "time": "2026-01-03 19:09:47",
+    "role": "用户",
+    "name": "沧***",
+    "type": "text",
+    "content": "这个滤芯多少钱？"
+  },
+  {
+    "time": "2026-01-03 19:09:48",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2026-01-03 19:09:58",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "净水器标配2支滤芯，建议更换时间： ①复合滤芯（最长2年一换），299元/支 ②RO反渗透滤芯（最长6年一换），699元/支"
+  },
+  {
+    "time": "2026-01-03 19:10:03",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "滤芯原价是这个"
+  },
+  {
+    "time": "2026-01-03 19:10:12",
+    "role": "用户",
+    "name": "沧***",
+    "type": "text",
+    "content": "那就直接换新了"
+  },
+  {
+    "time": "2026-01-03 19:10:25",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "现在有滤芯优惠权益"
+  },
+  {
+    "time": "2026-01-03 19:10:34",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "【重磅新品】云米净水器600G小海豚 ①活动到手价559 ②前100名抢五折滤芯 ③加99元换购复合滤芯 ④质保内以换代修 快来抢购吧~"
+  },
+  {
+    "time": "2026-01-03 19:10:39",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "RO滤芯换购价349"
+  },
+  {
+    "time": "2026-01-03 19:10:46",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "这项都是长效滤芯来的亲~"
+  },
+  {
+    "time": "2026-01-03 19:11:17",
+    "role": "用户",
+    "name": "沧***",
+    "type": "text",
+    "content": "现在买这个600的包安装嘛"
+  },
+  {
+    "time": "2026-01-03 19:11:28",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "消费者催促您，请尽快回复！"
+  },
+  {
+    "time": "2026-01-03 19:11:29",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "有的包拆旧包安装"
+  },
+  {
+    "time": "2026-01-03 19:14:08",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "退款成功通知"
+  },
+  {
+    "time": "2026-01-03 19:20:07",
+    "role": "用户",
+    "name": "沧***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610&_oak_rcto=YWLX5R1BqcnaXiGCIA-TQ1EPbcTuhWeILBrh0upB4-axPaKI-JuyqKEH&page_from=23&_oc_trace_mark=199&_oc_refer_ad=1&_oc_adinfo=eyJwYWdlX3NuIjoxMDAxNSwic2NlbmVfaWQiOjJ9&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2026-01-03 19:20:12",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "您好有什么可以帮到您~"
+  },
+  {
+    "time": "2026-01-03 19:20:14",
+    "role": "用户",
+    "name": "沧***",
+    "type": "text",
+    "content": "买这个行吗"
+  },
+  {
+    "time": "2026-01-03 19:20:15",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2026-01-03 19:20:26",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "这个也是可以的，但是这个滤芯不同的哦"
+  },
+  {
+    "time": "2026-01-03 19:20:39",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2026-01-03/7459738b-0740-4c65-b9ce-380ee2512d86.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2026-01-03 19:21:03",
+    "role": "用户",
+    "name": "沧***",
+    "type": "text",
+    "content": "啥意思啊？这个滤芯是贵吗？"
+  },
+  {
+    "time": "2026-01-03 19:21:07",
+    "role": "用户",
+    "name": "沧***",
+    "type": "text",
+    "content": "不太理解"
+  },
+  {
+    "time": "2026-01-03 19:21:22",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "这个的话滤芯使用寿命会更短一些"
+  },
+  {
+    "time": "2026-01-03 19:21:31",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "他的复合是1年的，RO是5年的"
+  },
+  {
+    "time": "2026-01-03 19:21:52",
+    "role": "用户",
+    "name": "沧***",
+    "type": "text",
+    "content": "过滤出来的效果不都一样吗？"
+  },
+  {
+    "time": "2026-01-03 19:22:21",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "过滤出来的效果是一样的，只是这个滤芯的使用寿命不同这样"
+  },
+  {
+    "time": "2026-01-03 19:24:00",
+    "role": "用户",
+    "name": "沧***",
+    "type": "text",
+    "content": "这个能联网吗？"
+  },
+  {
+    "time": "2026-01-03 19:24:25",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "小海豚3的话是没法联网的，小海豚600G+这个可以"
+  },
+  {
+    "time": "2026-01-03 19:25:12",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "退款成功通知"
+  },
+  {
+    "time": "2026-01-03 19:41:01",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "申请发票"
+  },
+  {
+    "time": "2026-01-03 19:41:13",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "亲亲，请您稍等，客服帮您转接专业售后客服，转接之后您跟咱们售后同事描述下您遇到的问题哦~"
+  },
+  {
+    "time": "2026-01-03 19:41:15",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "viomi小仙女 将该会话转移给 viomi米小锋MKD，请及时处理"
+  },
+  {
+    "time": "2026-01-03 19:41:19",
+    "role": "客服",
+    "name": "viomi米小锋MKD",
+    "type": "text",
+    "content": "您好！这里是云米专属客服，很高兴为您服务，有任何订单，商品，售后问题都会尽力为您答疑解惑～"
+  },
+  {
+    "time": "2026-01-03 19:45:28",
+    "role": "客服",
+    "name": "viomi米小锋MKD",
+    "type": "text",
+    "content": "发票等待专员审核即可"
+  },
+  {
+    "time": "2026-01-03 19:46:30",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "申请发票"
+  },
+  {
+    "time": "2026-01-03 19:46:40",
+    "role": "客服",
+    "name": "viomi米小锋MKD",
+    "type": "text",
+    "content": "好的小主"
+  },
+  {
+    "time": "2026-01-04 07:49:13",
+    "role": "用户",
+    "name": "沧***",
+    "type": "text",
+    "content": "订单编号:260103-494529420820891"
+  },
+  {
+    "time": "2026-01-04 07:49:23",
+    "role": "用户",
+    "name": "沧***",
+    "type": "text",
+    "content": "这个支持米家吗？"
+  },
+  {
+    "time": "2026-01-04 08:55:08",
+    "role": "客服",
+    "name": "viomi何静",
+    "type": "text",
+    "content": "支持的~"
+  }
+]

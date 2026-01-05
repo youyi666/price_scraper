@@ -1,0 +1,86 @@
+[
+  {
+    "time": "2025-12-11 17:10:16",
+    "role": "用户",
+    "name": "潜***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610&_oak_rcto=YWIe265QOXb2DfCaaRdf3FWWYqbZdHdQ84GwJ-RdXAlNaAb83JYIxSEzfO4Sf0G61Ds&page_from=63&_oc_trace_mark=199&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2025-12-11 17:10:25",
+    "role": "用户",
+    "name": "潜***",
+    "type": "text",
+    "content": "这个属于多少g的？"
+  },
+  {
+    "time": "2025-12-11 17:10:26",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "来咯来咯~欢迎光临~~~金牌销售为您服务，非常乐意解答您的任何疑问。如有任何问题，欢迎随时向我咨询，小客服今天将为您全程服务~~o(*￣▽￣*)o"
+  },
+  {
+    "time": "2025-12-11 17:10:30",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "600"
+  },
+  {
+    "time": "2025-12-21 09:54:10",
+    "role": "用户",
+    "name": "潜***",
+    "type": "text",
+    "content": "你好，请帮我安排上门安装"
+  },
+  {
+    "time": "2025-12-21 09:54:41",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "小主，请您稍等，客服帮您转接专业售后客服，转接之后您跟咱们售后同事描述下您遇到的问题哦~"
+  },
+  {
+    "time": "2025-12-21 09:54:46",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "viomi小云朵 将该会话转移给 viomi慧慧sk，请及时处理"
+  },
+  {
+    "time": "2025-12-21 09:55:01",
+    "role": "客服",
+    "name": "viomi慧慧sk",
+    "type": "text",
+    "content": "您要预约安装的话麻烦提供一下详细的地址（务必准确填写省市区到门牌号）和姓名电话号码哦~"
+  },
+  {
+    "time": "2025-12-21 09:55:59",
+    "role": "用户",
+    "name": "潜***",
+    "type": "text",
+    "content": "云南省昆明市呈贡区七彩云南第壹城。15幢3302。齐先生，15204654599。"
+  },
+  {
+    "time": "2025-12-21 09:56:05",
+    "role": "客服",
+    "name": "viomi慧慧sk",
+    "type": "text",
+    "content": "预约后，师傅会在48小时内联系您跟您确认上门时间，您等师傅电话就就好，具体时间您也可以跟师傅预约"
+  },
+  {
+    "time": "2025-12-21 09:56:14",
+    "role": "用户",
+    "name": "潜***",
+    "type": "text",
+    "content": "好的"
+  },
+  {
+    "time": "2025-12-21 09:56:18",
+    "role": "客服",
+    "name": "viomi慧慧sk",
+    "type": "text",
+    "content": "小云朵，后续如有任何疑问，都可随时联系我们商家客服为您处理~"
+  }
+]

@@ -1,0 +1,184 @@
+[
+  {
+    "time": "2025-12-18 19:00:14",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[常见问题列表]"
+  },
+  {
+    "time": "2025-12-18 19:00:17",
+    "role": "用户",
+    "name": "宾***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610&_oak_rcto=YWJU1cb0q849N_Q-v3Zc0AMbs7rQ20w42RZfHJIeODC5ZJZ5MgBMlLI23jlfvDOFLtg&page_from=63&_oc_trace_mark=199&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2025-12-18 19:00:23",
+    "role": "用户",
+    "name": "宾***",
+    "type": "text",
+    "content": "优惠劵"
+  },
+  {
+    "time": "2025-12-18 19:00:24",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-18 19:00:40",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "小云朵您好，在的呢~很高兴为您服务，请问有什么可以帮到您的呢~"
+  },
+  {
+    "time": "2025-12-18 19:00:48",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "新品首发 Viomi云米 净水器小海豚3 ①首发价499 ②晒图送1年延保 ③免费安装 快来抢购吧~"
+  },
+  {
+    "time": "2025-12-18 19:01:33",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "【小海豚3净水器】纳斯达克上市品牌全球平台国内新品首发~ 【一净到底】6级纯物理过滤，去除重金属守护孩子成长 【一机守护】 0阻垢剂不含双酚A，孕妈宝宝安心喝 【一触即饮】4秒就能接满一杯水，随时开怀畅饮 【一芯五年】5年长效RO滤芯，用得久真省芯 【一按换芯】弹扣式一按一拿，爸妈也能轻松换芯"
+  },
+  {
+    "time": "2025-12-18 19:03:09",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "小云朵您好，这边还没有下单是有什么顾虑吗？有任何问题都可以咨询我的呢"
+  },
+  {
+    "time": "2025-12-18 22:57:27",
+    "role": "用户",
+    "name": "宾***",
+    "type": "text",
+    "content": "能接管线机吧"
+  },
+  {
+    "time": "2025-12-18 22:57:28",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-18 22:57:54",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "可以的宝子，我们云米的净水器是可以跟其它品牌的管线机做适配做连接的哦~常规三分管一般都是没有问题的呢~如果规格不一致也可以搭配转接头使用哦~"
+  },
+  {
+    "time": "2025-12-20 08:39:57",
+    "role": "用户",
+    "name": "宾***",
+    "type": "text",
+    "content": "订单编号:251218-382279412002626"
+  },
+  {
+    "time": "2025-12-20 08:40:04",
+    "role": "用户",
+    "name": "宾***",
+    "type": "text",
+    "content": "什么时候发货"
+  },
+  {
+    "time": "2025-12-20 08:40:21",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "可以接管线机的"
+  },
+  {
+    "time": "2025-12-20 08:40:32",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "亲，咱们的商品是依据订单下单先后顺序陆续发货，您下单后，我们会在48小时内陆续安排发货的，仓库小哥正在加急打单包装，请您放心~"
+  },
+  {
+    "time": "2025-12-20 09:20:50",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "viomi小云朵 将该会话转移给 viomi英英sk，请及时处理"
+  },
+  {
+    "time": "2025-12-20 09:20:58",
+    "role": "客服",
+    "name": "viomi英英sk",
+    "type": "text",
+    "content": "我看看"
+  },
+  {
+    "time": "2025-12-20 09:22:16",
+    "role": "客服",
+    "name": "viomi英英sk",
+    "type": "image",
+    "content": "https://t00img.yangkeduo.com/chat/images/2025-12-20/bac35016-7a4d-45ce-b26f-b8e46723deba.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-20 09:22:17",
+    "role": "客服",
+    "name": "viomi英英sk",
+    "type": "text",
+    "content": "发货了哈"
+  },
+  {
+    "time": "2025-12-22 08:38:10",
+    "role": "用户",
+    "name": "宾***",
+    "type": "text",
+    "content": "安装"
+  },
+  {
+    "time": "2025-12-22 08:38:18",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "很抱歉售后客服不在线，售后上班时间是：9:00-22:00，您可以在我们售后在线时间段来咨询，小妹帮您转接哦"
+  },
+  {
+    "time": "2025-12-22 09:04:03",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "viomi小仙女 将该会话转移给 viomi莉莉sk，请及时处理"
+  },
+  {
+    "time": "2025-12-22 09:04:13",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "小云朵，收到货后需要预约安装的话可以通过云米商城app进行预约安装，预约成功后会为您安排师傅上门的哦~后续有什么问题也都可以随时联系我们在线客服哦~"
+  },
+  {
+    "time": "2025-12-22 09:04:15",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "image",
+    "content": "https://t00img.yangkeduo.com/chat/images/2025-12-22/40e6dfa5-c342-4d93-b36e-d9afed14fb7d.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-22 10:29:01",
+    "role": "用户",
+    "name": "宾***",
+    "type": "text",
+    "content": "只能APP预约吗？"
+  },
+  {
+    "time": "2025-12-22 10:29:19",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "可以电话的"
+  }
+]

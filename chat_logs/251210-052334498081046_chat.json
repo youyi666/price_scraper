@@ -1,0 +1,79 @@
+[
+  {
+    "time": "2025-12-10 22:00:49",
+    "role": "用户",
+    "name": "1***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610&_oak_rcto=YWLt-N2lCw5mVPJjxL7CgqjkBMBw5sQkbk2G5Cs49hAgvcoKzOYrgHKYX3HNq6EbPAg&page_from=63&_oc_brand_neigou_param=_8_14&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2025-12-10 22:00:54",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "小云朵您好，在的呢~很高兴为您服务，请问有什么可以帮到您的呢~"
+  },
+  {
+    "time": "2025-12-10 22:00:58",
+    "role": "用户",
+    "name": "1***",
+    "type": "text",
+    "content": "包含安装吗？"
+  },
+  {
+    "time": "2025-12-10 22:00:58",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-10 22:01:03",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "小云朵，净水器商品和随商品一起发货的标配配件免费上门安装1次哦，免费安装不涉及橱柜改造、下水管改造、电源改造、拆旧等。 ☞龙头安装开孔可参考以下开孔费用~自备辅材收取人工服务费 30 元/次"
+  },
+  {
+    "time": "2025-12-10 22:01:13",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2025-12-10/677a4301-0fc5-4a3f-bad9-8e6d49bc738b.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-21 16:41:35",
+    "role": "用户",
+    "name": "1***",
+    "type": "text",
+    "content": "收到了 怎么联系安装？"
+  },
+  {
+    "time": "2025-12-21 16:41:39",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "稍等"
+  },
+  {
+    "time": "2025-12-21 16:41:42",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "viomi小可爱 将该会话转移给 viomi诺诺sk，请及时处理"
+  },
+  {
+    "time": "2025-12-21 16:41:49",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "小云朵，收到货后需要预约安装的话可以通过云米商城app进行预约安装，预约成功后会为您安排师傅上门的哦~后续有什么问题也都可以随时联系我们在线客服哦~"
+  },
+  {
+    "time": "2025-12-21 16:41:51",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "image",
+    "content": "https://t00img.yangkeduo.com/chat/images/2025-12-21/b20cb007-008d-4686-bbd0-17f13a23b13f.png?imageMogr2/thumbnail/800x800"
+  }
+]

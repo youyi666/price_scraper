@@ -1,0 +1,65 @@
+[
+  {
+    "time": "2025-12-10 09:16:53",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[常见问题列表]"
+  },
+  {
+    "time": "2025-12-10 09:16:55",
+    "role": "用户",
+    "name": "W***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610&_oak_rcto=YWINLTb9mUqdaYfJ2awbygA6DX0-2qYCPRvn3CuCyrmVzzSsXZcOXhnw&page_from=76&_oc_n_mkt_type=3&_oc_n_mkt_domain=535&_oc_n_mkt_tr_token=xzu2kwqgqjfprk6dfensdjmukizffzdbs25wndlxl55gdfltwlcshvx67wa6gbqfv3ng5vutrt3bqteqvdeyjaywkdhpxicdbrq4r7w2afw5zpjc6tpjdqd2sdvbjw55wa7paeaitmk7tfr3i7r2rlpjfbfpehdt4soab6tielmhnogaxqqykeiwkgjfrat65audp3wteee3s65ikh2gjwnlme33yajbchkd3uy&_oc_n_mkt_tr_sc=super_discount&_oc_payment_biz=manufacturer_duoduo&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2025-12-10 09:16:58",
+    "role": "用户",
+    "name": "W***",
+    "type": "text",
+    "content": "安装"
+  },
+  {
+    "time": "2025-12-10 09:16:58",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-10 09:17:09",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "消费者催促您，请尽快回复！"
+  },
+  {
+    "time": "2025-12-10 09:17:25",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "亲亲 您是下单购买了吗"
+  },
+  {
+    "time": "2025-12-10 09:17:37",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2025-12-10/6fc4b47b-51da-4e48-9bc3-78a82cd6fedd.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-10 15:06:05",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "小主，我们的新品首发小海豚3 预售活动开始咯~现在拍下499到手，12月20日发货，现在下单还加送一年延保，延保只有预售期间拍下的才有哦~超值福利不容错过~"
+  },
+  {
+    "time": "2025-12-10 15:06:22",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2025-12-10/43d35131-9ac5-421c-ab23-1a305719bce6.png?imageMogr2/thumbnail/800x800"
+  }
+]

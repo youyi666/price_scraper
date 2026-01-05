@@ -1,0 +1,576 @@
+[
+  {
+    "time": "2025-12-19 21:00:55",
+    "role": "用户",
+    "name": "1***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610&_oak_rcto=YWKcRtA5GaosHO_6pz0xX8V6gUdEmuYrwI6O6mx8lWauVdrl3c4ERtq6&page_from=63&_oc_mkt_tr_sc=super_discount&_oc_mkt_tr_token=ey3ycdpyjpm2mrj2vnck432p5mvd4jdcznrasozyhizukmgfhdwcujwtgdv6fke2bwcx3mkmoh2vd32lrmfbzp36sgzchsjwiotpwuh5vy4jot5p5jvu2ep7rt5zyok7hmtviwpcd7jjdexn7fvjh2imsvzdckii6sscshyllyv2d4x3mybianrlc5x5k5oykxgrgqblxsawfkpx4pqtj5cgautjogy27cb7aoq&_oc_mkt_domain=535&_oc_mkt_type=3&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2025-12-19 21:01:04",
+    "role": "用户",
+    "name": "1***",
+    "type": "text",
+    "content": "包安装的吗"
+  },
+  {
+    "time": "2025-12-19 21:01:04",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-19 21:01:11",
+    "role": "客服",
+    "name": "viomi范范sk",
+    "type": "text",
+    "content": "商品和随商品一起发货的标配配件免费上门安装1次哦！其它安装不在免费范围内哈~如：打墙孔、开孔、拆旧等其它额外的服务，费用需要另外收取哈~"
+  },
+  {
+    "time": "2025-12-19 21:53:16",
+    "role": "用户",
+    "name": "1***",
+    "type": "text",
+    "content": "两个滤芯5年都不用换？"
+  },
+  {
+    "time": "2025-12-19 21:53:17",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-19 21:53:30",
+    "role": "客服",
+    "name": "viomi范范sk",
+    "type": "text",
+    "content": "更换周期是预计周期~因使用地域、水质、季节及使用量不同~实际更换周期会有所不同。"
+  },
+  {
+    "time": "2025-12-19 21:54:00",
+    "role": "客服",
+    "name": "viomi范范sk",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2025-12-19/cee7c9e1-d249-4e3c-b21f-26b1c46dd970.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-19 22:31:31",
+    "role": "用户",
+    "name": "1***",
+    "type": "text",
+    "content": "PPC复合滤芯价格？"
+  },
+  {
+    "time": "2025-12-19 22:31:45",
+    "role": "客服",
+    "name": "viomi范范sk",
+    "type": "text",
+    "content": "是的呢亲亲"
+  },
+  {
+    "time": "2025-12-21 07:03:28",
+    "role": "用户",
+    "name": "1***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=852932116812&_oak_rcto=YWLAKWKXaxftSIkI-14KKRLygUdEmuYrwI6O6mx8lWauVdrl3c4ERtq6&page_from=63&_oc_brand_neigou_param=_8_14&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2025-12-21 07:03:35",
+    "role": "用户",
+    "name": "1***",
+    "type": "text",
+    "content": "有返现吗"
+  },
+  {
+    "time": "2025-12-21 07:03:35",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-21 08:05:49",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "主账号 将该会话转移给 viomi小仙女，请及时处理"
+  },
+  {
+    "time": "2025-12-21 08:06:48",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "您好有什么可以帮到您~"
+  },
+  {
+    "time": "2025-12-21 08:35:25",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "很抱歉售后客服不在线，售后上班时间是：9:00-22:00，您可以在我们售后在线时间段来咨询，小妹帮您转接哦"
+  },
+  {
+    "time": "2025-12-21 09:02:45",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "viomi小仙女 将该会话转移给 viomi慧慧sk，请及时处理"
+  },
+  {
+    "time": "2025-12-21 09:03:13",
+    "role": "客服",
+    "name": "viomi慧慧sk",
+    "type": "text",
+    "content": "没有的呢"
+  },
+  {
+    "time": "2025-12-22 15:17:21",
+    "role": "用户",
+    "name": "1***",
+    "type": "text",
+    "content": "这款机器插电的"
+  },
+  {
+    "time": "2025-12-22 15:17:42",
+    "role": "客服",
+    "name": "viomi慧慧sk",
+    "type": "text",
+    "content": "我们的净水器都需要插电哦，因为是ro膜净化，而且水龙头带显示灯的呢~~（需要有电源插座或插排（220v交流电的2孔插座），外部电源线长1.6米左右哈）"
+  },
+  {
+    "time": "2025-12-22 15:17:56",
+    "role": "用户",
+    "name": "1***",
+    "type": "text",
+    "content": "是三个扁头还是两个孔的"
+  },
+  {
+    "time": "2025-12-22 15:18:01",
+    "role": "客服",
+    "name": "viomi慧慧sk",
+    "type": "text",
+    "content": "两孔的哦"
+  },
+  {
+    "time": "2025-12-22 15:18:13",
+    "role": "用户",
+    "name": "1***",
+    "type": "text",
+    "content": "头子多大"
+  },
+  {
+    "time": "2025-12-22 15:18:24",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "消费者催促您，请尽快回复！"
+  },
+  {
+    "time": "2025-12-22 15:18:32",
+    "role": "客服",
+    "name": "viomi慧慧sk",
+    "type": "text",
+    "content": "普通电器的两孔插头呢"
+  },
+  {
+    "time": "2025-12-22 15:18:36",
+    "role": "用户",
+    "name": "1***",
+    "type": "text",
+    "content": "因为我要钻孔拉线过来"
+  },
+  {
+    "time": "2025-12-22 15:18:58",
+    "role": "客服",
+    "name": "viomi慧慧sk",
+    "type": "text",
+    "content": "普通的插头大小呢"
+  },
+  {
+    "time": "2025-12-22 15:19:05",
+    "role": "用户",
+    "name": "1***",
+    "type": "text",
+    "content": "这款机器电线多长？"
+  },
+  {
+    "time": "2025-12-22 15:19:14",
+    "role": "客服",
+    "name": "viomi慧慧sk",
+    "type": "text",
+    "content": "我们的净水器都需要插电哦，因为是ro膜净化，而且水龙头带显示灯的呢~~（需要有电源插座或插排（220v交流电的2孔插座），外部电源线长1.6米左右哈）"
+  },
+  {
+    "time": "2025-12-23 18:37:23",
+    "role": "用户",
+    "name": "1***",
+    "type": "text",
+    "content": "滤芯等2年也是按99吧"
+  },
+  {
+    "time": "2025-12-23 18:37:23",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-23 18:38:18",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "活动保留1年哦"
+  },
+  {
+    "time": "2025-12-25 09:18:32",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "消费者申请售后，建议先与消费者友好协商"
+  },
+  {
+    "time": "2025-12-25 09:18:42",
+    "role": "用户",
+    "name": "1***",
+    "type": "text",
+    "content": "订单编号:251225-272776568450510"
+  },
+  {
+    "time": "2025-12-25 09:18:53",
+    "role": "用户",
+    "name": "1***",
+    "type": "text",
+    "content": "这两款有什么区别？"
+  },
+  {
+    "time": "2025-12-25 09:19:08",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "您好亲"
+  },
+  {
+    "time": "2025-12-25 09:19:23",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "机器功能是一样的，只是那个刚升级会贵些"
+  },
+  {
+    "time": "2025-12-25 09:22:31",
+    "role": "用户",
+    "name": "1***",
+    "type": "text",
+    "content": "我都买了两台了"
+  },
+  {
+    "time": "2025-12-25 09:22:38",
+    "role": "用户",
+    "name": "1***",
+    "type": "text",
+    "content": "有返现吗"
+  },
+  {
+    "time": "2025-12-25 09:23:09",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "是要购买se这个吗"
+  },
+  {
+    "time": "2025-12-25 09:24:11",
+    "role": "用户",
+    "name": "1***",
+    "type": "text",
+    "content": "其实都行"
+  },
+  {
+    "time": "2025-12-25 09:24:40",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "SE的话单机给您最低到手价598.4"
+  },
+  {
+    "time": "2025-12-25 09:24:51",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "拍下到货后反差价"
+  },
+  {
+    "time": "2025-12-25 09:25:31",
+    "role": "用户",
+    "name": "1***",
+    "type": "text",
+    "content": "251222-375610447490510"
+  },
+  {
+    "time": "2025-12-25 09:25:36",
+    "role": "用户",
+    "name": "1***",
+    "type": "text",
+    "content": "这个订单吗"
+  },
+  {
+    "time": "2025-12-25 09:26:33",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "不是亲~"
+  },
+  {
+    "time": "2025-12-25 09:26:54",
+    "role": "用户",
+    "name": "1***",
+    "type": "text",
+    "content": "251225-272776568450510"
+  },
+  {
+    "time": "2025-12-25 09:26:58",
+    "role": "用户",
+    "name": "1***",
+    "type": "text",
+    "content": "这个订单？"
+  },
+  {
+    "time": "2025-12-25 09:27:05",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "这个"
+  },
+  {
+    "time": "2025-12-25 09:27:06",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "251222-375610447490510"
+  },
+  {
+    "time": "2025-12-25 09:27:08",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "是"
+  },
+  {
+    "time": "2025-12-25 09:27:16",
+    "role": "用户",
+    "name": "1***",
+    "type": "text",
+    "content": "返现多少？"
+  },
+  {
+    "time": "2025-12-25 09:28:30",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "您的实付价格-598.4=后返"
+  },
+  {
+    "time": "2025-12-25 09:29:14",
+    "role": "用户",
+    "name": "1***",
+    "type": "text",
+    "content": "好的"
+  },
+  {
+    "time": "2025-12-25 09:29:47",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "[动画表情]"
+  },
+  {
+    "time": "2025-12-25 09:30:13",
+    "role": "用户",
+    "name": "1***",
+    "type": "text",
+    "content": "在你们店买了空调，灶具 电动晾衣机"
+  },
+  {
+    "time": "2025-12-25 09:31:26",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "感谢您的支持亲~"
+  },
+  {
+    "time": "2025-12-25 11:37:12",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "亲，抱歉给您带来了不好的购物体验~ 针对您描述的问题，还请把收到的商品拍张照片给我们，我们会尽快处理您的申请~"
+  },
+  {
+    "time": "2025-12-25 13:38:58",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "亲~您看看这是我们商品细节信息和发货实物相符的相关信息~ 如果您收到的商品确实有问题，还请把收到描述不符的商品拍张照片给我们，我们会尽快处理您的申请~"
+  },
+  {
+    "time": "2025-12-25 13:38:58",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "image",
+    "content": "https://commimg.pddpic.com/chat-merchant/2025-12-25/ecb4a2db-27e0-4018-9789-426c0f098b9c.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-25 16:33:51",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "消费者已修改售后信息，请您及时处理"
+  },
+  {
+    "time": "2025-12-25 16:33:51",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-25 16:34:06",
+    "role": "客服",
+    "name": "viomi范范sk",
+    "type": "text",
+    "content": "关于七天无理由退换货：自买家签收商品后的次日零时开始起算，满168小时为7天。买家签收商品时间以物流签收时间为准），且符合以下条件： 1）不影商品完好； 2）保证产品外包装、配件、赠品等完整； 3）提供产品图片、外包装图片； 4）如有赠品、发票，连同赠品、发票一起寄回； 5）保证产品完好，如运输途中发生破损将无法进行退换货； 6）使用过的产品一律不退换； 7）退回运费由买家承担，不支持到付及自提。 8）按照图例要求提供图片核实申请"
+  },
+  {
+    "time": "2025-12-25 16:34:07",
+    "role": "客服",
+    "name": "viomi范范sk",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2025-12-25/d0155673-8df3-45c9-82e7-430ebadb9c48.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-25 16:34:50",
+    "role": "用户",
+    "name": "1***",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-user-v1/2025-12-25/6347caa1-12e9-451e-81f5-ed6efb18f746.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-25 16:35:02",
+    "role": "客服",
+    "name": "viomi范范sk",
+    "type": "text",
+    "content": "OK"
+  },
+  {
+    "time": "2025-12-25 16:35:11",
+    "role": "用户",
+    "name": "1***",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-user-v1/2025-12-25/0cdef854-5aea-49e1-971c-be8047e484af.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-25 16:35:18",
+    "role": "客服",
+    "name": "viomi范范sk",
+    "type": "text",
+    "content": "嗯嗯"
+  },
+  {
+    "time": "2025-12-25 16:35:22",
+    "role": "用户",
+    "name": "1***",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-user-v1/2025-12-25/285fd0e5-ffd6-4c87-b3c9-77b13c6c8438.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-25 16:35:27",
+    "role": "客服",
+    "name": "viomi范范sk",
+    "type": "text",
+    "content": "好的呢"
+  },
+  {
+    "time": "2025-12-25 16:38:02",
+    "role": "客服",
+    "name": "viomi范范sk",
+    "type": "text",
+    "content": "您的退货申请已通过，请按商家退货地址在7天内退回。推荐您使用“官方退货”服务（支持上门取件等方式），可享官方补贴价格更低，若您自行退回商品，请不要使用到付件，寄出后请及时填写快递单号。祝您生活愉快"
+  },
+  {
+    "time": "2025-12-25 16:38:15",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "消费者反馈的订单问题，已为您创建为工单，请您及时跟进处理"
+  },
+  {
+    "time": "2025-12-25 17:25:04",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "消费者反馈的订单问题，已为您创建为工单，请您及时跟进处理"
+  },
+  {
+    "time": "2025-12-27 07:49:40",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "消费者反馈的订单问题，已为您创建为工单，请您及时跟进处理"
+  },
+  {
+    "time": "2025-12-27 10:38:02",
+    "role": "用户",
+    "name": "1***",
+    "type": "text",
+    "content": "可以自己安装吗"
+  },
+  {
+    "time": "2025-12-27 10:38:13",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "消费者催促您，请尽快回复！"
+  },
+  {
+    "time": "2025-12-27 10:38:30",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "小主，请您稍等，客服帮您转接专业售后客服，转接之后您跟咱们售后同事描述下您遇到的问题哦~"
+  },
+  {
+    "time": "2025-12-27 10:38:35",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "viomi小云朵 将该会话转移给 viomi诺诺sk，请及时处理"
+  },
+  {
+    "time": "2025-12-27 10:38:47",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "这边是不建议您自行安装的哈~如果您自行安装的话~后期出现问题师傅查看后发现是安装时的问题是不保修的哦~"
+  },
+  {
+    "time": "2025-12-27 10:39:17",
+    "role": "用户",
+    "name": "1***",
+    "type": "text",
+    "content": "哦"
+  },
+  {
+    "time": "2025-12-27 10:39:27",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "嗯嗯"
+  },
+  {
+    "time": "2025-12-27 14:02:33",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "退货商品已签收，请您尽快处理售后"
+  }
+]

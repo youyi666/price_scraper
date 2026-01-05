@@ -1,0 +1,51 @@
+[
+  {
+    "time": "2025-12-25 18:40:17",
+    "role": "用户",
+    "name": "周***",
+    "type": "text",
+    "content": "怎么安装？"
+  },
+  {
+    "time": "2025-12-25 18:40:28",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "消费者催促您，请尽快回复！"
+  },
+  {
+    "time": "2025-12-25 18:40:37",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2025-12-25/0e4e4029-4686-4e4a-9805-5f6a9ece0e9e.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-25 18:40:39",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "联系400"
+  },
+  {
+    "time": "2025-12-25 18:40:43",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "viomi小甜心 将该会话转移给 viomi慧慧sk，请及时处理"
+  },
+  {
+    "time": "2025-12-25 18:40:49",
+    "role": "客服",
+    "name": "viomi慧慧sk",
+    "type": "text",
+    "content": "小云朵，如您需要产品安装可以在云米小程序里面自主预约哦，会给您安排师傅上门的~预约成功后师傅会在48小时内联系您跟您确认上门时间哈~"
+  },
+  {
+    "time": "2025-12-25 18:40:50",
+    "role": "客服",
+    "name": "viomi慧慧sk",
+    "type": "text",
+    "content": "云米小程序，在您经常聊天的软件那里搜索即可哈，我的——预约安装——填带星选项即可~（购买凭证是订单号页面截图）"
+  }
+]

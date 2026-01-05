@@ -1,0 +1,170 @@
+[
+  {
+    "time": "2025-12-09 19:17:08",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[常见问题列表]"
+  },
+  {
+    "time": "2025-12-09 19:17:18",
+    "role": "用户",
+    "name": "***",
+    "type": "text",
+    "content": "婴儿冲奶粉可以用吗"
+  },
+  {
+    "time": "2025-12-09 19:17:18",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-09 19:17:35",
+    "role": "用户",
+    "name": "***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610&_oak_rcto=YWLOyMrj42ozzEPRTm_uGKOM4dwC2IM8hfB64mKBk-ILFcY4Om6X-9Cq&page_from=63&_oc_trace_mark=199&_oc_adinfo=eyJwYWdlX3NuIjoxMDAxNSwic2NlbmVfaWQiOjJ9&_oc_refer_ad=1&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2025-12-09 19:17:38",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=819506595979"
+  },
+  {
+    "time": "2025-12-09 19:17:46",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "亲亲这边建议这一款的呢"
+  },
+  {
+    "time": "2025-12-09 19:18:05",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2025-12-09/1afd6184-1d55-4cab-b9f2-4511697cb190.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-09 19:18:38",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "今日下单前20名加购99元滤芯可以换购5in1滤芯的呢"
+  },
+  {
+    "time": "2025-12-09 19:18:45",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "喜欢就早点拍下的呢"
+  },
+  {
+    "time": "2025-12-09 19:18:51",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "活动会随时结束的哈"
+  },
+  {
+    "time": "2025-12-09 19:19:07",
+    "role": "用户",
+    "name": "***",
+    "type": "text",
+    "content": "第一款不可以冲奶粉吗"
+  },
+  {
+    "time": "2025-12-09 19:19:21",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "这边建议用母婴款的呢"
+  },
+  {
+    "time": "2025-12-09 19:19:27",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "用的放心的呢"
+  },
+  {
+    "time": "2025-12-09 19:20:33",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "小孩大人都用的安心的呢"
+  },
+  {
+    "time": "2025-12-09 20:35:21",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "亲亲，您现在看的这款产品很多地区百补抢完都在陆续下线了，您领到之后建议抓紧时间支付哦~早下单早发货哦~"
+  },
+  {
+    "time": "2025-12-11 11:02:10",
+    "role": "用户",
+    "name": "***",
+    "type": "text",
+    "content": "什么时候发货"
+  },
+  {
+    "time": "2025-12-11 11:02:11",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-11 11:02:25",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "亲，咱们的商品是依据订单下单先后顺序陆续发货，下单后我们会在48小时内安排发货，仓库小哥正在加急打单包装，请您放心下单购买哈~现在拍下小妹这边给您优先安排发货哈~"
+  },
+  {
+    "time": "2025-12-11 11:03:34",
+    "role": "用户",
+    "name": "***",
+    "type": "text",
+    "content": "这个海豚3上面是预售产品也是48小时？"
+  },
+  {
+    "time": "2025-12-11 11:04:18",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "稍等这边帮您看看"
+  },
+  {
+    "time": "2025-12-11 11:04:36",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "小海豚3是20号发哦~"
+  },
+  {
+    "time": "2025-12-22 16:53:18",
+    "role": "用户",
+    "name": "***",
+    "type": "text",
+    "content": "机器sn码"
+  },
+  {
+    "time": "2025-12-22 16:53:34",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "viomi小仙女 将该会话转移给 viomi英英sk，请及时处理"
+  },
+  {
+    "time": "2025-12-22 16:53:41",
+    "role": "客服",
+    "name": "viomi英英sk",
+    "type": "text",
+    "content": "您好！SN码是设备的唯一识别码，通常印刷在产品包装外侧、机器背后底部条码处，通常由数字和“/”组成，如：“SN:000309/XXXXXXXX”。"
+  }
+]

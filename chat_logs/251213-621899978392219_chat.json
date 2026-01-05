@@ -1,0 +1,51 @@
+[
+  {
+    "time": "2025-12-20 16:09:19",
+    "role": "客服",
+    "name": "viomi梓晖",
+    "type": "text",
+    "content": "您好，麻烦您这边提供下大陆电话，这边无法安排发货"
+  },
+  {
+    "time": "2025-12-21 10:16:04",
+    "role": "用户",
+    "name": "B***",
+    "type": "text",
+    "content": "16698086208"
+  },
+  {
+    "time": "2025-12-21 10:16:24",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "viomi小仙女 将该会话转移给 viomi莉莉sk，请及时处理"
+  },
+  {
+    "time": "2025-12-21 10:16:34",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "好的亲"
+  },
+  {
+    "time": "2025-12-21 10:16:43",
+    "role": "用户",
+    "name": "B***",
+    "type": "text",
+    "content": "[抱拳]"
+  },
+  {
+    "time": "2025-12-21 10:16:44",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "这边联系仓库安排"
+  },
+  {
+    "time": "2025-12-21 10:16:49",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "[握手]"
+  }
+]

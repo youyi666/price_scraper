@@ -1,0 +1,128 @@
+[
+  {
+    "time": "2025-12-10 09:54:04",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[常见问题列表]"
+  },
+  {
+    "time": "2025-12-10 09:54:06",
+    "role": "用户",
+    "name": "世***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610&_oak_rcto=YWKduF5J_maA05H7X2r9y5Qay0ysoDaCzk7CxB--pge80vfxVFxfZ7Bo&page_from=63&_oc_trace_mark=199&_oc_mkt_tr_sc=cash_back_for_pre_coupons&_oc_mkt_domain=1286&_oc_refer_ad=1&_oc_adinfo=eyJwYWdlX3NuIjoxMzA3OTksInNjZW5lX2lkIjoxOTE4fQ%3D%3D&_oc_mkt_tr_token=uhe7ixxuvcvbqekcirugwz4f3nioj5lpx4ukjaqdro6k2z7ab7cc3x3dtuheohxfojdtrr62h55gaucvvufcjgmtjj2aitjtdnyu6gq&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2025-12-10 09:54:10",
+    "role": "用户",
+    "name": "世***",
+    "type": "text",
+    "content": "人工"
+  },
+  {
+    "time": "2025-12-10 09:54:10",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-10 09:54:11",
+    "role": "用户",
+    "name": "世***",
+    "type": "text",
+    "content": "你好"
+  },
+  {
+    "time": "2025-12-10 09:54:15",
+    "role": "用户",
+    "name": "世***",
+    "type": "text",
+    "content": "这个是净水器么"
+  },
+  {
+    "time": "2025-12-10 09:54:18",
+    "role": "用户",
+    "name": "世***",
+    "type": "text",
+    "content": "不是滤芯吧"
+  },
+  {
+    "time": "2025-12-10 09:54:29",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "消费者催促您，请尽快回复！"
+  },
+  {
+    "time": "2025-12-10 09:55:28",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "净水器来的"
+  },
+  {
+    "time": "2025-12-10 09:55:35",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "只是没有机身外壳"
+  },
+  {
+    "time": "2025-12-10 10:04:59",
+    "role": "用户",
+    "name": "世***",
+    "type": "text",
+    "content": "可以正常使用？"
+  },
+  {
+    "time": "2025-12-10 10:05:02",
+    "role": "用户",
+    "name": "世***",
+    "type": "text",
+    "content": "不影响吧"
+  },
+  {
+    "time": "2025-12-10 10:05:34",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "可以额"
+  },
+  {
+    "time": "2025-12-10 10:05:40",
+    "role": "用户",
+    "name": "世***",
+    "type": "text",
+    "content": "好的，谢谢啦"
+  },
+  {
+    "time": "2025-12-10 10:05:47",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "小主，我们的新品首发小海豚3 预售活动开始咯~现在拍下499到手，12月20日发货，现在下单还加送一年延保，延保只有预售期间拍下的才有哦~超值福利不容错过~"
+  },
+  {
+    "time": "2025-12-10 10:06:08",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2025-12-10/553625bc-2bd5-412c-b68f-dc57580bd16e.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-10 15:51:39",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2025-12-10/beebee65-60f0-475e-bf2c-be4b0b50a7b8.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-10 15:51:49",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "小云朵，您看中的是我们的热销新款来的哦，很多客户买回去反馈都是不错哒，趁着活动价带回家哦~~早下单早发货哦~"
+  }
+]

@@ -263,9 +263,11 @@ async function runJD() {
                     if (task.limitPrice !== null) {
                     const currentVal = parsePriceToFloat(final_price_str);
                         if (currentVal !== null) {
-                        if (currentVal < task.limitPrice) {
+                            // 先计算 97% 的阈值
+                            const alertThreshold = task.limitPrice * 0.97;  
+                            if (currentVal < alertThreshold) {
                             price_status = "破价警报";
-                                console.log(`   🚨 [破价] ${currentVal} < 限价 ${task.limitPrice}`);
+                            console.log(`   🚨 [破价] ${currentVal} < 警报阈值 ${alertThreshold.toFixed(2)} (原限价: ${task.limitPrice})`);
                             
                                 const watermarkText = `\n时间: ${DateTime.now().toFormat('yyyy-MM-dd HH:mm:ss')}\nSKU: ${task.trueId}\n现价: ${currentVal} (限: ${task.limitPrice})`;
                             await workingPage.evaluate((text) => {
@@ -534,9 +536,10 @@ async function runPDD() {
                             let status = "正常";
 
                             if (refPrice > 0) {
-                                if (currentPrice < refPrice) {
+                                const alertThreshold = refPrice * 0.97;
+                                if (currentPrice < alertThreshold) {
                                     status = "破价警报";
-                                    console.log(`   🚨 [破价] ID:${matchedId} | ${currentPrice} < ${refPrice}`);
+                                    console.log(`   🚨 [破价] ID:${matchedId} | ${currentPrice} < 警报阈值 ${alertThreshold.toFixed(2)} (原限价: ${refPrice})`);
                                 } else if (currentPrice > refPrice) {
                                     status = "高价待调整";
                                     console.log(`   📈 [高价] ID:${matchedId} | ${currentPrice} > ${refPrice}`);
@@ -831,9 +834,10 @@ if (final_price_str !== "Not Found") {
     if (task.limitPrice !== null && !isNaN(task.limitPrice)) {
         const currentVal = parseFloat(final_price_str.replace(/[^\d.]/g, ''));
         if (!isNaN(currentVal)) {
-            if (currentVal < task.limitPrice) {
+            const alertThreshold = task.limitPrice * 0.97;
+            if (currentVal < alertThreshold) {
                 price_status = "破价警报";
-                console.log(`    🚨 [破价] ${currentVal} < ${task.limitPrice}`);
+                console.log(`    🚨 [破价] ${currentVal} < 警报阈值 ${alertThreshold.toFixed(2)} (原限价: ${task.limitPrice})`);
 
                 // [迭代新增] 电影级红色警报 UI 注入
                 const watermarkText = {

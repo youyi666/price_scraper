@@ -1,0 +1,205 @@
+[
+  {
+    "time": "2025-12-19 12:41:46",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[常见问题列表]"
+  },
+  {
+    "time": "2025-12-19 12:41:50",
+    "role": "用户",
+    "name": "秋***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610&_oak_rcto=YWJQzUSNkGVf08HdWXGjRH4mnVP7VzN9-QathuNE2QRMJ6BtQojIhsjP&page_from=63&_oc_mkt_domain=197&_oc_video_hide_multi=1&_oc_live_feed_id=6800944556764042382&_oc_mkt_tr_token=6dgo6pvhqmxdo7vu7gtzwfb6oudmi2j6ebnvskexxqkqsv7lzjnujedcqfxonyvsprwixskjmu4yah4s7wxe6566vxapu6rib6wnz7tnsqphl3axg4qj6pjhibiwssqjnrkojrnj6olterqfigz6dsxozkbcy7li3wqk7iz5mizfsinthqua&_oc_mkt_tr_sc=first_order_multi_coin_ten&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2025-12-19 12:41:54",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "小云朵您好，在的呢~很高兴为您服务，请问有什么可以帮到您的呢~"
+  },
+  {
+    "time": "2025-12-19 12:42:05",
+    "role": "用户",
+    "name": "秋***",
+    "type": "text",
+    "content": "这款机要用电才能反渗透的吧"
+  },
+  {
+    "time": "2025-12-19 12:42:06",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-19 12:42:16",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "都要插电的呢"
+  },
+  {
+    "time": "2025-12-19 12:42:43",
+    "role": "用户",
+    "name": "秋***",
+    "type": "text",
+    "content": "你的画面没有显示废水槽在哪里"
+  },
+  {
+    "time": "2025-12-19 12:42:59",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "亲亲，马上帮您查询，请稍等一下哈，查好了第一时间给您回复的哟"
+  },
+  {
+    "time": "2025-12-19 12:43:24",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2025-12-19/310a3f6f-9185-4ac0-9cfd-882bdf8d73b4.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-19 12:43:31",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "云米净水器的水管都是PE材质的 1.进水管(自来水)是3分管 2.纯水管是2分管/3分管 3.浓缩水(废水)管是2分管"
+  },
+  {
+    "time": "2025-12-19 12:43:42",
+    "role": "用户",
+    "name": "秋***",
+    "type": "text",
+    "content": "因为我要自己安装你能不能把详细的安装图跟相应的资料发给我"
+  },
+  {
+    "time": "2025-12-19 12:43:51",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "这边是不建议您自行安装的哈~如果您自行安装的话~后期出现问题师傅查看后发现是安装时的问题是不保修的哦~"
+  },
+  {
+    "time": "2025-12-19 12:43:54",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "小云朵，净水器商品和随商品一起发货的标配配件免费上门安装1次哦，免费安装不涉及橱柜改造、下水管改造、电源改造、拆旧等。 ☞龙头安装开孔可参考以下开孔费用~自备辅材收取人工服务费 30 元/次"
+  },
+  {
+    "time": "2025-12-19 12:44:00",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2025-12-19/4b961f4c-c7d4-41cb-9d8b-cdde57edb9b3.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-19 12:44:04",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "我们有安装师傅上门安装的"
+  },
+  {
+    "time": "2025-12-19 12:44:46",
+    "role": "用户",
+    "name": "秋***",
+    "type": "text",
+    "content": "我要把这个净水器发往泰国，走海路，不知道费用怎样计算"
+  },
+  {
+    "time": "2025-12-19 12:45:15",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "亲我们只能寄国内大陆地区哦"
+  },
+  {
+    "time": "2025-12-19 12:45:26",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "这个您可以到手后转邮寄"
+  },
+  {
+    "time": "2025-12-19 12:45:52",
+    "role": "用户",
+    "name": "秋***",
+    "type": "text",
+    "content": "我没有看到你的电源插座"
+  },
+  {
+    "time": "2025-12-19 12:46:37",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "亲是要了解是否需要插电吗"
+  },
+  {
+    "time": "2025-12-19 12:46:59",
+    "role": "用户",
+    "name": "秋***",
+    "type": "text",
+    "content": "是的"
+  },
+  {
+    "time": "2025-12-19 12:47:43",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "都是需要插电的，咱们这个是有哪个直饮水的"
+  },
+  {
+    "time": "2025-12-19 12:48:23",
+    "role": "用户",
+    "name": "秋***",
+    "type": "text",
+    "content": "我从你的产品的外观上没有看到有电源的那个插口"
+  },
+  {
+    "time": "2025-12-19 12:48:47",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "因为这个插口再机器后面的嘛"
+  },
+  {
+    "time": "2025-12-19 12:49:02",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "拍产品图的时候没有拍到"
+  },
+  {
+    "time": "2025-12-19 12:49:23",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "这边有哪个小海豚3的实拍图"
+  },
+  {
+    "time": "2025-12-19 12:49:39",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2025-12-19/ae652db1-74da-4226-9ca9-4388b81d7389.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-19 13:00:55",
+    "role": "用户",
+    "name": "秋***",
+    "type": "text",
+    "content": "[玫瑰]"
+  },
+  {
+    "time": "2025-12-19 13:00:59",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "[动画表情]"
+  }
+]

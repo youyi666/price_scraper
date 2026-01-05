@@ -1,0 +1,247 @@
+[
+  {
+    "time": "2025-12-13 16:43:50",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[常见问题列表]"
+  },
+  {
+    "time": "2025-12-13 16:43:51",
+    "role": "用户",
+    "name": "韦***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610&_oak_rcto=YWIcPJA_tbXluiq7fM98B0MpYRV5IN72cQ1fHJIeODC5ZKkkzntrUZGR6cpVxw8bemQ&page_from=63&_oc_refer_ad=0&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2025-12-13 16:44:00",
+    "role": "用户",
+    "name": "韦***",
+    "type": "text",
+    "content": "几个滤芯，都用多久"
+  },
+  {
+    "time": "2025-12-13 16:44:00",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-13 16:44:11",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "消费者催促您，请尽快回复！"
+  },
+  {
+    "time": "2025-12-13 16:44:16",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "您好有什么可以帮到您~"
+  },
+  {
+    "time": "2025-12-13 16:44:28",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "这款机器是两个滤芯的"
+  },
+  {
+    "time": "2025-12-13 16:44:35",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2025-12-13/7f791ad2-ba8e-4796-849d-a5746a281105.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-13 16:48:10",
+    "role": "用户",
+    "name": "韦***",
+    "type": "text",
+    "content": "ppc滤芯有链接么"
+  },
+  {
+    "time": "2025-12-13 16:49:20",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "有的亲~"
+  },
+  {
+    "time": "2025-12-13 16:49:25",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=232467205433"
+  },
+  {
+    "time": "2025-12-19 09:07:31",
+    "role": "用户",
+    "name": "韦***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610&_oak_rcto=YWLC56Ku4tKbcSq7fM98B0MpYRV5IN72cQ39eLxMMIItNoD74hDKtuRo&page_from=63&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2025-12-19 09:07:33",
+    "role": "用户",
+    "name": "韦***",
+    "type": "text",
+    "content": "多久发货"
+  },
+  {
+    "time": "2025-12-19 09:07:34",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-19 09:07:55",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "亲这款是预售产品哦~20号发货的~"
+  },
+  {
+    "time": "2025-12-28 14:53:29",
+    "role": "用户",
+    "name": "韦***",
+    "type": "text",
+    "content": "订单编号:251213-554455559773888"
+  },
+  {
+    "time": "2025-12-28 14:53:36",
+    "role": "用户",
+    "name": "韦***",
+    "type": "text",
+    "content": "这个安装包含拆旧么"
+  },
+  {
+    "time": "2025-12-28 14:53:46",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "如您家是有净水器需要拆旧的，云米品牌净水器会提供免费拆旧哦，如非云米品牌产品拆旧费用 30 元/台左右呢，（每个客户的装修环境不同，这个具体所费用要师傅到了现场确认哦）"
+  },
+  {
+    "time": "2025-12-28 14:54:02",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "亲亲，请您稍等，客服帮您转接专业售后客服，转接之后您跟咱们售后同事描述下您遇到的问题哦~"
+  },
+  {
+    "time": "2025-12-28 14:54:06",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "viomi小仙女 将该会话转移给 viomi英英sk，请及时处理"
+  },
+  {
+    "time": "2025-12-28 14:54:15",
+    "role": "客服",
+    "name": "viomi英英sk",
+    "type": "text",
+    "content": "小云朵，电热水器云米品牌产品拆旧免费，非云米品牌产品拆旧费用一般是30~50左右哦，每个客户的装修环境不同，这个具体所费用要师傅到了现场确认哦~"
+  },
+  {
+    "time": "2025-12-28 15:00:11",
+    "role": "客服",
+    "name": "viomi英英sk",
+    "type": "text",
+    "content": "发错了哈，抱歉的"
+  },
+  {
+    "time": "2025-12-28 15:00:14",
+    "role": "客服",
+    "name": "viomi英英sk",
+    "type": "text",
+    "content": "关于净水器拆旧，如您拆的净水器是云米品牌产品，是免费拆旧的哈 非云米品牌产品拆旧需自费30元/台 左右呢，（每个客户的装修环境不同，这个具体所费用要师傅到了现场确认哦）"
+  },
+  {
+    "time": "2025-12-28 15:00:16",
+    "role": "客服",
+    "name": "viomi英英sk",
+    "type": "text",
+    "content": "不包拆旧的呢"
+  },
+  {
+    "time": "2025-12-29 11:55:53",
+    "role": "用户",
+    "name": "韦***",
+    "type": "text",
+    "content": "这个使用的话，还需要放一杯水么，还是直接能喝"
+  },
+  {
+    "time": "2025-12-29 11:55:53",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-29 11:56:16",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "亲亲，请您稍等，客服帮您转接专业售后客服，转接之后您跟咱们售后同事描述下您遇到的问题哦~"
+  },
+  {
+    "time": "2025-12-29 11:56:21",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "viomi小仙女 将该会话转移给 viomi莉莉sk，请及时处理"
+  },
+  {
+    "time": "2025-12-29 11:56:33",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "是的呢亲亲"
+  },
+  {
+    "time": "2025-12-29 11:56:43",
+    "role": "用户",
+    "name": "韦***",
+    "type": "text",
+    "content": "直接能喝水了啊"
+  },
+  {
+    "time": "2025-12-29 11:56:45",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "比较久没有使用需要放一会水哦"
+  },
+  {
+    "time": "2025-12-29 11:56:55",
+    "role": "用户",
+    "name": "韦***",
+    "type": "text",
+    "content": "好的"
+  },
+  {
+    "time": "2025-12-29 11:57:06",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "嗯嗯"
+  },
+  {
+    "time": "2025-12-29 12:07:38",
+    "role": "用户",
+    "name": "韦***",
+    "type": "text",
+    "content": "这个能接入米家么"
+  },
+  {
+    "time": "2025-12-29 12:07:56",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "不支持联网呢"
+  }
+]

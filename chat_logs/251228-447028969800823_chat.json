@@ -1,0 +1,422 @@
+[
+  {
+    "time": "2025-12-19 10:43:41",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[常见问题列表]"
+  },
+  {
+    "time": "2025-12-22 21:10:16",
+    "role": "用户",
+    "name": "帝***",
+    "type": "text",
+    "content": "你好，这个货品什么时候帮我过来安装？已经收到了"
+  },
+  {
+    "time": "2025-12-22 21:10:24",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "在的"
+  },
+  {
+    "time": "2025-12-22 21:10:27",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "viomi小可爱 将该会话转移给 viomi英英sk，请及时处理"
+  },
+  {
+    "time": "2025-12-22 21:10:37",
+    "role": "客服",
+    "name": "viomi英英sk",
+    "type": "text",
+    "content": "小云朵，收到货后需要预约安装的话可以通过云米商城app进行预约安装，预约成功后会为您安排师傅上门的哦~后续有什么问题也都可以随时联系我们在线客服哦~"
+  },
+  {
+    "time": "2025-12-22 21:10:39",
+    "role": "客服",
+    "name": "viomi英英sk",
+    "type": "image",
+    "content": "https://t00img.yangkeduo.com/chat/images/2025-12-22/53736b39-7bd0-4fd6-a7dc-85f25ad6341c.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-22 21:11:00",
+    "role": "用户",
+    "name": "帝***",
+    "type": "text",
+    "content": "是需要下载哪个app？"
+  },
+  {
+    "time": "2025-12-22 21:11:04",
+    "role": "客服",
+    "name": "viomi英英sk",
+    "type": "text",
+    "content": "您要预约麻烦提供一下详细的地址（务必准确填写省市区到门牌号）和姓名电话号码哦"
+  },
+  {
+    "time": "2025-12-22 21:11:08",
+    "role": "客服",
+    "name": "viomi英英sk",
+    "type": "text",
+    "content": "这边客服可以预约的哈"
+  },
+  {
+    "time": "2025-12-26 23:25:41",
+    "role": "用户",
+    "name": "帝***",
+    "type": "text",
+    "content": "你好，在吗？"
+  },
+  {
+    "time": "2025-12-26 23:25:42",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-26 23:25:59",
+    "role": "用户",
+    "name": "帝***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610&_oak_rcto=YWIm5VLcYycIDTXbQnHktF9IsymQfLv4P9SwJ-RdXAlNaDq_FPr3C9rxk74J5AzG6QI&page_from=63&_oc_trace_mark=199&_oc_adinfo=eyJwYWdlX3NuIjoxMDAwMSwic2NlbmVfaWQiOjI4NX0%3D&_oc_refer_ad=1&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2025-12-26 23:26:06",
+    "role": "用户",
+    "name": "帝***",
+    "type": "text",
+    "content": "我的送的复合滤芯怎么没有"
+  },
+  {
+    "time": "2025-12-26 23:26:13",
+    "role": "用户",
+    "name": "帝***",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-user-v1/2025-12-26/947a77bb-3bf8-4a53-8fd7-1a1c03cedc57.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-26 23:26:27",
+    "role": "用户",
+    "name": "帝***",
+    "type": "text",
+    "content": "这个还外送两支复合滤芯"
+  },
+  {
+    "time": "2025-12-26 23:26:28",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2025-12-26/f4ec3288-865a-457c-87fd-c9b5df0d15b4.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-26 23:26:38",
+    "role": "用户",
+    "name": "帝***",
+    "type": "text",
+    "content": "我怎么没有收到？"
+  },
+  {
+    "time": "2025-12-26 23:26:41",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "小主您买的是标配两只的呢"
+  },
+  {
+    "time": "2025-12-26 23:26:42",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "小主，请您稍等，客服帮您转接专业售后客服，转接之后您跟咱们售后同事描述下您遇到的问题哦~"
+  },
+  {
+    "time": "2025-12-26 23:26:46",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "viomi小甜心 将该会话转移给 viomi范范sk，请及时处理"
+  },
+  {
+    "time": "2025-12-26 23:26:50",
+    "role": "客服",
+    "name": "viomi范范sk",
+    "type": "text",
+    "content": "[动画表情]"
+  },
+  {
+    "time": "2025-12-26 23:26:57",
+    "role": "用户",
+    "name": "帝***",
+    "type": "text",
+    "content": "那同样的价格，为什么他送的我不送？"
+  },
+  {
+    "time": "2025-12-26 23:27:08",
+    "role": "用户",
+    "name": "帝***",
+    "type": "text",
+    "content": "你们这还保价"
+  },
+  {
+    "time": "2025-12-26 23:27:43",
+    "role": "客服",
+    "name": "viomi范范sk",
+    "type": "image",
+    "content": "https://t00img.yangkeduo.com/chat/images/2025-12-26/60c7cdc4-5bb5-4343-ae93-8a8bb30c3a65.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-26 23:29:02",
+    "role": "用户",
+    "name": "帝***",
+    "type": "text",
+    "content": "复合滤芯是哪个型号"
+  },
+  {
+    "time": "2025-12-26 23:29:18",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "viomi范范sk 将该会话转移给 viomi小甜心，请及时处理"
+  },
+  {
+    "time": "2025-12-26 23:29:49",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "小主小海豚3滤芯暂时存货哈"
+  },
+  {
+    "time": "2025-12-26 23:30:38",
+    "role": "用户",
+    "name": "帝***",
+    "type": "text",
+    "content": "？？"
+  },
+  {
+    "time": "2025-12-26 23:31:01",
+    "role": "用户",
+    "name": "帝***",
+    "type": "text",
+    "content": "江苏省常州市武进区湖塘镇金堤花苑7栋乙单元1202"
+  },
+  {
+    "time": "2025-12-26 23:31:06",
+    "role": "用户",
+    "name": "帝***",
+    "type": "text",
+    "content": "帮我预约过来安装吧"
+  },
+  {
+    "time": "2025-12-26 23:32:05",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "小主，请您稍等，客服帮您转接专业售后客服，转接之后您跟咱们售后同事描述下您遇到的问题哦~"
+  },
+  {
+    "time": "2025-12-26 23:32:09",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "viomi小甜心 将该会话转移给 viomi范范sk，请及时处理"
+  },
+  {
+    "time": "2025-12-26 23:32:31",
+    "role": "客服",
+    "name": "viomi范范sk",
+    "type": "text",
+    "content": "还需要手机号哦"
+  },
+  {
+    "time": "2025-12-26 23:37:25",
+    "role": "用户",
+    "name": "帝***",
+    "type": "text",
+    "content": "13401387680"
+  },
+  {
+    "time": "2025-12-26 23:37:38",
+    "role": "客服",
+    "name": "viomi范范sk",
+    "type": "text",
+    "content": "OK"
+  },
+  {
+    "time": "2025-12-26 23:37:42",
+    "role": "客服",
+    "name": "viomi范范sk",
+    "type": "text",
+    "content": "预约成功后~~师傅会在48小时内联系您跟您确认上门时间~您等师傅电话就就好~具体时间您也可以跟师傅预约的哈~"
+  },
+  {
+    "time": "2025-12-26 23:45:44",
+    "role": "用户",
+    "name": "帝***",
+    "type": "text",
+    "content": "好的，谢谢"
+  },
+  {
+    "time": "2025-12-26 23:45:49",
+    "role": "客服",
+    "name": "viomi范范sk",
+    "type": "text",
+    "content": "嗯嗯"
+  },
+  {
+    "time": "2025-12-28 16:02:30",
+    "role": "用户",
+    "name": "帝***",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-user-v1/2025-12-28/343117ec-2b96-46f6-acb7-489ccd93616b.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-28 16:02:31",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-28 16:02:36",
+    "role": "用户",
+    "name": "帝***",
+    "type": "text",
+    "content": "我这刚买完，你们这边就降价。"
+  },
+  {
+    "time": "2025-12-28 16:02:57",
+    "role": "客服",
+    "name": "viomi范范sk",
+    "type": "text",
+    "content": "亲~这边是保价30天的呢~您看您的订单有差价的话麻烦您下单新的订单~不要付款~津贴，赠品，限时时抢购或秒杀类降价不在保价范围哦））"
+  },
+  {
+    "time": "2025-12-28 16:03:15",
+    "role": "用户",
+    "name": "帝***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610&_oak_rcto=YWLhzKoTMQXwIDXbQnHktF9IsymQfLv4P9T-xfH3XLFCjp_LRwVx58_5DnfRbpb3KsU&page_from=63&_oc_trace_mark=199&_oc_adinfo=eyJwYWdlX3NuIjoxMDAzMiwic2NlbmVfaWQiOjI4N30%3D&_oc_refer_ad=1&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2025-12-28 16:03:23",
+    "role": "客服",
+    "name": "viomi范范sk",
+    "type": "text",
+    "content": "麻烦拍下哦亲亲"
+  },
+  {
+    "time": "2025-12-28 16:04:34",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "申请发票"
+  },
+  {
+    "time": "2025-12-28 16:04:41",
+    "role": "客服",
+    "name": "viomi范范sk",
+    "type": "text",
+    "content": "您可以查看下您的发票详情：个人中心-点击头像-找到“我的发票助手”查看开票进度/申请发票"
+  },
+  {
+    "time": "2025-12-28 16:05:26",
+    "role": "用户",
+    "name": "帝***",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-user-v1/2025-12-28/c51d6da6-fe8b-4a8a-9455-0caf54b3c49b.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-28 16:05:31",
+    "role": "用户",
+    "name": "帝***",
+    "type": "text",
+    "content": "我已经拍下"
+  },
+  {
+    "time": "2025-12-28 16:05:39",
+    "role": "客服",
+    "name": "viomi范范sk",
+    "type": "text",
+    "content": "收到"
+  },
+  {
+    "time": "2025-12-28 16:05:46",
+    "role": "用户",
+    "name": "帝***",
+    "type": "text",
+    "content": "我款都已经付过了。"
+  },
+  {
+    "time": "2025-12-28 16:06:11",
+    "role": "用户",
+    "name": "帝***",
+    "type": "text",
+    "content": "你这边是我是退了重新发新的，还是你这边给我退差价？"
+  },
+  {
+    "time": "2025-12-28 16:06:12",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "为保障您的购物权益和资金安全，请联系商家客服使用小额打款或小额收款。请勿在其他平台与商家进行资金往来！"
+  },
+  {
+    "time": "2025-12-28 16:06:23",
+    "role": "客服",
+    "name": "viomi范范sk",
+    "type": "text",
+    "content": "收到"
+  },
+  {
+    "time": "2025-12-28 16:06:35",
+    "role": "客服",
+    "name": "viomi范范sk",
+    "type": "text",
+    "content": "499-498.9=0.1"
+  },
+  {
+    "time": "2025-12-28 16:06:37",
+    "role": "客服",
+    "name": "viomi范范sk",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2025-12-28/602db885-8855-4f1b-b424-28c582cabe8f.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-28 16:06:48",
+    "role": "客服",
+    "name": "viomi范范sk",
+    "type": "text",
+    "content": "（按实付款计算的哦，平台优惠券，购物津贴，赠品，限时时抢购或秒杀类降价不在保价范围哦））"
+  },
+  {
+    "time": "2025-12-28 16:57:57",
+    "role": "用户",
+    "name": "帝***",
+    "type": "text",
+    "content": "那按你这样说的话我就直接把这原来退了然后直接买个新的不就得"
+  },
+  {
+    "time": "2025-12-28 16:58:15",
+    "role": "用户",
+    "name": "帝***",
+    "type": "text",
+    "content": "对于我的理解来说，我就是根据我实际支付的金额。"
+  },
+  {
+    "time": "2025-12-28 16:58:19",
+    "role": "客服",
+    "name": "viomi范范sk",
+    "type": "text",
+    "content": "关于七天无理由退换货：自买家签收商品后的次日零时开始起算，满168小时为7天。买家签收商品时间以物流签收时间为准），且符合以下条件： 1）不影商品完好； 2）保证产品外包装、配件、赠品等完整； 3）提供产品图片、外包装图片； 4）如有赠品、发票，连同赠品、发票一起寄回； 5）保证产品完好，如运输途中发生破损将无法进行退换货； 6）使用过的产品一律不退换； 7）退回运费由买家承担，不支持到付及自提。 8）按照图例要求提供图片核实申请"
+  },
+  {
+    "time": "2025-12-28 16:58:21",
+    "role": "客服",
+    "name": "viomi范范sk",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2025-12-28/95a1fab3-1126-4c70-98ec-907ba25d3e31.jpeg?imageMogr2/thumbnail/800x800"
+  }
+]

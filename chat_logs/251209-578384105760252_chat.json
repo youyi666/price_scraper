@@ -1,0 +1,135 @@
+[
+  {
+    "time": "2025-12-09 20:18:46",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[常见问题列表]"
+  },
+  {
+    "time": "2025-12-09 20:18:48",
+    "role": "用户",
+    "name": "飞***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610&_oak_rcto=YWL_iDL8s1VIYlIDk4w9DwkN9CzQMClZGoSwJ-RdXAlNaDPJgGrLlxChP58SkEUOqA8&page_from=63&_oc_trace_mark=199&_oc_adinfo=eyJwYWdlX3NuIjoxMDAwMiwic2NlbmVfaWQiOjUwNn0%3D&_oc_refer_ad=1&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2025-12-09 20:19:03",
+    "role": "用户",
+    "name": "飞***",
+    "type": "text",
+    "content": "这是滤芯还是整机"
+  },
+  {
+    "time": "2025-12-09 20:19:03",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-09 20:19:15",
+    "role": "客服",
+    "name": "viomi洁洁",
+    "type": "text",
+    "content": "机器"
+  },
+  {
+    "time": "2025-12-09 20:20:05",
+    "role": "用户",
+    "name": "飞***",
+    "type": "text",
+    "content": "滤芯多久一换"
+  },
+  {
+    "time": "2025-12-09 20:20:21",
+    "role": "客服",
+    "name": "viomi洁洁",
+    "type": "text",
+    "content": "一年和五年"
+  },
+  {
+    "time": "2025-12-09 20:20:36",
+    "role": "用户",
+    "name": "飞***",
+    "type": "text",
+    "content": "一年滤芯的链接发来看看"
+  },
+  {
+    "time": "2025-12-09 20:21:01",
+    "role": "客服",
+    "name": "viomi洁洁",
+    "type": "text",
+    "content": "新品滤芯链接暂时还没有呢"
+  },
+  {
+    "time": "2025-12-09 20:21:07",
+    "role": "用户",
+    "name": "飞***",
+    "type": "text",
+    "content": "价格呢"
+  },
+  {
+    "time": "2025-12-09 20:21:12",
+    "role": "客服",
+    "name": "viomi洁洁",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2025-12-09/817dbb6d-ced9-4814-b6d3-417eafafdf82.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-09 20:21:44",
+    "role": "用户",
+    "name": "飞***",
+    "type": "text",
+    "content": "[OK]"
+  },
+  {
+    "time": "2025-12-09 20:21:49",
+    "role": "客服",
+    "name": "viomi洁洁",
+    "type": "text",
+    "content": "嗯呢"
+  },
+  {
+    "time": "2025-12-23 09:44:55",
+    "role": "用户",
+    "name": "飞***",
+    "type": "text",
+    "content": "你好快递收到了，什么时候后安排安装"
+  },
+  {
+    "time": "2025-12-23 09:45:02",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "小主，请您稍等，客服帮您转接专业售后客服，转接之后您跟咱们售后同事描述下您遇到的问题哦~"
+  },
+  {
+    "time": "2025-12-23 09:45:08",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "viomi小云朵 将该会话转移给 viomi慧慧sk，请及时处理"
+  },
+  {
+    "time": "2025-12-23 09:45:14",
+    "role": "客服",
+    "name": "viomi慧慧sk",
+    "type": "text",
+    "content": "您要预约安装的话麻烦提供一下详细的地址（务必准确填写省市区到门牌号）和姓名电话号码哦~"
+  },
+  {
+    "time": "2025-12-23 09:46:48",
+    "role": "用户",
+    "name": "飞***",
+    "type": "text",
+    "content": "李先生18222467480 天津市天津市津南区 南环路春福里津九轩7号楼2门1802"
+  },
+  {
+    "time": "2025-12-23 09:47:00",
+    "role": "客服",
+    "name": "viomi慧慧sk",
+    "type": "text",
+    "content": "预约后，师傅会在48小时内联系您跟您确认上门时间，您等师傅电话就就好，具体时间您也可以跟师傅预约"
+  }
+]

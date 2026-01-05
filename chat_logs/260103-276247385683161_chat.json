@@ -1,0 +1,128 @@
+[
+  {
+    "time": "2026-01-03 22:57:21",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[常见问题列表]"
+  },
+  {
+    "time": "2026-01-03 22:57:22",
+    "role": "用户",
+    "name": "塑***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610&_oak_rcto=YWJNRtKfUek-CRs_VRXBricMqQsxuKJZkKw2xumzUiKYkZ_HLV4RpMru&page_from=63&_oc_trace_mark=199&_oc_adinfo=eyJwYWdlX3NuIjoxMDAwMSwic2NlbmVfaWQiOjI4NX0%3D&_oc_refer_ad=1&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2026-01-03 22:57:28",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "小云朵您好，在的呢~很高兴为您服务，请问有什么可以帮到您的呢~"
+  },
+  {
+    "time": "2026-01-03 22:57:45",
+    "role": "用户",
+    "name": "塑***",
+    "type": "text",
+    "content": "滤芯多久换"
+  },
+  {
+    "time": "2026-01-03 22:57:45",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2026-01-03 22:57:54",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "这款净水机包含两根滤芯，一根复合滤芯（1年左右更换），一根RO滤芯（5年左右更换）"
+  },
+  {
+    "time": "2026-01-03 22:58:01",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "【小海豚3净水器】纳斯达克上市品牌全球平台国内新品首发~ 【一净到底】6级纯物理过滤，去除重金属守护孩子成长 【一机守护】 0阻垢剂不含双酚A，孕妈宝宝安心喝 【一触即饮】4秒就能接满一杯水，随时开怀畅饮 【一芯五年】5年长效RO滤芯，用得久真省芯 【一按换芯】弹扣式一按一拿，爸妈也能轻松换芯"
+  },
+  {
+    "time": "2026-01-03 23:02:22",
+    "role": "用户",
+    "name": "塑***",
+    "type": "text",
+    "content": "会提换滤芯吗"
+  },
+  {
+    "time": "2026-01-03 23:02:35",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "在的"
+  },
+  {
+    "time": "2026-01-03 23:02:44",
+    "role": "用户",
+    "name": "塑***",
+    "type": "text",
+    "content": "会提换滤芯吗"
+  },
+  {
+    "time": "2026-01-03 23:02:48",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "不太明白您的意思"
+  },
+  {
+    "time": "2026-01-03 23:02:53",
+    "role": "用户",
+    "name": "塑***",
+    "type": "text",
+    "content": "提示"
+  },
+  {
+    "time": "2026-01-03 23:03:03",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "会的呢"
+  },
+  {
+    "time": "2026-01-03 23:03:08",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "净水器会亮灯的"
+  },
+  {
+    "time": "2026-01-03 23:04:29",
+    "role": "用户",
+    "name": "塑***",
+    "type": "text",
+    "content": "出水达到多少"
+  },
+  {
+    "time": "2026-01-03 23:04:47",
+    "role": "用户",
+    "name": "塑***",
+    "type": "text",
+    "content": "800g还是1000g"
+  },
+  {
+    "time": "2026-01-03 23:04:57",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "600G"
+  },
+  {
+    "time": "2026-01-03 23:05:05",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2026-01-03/93332504-cf9b-454d-b654-620f8c558d4b.png?imageMogr2/thumbnail/800x800"
+  }
+]

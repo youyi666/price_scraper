@@ -1,0 +1,499 @@
+[
+  {
+    "time": "2025-12-14 14:58:00",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[常见问题列表]"
+  },
+  {
+    "time": "2025-12-14 14:58:04",
+    "role": "用户",
+    "name": "诚***",
+    "type": "text",
+    "content": "包安装吗"
+  },
+  {
+    "time": "2025-12-14 14:58:04",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-14 14:58:12",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "小云朵，净水器商品和随商品一起发货的标配配件免费上门安装1次哦，免费安装不涉及橱柜改造、下水管改造、电源改造、拆旧等。 ☞龙头安装开孔可参考以下开孔费用~自备辅材收取人工服务费 30 元/次"
+  },
+  {
+    "time": "2025-12-14 14:58:20",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2025-12-14/728ee1cb-1a75-4f16-9fe7-9f3d8b88cff3.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-14 14:58:33",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "新品首发 Viomi云米 净水器小海豚3 ①首发价499 ②晒图送1年延保 ③免费安装 快来抢购吧~"
+  },
+  {
+    "time": "2025-12-14 15:03:05",
+    "role": "用户",
+    "name": "诚***",
+    "type": "text",
+    "content": "直饮水"
+  },
+  {
+    "time": "2025-12-14 15:03:08",
+    "role": "用户",
+    "name": "诚***",
+    "type": "text",
+    "content": "保修多久"
+  },
+  {
+    "time": "2025-12-14 15:03:15",
+    "role": "用户",
+    "name": "诚***",
+    "type": "text",
+    "content": "滤芯更换价格多少，"
+  },
+  {
+    "time": "2025-12-14 15:03:29",
+    "role": "用户",
+    "name": "诚***",
+    "type": "text",
+    "content": "正常多久更换"
+  },
+  {
+    "time": "2025-12-14 15:03:39",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "在的"
+  },
+  {
+    "time": "2025-12-14 15:03:43",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "直饮水的呢"
+  },
+  {
+    "time": "2025-12-14 15:03:49",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "小海豚600g+净水器/SE 600G+净水器整机保修1年~ ★质保期内出现非人为的产品质量问题，经云米技术人员核实确认后可享受以换代修服务"
+  },
+  {
+    "time": "2025-12-14 15:04:03",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2025-12-14/27855662-74f5-4dcf-9833-a98087cb6dc4.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-14 15:04:10",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "净水器整机保修1年~ ★质保期内出现非人为的产品质量问题，经云米技术人员核实确认后可享受以换代修服务"
+  },
+  {
+    "time": "2025-12-14 15:37:13",
+    "role": "用户",
+    "name": "诚***",
+    "type": "text",
+    "content": "有优惠券吗"
+  },
+  {
+    "time": "2025-12-14 15:37:14",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-14 15:37:21",
+    "role": "用户",
+    "name": "诚***",
+    "type": "text",
+    "content": "这个能叠加什么优惠"
+  },
+  {
+    "time": "2025-12-14 15:37:32",
+    "role": "用户",
+    "name": "诚***",
+    "type": "text",
+    "content": "有送什么东西"
+  },
+  {
+    "time": "2025-12-14 15:37:45",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "小云朵您好，在的呢~很高兴为您服务，请问有什么可以帮到您的呢~"
+  },
+  {
+    "time": "2025-12-14 15:38:23",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "新品首发 Viomi云米 净水器小海豚3 ①首发价499 ②晒图送1年延保 ③免费安装 快来抢购吧~"
+  },
+  {
+    "time": "2025-12-14 18:48:04",
+    "role": "用户",
+    "name": "诚***",
+    "type": "text",
+    "content": "麻烦售后那边帮我先发货一下"
+  },
+  {
+    "time": "2025-12-14 18:48:06",
+    "role": "用户",
+    "name": "诚***",
+    "type": "text",
+    "content": "我急用"
+  },
+  {
+    "time": "2025-12-14 18:48:13",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "在的"
+  },
+  {
+    "time": "2025-12-14 18:48:17",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "viomi小可爱 将该会话转移给 viomi莉莉sk，请及时处理"
+  },
+  {
+    "time": "2025-12-14 18:48:39",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "小云朵您好，在的呢~很高兴为您服务，请问有什么可以帮到您的呢~！"
+  },
+  {
+    "time": "2025-12-14 18:48:47",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "image",
+    "content": "https://t00img.yangkeduo.com/chat/images/2025-12-14/e0831a99-80f2-44d1-ab66-732168eeda98.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-14 18:49:15",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "预售商品需要等待下仓库那边安排呢亲"
+  },
+  {
+    "time": "2025-12-14 18:49:25",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "着急的话可以看看其它款式的现货哦"
+  },
+  {
+    "time": "2025-12-21 00:43:42",
+    "role": "用户",
+    "name": "诚***",
+    "type": "text",
+    "content": "帮我约上门安装"
+  },
+  {
+    "time": "2025-12-21 08:05:50",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "主账号 将该会话转移给 viomi小仙女，请及时处理"
+  },
+  {
+    "time": "2025-12-21 08:06:54",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "您好有什么可以帮到您~"
+  },
+  {
+    "time": "2025-12-21 08:35:53",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "很抱歉售后客服不在线，售后上班时间是：9:00-22:00，您可以在我们售后在线时间段来咨询，小妹帮您转接哦"
+  },
+  {
+    "time": "2025-12-21 09:02:39",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "viomi小仙女 将该会话转移给 viomi莉莉sk，请及时处理"
+  },
+  {
+    "time": "2025-12-21 09:02:48",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "您要预约的话麻烦提供一下详细的地址（务必准确填写省市区到门牌号）和姓名电话号码哦~"
+  },
+  {
+    "time": "2025-12-21 10:00:23",
+    "role": "用户",
+    "name": "诚***",
+    "type": "text",
+    "content": "福建省泉州市安溪县城厢镇夏丰工艺品公司1号楼4楼 沈先生 13656000051"
+  },
+  {
+    "time": "2025-12-21 10:00:28",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "好的亲"
+  },
+  {
+    "time": "2025-12-21 10:00:28",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "预约后师傅会在48小时内联系您跟您确认上门时间，您等师傅电话就就好，具体时间您也可以跟师傅预约的哈"
+  },
+  {
+    "time": "2025-12-21 10:51:32",
+    "role": "用户",
+    "name": "诚***",
+    "type": "text",
+    "content": "麻烦您催一下师傅或者给我联系方式"
+  },
+  {
+    "time": "2025-12-21 10:51:36",
+    "role": "用户",
+    "name": "诚***",
+    "type": "text",
+    "content": "我急用"
+  },
+  {
+    "time": "2025-12-21 10:51:48",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "没有的哦亲~这边都是预约网点之后师傅主动联系顾客的呢~所以暂时没有师傅的电话的哦~这边已经为您预约的呢~您等师傅电话就好哦~"
+  },
+  {
+    "time": "2025-12-21 10:51:53",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "帮您备注加急下哈"
+  },
+  {
+    "time": "2025-12-21 10:59:17",
+    "role": "用户",
+    "name": "诚***",
+    "type": "text",
+    "content": "好"
+  },
+  {
+    "time": "2025-12-21 10:59:23",
+    "role": "客服",
+    "name": "viomi莉莉sk",
+    "type": "text",
+    "content": "嗯嗯~"
+  },
+  {
+    "time": "2025-12-21 19:12:18",
+    "role": "用户",
+    "name": "诚***",
+    "type": "text",
+    "content": "已晒图"
+  },
+  {
+    "time": "2025-12-21 19:12:20",
+    "role": "客服",
+    "name": "viomi小甜心\n机器人",
+    "type": "text",
+    "content": "亲亲，感谢您的评价，已为您打款3.5元在【微信】中，您可以自行查看~"
+  },
+  {
+    "time": "2025-12-21 19:12:38",
+    "role": "用户",
+    "name": "诚***",
+    "type": "text",
+    "content": "延保是你这边记录吗"
+  },
+  {
+    "time": "2025-12-21 19:13:12",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "小主，请您稍等，客服帮您转接专业售后客服，转接之后您跟咱们售后同事描述下您遇到的问题哦~"
+  },
+  {
+    "time": "2025-12-21 19:13:16",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "viomi小甜心 将该会话转移给 viomi诺诺sk，请及时处理"
+  },
+  {
+    "time": "2025-12-21 19:13:37",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "嗯嗯"
+  },
+  {
+    "time": "2025-12-21 19:13:46",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "提供一下评价记录和您的号码呢"
+  },
+  {
+    "time": "2025-12-21 19:13:52",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "这边帮您登记"
+  },
+  {
+    "time": "2025-12-22 18:49:05",
+    "role": "用户",
+    "name": "诚***",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-user-v1/2025-12-22/6a7b6174-9f96-4774-9ec7-23f9502f7a1b.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-22 18:49:16",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "好的"
+  },
+  {
+    "time": "2025-12-22 18:49:24",
+    "role": "用户",
+    "name": "诚***",
+    "type": "text",
+    "content": "问一下那个水龙头下面的直径是多少公分"
+  },
+  {
+    "time": "2025-12-22 18:49:30",
+    "role": "用户",
+    "name": "诚***",
+    "type": "text",
+    "content": "我要买个挂墙上"
+  },
+  {
+    "time": "2025-12-22 18:49:35",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "消费者催促您，请尽快回复！"
+  },
+  {
+    "time": "2025-12-22 18:49:54",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "这边看看呢"
+  },
+  {
+    "time": "2025-12-22 18:50:02",
+    "role": "用户",
+    "name": "诚***",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-user-v1/2025-12-22/22e19434-bb64-461c-b39d-ecb0a6ad4f3e.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-22 18:50:11",
+    "role": "用户",
+    "name": "诚***",
+    "type": "text",
+    "content": "麻烦问一下"
+  },
+  {
+    "time": "2025-12-22 18:50:13",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2025-12-22/5c3f9baf-2889-44f7-9aeb-bbcd23378ead.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-22 18:50:35",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "螺纹是25mm~30mm这样呢"
+  },
+  {
+    "time": "2025-12-22 18:50:42",
+    "role": "用户",
+    "name": "诚***",
+    "type": "text",
+    "content": "好"
+  },
+  {
+    "time": "2025-12-22 18:50:46",
+    "role": "客服",
+    "name": "viomi诺诺sk",
+    "type": "text",
+    "content": "嗯嗯"
+  },
+  {
+    "time": "2025-12-26 21:07:57",
+    "role": "用户",
+    "name": "诚***",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-user-v1/2025-12-26/f916283e-6eca-4275-bb87-9ed5e157fca0.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-26 21:08:03",
+    "role": "用户",
+    "name": "诚***",
+    "type": "text",
+    "content": "这个要怎么拆开"
+  },
+  {
+    "time": "2025-12-26 21:08:11",
+    "role": "用户",
+    "name": "诚***",
+    "type": "text",
+    "content": "我要装挂壁的卡扣"
+  },
+  {
+    "time": "2025-12-26 21:08:21",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "小主，请您稍等，客服帮您转接专业售后客服，转接之后您跟咱们售后同事描述下您遇到的问题哦~"
+  },
+  {
+    "time": "2025-12-26 21:08:24",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "viomi小甜心 将该会话转移给 viomi范范sk，请及时处理"
+  },
+  {
+    "time": "2025-12-26 21:08:42",
+    "role": "客服",
+    "name": "viomi范范sk",
+    "type": "text",
+    "content": "这边问问技术哈"
+  },
+  {
+    "time": "2025-12-26 21:08:54",
+    "role": "客服",
+    "name": "viomi范范sk",
+    "type": "text",
+    "content": "您明天有空进线问问结果呢"
+  }
+]

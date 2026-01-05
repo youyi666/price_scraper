@@ -1,0 +1,93 @@
+[
+  {
+    "time": "2025-12-20 16:47:59",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[常见问题列表]"
+  },
+  {
+    "time": "2025-12-20 16:48:00",
+    "role": "用户",
+    "name": "-***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610&_oak_rcto=YWI0mXhYMlXVgVA0NahEzNmDP2CZgFyGCOD9Zo9aw4ZsNB3fgcE7LD01&page_from=63&_oc_trace_mark=199&_oc_adinfo=eyJwYWdlX3NuIjoxMDAxNSwic2NlbmVfaWQiOjJ9&_oc_refer_ad=1&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2025-12-20 16:48:10",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "您好有什么可以帮到您~"
+  },
+  {
+    "time": "2025-12-20 16:48:22",
+    "role": "用户",
+    "name": "-***",
+    "type": "text",
+    "content": "这款滤芯多久换，什么价格"
+  },
+  {
+    "time": "2025-12-20 16:48:23",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2025-12-20 16:48:42",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2025-12-20/54f153fe-b0a9-4a8d-a2ea-98199a79b6d9.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2025-12-20 16:48:43",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "亲这个哦~"
+  },
+  {
+    "time": "2025-12-20 16:52:51",
+    "role": "用户",
+    "name": "-***",
+    "type": "text",
+    "content": "是需要插电吗"
+  },
+  {
+    "time": "2025-12-20 16:53:06",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "需要插电的亲~"
+  },
+  {
+    "time": "2025-12-20 16:53:10",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "云米净水器安装条件： 【水源】需为市政自来水，且自来水管道的角阀需是4分外螺纹接口 【水压】要求0.1MPa~0.4MPa，如不满足需自行安装增压泵或减压阀 【排水】安装位置附近需留有下水管道排废水，同时管道不能被堵塞 【空间】橱柜下方需预留足够的空间放置机器 【电源】橱柜附近1米以内要有220v交流电的2孔10A插座 【开孔】台面需预留孔径Ø25~30mm的圆孔，不锈钢、木板、亚克力台面提供免费"
+  },
+  {
+    "time": "2025-12-20 16:53:51",
+    "role": "用户",
+    "name": "-***",
+    "type": "text",
+    "content": "可以装墙上吗"
+  },
+  {
+    "time": "2025-12-20 16:54:06",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "可以的"
+  },
+  {
+    "time": "2025-12-20 16:54:23",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "安装的话可以跟师父这边说的"
+  }
+]
