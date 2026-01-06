@@ -389,13 +389,13 @@ async function runJD() {
                 Main_Image_URL: savedImagePath
             });
             
-            // [迭代新增] 随机大间隔：每 10 个任务额外休息 5-10 秒，缓解风控压力
-            if (index > 0 && index % 10 === 0) {
-                const restTime = Math.floor(Math.random() * 5000) + 5000;
-                console.log(`   ☕ 已连续处理10件，随机休息 ${restTime/1000}s...`);
+            // [迭代新增] 随机大间隔：每 8 个任务额外休息 5-10 秒，缓解风控压力
+            if (index > 0 && index % 8 === 0) {
+                const restTime = Math.floor(Math.random() * 7000) + 5000;
+                console.log(`   ☕ 已连续处理8件，随机休息 ${restTime/1000}s...`);
                 await workingPage.waitForTimeout(restTime);
             } else {
-                await workingPage.waitForTimeout(2000);
+                await workingPage.waitForTimeout(Math.random() * 2000 + 2000);
             }
         }
 
@@ -1019,59 +1019,209 @@ if (final_price_str !== "Not Found") {
     }
 }
 
+// ================= [全局控制开关] =================
+
+// ★★★ 调试开关区 ★★★
+const RUN_CONFIG = {
+    JD: true,      // 京东开关
+    PDD: true,     // 拼多多开关
+    TAOBAO: true   // 淘系开关
+};
+
+// ================= [阶段四：全局数据修正 (安全时间围栏版)] =================
+
+/**
+ * 读取CSV，智能识别列位置，仅修正【今天】产生的数据
+ */
+async function fixPriceStatus() {
+    console.log(`\n=============================================`);
+    console.log(`⚖️ [阶段四] 启动全局比价修正 (安全时间围栏版)...`);
+    console.log(`=============================================`);
+
+    if (!fs.existsSync(CSV_OUTPUT_PATH)) {
+        console.log("❌ 结果文件不存在，无法修正。");
+        return;
+    }
+
+    // 1. 获取“今天”的日期字符串 (格式 YYYY-MM-DD)
+    // 注意：这里用的是本地时间，确保和脚本抓取的时间一致
+    const today = new Date();
+    const year = today.getFullYear();
+    const month = String(today.getMonth() + 1).padStart(2, '0');
+    const day = String(today.getDate()).padStart(2, '0');
+    const todayStr = `${year}-${month}-${day}`; // 例如 "2026-01-05"
+
+    console.log(`📅 锁定修正范围: 仅处理日期包含 [${todayStr}] 的记录`);
+
+    // 2. 读取文件
+    const fileContent = fs.readFileSync(CSV_OUTPUT_PATH, 'utf8');
+    const lines = fileContent.trim().split('\n');
+    
+    if (lines.length < 2) {
+        console.log("⚠️ CSV记录不足，跳过修正。");
+        return; 
+    }
+
+    const headerLine = lines[0];
+
+    // 3. 简单的 CSV 解析器
+    const parseLine = (line) => {
+        const pattern = /,(?=(?:(?:[^"]*"){2})*[^"]*$)/; 
+        return line.split(pattern).map(v => v.replace(/^"|"$/g, '').trim());
+    };
+
+    // 4. --- 智能侦测列索引 ---
+    let idx_sku = -1;
+    let idx_price = -1;
+    let idx_status = -1;
+    let idx_date = -1; // [新增] 日期列索引
+    let idx_platform = 0;
+
+    // 拿最后一行数据侦测
+    const sampleCols = parseLine(lines[lines.length - 1]); 
+    
+    sampleCols.forEach((val, index) => {
+        if (/^69\d{11}$/.test(val)) idx_sku = index;
+        if (/正常|警报|破价/.test(val)) idx_status = index;
+        // 侦测日期: 包含 "202x-" 且包含 ":"
+        if (val.includes('202') && val.includes(':')) idx_date = index;
+    });
+
+    // 价格推断
+    if (idx_status !== -1) {
+        if (!isNaN(parseFloat(sampleCols[idx_status - 2]))) idx_price = idx_status - 2;
+        else if (!isNaN(parseFloat(sampleCols[idx_status - 1]))) idx_price = idx_status - 1;
+    }
+
+    // 兜底 (根据你的CSV结构)
+    if (idx_sku === -1 || idx_status === -1 || idx_date === -1) {
+        console.log("   ⚠️ 智能识别受限，使用默认列索引...");
+        idx_sku = 3;    // SKU_Identifier
+        idx_price = 5;  // Price
+        idx_status = 7; // Price_Status
+        idx_date = 8;   // Scrape_Date
+    }
+
+    console.log(`   🎯 列索引锁定 -> SKU:[${idx_sku}] | 价格:[${idx_price}] | 状态:[${idx_status}] | 日期:[${idx_date}]`);
+
+    // 5. 解析并筛选【今天】的数据
+    let rows = [];
+    let todayRowsIndices = []; // 记录哪些行属于今天 (方便回写)
+
+    for (let i = 1; i < lines.length; i++) {
+        const cols = parseLine(lines[i]);
+        if (cols.length <= idx_status) continue; 
+        
+        const rowDate = cols[idx_date] || "";
+        const rowSku = String(cols[idx_sku]).trim();
+        const rowPrice = parseFloat(cols[idx_price]);
+        const rowStatus = cols[idx_status];
+        const rowPlatform = cols[idx_platform];
+
+        const rowObj = {
+            rawCols: cols,
+            lineIndex: i, // 记住原始行号
+            sku: rowSku,
+            price: rowPrice,
+            status: rowStatus,
+            platform: rowPlatform,
+            isToday: rowDate.includes(todayStr) // ★ 核心判断：是否是今天的数据
+        };
+
+        rows.push(rowObj);
+    }
+
+    // 6. 仅在【今天】的数据范围内，计算最低价
+    const todaySkuMinPriceMap = {}; 
+    
+    rows.forEach(row => {
+        if (!row.isToday || !row.sku || isNaN(row.price)) return; // 跳过历史数据
+        
+        if (!todaySkuMinPriceMap[row.sku]) {
+            todaySkuMinPriceMap[row.sku] = row.price;
+        } else {
+            if (row.price < todaySkuMinPriceMap[row.sku]) {
+                todaySkuMinPriceMap[row.sku] = row.price;
+            }
+        }
+    });
+
+    // 7. 遍历并修正 (只修正今天的)
+    let fixCount = 0;
+    
+    rows.forEach(row => {
+        // 安全锁：如果不是今天的数据，直接跳过，绝对不改
+        if (!row.isToday) return;
+
+        const isAlert = row.status && row.status.includes('破价'); 
+
+        if (isAlert && todaySkuMinPriceMap[row.sku] !== undefined) {
+            const minPrice = todaySkuMinPriceMap[row.sku];
+
+            // 逻辑：如果 我的价格 > 今天全网最低价
+            // 容差 0.01
+            if (row.price > minPrice + 0.01) {
+                const newStatus = "破价(跟随竞对)";
+                
+                // 修改内存数据
+                row.rawCols[idx_status] = newStatus;
+                
+                console.log(`   🔧 [修正] ${row.platform} (码:${row.sku}) | 现价:${row.price} > 今日最低:${minPrice} -> 改判为:跟随`);
+                fixCount++;
+            }
+        }
+    });
+
+    // 8. 回写文件
+    if (fixCount > 0) {
+        const escapeCsv = (str) => {
+            if (str === null || str === undefined) return "";
+            const s = String(str).replace(/"/g, '""');
+            if (s.search(/("|,|\n|\r)/g) >= 0) return `"${s}"`;
+            return s;
+        };
+
+        // 重新组装内容
+        // 注意：这里 rows 包含了所有数据（历史+今天），但只有今天的 rawCols 被修改了
+        const newContent = [headerLine, ...rows.map(r => r.rawCols.map(escapeCsv).join(','))].join('\n');
+        
+        try {
+            fs.writeFileSync(CSV_OUTPUT_PATH, newContent, 'utf8');
+            console.log(`✅ 修正完成！仅更新了今天 (${todayStr}) 的 ${fixCount} 条记录。`);
+        } catch (e) {
+            console.error(`❌ 文件回写失败: ${e.message}`);
+        }
+    } else {
+        console.log(`✅ 检查完毕，今日数据无需修正。`);
+    }
+}
+
 // ================= [主控制器] =================
 
 async function main() {
-    console.log(`🚀 --- 全平台价格监控脚本启动 (v2.1 Auto-Auth) ---`);
+    console.log(`🚀 --- 全平台价格监控脚本启动 (v2.8 Safe-History) ---`);
     console.log(`📂 结果存储位置: ${CSV_OUTPUT_PATH}`);
+    console.log(`🔧 当前运行模式: JD[${RUN_CONFIG.JD?'开':'关'}] | PDD[${RUN_CONFIG.PDD?'开':'关'}] | TB[${RUN_CONFIG.TAOBAO?'开':'关'}]`);
     
     init_csv_file();
 
-    await runJD();
-    await runPDD();
-    await runTaobao();
+    if (RUN_CONFIG.JD) await runJD();
+    else console.log(`⏭️  [跳过] 京东`);
 
-    console.log(`\n✅ 所有平台任务已结束。请检查 CSV 文件。`);
+    if (RUN_CONFIG.PDD) await runPDD();
+    else console.log(`⏭️  [跳过] 拼多多`);
+
+    if (RUN_CONFIG.TAOBAO) await runTaobao();
+    else console.log(`⏭️  [跳过] 淘宝`);
+
+    console.log(`\n⏳ 所有抓取任务结束，等待文件写入...`);
+    await new Promise(r => setTimeout(r, 1500)); 
+
+    // 执行安全修正
+    await fixPriceStatus();
+
+    console.log(`\n🎉 --- 全部流程执行完毕 ---`);
 }
 
-// ================= [主控制器 (调试优化版)] =================
-
-// ★★★ 调试开关区 ★★★
-// 将需要运行的模块设为 true，不需要的设为 false
-const RUN_CONFIG = {
-    JD: true,      // 京东开关：调试淘宝时设为 false
-    PDD: true,     // 拼多多开关：调试淘宝时设为 false
-    TAOBAO: true    // 淘系开关：调试时设为 true
-};
-
-async function main() {
-    console.log(`🚀 --- 全平台价格监控脚本启动 (v2.3 Debug Mode) ---`);
-    console.log(`📂 结果存储位置: ${CSV_OUTPUT_PATH}`);
-    console.log(`🔧 当前运行模式: JD[${RUN_CONFIG.JD ? '开' : '关'}] | PDD[${RUN_CONFIG.PDD ? '开' : '关'}] | TB[${RUN_CONFIG.TAOBAO ? '开' : '关'}]`);
-    
-    // 初始化CSV文件 (只在第一次运行时检查)
-    init_csv_file();
-
-    // 根据开关决定是否执行
-    if (RUN_CONFIG.JD) {
-        await runJD();
-    } else {
-        console.log(`⏭️  [跳过] 京东任务已在配置中关闭。`);
-    }
-
-    if (RUN_CONFIG.PDD) {
-        await runPDD();
-    } else {
-        console.log(`⏭️  [跳过] 拼多多任务已在配置中关闭。`);
-    }
-
-    if (RUN_CONFIG.TAOBAO) {
-        await runTaobao();
-    } else {
-        console.log(`⏭️  [跳过] 淘系任务已在配置中关闭。`);
-    }
-
-    console.log(`\n✅ 本次选定任务已结束。请检查 CSV 文件。`);
-}
-
+// 执行入口
 main();
