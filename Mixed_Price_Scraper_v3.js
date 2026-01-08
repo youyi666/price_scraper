@@ -1,4 +1,4 @@
-const { chromium } = require('playwright'); // 标准版 (JD/PDD)
+const { chromium } = require('playwright'); // 标准版 (JD/PDD/Youpin)
 const { chromium: chromiumExtra } = require('playwright-extra'); // 增强版 (Taobao)
 const stealth = require('puppeteer-extra-plugin-stealth')();
 chromiumExtra.use(stealth); // 启用隐身插件
@@ -24,6 +24,8 @@ const SCREENSHOT_DIR = path.join(BASE_DIR, 'price_screenshots');
 const TAOBAO_USER_DATA_DIR = path.join(BASE_DIR, 'browser_profiles', 'taobao_store');
 const JD_USER_DATA_DIR     = path.join(BASE_DIR, 'browser_profiles', 'jd_store');
 const PDD_USER_DATA_DIR    = path.join(BASE_DIR, 'browser_profiles', 'pdd_store');
+// [新增] 有品缓存目录
+const YP_USER_DATA_DIR     = path.join(BASE_DIR, 'browser_profiles', 'yp_store');
 
 // 3. [配置文件加载]
 let config;
@@ -343,7 +345,7 @@ async function runJD() {
                                     document.body.appendChild(div);
                             }, watermarkText);
 
-                            const shotName = `${today_str}_JD_${task.barcode}.png`;
+                            const shotName = `${today_str}_YP_${task.barcode}_${Date.now()}.png`;
                             const fullShotPath = path.join(SCREENSHOT_DIR, shotName);
                             
                             // 截图前强制让主商品图区域可见
@@ -1019,23 +1021,224 @@ if (final_price_str !== "Not Found") {
     }
 }
 
+
+// ================= [阶段四：有品模块 (69码文件名对齐 & 截图增强版)] =================
+
+async function runYoupin() {
+    console.log(`\n=============================================`);
+    console.log(`📦 [阶段四] 启动小米有品监控任务 (69码命名对齐版)...`);
+    console.log(`=============================================`);
+
+    const PLATFORM_NAME = "米家有品";
+    const { devices } = require('playwright');
+    const iPhoneXR = devices['iPhone XR'];
+
+    // --- 内部辅助函数：页面清理 ---
+    async function cleanupPage(page) {
+        try {
+            const nuisanceSelectors = ['#lib10-opapp-wrap', '.m-header-download-banner', '.openAppDialog', '.m-detail-back-top'];
+            await page.evaluate((selectors) => {
+                selectors.forEach(selector => {
+                    const el = document.querySelector(selector);
+                    if (el) el.remove();
+                });
+            }, nuisanceSelectors);
+        } catch (error) {}
+    }
+
+    // --- 内部辅助函数：价格抓取 ---
+    async function grabPrice(page) {
+        let priceText = "Not Found";
+        try {
+            const presalePriceLocator = page.locator('[aria-label^="预售到手价"]');
+            const finalPriceLocator = page.locator('[aria-label^="到手价"]');
+            const regularPriceLocator = page.locator('[aria-label^="￥"]');
+
+            let priceAriaLabel = "";
+            if (await presalePriceLocator.count() > 0) {
+                priceAriaLabel = await presalePriceLocator.first().getAttribute('aria-label');
+            } else if (await finalPriceLocator.count() > 0) {
+                priceAriaLabel = await finalPriceLocator.first().getAttribute('aria-label');
+            } else if (await regularPriceLocator.count() > 0) {
+                priceAriaLabel = await regularPriceLocator.first().getAttribute('aria-label');
+            }
+
+            if (priceAriaLabel) {
+                const priceMatch = priceAriaLabel.match(/(\d+(\.\d+)?)/);
+                if (priceMatch) priceText = priceMatch[0];
+            }
+            return priceText;
+        } catch (priceError) { return "Error"; }
+    }
+
+    // 1. 读取任务 (B列=69码/条形码, D列=URL, E列=指令, G列=限价)
+    let yp_tasks = [];
+    try {
+        const workbook = new exceljs.Workbook();
+        await workbook.xlsx.readFile(EXCEL_TASK_FILE_PATH);
+        const worksheet = workbook.worksheets[0];
+
+        let switchColIndex = -1;
+        worksheet.getRow(1).eachCell((cell, colNumber) => {
+            if (cell.text && cell.text.trim() === '[T]') switchColIndex = colNumber;
+        });
+
+        worksheet.eachRow({ includeEmpty: false }, (row, rowNumber) => {
+            if (rowNumber === 1) return;
+            if (switchColIndex !== -1 && row.getCell(switchColIndex).value != 1) return;
+
+            const platform = row.getCell(1).text ? row.getCell(1).text.trim() : '';
+            if (platform !== PLATFORM_NAME && platform !== "有品") return;
+
+            const barcode = row.getCell(2).text ? row.getCell(2).text.trim() : 'N/A'; // Column B (69码)
+            const urlCellValue = row.getCell(4).value; // Column D (URL)
+            const skuInstruction = row.getCell(5).text ? row.getCell(5).text.trim() : ''; // Column E (SKU指令)
+            
+            let finalUrl = (typeof urlCellValue === 'object' && urlCellValue?.hyperlink) ? urlCellValue.hyperlink : urlCellValue;
+            
+            yp_tasks.push({
+                url: finalUrl,
+                barcode: barcode,
+                productName: row.getCell(3).text ? row.getCell(3).text.trim() : 'N/A',
+                skuTask: skuInstruction, 
+                limitPrice: parsePriceToFloat(row.getCell(7).value)
+            });
+        });
+        console.log(`[Youpin] 任务加载完成: ${yp_tasks.length} 条。`);
+    } catch (e) {
+        console.log(`❌ [Youpin] 读取任务失败: ${e.message}`);
+        return;
+    }
+
+    if (yp_tasks.length === 0) return;
+
+    let browser = null;
+    let new_records = [];
+    const today_str = DateTime.now().toFormat('yyyy-MM-dd');
+
+    try {
+        browser = await chromium.launchPersistentContext(YP_USER_DATA_DIR, {
+            channel: 'msedge', headless: HEADLESS_MODE, ...iPhoneXR,
+            args: ['--disable-blink-features=AutomationControlled']
+        });
+        const page = browser.pages()[0];
+        
+        for (let index = 0; index < yp_tasks.length; index++) {
+            const task = yp_tasks[index];
+            if (!task.url) continue;
+
+            console.log(`--- [Youpin] (${index + 1}/${yp_tasks.length}) 69码: ${task.barcode} ---`);
+            
+            try {
+                await page.goto(task.url, { waitUntil: 'domcontentloaded', timeout: 30000 });
+                await cleanupPage(page);
+                await page.waitForTimeout(1000); 
+
+                // 2. 触发 SKU 弹窗
+                const buyBtnSelectors = ['text=/^立即(购买|抢购)$/', 'text="领券购买"', 'text="到货通知"', 'text=/^支付定金/', 'text="加入购物车"', '.m-detail-footer-btns .btn-item'];
+                let isFound = false;
+                for (const selector of buyBtnSelectors) {
+                    const btn = page.locator(selector).first();
+                    if (await btn.isVisible()) {
+                        await btn.scrollIntoViewIfNeeded();
+                        await btn.click({ force: true });
+                        isFound = true; break;
+                    }
+                }
+                if (isFound) await page.waitForTimeout(1500);
+
+                const subTasks = (task.skuTask || '').split(';').map(t => t.trim()).filter(t => t !== '');
+                const currentTasks = subTasks.length > 0 ? subTasks : ['default'];
+
+                for (const currentTaskStr of currentTasks) {
+                    let final_price_str = "Not Found";
+                    let price_status = "未知";
+                    let savedImagePath = "";
+
+                    // 3. 执行 SKU 点击指令
+                    if (currentTaskStr !== 'default') {
+                        for (const step of currentTaskStr.split(',').map(s => s.trim())) {
+                            let targetText = step, targetIndex = 0; 
+                            const match = step.match(/(.+)\[(\d+)\]$/);
+                            if (match) { targetText = match[1].trim(); targetIndex = parseInt(match[2], 10); }
+                            const stepLocator = page.getByText(targetText, { exact: true });
+                            if (await stepLocator.count() > targetIndex) {
+                                await stepLocator.nth(targetIndex).click({ force: true });
+                                await page.waitForTimeout(500);
+                            }
+                        }
+                    }
+
+                    await page.waitForTimeout(800); 
+                    final_price_str = await grabPrice(page);
+
+                    if (final_price_str !== "Not Found" && final_price_str !== "Error") {
+                        const currentVal = parsePriceToFloat(final_price_str);
+                        
+                        // --- 【核心修正】截图命名使用 task.barcode (69码) ---
+                        const shotName = `${today_str}_YP_${task.barcode}_${Date.now()}.png`;
+                        const fullPath = path.join(SCREENSHOT_DIR, shotName);
+                        
+                        let isAlert = false;
+                        if (task.limitPrice && currentVal && currentVal < (task.limitPrice * 0.97)) {
+                            isAlert = true; price_status = "破价警报";
+                            await page.evaluate((info) => {
+                                const div = document.createElement('div'); div.id = 'js-watermark-yp';
+                                Object.assign(div.style, { position: 'fixed', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', padding: '30px', backgroundColor: 'rgba(0, 0, 0, 0.9)', color: '#ff0000', border: '6px solid #ff0000', zIndex: '99999', textAlign: 'center', fontSize: '22px', fontWeight: 'bold' });
+                                div.innerHTML = `⚠️ 破价警报 ⚠️<br><div style="color:white; font-size:16px; margin-top:10px;">69码: ${info.barcode}<br>现价: ${info.price} / 限价: ${info.limit}</div>`;
+                                document.body.appendChild(div);
+                            }, { price: currentVal, limit: task.limitPrice, barcode: task.barcode });
+                        } else if (currentVal && task.limitPrice && currentVal > task.limitPrice) {
+                            price_status = "高价待调整";
+                        } else { price_status = "价格正常"; }
+
+                        await page.screenshot({ path: fullPath });
+                        savedImagePath = fullPath;
+                        if (isAlert) await page.evaluate(() => document.getElementById('js-watermark-yp')?.remove());
+                    }
+
+                    // 4. 数据存入记录 (保持列对齐)
+                    new_records.push({
+                        Platform: "米家有品",
+                        URL: task.url,
+                        Product_Name: task.productName,
+                        SKU_Identifier: task.barcode,      // CSV 第 4 列：69码
+                        True_SKU_Identifier: currentTaskStr, // CSV 第 5 列：点击指令
+                        Price: final_price_str,
+                        Limit_Price: task.limitPrice,
+                        Price_Status: price_status,
+                        Scrape_Date: DateTime.now().toFormat('yyyy-MM-dd HH:mm:ss'),
+                        Main_Image_URL: savedImagePath
+                    });
+                }
+            } catch (err) { console.log(`   [Error] ${err.message.split('\n')[0]}`); }
+        }
+    } finally {
+        if (browser) await browser.close();
+        append_results_to_csv(new_records);
+        console.log(`[Youpin] 阶段任务完成。`);
+    }
+}
+
+
 // ================= [全局控制开关] =================
 
 // ★★★ 调试开关区 ★★★
 const RUN_CONFIG = {
-    JD: true,      // 京东开关
-    PDD: true,     // 拼多多开关
-    TAOBAO: true   // 淘系开关
+    JD: false,      // 京东开关
+    PDD: false,     // 拼多多开关
+    TAOBAO: false,  // 淘系开关
+    YOUPIN: true   // [新增] 有品开关
 };
 
-// ================= [阶段四：全局数据修正 (安全时间围栏版)] =================
+// ================= [阶段五：全局数据修正 (安全时间围栏版)] =================
 
 /**
  * 读取CSV，智能识别列位置，仅修正【今天】产生的数据
  */
 async function fixPriceStatus() {
     console.log(`\n=============================================`);
-    console.log(`⚖️ [阶段四] 启动全局比价修正 (安全时间围栏版)...`);
+    console.log(`⚖️ [阶段五] 启动全局比价修正 (安全时间围栏版)...`);
     console.log(`=============================================`);
 
     if (!fs.existsSync(CSV_OUTPUT_PATH)) {
@@ -1070,35 +1273,36 @@ async function fixPriceStatus() {
         return line.split(pattern).map(v => v.replace(/^"|"$/g, '').trim());
     };
 
-    // 4. --- 精确列索引定位 (基于最新表头: Platform,URL,ProductName,SKU...) ---
+    // 4. --- 精确列索引定位 (基于表头) ---
+    // 定义我们需要的字段名称
     let idx_sku = -1;
     let idx_price = -1;
     let idx_status = -1;
     let idx_date = -1;
-    let idx_platform = 0; // 默认位置
+    let idx_platform = 0; // 默认为0
 
-    // 方案A：智能匹配 - 解析第一行表头
+    // 优先方案：解析第一行（表头），根据名称动态定位
     if (lines.length > 0) {
-        // 分割并清理引号/空格
+        // 去除可能的引号和空白
         const headerCols = lines[0].split(',').map(c => c.trim().replace(/^"|"$/g, '')); 
         
-        // 根据列名寻找索引
-        idx_sku = headerCols.indexOf('SKU_Identifier');
-        idx_price = headerCols.indexOf('Price');
-        idx_status = headerCols.indexOf('Price_Status');
-        idx_date = headerCols.indexOf('Scrape_Date');
+        // 查找对应列名的索引
+        idx_sku = headerCols.indexOf('SKU_Identifier');      // 对应列2
+        idx_price = headerCols.indexOf('Price');             // 对应列4
+        idx_status = headerCols.indexOf('Price_Status');     // 对应列6
+        idx_date = headerCols.indexOf('Scrape_Date');        // 对应列7
         idx_platform = headerCols.indexOf('Platform');
     }
 
-    // 方案B：强制兜底 - 按照你提供的最新结构锁定
-    // 结构: Platform[0], URL[1], ProductName[2], SKU_Identifier[3], True_SKU[4], Price[5], Limit[6], Status[7], Date[8]...
+    // 兜底方案：如果表头没找到（比如CSV没有表头），则强制使用标准结构
+    // 结构依据: Platform,URL,SKU_Identifier,True_SKU_Identifier,Price,Limit_Price,Price_Status,Scrape_Date...
     if (idx_sku === -1 || idx_price === -1) {
-        console.log("   ⚠️ 表头匹配未命中，使用强制修正索引...");
+        console.log("   ⚠️ 表头识别失败，切换至强制标准索引...");
         idx_platform = 0;
-        idx_sku = 3;    // SKU_Identifier (第4列)
-        idx_price = 5;  // Price (第6列)
-        idx_status = 7; // Price_Status (第8列)
-        idx_date = 8;   // Scrape_Date (第9列)
+        idx_sku = 2;    // SKU_Identifier
+        idx_price = 4;  // Price
+        idx_status = 6; // Price_Status
+        idx_date = 7;   // Scrape_Date
     }
 
     console.log(`   🎯 列索引锁定 -> SKU:[${idx_sku}] | 价格:[${idx_price}] | 状态:[${idx_status}] | 日期:[${idx_date}]`);
@@ -1198,9 +1402,9 @@ async function fixPriceStatus() {
 // ================= [主控制器] =================
 
 async function main() {
-    console.log(`🚀 --- 全平台价格监控脚本启动 (v2.8 Safe-History) ---`);
+    console.log(`🚀 --- 全平台价格监控脚本启动 (v3.0 All-In-One) ---`);
     console.log(`📂 结果存储位置: ${CSV_OUTPUT_PATH}`);
-    console.log(`🔧 当前运行模式: JD[${RUN_CONFIG.JD?'开':'关'}] | PDD[${RUN_CONFIG.PDD?'开':'关'}] | TB[${RUN_CONFIG.TAOBAO?'开':'关'}]`);
+    console.log(`🔧 当前运行模式: JD[${RUN_CONFIG.JD?'开':'关'}] | PDD[${RUN_CONFIG.PDD?'开':'关'}] | TB[${RUN_CONFIG.TAOBAO?'开':'关'}] | YP[${RUN_CONFIG.YOUPIN?'开':'关'}]`);
     
     init_csv_file();
 
@@ -1212,6 +1416,9 @@ async function main() {
 
     if (RUN_CONFIG.TAOBAO) await runTaobao();
     else console.log(`⏭️  [跳过] 淘宝`);
+
+    if (RUN_CONFIG.YOUPIN) await runYoupin();
+    else console.log(`⏭️  [跳过] 有品`);
 
     console.log(`\n⏳ 所有抓取任务结束，等待文件写入...`);
     await new Promise(r => setTimeout(r, 1500)); 
