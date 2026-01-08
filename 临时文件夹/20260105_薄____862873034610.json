@@ -1,0 +1,79 @@
+[
+  {
+    "time": "2026-01-01 18:13:44",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[常见问题列表]"
+  },
+  {
+    "time": "2026-01-01 18:14:02",
+    "role": "用户",
+    "name": "薄***",
+    "type": "text",
+    "content": "水龙头的安装眼需要多大"
+  },
+  {
+    "time": "2026-01-01 18:14:02",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2026-01-01 18:14:09",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "小云朵您好，在的呢~很高兴为您服务，请问有什么可以帮到您的呢~"
+  },
+  {
+    "time": "2026-01-01 18:14:24",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2026-01-01/6f8ef6c5-64f6-48d0-b27d-e263581c05b8.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2026-01-01 18:38:04",
+    "role": "用户",
+    "name": "薄***",
+    "type": "text",
+    "content": "安装有角阀吗"
+  },
+  {
+    "time": "2026-01-01 18:38:15",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "消费者催促您，请尽快回复！"
+  },
+  {
+    "time": "2026-01-01 18:38:57",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610"
+  },
+  {
+    "time": "2026-01-01 18:39:20",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2026-01-01/b6b158a0-abb6-4cbb-ad36-487adea36e4e.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2026-01-01 18:39:27",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "小主您看下哈"
+  },
+  {
+    "time": "2026-01-01 18:39:32",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "新品首发 Viomi云米 净水器小海豚3 ①首发价499 ②晒图送1年延保 ③预售期间下单可99换购滤芯，限量2个（滤芯原价199）"
+  }
+]

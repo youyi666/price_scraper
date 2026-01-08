@@ -1,0 +1,51 @@
+[
+  {
+    "time": "2026-01-02 07:51:53",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[常见问题列表]"
+  },
+  {
+    "time": "2026-01-02 07:51:54",
+    "role": "用户",
+    "name": "齐***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610&_oak_rcto=YWJODe6pdrwqBBuRsgJlgJZB_qyNQ1cXFAHn0NEH6wsb-f19xq7GMLsb&page_from=63&_oc_brand_neigou_param=_8_14&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2026-01-02 07:52:05",
+    "role": "用户",
+    "name": "齐***",
+    "type": "text",
+    "content": "能联网吗"
+  },
+  {
+    "time": "2026-01-02 07:52:06",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2026-01-04 09:34:53",
+    "role": "客服",
+    "name": "viomi何静",
+    "type": "text",
+    "content": "这款不能的哈~"
+  },
+  {
+    "time": "2026-01-04 09:35:46",
+    "role": "客服",
+    "name": "viomi何静",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2026-01-04/b1edb764-e441-473c-966a-9cd7d66ae7f7.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2026-01-04 09:35:51",
+    "role": "客服",
+    "name": "viomi何静",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=852161740747"
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "time": "2026-01-01 07:30:18",
+    "role": "用户",
+    "name": "街***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610&_oak_rcto=YWIYmimVbfn7G2Gs2pvQ_oF7-jTWfAGt8691wuYEcsu_pFKyQMljDIAB&page_from=63&_oc_n_mkt_tr_token=hyspz27qwaxdmtqu3obl2ordbqdmacvuxrgxq4cjmhiyivrbzcgjjhga6p4l6sdcmyzfqg3vm6yp55zzetfzghcsbmxleoqluhgylbsm63vphiatqr7utvd3s6qkm5qp3pmgwlqjyttpu2smjmuseuidqz6zjb57u555pqdxsqnyoutxfegv75tl22igqv4isgkpgs36tbqv6wp4dn3qpma2r2a357djeo7s3ey&_oc_n_mkt_tr_sc=super_discount&_oc_n_mkt_type=3&_oc_payment_biz=manufacturer_duoduo&_oc_n_mkt_domain=535&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2026-01-01 07:30:25",
+    "role": "用户",
+    "name": "街***",
+    "type": "text",
+    "content": "这个加压吗？"
+  },
+  {
+    "time": "2026-01-01 07:30:25",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2026-01-01 07:30:35",
+    "role": "用户",
+    "name": "街***",
+    "type": "text",
+    "content": "反渗透？"
+  },
+  {
+    "time": "2026-01-04 09:49:00",
+    "role": "客服",
+    "name": "viomi何静",
+    "type": "text",
+    "content": "是的呢"
+  },
+  {
+    "time": "2026-01-04 09:49:08",
+    "role": "客服",
+    "name": "viomi何静",
+    "type": "text",
+    "content": "新品首发 Viomi云米 净水器小海豚3 ①首发价499 ②晒图送1年延保 ③免费安装 快来抢购吧~"
+  },
+  {
+    "time": "2026-01-04 09:49:29",
+    "role": "客服",
+    "name": "viomi何静",
+    "type": "text",
+    "content": "现在下单还多送一年延保呢！"
+  }
+]

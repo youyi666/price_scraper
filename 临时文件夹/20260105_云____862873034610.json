@@ -1,0 +1,170 @@
+[
+  {
+    "time": "2026-01-01 13:20:53",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[常见问题列表]"
+  },
+  {
+    "time": "2026-01-01 13:21:31",
+    "role": "用户",
+    "name": "云***",
+    "type": "text",
+    "content": "上门安装吗"
+  },
+  {
+    "time": "2026-01-01 13:21:42",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "消费者催促您，请尽快回复！"
+  },
+  {
+    "time": "2026-01-01 13:21:54",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "小主，净水器包装里材料是免费安装的，免费安装不涉及橱柜改造、下水管改造、电源改造、拆旧等。 如需开孔，木板、不锈钢、亚克力台面提供免费开孔，其他材质（大理石台面、普通砖墙眼）需加收50元/个 开孔费。"
+  },
+  {
+    "time": "2026-01-01 13:21:59",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2026-01-01/8bc88b46-28b0-4f2e-8cab-9f24a009631e.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2026-01-01 13:23:23",
+    "role": "用户",
+    "name": "云***",
+    "type": "text",
+    "content": "如何约安装"
+  },
+  {
+    "time": "2026-01-01 13:24:02",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2026-01-01/96f61497-2726-4d97-8b98-788889b9d661.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2026-01-01 13:25:26",
+    "role": "用户",
+    "name": "云***",
+    "type": "text",
+    "content": "水龙头咋办？"
+  },
+  {
+    "time": "2026-01-01 13:26:01",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "稍等"
+  },
+  {
+    "time": "2026-01-01 13:26:18",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2026-01-01/1767f0e6-ac4d-414d-a7bd-f6ec88a78cbc.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2026-01-01 13:26:35",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "到货后有配一个纯水水龙头哦"
+  },
+  {
+    "time": "2026-01-01 13:28:30",
+    "role": "用户",
+    "name": "云***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610"
+  },
+  {
+    "time": "2026-01-01 13:28:59",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "您好，还没有收到您的订单，有什么顾虑吗，可以给我说下呢，非常乐意为您解决的哈~"
+  },
+  {
+    "time": "2026-01-01 13:30:29",
+    "role": "用户",
+    "name": "云***",
+    "type": "text",
+    "content": "另外两个滤芯的套餐是什么意思？"
+  },
+  {
+    "time": "2026-01-01 13:30:47",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2026-01-01/a4f7afbf-93e4-4c35-9489-c353ddfdbca6.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2026-01-01 13:30:59",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "套餐是多了复合滤芯"
+  },
+  {
+    "time": "2026-01-01 13:31:07",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "可以备用更换"
+  },
+  {
+    "time": "2026-01-01 13:31:57",
+    "role": "用户",
+    "name": "云***",
+    "type": "text",
+    "content": "还有带一只滤芯的"
+  },
+  {
+    "time": "2026-01-01 13:32:05",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "是的"
+  },
+  {
+    "time": "2026-01-01 13:32:06",
+    "role": "用户",
+    "name": "云***",
+    "type": "text",
+    "content": "更换周期是多久"
+  },
+  {
+    "time": "2026-01-01 13:32:20",
+    "role": "用户",
+    "name": "云***",
+    "type": "text",
+    "content": "滤芯单卖多少钱"
+  },
+  {
+    "time": "2026-01-01 13:32:25",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2026-01-01/7b52aeb7-2534-4ab2-b3ba-2a2b7b0e6e14.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2026-01-01 13:32:50",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "亲，喜欢的话，您可点击“发起拼单”完成支付"
+  },
+  {
+    "time": "2026-01-01 13:32:59",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "复合滤芯原价是298元一根的哈"
+  }
+]

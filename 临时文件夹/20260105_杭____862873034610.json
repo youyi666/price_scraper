@@ -1,0 +1,72 @@
+[
+  {
+    "time": "2026-01-04 11:28:49",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[常见问题列表]"
+  },
+  {
+    "time": "2026-01-04 11:28:50",
+    "role": "用户",
+    "name": "杭***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610&_oak_rcto=YWK5Imlgw6PeCOC-FoEIjGzvfAa58W-3utlfHJIeODC5ZLTAD8TNTXcAhRvYLPjF95k&page_from=63&_oc_mkt_domain=197&_oc_live_feed_id=6801444369574147656&_oc_mkt_tr_token=szvpelh7clafxq4mwxe2lnrudiadgpgjztk5caeb6nyixnaqv45wk7tms3phpo7y5rzk2m3dtrbnx6qxvpimgu5mqyxmoqqejtan4gn47skd7vwxbbieskk2wu52e7tkjeir47sktq3e5ji5ygfrebf2dgfivyus7nwdpvmfhi3yinp6qgfa&_oc_mkt_tr_sc=first_order_multi_coin_ten&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2026-01-04 11:28:57",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "小主您好～欢迎光临云米电器官方旗舰店！我是您的专属客服小云朵，对任何产品有疑问可以随时咨询，很高兴为您服务~😊”"
+  },
+  {
+    "time": "2026-01-04 11:29:01",
+    "role": "用户",
+    "name": "杭***",
+    "type": "text",
+    "content": "包含水龙头吗"
+  },
+  {
+    "time": "2026-01-04 11:29:02",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2026-01-04 11:29:23",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "是的哈"
+  },
+  {
+    "time": "2026-01-04 12:20:53",
+    "role": "用户",
+    "name": "杭***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610&_oak_rcto=YWJxuwuuBT8MSuC-FoEIjGzvfAa58W-3utlfHJIeODC5ZLTAD8TNTXcAhRvYLPjF95k&page_from=63&_oc_mkt_domain=197&_oc_live_feed_id=6801444369574147656&_oc_mkt_tr_token=odrdlxxthwqkawxs4at53fofp7gkt66a2ww5x76eas5abegolx6igvbh6pd2i6kxefhvwxyodfjz7y2flsckp3nml57uwpjeyfv2exlhykhvf2rjxo4rpoxjaumuoztuq5z7vwcit7ksh3tpo2gknqosdbefmsjqchjv67ewvxw3afmra2iq&_oc_mkt_tr_sc=first_order_multi_coin_ten&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2026-01-04 12:20:56",
+    "role": "用户",
+    "name": "杭***",
+    "type": "text",
+    "content": "耗材多少钱"
+  },
+  {
+    "time": "2026-01-04 12:20:56",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2026-01-04 12:21:27",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2026-01-04/62bad069-cd04-4b62-aa0b-ff238c3da69d.png?imageMogr2/thumbnail/800x800"
+  }
+]

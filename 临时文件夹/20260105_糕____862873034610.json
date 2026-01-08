@@ -1,0 +1,72 @@
+[
+  {
+    "time": "2026-01-04 18:59:41",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[常见问题列表]"
+  },
+  {
+    "time": "2026-01-04 18:59:42",
+    "role": "用户",
+    "name": "糕***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610&_oak_rcto=YWJyri470ESeTLyySh0apYuCm5CR5OFuHCY97CYDYJkTaNSNsQVxpTCh&page_from=23&_oc_trace_mark=199&_oc_refer_ad=1&_oc_adinfo=eyJwYWdlX3NuIjoxMDAxNSwic2NlbmVfaWQiOjJ9&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2026-01-04 18:59:44",
+    "role": "用户",
+    "name": "糕***",
+    "type": "text",
+    "content": "母婴直饮水✨"
+  },
+  {
+    "time": "2026-01-04 18:59:44",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2026-01-04 18:59:44",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "【小海豚600G+】母婴直饮丨出水无双酚A，加99元换购5in1滤芯☞：https://mobile.yangkeduo.com/goods.html?goods_id=225501370546"
+  },
+  {
+    "time": "2026-01-04 18:59:53",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "小云朵您好，在的呢~很高兴为您服务，请问有什么可以帮到您的呢~"
+  },
+  {
+    "time": "2026-01-04 18:59:59",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "【小海豚3净水器】纳斯达克上市品牌全球平台国内新品首发~ 【一净到底】6级纯物理过滤，去除重金属守护孩子成长 【一机守护】 0阻垢剂不含双酚A，孕妈宝宝安心喝 【一触即饮】4秒就能接满一杯水，随时开怀畅饮 【一芯五年】5年长效RO滤芯，用得久真省芯 【一按换芯】弹扣式一按一拿，爸妈也能轻松换芯"
+  },
+  {
+    "time": "2026-01-04 19:00:31",
+    "role": "用户",
+    "name": "糕***",
+    "type": "text",
+    "content": "可以给小猫喝吗"
+  },
+  {
+    "time": "2026-01-04 19:00:31",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2026-01-04 19:00:51",
+    "role": "客服",
+    "name": "viomi小可爱",
+    "type": "text",
+    "content": "直饮水的呢"
+  }
+]

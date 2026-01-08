@@ -1,0 +1,65 @@
+[
+  {
+    "time": "2026-01-03 00:17:27",
+    "role": "用户",
+    "name": "6***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=852161740747&_oak_rcto=YWIB0lWQz3ss9FeqCWSS2pIykcgLNRtfpBL2oF8zbX64OIIcg112fPg8dtvyafwdpZ0&page_from=63&_oc_trace_mark=199&_oc_mkt_domain=197&_oc_video_hide_multi=1&_oc_live_feed_id=video-activity&_oc_adinfo=eyJzY2VuZV9pZCI6Mjg5NH0%3D&_oc_mkt_tr_sc=ddvideo_threeorders_mustgetcoin&_oc_mkt_tr_token=yb3lfuduftfiekwmrdxmeaklkbgk4nb6twixupauleasc3kjlzp4hl45jwgufch4w6phou3cociugczhkaechey65hfsldzl3e4pgmq&_oc_refer_ad=1&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2026-01-03 00:17:36",
+    "role": "用户",
+    "name": "6***",
+    "type": "text",
+    "content": "质保多久？"
+  },
+  {
+    "time": "2026-01-03 00:17:37",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2026-01-03 00:20:06",
+    "role": "用户",
+    "name": "6***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610&_oak_rcto=YWLz1cwMXFkhd2cmUPOHUYGZkcgLNRtfpBL2oF8zbX64OIIcg112fPg8dtvyafwdpZ0&page_from=63&_oc_trace_mark=199&_oc_mkt_domain=197&_oc_video_hide_multi=1&_oc_live_feed_id=video-activity&_oc_adinfo=eyJzY2VuZV9pZCI6Mjg5NH0%3D&_oc_mkt_tr_sc=ddvideo_threeorders_mustgetcoin&_oc_mkt_tr_token=galugfyr6gfgh6g4izsp2k62dv6yw4dpip4qyzr5gxw3gpqvsqhy524g4e2fucgcxty4l34geces4h2aub24vv4e3cvu3e6vfavrt4a&_oc_refer_ad=1&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2026-01-03 00:20:25",
+    "role": "用户",
+    "name": "6***",
+    "type": "text",
+    "content": "这两款有什么区别？那款好些？"
+  },
+  {
+    "time": "2026-01-03 00:20:25",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2026-01-04 09:32:37",
+    "role": "客服",
+    "name": "viomi何静",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2026-01-04/109ee1aa-2d9c-43af-93c7-38bcd063c4ac.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2026-01-04 09:32:50",
+    "role": "客服",
+    "name": "viomi何静",
+    "type": "text",
+    "content": "小海豚3是最新款"
+  },
+  {
+    "time": "2026-01-04 09:32:54",
+    "role": "客服",
+    "name": "viomi何静",
+    "type": "text",
+    "content": "新品首发 Viomi云米 净水器小海豚3 ①首发价499 ②晒图送1年延保 ③免费安装 快来抢购吧~"
+  }
+]

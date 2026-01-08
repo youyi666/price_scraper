@@ -1,0 +1,233 @@
+[
+  {
+    "time": "2026-01-02 18:38:46",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[常见问题列表]"
+  },
+  {
+    "time": "2026-01-02 18:38:50",
+    "role": "用户",
+    "name": "晨***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610&_oak_rcto=YWLl9FZcissciNI4G3JodkkL_qb2Y11ZFIpBkFcndYkb8BbziNmxGS-SEeaUvBLJ6Z4&page_from=23&_oc_trace_mark=199&_oc_original_front_env=6&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2026-01-02 18:38:55",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "您好有什么可以帮到您~"
+  },
+  {
+    "time": "2026-01-02 18:39:20",
+    "role": "用户",
+    "name": "晨***",
+    "type": "text",
+    "content": "你那里有管线机卖吗"
+  },
+  {
+    "time": "2026-01-02 18:39:26",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "有的亲"
+  },
+  {
+    "time": "2026-01-02 18:39:34",
+    "role": "用户",
+    "name": "晨***",
+    "type": "text",
+    "content": "链接发给我"
+  },
+  {
+    "time": "2026-01-02 18:39:42",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=604410073495"
+  },
+  {
+    "time": "2026-01-02 18:39:43",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=861508688697"
+  },
+  {
+    "time": "2026-01-02 18:39:44",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=837301408995"
+  },
+  {
+    "time": "2026-01-02 18:39:49",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "目前是这几款亲"
+  },
+  {
+    "time": "2026-01-02 18:40:03",
+    "role": "用户",
+    "name": "晨***",
+    "type": "text",
+    "content": "和你净水器配"
+  },
+  {
+    "time": "2026-01-02 18:40:03",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2026-01-02 18:40:20",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "您是想搭配哪款净水机购买呢"
+  },
+  {
+    "time": "2026-01-02 18:40:22",
+    "role": "用户",
+    "name": "晨***",
+    "type": "text",
+    "content": "管线机比净水器还贵些"
+  },
+  {
+    "time": "2026-01-02 18:40:25",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "这边帮您看下是否适配"
+  },
+  {
+    "time": "2026-01-02 18:40:41",
+    "role": "用户",
+    "name": "晨***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610&_oak_rcto=YWJ6MPcZ6DF2RtI4G3JodkkL_qb2Y11ZFIpBkFcndYkb8BbziNmxGS-SEeaUvBLJ6Z4&page_from=23&_oc_trace_mark=199&_oc_original_front_env=6&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2026-01-02 18:40:47",
+    "role": "用户",
+    "name": "晨***",
+    "type": "text",
+    "content": "这款"
+  },
+  {
+    "time": "2026-01-02 18:40:47",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2026-01-02 18:40:53",
+    "role": "用户",
+    "name": "晨***",
+    "type": "text",
+    "content": "人工客服"
+  },
+  {
+    "time": "2026-01-02 18:41:07",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "稍等哈~"
+  },
+  {
+    "time": "2026-01-02 18:41:19",
+    "role": "用户",
+    "name": "晨***",
+    "type": "text",
+    "content": "你管线机比净水器都贵"
+  },
+  {
+    "time": "2026-01-02 18:41:52",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "这个管线机是会贵一些的亲"
+  },
+  {
+    "time": "2026-01-02 18:42:02",
+    "role": "用户",
+    "name": "晨***",
+    "type": "text",
+    "content": "知道了"
+  },
+  {
+    "time": "2026-01-02 18:42:03",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "这个机器是可以搭配使用的哈"
+  },
+  {
+    "time": "2026-01-02 18:42:18",
+    "role": "用户",
+    "name": "晨***",
+    "type": "text",
+    "content": "包安装吗"
+  },
+  {
+    "time": "2026-01-02 18:42:23",
+    "role": "用户",
+    "name": "晨***",
+    "type": "text",
+    "content": "保质期多久"
+  },
+  {
+    "time": "2026-01-02 18:42:55",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "净水机整机质保1年，小海豚3晒单延保1年哦~"
+  },
+  {
+    "time": "2026-01-02 18:43:28",
+    "role": "用户",
+    "name": "晨***",
+    "type": "text",
+    "content": "包安装吗"
+  },
+  {
+    "time": "2026-01-02 18:43:35",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "净水器包装里材料是免费上门安装的，免费安装不涉及橱柜改造、下水管改造、电源改造、拆旧等。 龙头安装如需开孔，木板、不锈钢、亚克力台面提供免费开孔"
+  },
+  {
+    "time": "2026-01-02 18:44:10",
+    "role": "用户",
+    "name": "晨***",
+    "type": "text",
+    "content": "了解了"
+  },
+  {
+    "time": "2026-01-02 18:44:15",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "[动画表情]"
+  },
+  {
+    "time": "2026-01-02 18:44:16",
+    "role": "用户",
+    "name": "晨***",
+    "type": "text",
+    "content": "需要再联系"
+  },
+  {
+    "time": "2026-01-02 18:44:26",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "您咨询的这款宝贝收到的客户都反映很不错呢，价格也很实惠，是我们的热卖单品呢，拍下后会尽快安排发货，我们库存有限，先抢先得哈，赶紧下单吧~"
+  }
+]

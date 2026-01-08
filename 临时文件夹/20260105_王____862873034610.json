@@ -1,0 +1,86 @@
+[
+  {
+    "time": "2026-01-04 01:35:44",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[常见问题列表]"
+  },
+  {
+    "time": "2026-01-04 01:35:45",
+    "role": "用户",
+    "name": "王***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=852161740747&_oak_rcto=YWL9JlU0Nd1GfDu-_s6z206wdAcTvY6TQZHXVfrMmfENL20GVwz8BIxwccumRTggAp8&page_from=69&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2026-01-04 01:36:13",
+    "role": "用户",
+    "name": "王***",
+    "type": "text",
+    "content": "滤芯多久换一次？一套滤芯多少钱？"
+  },
+  {
+    "time": "2026-01-04 01:36:13",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2026-01-04 01:40:28",
+    "role": "用户",
+    "name": "王***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610&_oak_rcto=YWJO6AmiJEhiej-tzMLqb4IpdAcTvY6TQZHXVfrMmfENL20GVwz8BIxwccumRTggAp8&page_from=23&_oc_trace_mark=199&_oc_refer_ad=1&_oc_adinfo=eyJwYWdlX3NuIjoxMDAxNSwic2NlbmVfaWQiOjJ9&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2026-01-04 01:40:37",
+    "role": "用户",
+    "name": "王***",
+    "type": "text",
+    "content": "这款有多少G？一套滤芯多久换一次？滤芯一套多少钱？"
+  },
+  {
+    "time": "2026-01-04 01:40:37",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2026-01-04 09:13:20",
+    "role": "客服",
+    "name": "viomi何静",
+    "type": "text",
+    "content": "小主这个是600G"
+  },
+  {
+    "time": "2026-01-04 09:13:45",
+    "role": "客服",
+    "name": "viomi何静",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2026-01-04/57f6fefb-42a9-4c5b-b052-ecc667f24698.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2026-01-04 09:14:12",
+    "role": "客服",
+    "name": "viomi何静",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=872941778883"
+  },
+  {
+    "time": "2026-01-04 09:14:15",
+    "role": "客服",
+    "name": "viomi何静",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=873065157674"
+  },
+  {
+    "time": "2026-01-04 09:14:35",
+    "role": "客服",
+    "name": "viomi何静",
+    "type": "text",
+    "content": "小海豚32个滤芯可以看看哈~"
+  }
+]

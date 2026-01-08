@@ -1,0 +1,72 @@
+[
+  {
+    "time": "2026-01-04 19:42:59",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[常见问题列表]"
+  },
+  {
+    "time": "2026-01-04 19:43:00",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[常见问题列表]"
+  },
+  {
+    "time": "2026-01-04 19:43:04",
+    "role": "用户",
+    "name": "C***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610&_oak_rcto=YWLFbFY0YIVx5SF1pcCbb8K_a2m13ZV62HGudVrCGbN8vzOBH8QG6bxN&page_from=63&_oc_trace_mark=199&_oc_adinfo=eyJwYWdlX3NuIjoxMDAzOCwic2NlbmVfaWQiOjI4Nn0%3D&_oc_refer_ad=1&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2026-01-04 19:43:30",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "新品首发 Viomi云米 净水器小海豚3 ①首发价499 ②晒图送1年延保 ③预售期间下单可99换购滤芯，限量2个（滤芯原价199）"
+  },
+  {
+    "time": "2026-01-04 19:43:36",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2026-01-04/196489e6-70b7-40a4-b49f-ab03ff817357.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2026-01-04 19:55:59",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "小主现在活动期间滤芯还有活动的呢"
+  },
+  {
+    "time": "2026-01-04 19:56:03",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "小主，您考虑的怎么样了呀？活动价格限时限量哟~看中尽快下单，期待您的订单喲"
+  },
+  {
+    "time": "2026-01-04 22:43:23",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "优惠活动已经进入倒计时了哦，先拍先得哈，建议喜欢就拍下付款哦。非常期待与您合作，云米全体将竭诚为您服务~"
+  },
+  {
+    "time": "2026-01-05 10:02:40",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "现在下单小海豚3找客服备注还可以多送一年延保哦~喜欢的话不妨给个机会，云米全国联保，售后完善，买家电选大品牌有保障~"
+  },
+  {
+    "time": "2026-01-05 15:49:55",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "优惠活动已经进入倒计时了哦，先拍先得哈，建议喜欢就拍下付款哦。非常期待与您合作，云米全体将竭诚为您服务~"
+  }
+]

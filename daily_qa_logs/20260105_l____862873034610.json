@@ -1,0 +1,793 @@
+[
+  {
+    "time": "2026-01-02 22:39:55",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[常见问题列表]"
+  },
+  {
+    "time": "2026-01-02 22:39:58",
+    "role": "用户",
+    "name": "L***",
+    "type": "text",
+    "content": "母婴直饮水✨"
+  },
+  {
+    "time": "2026-01-02 22:39:59",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2026-01-02 22:39:59",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "【小海豚600G+】母婴直饮丨出水无双酚A，加99元换购5in1滤芯☞：https://mobile.yangkeduo.com/goods.html?goods_id=225501370546"
+  },
+  {
+    "time": "2026-01-02 22:40:07",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "您好有什么可以帮到您~"
+  },
+  {
+    "time": "2026-01-02 22:40:13",
+    "role": "用户",
+    "name": "L***",
+    "type": "text",
+    "content": "可以直接直饮是吗"
+  },
+  {
+    "time": "2026-01-02 22:40:23",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "是的亲可以直饮的"
+  },
+  {
+    "time": "2026-01-02 22:40:33",
+    "role": "用户",
+    "name": "L***",
+    "type": "text",
+    "content": "滤芯更换周期多久呢"
+  },
+  {
+    "time": "2026-01-02 22:40:49",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "小海豚3是这个"
+  },
+  {
+    "time": "2026-01-02 22:40:52",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2026-01-02/6d2b7b38-4e3e-43a9-847e-5d4dda9253a1.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2026-01-03 14:20:23",
+    "role": "用户",
+    "name": "L***",
+    "type": "text",
+    "content": "有监控的吗？"
+  },
+  {
+    "time": "2026-01-03 14:20:23",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2026-01-03 14:20:34",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "不带监控的哈"
+  },
+  {
+    "time": "2026-01-04 14:14:48",
+    "role": "用户",
+    "name": "L***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=774960777953&_oak_rcto=YWLUgaDRJtXDRxgvQ--GxOEoYnI1mDv5ehJrH_TMa-9uADOBH8QG6bxN&page_from=23&_oc_trace_mark=199&_oc_refer_ad=1&_oc_adinfo=eyJwYWdlX3NuIjoxMDAxNSwic2NlbmVfaWQiOjJ9&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2026-01-04 14:14:56",
+    "role": "用户",
+    "name": "L***",
+    "type": "text",
+    "content": "这款支持米家吗"
+  },
+  {
+    "time": "2026-01-04 14:15:03",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "有接入米家哦~"
+  },
+  {
+    "time": "2026-01-04 14:15:23",
+    "role": "用户",
+    "name": "L***",
+    "type": "text",
+    "content": "包安装吗"
+  },
+  {
+    "time": "2026-01-04 14:15:30",
+    "role": "用户",
+    "name": "L***",
+    "type": "text",
+    "content": "有没有什么安装费"
+  },
+  {
+    "time": "2026-01-04 14:15:43",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "净水器包装里材料是免费上门安装的，免费安装不涉及橱柜改造、下水管改造、电源改造、拆旧等。 龙头安装如需开孔，木板、不锈钢、亚克力台面提供免费开孔"
+  },
+  {
+    "time": "2026-01-04 14:17:51",
+    "role": "用户",
+    "name": "L***",
+    "type": "text",
+    "content": "费用清单看下"
+  },
+  {
+    "time": "2026-01-04 14:18:18",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "亲是辅材吗"
+  },
+  {
+    "time": "2026-01-04 14:18:22",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "还是开孔呀"
+  },
+  {
+    "time": "2026-01-04 14:18:47",
+    "role": "用户",
+    "name": "L***",
+    "type": "text",
+    "content": "精装房来的"
+  },
+  {
+    "time": "2026-01-04 14:18:57",
+    "role": "用户",
+    "name": "L***",
+    "type": "text",
+    "content": "我也不清楚[呆住]"
+  },
+  {
+    "time": "2026-01-04 14:19:11",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=774960777953"
+  },
+  {
+    "time": "2026-01-04 14:19:15",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "是这个热水器吗"
+  },
+  {
+    "time": "2026-01-04 14:19:19",
+    "role": "用户",
+    "name": "L***",
+    "type": "text",
+    "content": "是的"
+  },
+  {
+    "time": "2026-01-04 14:19:30",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "稍等一下哈~"
+  },
+  {
+    "time": "2026-01-04 14:20:09",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2026-01-04/20f1f3ca-245a-4741-a13c-7346fb2cbe56.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2026-01-04 14:20:12",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "基本是这些"
+  },
+  {
+    "time": "2026-01-04 14:27:08",
+    "role": "用户",
+    "name": "L***",
+    "type": "text",
+    "content": "这款是0冷水的吗"
+  },
+  {
+    "time": "2026-01-04 14:27:15",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "这款不是的哦"
+  },
+  {
+    "time": "2026-01-04 14:27:27",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=216845252864"
+  },
+  {
+    "time": "2026-01-04 14:27:27",
+    "role": "用户",
+    "name": "L***",
+    "type": "text",
+    "content": "哪款是"
+  },
+  {
+    "time": "2026-01-04 14:27:28",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=290124810509"
+  },
+  {
+    "time": "2026-01-04 14:27:31",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "这两个"
+  },
+  {
+    "time": "2026-01-04 14:29:22",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "Zero16L-VGW166零冷水，这款现在客服端最低到手价900，晒单送花洒"
+  },
+  {
+    "time": "2026-01-04 14:29:28",
+    "role": "用户",
+    "name": "L***",
+    "type": "text",
+    "content": "非0冷水可以叫小爱提前几分钟加热吗"
+  },
+  {
+    "time": "2026-01-04 14:29:52",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "非零冷水他这个是没有回流管的"
+  },
+  {
+    "time": "2026-01-04 14:30:21",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "您加热也是水箱内的水加热，管子里的水是加热不了的"
+  },
+  {
+    "time": "2026-01-04 14:30:44",
+    "role": "用户",
+    "name": "L***",
+    "type": "text",
+    "content": "这样子 就是还需要放水一会儿才可以是吧"
+  },
+  {
+    "time": "2026-01-04 14:31:32",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "是的"
+  },
+  {
+    "time": "2026-01-04 14:31:55",
+    "role": "用户",
+    "name": "L***",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-user-v1/2026-01-04/6f024959-839d-4303-b657-a7264775f68d.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2026-01-04 14:32:00",
+    "role": "用户",
+    "name": "L***",
+    "type": "text",
+    "content": "你看看这种"
+  },
+  {
+    "time": "2026-01-04 14:32:16",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "您测一下尺寸呢"
+  },
+  {
+    "time": "2026-01-04 14:32:37",
+    "role": "用户",
+    "name": "L***",
+    "type": "text",
+    "content": "是可以所有水龙头都可以秒出热水吗？"
+  },
+  {
+    "time": "2026-01-04 14:33:43",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "他有热水接过去的就能出热水，零冷水才能秒出，非零冷水不行的"
+  },
+  {
+    "time": "2026-01-04 14:34:02",
+    "role": "用户",
+    "name": "L***",
+    "type": "text",
+    "content": "是的 就是问的零冷水的"
+  },
+  {
+    "time": "2026-01-04 14:34:26",
+    "role": "用户",
+    "name": "L***",
+    "type": "text",
+    "content": "可以接到其他水龙头 实时出热水是吗"
+  },
+  {
+    "time": "2026-01-04 14:34:31",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "可以的"
+  },
+  {
+    "time": "2026-01-04 14:34:59",
+    "role": "用户",
+    "name": "L***",
+    "type": "text",
+    "content": "这个要多大的尺寸可以装？"
+  },
+  {
+    "time": "2026-01-04 14:35:50",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "稍等qiin~"
+  },
+  {
+    "time": "2026-01-04 14:39:55",
+    "role": "用户",
+    "name": "L***",
+    "type": "text",
+    "content": "好了吗"
+  },
+  {
+    "time": "2026-01-04 14:40:21",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2026-01-04/47143713-65a5-4d52-a4bd-c1be6ff7ae52.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2026-01-04 14:40:35",
+    "role": "用户",
+    "name": "L***",
+    "type": "text",
+    "content": "那肯定是够的"
+  },
+  {
+    "time": "2026-01-04 14:40:45",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "可以装的话是没有问题的"
+  },
+  {
+    "time": "2026-01-04 14:41:31",
+    "role": "用户",
+    "name": "L***",
+    "type": "text",
+    "content": "我这个应该只需要提供一个打孔的费用吧"
+  },
+  {
+    "time": "2026-01-04 14:41:46",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "对烟管的开孔"
+  },
+  {
+    "time": "2026-01-04 14:42:00",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "正常其他是不需要的"
+  },
+  {
+    "time": "2026-01-04 14:42:05",
+    "role": "用户",
+    "name": "L***",
+    "type": "text",
+    "content": "其他的应该没啥费用了吧"
+  },
+  {
+    "time": "2026-01-04 14:42:15",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "是的"
+  },
+  {
+    "time": "2026-01-04 14:42:18",
+    "role": "用户",
+    "name": "L***",
+    "type": "text",
+    "content": "而且这个是三管的"
+  },
+  {
+    "time": "2026-01-04 14:42:34",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "基本是没问题的了"
+  },
+  {
+    "time": "2026-01-04 14:42:43",
+    "role": "用户",
+    "name": "L***",
+    "type": "text",
+    "content": "价格还有优惠吗"
+  },
+  {
+    "time": "2026-01-04 14:43:27",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "这款最低到手价是900（内含装修补贴50元）"
+  },
+  {
+    "time": "2026-01-04 14:43:51",
+    "role": "用户",
+    "name": "L***",
+    "type": "text",
+    "content": "改价吗"
+  },
+  {
+    "time": "2026-01-04 14:44:00",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "到货后反差价的"
+  },
+  {
+    "time": "2026-01-04 14:44:40",
+    "role": "用户",
+    "name": "L***",
+    "type": "text",
+    "content": "850可以吗？"
+  },
+  {
+    "time": "2026-01-04 14:44:56",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "没法再低了哦~已经是底价了"
+  },
+  {
+    "time": "2026-01-04 14:45:11",
+    "role": "用户",
+    "name": "L***",
+    "type": "text",
+    "content": "你问问呢 可以的话我下单呢"
+  },
+  {
+    "time": "2026-01-04 14:45:31",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "亲帮您申请过了最低价900的[捂脸]"
+  },
+  {
+    "time": "2026-01-04 14:46:13",
+    "role": "用户",
+    "name": "L***",
+    "type": "text",
+    "content": "在申请下吧"
+  },
+  {
+    "time": "2026-01-04 14:46:18",
+    "role": "用户",
+    "name": "L***",
+    "type": "text",
+    "content": "辛苦"
+  },
+  {
+    "time": "2026-01-04 14:47:01",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "好的稍等2分钟"
+  },
+  {
+    "time": "2026-01-04 14:55:15",
+    "role": "用户",
+    "name": "L***",
+    "type": "text",
+    "content": "[玫瑰]"
+  },
+  {
+    "time": "2026-01-04 14:55:15",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "亲不行哦，最低价了"
+  },
+  {
+    "time": "2026-01-04 14:56:03",
+    "role": "用户",
+    "name": "L***",
+    "type": "text",
+    "content": "那能便宜多少"
+  },
+  {
+    "time": "2026-01-04 14:56:26",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "到手900"
+  },
+  {
+    "time": "2026-01-04 14:56:44",
+    "role": "用户",
+    "name": "L***",
+    "type": "text",
+    "content": "改价下单可以吧"
+  },
+  {
+    "time": "2026-01-04 14:57:01",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "没法改下单价的亲，都是到货后反差价的"
+  },
+  {
+    "time": "2026-01-04 14:57:04",
+    "role": "用户",
+    "name": "L***",
+    "type": "text",
+    "content": "我买的东西比较多 会忘记反差的"
+  },
+  {
+    "time": "2026-01-04 14:57:07",
+    "role": "用户",
+    "name": "L***",
+    "type": "text",
+    "content": "[晕][晕]"
+  },
+  {
+    "time": "2026-01-04 14:57:55",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "我们这边到货后会有订单备注的"
+  },
+  {
+    "time": "2026-01-04 14:58:26",
+    "role": "用户",
+    "name": "L***",
+    "type": "text",
+    "content": "好吧好吧 我换个号 下单 你客服id叫什么 我让转过来给你"
+  },
+  {
+    "time": "2026-01-04 14:59:17",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "您进线发转小仙女就好了"
+  },
+  {
+    "time": "2026-01-04 14:59:41",
+    "role": "用户",
+    "name": "L***",
+    "type": "text",
+    "content": "好的"
+  },
+  {
+    "time": "2026-01-04 14:59:48",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "[动画表情]"
+  },
+  {
+    "time": "2026-01-04 15:03:44",
+    "role": "用户",
+    "name": "L***",
+    "type": "text",
+    "content": "是你吗 那个"
+  },
+  {
+    "time": "2026-01-04 15:03:44",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2026-01-04 15:03:58",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "是的"
+  },
+  {
+    "time": "2026-01-05 17:25:43",
+    "role": "用户",
+    "name": "L***",
+    "type": "text",
+    "content": "你好"
+  },
+  {
+    "time": "2026-01-05 17:25:49",
+    "role": "用户",
+    "name": "L***",
+    "type": "text",
+    "content": "不是说没其他费用吗"
+  },
+  {
+    "time": "2026-01-05 17:25:53",
+    "role": "用户",
+    "name": "L***",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-user-v1/2026-01-05/b4a2473f-95a5-4708-8927-1c589dc2808f.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2026-01-05 17:26:05",
+    "role": "用户",
+    "name": "L***",
+    "type": "text",
+    "content": "要收四百多"
+  },
+  {
+    "time": "2026-01-05 17:26:11",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "小主，请您稍等，客服帮您转接专业售后客服，转接之后您跟咱们售后同事描述下您遇到的问题哦~"
+  },
+  {
+    "time": "2026-01-05 17:26:58",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "viomi小云朵 将该会话转移给 Viomi米萌mk10，请及时处理"
+  },
+  {
+    "time": "2026-01-05 17:27:06",
+    "role": "用户",
+    "name": "L***",
+    "type": "text",
+    "content": "人呢"
+  },
+  {
+    "time": "2026-01-05 17:27:22",
+    "role": "客服",
+    "name": "Viomi米萌mk10",
+    "type": "text",
+    "content": "亲亲 在的 这边看下聊天记录哈"
+  },
+  {
+    "time": "2026-01-05 17:28:04",
+    "role": "用户",
+    "name": "L***",
+    "type": "text",
+    "content": "好的 尽快哈 师傅还在这等着"
+  },
+  {
+    "time": "2026-01-05 17:28:37",
+    "role": "客服",
+    "name": "Viomi米萌mk10",
+    "type": "text",
+    "content": "好的 这边帮您确认下"
+  },
+  {
+    "time": "2026-01-05 17:29:00",
+    "role": "用户",
+    "name": "L***",
+    "type": "text",
+    "content": "尽快[微笑]"
+  },
+  {
+    "time": "2026-01-05 17:30:10",
+    "role": "客服",
+    "name": "Viomi米萌mk10",
+    "type": "text",
+    "content": "亲亲 麻烦提供下购买的订单号"
+  },
+  {
+    "time": "2026-01-05 17:30:32",
+    "role": "用户",
+    "name": "L***",
+    "type": "text",
+    "content": "好"
+  },
+  {
+    "time": "2026-01-05 17:30:48",
+    "role": "客服",
+    "name": "Viomi米萌mk10",
+    "type": "text",
+    "content": "嗯呐"
+  },
+  {
+    "time": "2026-01-05 17:31:13",
+    "role": "用户",
+    "name": "L***",
+    "type": "text",
+    "content": "260105-036175941933848"
+  },
+  {
+    "time": "2026-01-05 17:31:37",
+    "role": "客服",
+    "name": "Viomi米萌mk10",
+    "type": "text",
+    "content": "收到了哈 请稍等"
+  },
+  {
+    "time": "2026-01-05 17:32:01",
+    "role": "用户",
+    "name": "L***",
+    "type": "text",
+    "content": "[流泪]快点 师傅催我给钱了"
+  },
+  {
+    "time": "2026-01-05 17:32:20",
+    "role": "用户",
+    "name": "L***",
+    "type": "text",
+    "content": "搞得我 我跟欠债的老赖一样"
+  },
+  {
+    "time": "2026-01-05 17:32:31",
+    "role": "客服",
+    "name": "Viomi米萌mk10",
+    "type": "text",
+    "content": "亲亲 查不到该订单号 请提供下购买的截图呢"
+  },
+  {
+    "time": "2026-01-05 17:32:39",
+    "role": "用户",
+    "name": "L***",
+    "type": "text",
+    "content": "另一个号买的"
+  },
+  {
+    "time": "2026-01-05 17:33:12",
+    "role": "客服",
+    "name": "Viomi米萌mk10",
+    "type": "text",
+    "content": "亲亲 麻烦用购买的账号咨询哈 这边不能跨账号操作的呢"
+  },
+  {
+    "time": "2026-01-05 17:33:35",
+    "role": "用户",
+    "name": "L***",
+    "type": "text",
+    "content": "好 我现在换个号去咨询"
+  },
+  {
+    "time": "2026-01-05 17:33:59",
+    "role": "客服",
+    "name": "Viomi米萌mk10",
+    "type": "text",
+    "content": "好的呢 麻烦您嘞"
+  }
+]

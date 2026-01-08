@@ -1,0 +1,527 @@
+[
+  {
+    "time": "2026-01-02 18:36:58",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[常见问题列表]"
+  },
+  {
+    "time": "2026-01-02 18:36:59",
+    "role": "用户",
+    "name": "****",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610&_oak_rcto=YWIVJdV6Lhlc-w1kJRQF5QVF1v2412LGvqYBefgQAr4PnNRF7IWhxExK&page_from=23&_oc_trace_mark=199&_oc_refer_ad=1&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2026-01-02 18:37:10",
+    "role": "用户",
+    "name": "****",
+    "type": "text",
+    "content": "两个链接有什么不同？"
+  },
+  {
+    "time": "2026-01-02 18:37:10",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2026-01-02 18:37:33",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "小主您指的是哪一款"
+  },
+  {
+    "time": "2026-01-02 18:37:49",
+    "role": "用户",
+    "name": "****",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610&_oak_rcto=YWIy0xSH_oO4qQ1kJRQF5QVF1v2412LGvqYBefgQAr4PnNRF7IWhxExK&page_from=23&_oc_trace_mark=199&_oc_refer_ad=1&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2026-01-02 18:37:59",
+    "role": "用户",
+    "name": "****",
+    "type": "text",
+    "content": "原装滤芯"
+  },
+  {
+    "time": "2026-01-02 18:37:59",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2026-01-02 18:38:11",
+    "role": "用户",
+    "name": "****",
+    "type": "text",
+    "content": "跟三合一滤芯"
+  },
+  {
+    "time": "2026-01-02 18:38:13",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "亲，喜欢的话，您可点击“发起拼单”完成支付"
+  },
+  {
+    "time": "2026-01-02 18:38:19",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "新品首发 Viomi云米 净水器小海豚3 ①首发价499 ②晒图送1年延保 ③预售期间下单可99换购滤芯，限量2个（滤芯原价199）"
+  },
+  {
+    "time": "2026-01-02 18:38:24",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2026-01-02/d1c02f13-652b-4f8d-8925-1aea01126a4f.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2026-01-02 18:40:01",
+    "role": "用户",
+    "name": "****",
+    "type": "text",
+    "content": "这个要插电吗？"
+  },
+  {
+    "time": "2026-01-02 18:40:10",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "需要的哈小主"
+  },
+  {
+    "time": "2026-01-02 18:40:21",
+    "role": "用户",
+    "name": "****",
+    "type": "text",
+    "content": "是RO滤水器吧？"
+  },
+  {
+    "time": "2026-01-02 18:40:34",
+    "role": "用户",
+    "name": "****",
+    "type": "text",
+    "content": "怎么样才能同时下单两条滤芯"
+  },
+  {
+    "time": "2026-01-02 18:40:46",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "小主下单限制两只的呢"
+  },
+  {
+    "time": "2026-01-02 18:41:01",
+    "role": "用户",
+    "name": "****",
+    "type": "text",
+    "content": "是的，下单两只"
+  },
+  {
+    "time": "2026-01-02 18:41:11",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "您选择两条的哈"
+  },
+  {
+    "time": "2026-01-02 18:41:33",
+    "role": "用户",
+    "name": "****",
+    "type": "text",
+    "content": "哪个选项？"
+  },
+  {
+    "time": "2026-01-02 18:41:43",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "您先购买净水器哟~~"
+  },
+  {
+    "time": "2026-01-02 18:41:45",
+    "role": "用户",
+    "name": "****",
+    "type": "text",
+    "content": "链接呢"
+  },
+  {
+    "time": "2026-01-02 18:42:10",
+    "role": "用户",
+    "name": "****",
+    "type": "text",
+    "content": "需要更换滤芯，是不是水管有指示灯？"
+  },
+  {
+    "time": "2026-01-02 18:42:41",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "小主机器哪个闪烁的呢"
+  },
+  {
+    "time": "2026-01-02 18:45:29",
+    "role": "用户",
+    "name": "****",
+    "type": "text",
+    "content": "哪个？？"
+  },
+  {
+    "time": "2026-01-02 18:45:51",
+    "role": "用户",
+    "name": "****",
+    "type": "text",
+    "content": "什么颜色烁烁提示需要更换"
+  },
+  {
+    "time": "2026-01-02 18:46:08",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "小主看净水器的呢"
+  },
+  {
+    "time": "2026-01-02 18:46:22",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "净水器滤芯那块有个闪烁的哈"
+  },
+  {
+    "time": "2026-01-02 18:46:29",
+    "role": "用户",
+    "name": "****",
+    "type": "text",
+    "content": "就是这款啊"
+  },
+  {
+    "time": "2026-01-02 18:46:35",
+    "role": "用户",
+    "name": "****",
+    "type": "text",
+    "content": "我一直在咨询这款"
+  },
+  {
+    "time": "2026-01-02 18:46:45",
+    "role": "用户",
+    "name": "****",
+    "type": "text",
+    "content": "另外，购买后怎么安装"
+  },
+  {
+    "time": "2026-01-02 18:46:55",
+    "role": "用户",
+    "name": "****",
+    "type": "text",
+    "content": "打电话安装还是怎么样预约的"
+  },
+  {
+    "time": "2026-01-02 18:46:56",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "消费者催促您，请尽快回复！"
+  },
+  {
+    "time": "2026-01-02 18:47:26",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2026-01-02/73bcf092-9098-46f4-b1b7-ec1dfcded4f0.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2026-01-02 18:47:29",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "小主您看下哈"
+  },
+  {
+    "time": "2026-01-02 18:47:45",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "这边您购买后不会安装可以联系我们，我们教您的呢"
+  },
+  {
+    "time": "2026-01-02 18:51:26",
+    "role": "用户",
+    "name": "****",
+    "type": "text",
+    "content": "自己安装吗？不是包安装？"
+  },
+  {
+    "time": "2026-01-02 18:51:33",
+    "role": "用户",
+    "name": "****",
+    "type": "text",
+    "content": "我指净水器，不是滤芯"
+  },
+  {
+    "time": "2026-01-02 18:51:36",
+    "role": "用户",
+    "name": "****",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610&_oak_rcto=YWL4hY5fWXhZZQ1kJRQF5QVF1v2412LGvqYBefgQAr4PnNRF7IWhxExK&page_from=500&_oc_pid=8304921_225321444&_oc_cps_sign=CC_260102_8304921_225321444_4eef1cf76bbd51eb137be79e2a2dd2e3&_oc_duoduo_type=3&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2026-01-02 18:51:40",
+    "role": "用户",
+    "name": "****",
+    "type": "text",
+    "content": "就是这个链接"
+  },
+  {
+    "time": "2026-01-02 18:51:40",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "净水器包安装的哈"
+  },
+  {
+    "time": "2026-01-02 18:51:46",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "净水器包装里材料是免费上门安装的，免费安装不涉及橱柜改造、下水管改造、电源改造、拆旧等。 龙头安装如需开孔，木板、不锈钢、亚克力台面提供免费开孔"
+  },
+  {
+    "time": "2026-01-02 18:51:47",
+    "role": "用户",
+    "name": "****",
+    "type": "text",
+    "content": "怎么联系安装？"
+  },
+  {
+    "time": "2026-01-02 18:51:52",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "到货联系我们的呢"
+  },
+  {
+    "time": "2026-01-02 18:51:57",
+    "role": "用户",
+    "name": "****",
+    "type": "text",
+    "content": "直接购买之后，会电话联系？"
+  },
+  {
+    "time": "2026-01-02 18:52:00",
+    "role": "用户",
+    "name": "****",
+    "type": "text",
+    "content": "还是怎么样？"
+  },
+  {
+    "time": "2026-01-02 18:52:04",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "你撤回了一条消息"
+  },
+  {
+    "time": "2026-01-02 18:52:05",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "到货联系我们"
+  },
+  {
+    "time": "2026-01-02 18:52:12",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "小主，正常拼单成功后会在48小时左右发出(预售商品除外)优选京,东快递发货，会根据您的地址选择就近仓库发货，偏远地区会慢一点，届时您可关注物流走件信息，您放心下单购买哈 付款的客户我们会尽快安排镖师火速发出的~ 送货的时候师傅是会联系您的，您可以告诉师傅一个合适的收货时间段哦"
+  },
+  {
+    "time": "2026-01-02 18:52:22",
+    "role": "用户",
+    "name": "****",
+    "type": "text",
+    "content": "能不能让师傅联系安装"
+  },
+  {
+    "time": "2026-01-02 18:52:57",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2026-01-02/f59da1d5-55f7-4f0b-91c0-9d2c92484a8a.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2026-01-02 18:56:17",
+    "role": "用户",
+    "name": "****",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=819506595979&_oak_rcto=YWKci6FNVn-RxP_GK3pGjVt71v2412LGvqYBefgQAr4PnNRF7IWhxExK&page_from=500&_oc_mkt_tr_sc=dacu_draw100&_oc_mkt_domain=1139&_oc_mkt_tr_token=dn747rfqxwpofponsd5rafdxj5i7kvknkykdejpyrgrh7rgndkgfhthlofisecnthkfocmnl3k4x6&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2026-01-02 18:56:26",
+    "role": "用户",
+    "name": "****",
+    "type": "text",
+    "content": "这款也是这样安装吗？"
+  },
+  {
+    "time": "2026-01-02 18:56:32",
+    "role": "用户",
+    "name": "****",
+    "type": "text",
+    "content": "不能师傅联系吗"
+  },
+  {
+    "time": "2026-01-02 18:56:40",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "净水器包装里材料是免费上门安装的，免费安装不涉及橱柜改造、下水管改造、电源改造、拆旧等。 龙头安装如需开孔，木板、不锈钢、亚克力台面提供免费开孔"
+  },
+  {
+    "time": "2026-01-02 18:56:47",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "小主到货联系安装的哈"
+  },
+  {
+    "time": "2026-01-02 18:57:01",
+    "role": "用户",
+    "name": "****",
+    "type": "text",
+    "content": "联系哪里？"
+  },
+  {
+    "time": "2026-01-02 18:57:28",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2026-01-02/fd0d9568-6ddb-4f34-8b60-1a4eb71a0eb4.jpeg?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2026-01-02 18:57:31",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "小主联系400的哈"
+  },
+  {
+    "time": "2026-01-02 18:58:38",
+    "role": "用户",
+    "name": "****",
+    "type": "text",
+    "content": "需要报什么内容呢"
+  },
+  {
+    "time": "2026-01-02 18:58:43",
+    "role": "用户",
+    "name": "****",
+    "type": "text",
+    "content": "或者联系你们可不可以"
+  },
+  {
+    "time": "2026-01-02 18:58:49",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "报安装的哈"
+  },
+  {
+    "time": "2026-01-02 18:59:04",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "到货联系我们的哈"
+  },
+  {
+    "time": "2026-01-02 20:48:26",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "优惠活动已经进入倒计时了哦，先拍先得哈，建议喜欢就拍下付款哦。非常期待与您合作，云米全体将竭诚为您服务~"
+  },
+  {
+    "time": "2026-01-03 13:53:48",
+    "role": "用户",
+    "name": "****",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=368266541253&_oak_rcto=YWLXTjFvfkmR_GHUKzSVChP81v2412LGvqaxy7M6HGxoVGI8XEAhE37c&page_from=500&_oak_actype=101&_oak_sub_actype=0"
+  },
+  {
+    "time": "2026-01-03 13:53:56",
+    "role": "用户",
+    "name": "****",
+    "type": "text",
+    "content": "这个套装怎么说"
+  },
+  {
+    "time": "2026-01-03 13:53:57",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2026-01-03 13:54:06",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "到手4根滤芯的哈"
+  },
+  {
+    "time": "2026-01-03 13:54:59",
+    "role": "用户",
+    "name": "****",
+    "type": "text",
+    "content": "开始就需要用三根？一个RO两个复合？"
+  },
+  {
+    "time": "2026-01-03 13:55:20",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "机器标配2只"
+  },
+  {
+    "time": "2026-01-03 13:55:26",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "一只复和一只ro的哈"
+  },
+  {
+    "time": "2026-01-03 13:55:29",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "云米净水器600G+小海豚这款套装到货后会收到4支滤芯，1根标配的ro滤芯，1根标配复合滤芯，2根复合滤芯的呢~"
+  },
+  {
+    "time": "2026-01-03 15:44:48",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "小主喜欢的话早下单早发货的哦~ 家电买一台都是用好多年，平均下来花费真的不多呢，早下单早受惠呦~ 么么哒~有问题随时联系小客服哈~[加油]"
+  },
+  {
+    "time": "2026-01-05 09:54:11",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "小主还在线吗 考虑的怎么样啦~小妹看您这边迟迟未下单是还有什么疑惑么[哭了]"
+  },
+  {
+    "time": "2026-01-05 15:38:43",
+    "role": "客服",
+    "name": "viomi小甜心",
+    "type": "text",
+    "content": "优惠活动已经进入倒计时了哦，先拍先得哈，建议喜欢就拍下付款哦。非常期待与您合作，云米全体将竭诚为您服务~"
+  }
+]

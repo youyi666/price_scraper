@@ -1,0 +1,233 @@
+[
+  {
+    "time": "2026-01-04 15:37:23",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[常见问题列表]"
+  },
+  {
+    "time": "2026-01-04 15:37:27",
+    "role": "用户",
+    "name": "1***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610&_oak_rcto=YWJmFWC9U82Z-92HufYtiCLyd48Fno0iKKq9aJieA6SEluAevC2Xpdkf&page_from=63&_oc_trace_mark=199&_oc_refer_ad=0&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2026-01-04 15:37:32",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "您好有什么可以帮到您~"
+  },
+  {
+    "time": "2026-01-04 15:38:16",
+    "role": "用户",
+    "name": "1***",
+    "type": "text",
+    "content": "这两个滤芯多久换新，换一个多少钱？"
+  },
+  {
+    "time": "2026-01-04 15:38:16",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2026-01-04 15:38:39",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2026-01-04/d2c0d9bb-61d1-4a10-89d4-1867e5ee2617.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2026-01-04 15:39:25",
+    "role": "用户",
+    "name": "1***",
+    "type": "text",
+    "content": "是通用型的吗?"
+  },
+  {
+    "time": "2026-01-04 15:39:45",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "这种不通用的哦~"
+  },
+  {
+    "time": "2026-01-04 15:40:47",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "云米PPC复合滤芯-小海豚3,小京龙3"
+  },
+  {
+    "time": "2026-01-04 15:40:59",
+    "role": "用户",
+    "name": "1***",
+    "type": "text",
+    "content": "这种不带罐吗"
+  },
+  {
+    "time": "2026-01-04 15:41:22",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "这种不需要带罐的亲，出水流速够"
+  },
+  {
+    "time": "2026-01-04 15:41:26",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "不用存水"
+  },
+  {
+    "time": "2026-01-04 15:42:01",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "纯水流速1.5L/min，初始流速2.22L/min"
+  },
+  {
+    "time": "2026-01-04 15:42:48",
+    "role": "用户",
+    "name": "1***",
+    "type": "text",
+    "content": "有没有滤芯的链接"
+  },
+  {
+    "time": "2026-01-04 15:42:48",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2026-01-04 15:43:12",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "小海豚3RO滤芯398元，RO购买链接https://mobile.yangkeduo.com/goods.html?goods_id=873065157674"
+  },
+  {
+    "time": "2026-01-04 15:43:19",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "小海豚3复合滤芯到手179元（到货退差），复合滤芯购买链接https://mobile.yangkeduo.com/goods.html?goods_id=872941778883"
+  },
+  {
+    "time": "2026-01-04 15:44:01",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "现在下单还可以帮您申请99元复购复合滤芯的活动"
+  },
+  {
+    "time": "2026-01-04 15:49:09",
+    "role": "用户",
+    "name": "1***",
+    "type": "text",
+    "content": "你们会送一个测式笔吗"
+  },
+  {
+    "time": "2026-01-04 15:49:27",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "这款暂时没有哦"
+  },
+  {
+    "time": "2026-01-04 15:49:48",
+    "role": "用户",
+    "name": "1***",
+    "type": "text",
+    "content": "会上门安装是吗"
+  },
+  {
+    "time": "2026-01-04 15:49:59",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "消费者催促您，请尽快回复！"
+  },
+  {
+    "time": "2026-01-04 15:50:00",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "是的亲"
+  },
+  {
+    "time": "2026-01-04 15:50:02",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "净水器包装里材料是免费上门安装的，免费安装不涉及橱柜改造、下水管改造、电源改造、拆旧等。 龙头安装如需开孔，木板、不锈钢、亚克力台面提供免费开孔"
+  },
+  {
+    "time": "2026-01-04 16:09:17",
+    "role": "用户",
+    "name": "1***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=205458105137&_oak_rcto=YWKigPU78TzbaorbmoErBdmsd48Fno0iKKq9aJieA6SEluAevC2Xpdkf&page_from=63&_oc_trace_mark=199&_oak_actype=151&_oak_sub_actype=0"
+  },
+  {
+    "time": "2026-01-04 16:09:17",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "亲亲，请问您想要咨询这个商品什么问题呢？"
+  },
+  {
+    "time": "2026-01-04 16:09:30",
+    "role": "用户",
+    "name": "1***",
+    "type": "text",
+    "content": "这个芯多少钱"
+  },
+  {
+    "time": "2026-01-04 16:09:31",
+    "role": "系统",
+    "name": "系统消息",
+    "type": "text",
+    "content": "[当前用户来自 商品详情页]"
+  },
+  {
+    "time": "2026-01-04 16:09:41",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2026-01-04/09c0cf78-e7ae-4032-ab51-91b34a6edb08.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2026-01-04 16:09:45",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "小海豚2 1000G滤芯598元，滤芯购买链接：https://mobile.yangkeduo.com/goods.html?goods_id=873065157674"
+  },
+  {
+    "time": "2026-01-04 16:12:52",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "【云米小海豚2 1000G净水器】 ◆只需1支滤芯，6级深层精滤 ◆包装自带1根【6合1一体芯】，建议更换时间3年一换 ◆换芯费用599元/支，现在下单净水器并购买滤芯，滤芯可享受399元到手价"
+  },
+  {
+    "time": "2026-01-04 16:13:11",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "Viomi云米净水器反渗透直饮过滤器净饮小海豚2 ①活动到手价999 ②全国联保免费安装 ③3期免息 快来抢购吧~"
+  },
+  {
+    "time": "2026-01-04 16:13:17",
+    "role": "客服",
+    "name": "viomi小仙女",
+    "type": "text",
+    "content": "亲爱滴~喜欢的话不妨给个机会，云米全国联保，售后完善，买家电选大品牌有保障~"
+  }
+]

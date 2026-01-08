@@ -1,0 +1,51 @@
+[
+  {
+    "time": "2026-01-02 14:04:03",
+    "role": "用户",
+    "name": "叶***",
+    "type": "text",
+    "content": "https://mobile.yangkeduo.com/goods.html?goods_id=862873034610&_oak_rcto=YWIOSaDnhPNYFmrxuGACK1bdAen8ShS3HIYc0VUeUdt0kHI5AQqUwj7R&page_from=63&_oak_actype=34&_oak_sub_actype=0"
+  },
+  {
+    "time": "2026-01-02 14:04:22",
+    "role": "用户",
+    "name": "叶***",
+    "type": "text",
+    "content": "这个过滤出来是纯净水吗"
+  },
+  {
+    "time": "2026-01-02 14:04:24",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "在 哈"
+  },
+  {
+    "time": "2026-01-02 14:04:41",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "可以直饮的"
+  },
+  {
+    "time": "2026-01-02 14:04:43",
+    "role": "用户",
+    "name": "叶***",
+    "type": "text",
+    "content": "我看不到你发的信息"
+  },
+  {
+    "time": "2026-01-02 14:05:05",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "image",
+    "content": "https://chat-img.pddugc.com/chat-pic-mall-cs-v1/2026-01-02/aabbf250-2646-452d-ad06-ec5501506ce1.png?imageMogr2/thumbnail/800x800"
+  },
+  {
+    "time": "2026-01-02 14:05:16",
+    "role": "客服",
+    "name": "viomi小云朵",
+    "type": "text",
+    "content": "是的呢"
+  }
+]
