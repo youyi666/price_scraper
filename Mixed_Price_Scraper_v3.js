@@ -345,7 +345,7 @@ async function runJD() {
                                     document.body.appendChild(div);
                             }, watermarkText);
 
-                            const shotName = `${today_str}_YP_${task.barcode}_${Date.now()}.png`;
+                            const shotName = `${today_str}_JD_${task.barcode}.png`;
                             const fullShotPath = path.join(SCREENSHOT_DIR, shotName);
                             
                             // 截图前强制让主商品图区域可见
@@ -1225,9 +1225,9 @@ async function runYoupin() {
 
 // ★★★ 调试开关区 ★★★
 const RUN_CONFIG = {
-    JD: false,      // 京东开关
-    PDD: false,     // 拼多多开关
-    TAOBAO: false,  // 淘系开关
+    JD: true,      // 京东开关
+    PDD: true,     // 拼多多开关
+    TAOBAO: true,  // 淘系开关
     YOUPIN: true   // [新增] 有品开关
 };
 

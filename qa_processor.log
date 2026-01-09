@@ -1,0 +1,5 @@
+2026-01-09 10:34:47 - INFO - === 脚本启动 ===
+2026-01-09 10:34:47 - INFO - 源文件路径: D:\chat-scrap\daily_qa_logs\QA_Summary_20260108.csv
+2026-01-09 10:34:47 - INFO - 目标路径: D:\chat-scrap\simplified_qa_logs\QA_Summary_20260108.csv
+2026-01-09 10:34:47 - INFO - 成功处理 891 条记录
+2026-01-09 10:34:47 - INFO - 处理状态: 成功
